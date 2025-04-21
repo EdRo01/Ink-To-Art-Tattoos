@@ -1,30 +1,40 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const recipeTitle = document.getElementById("recipe-title");
-
-    if (!recipeTitle) {
-        console.error("Element 'recipe-title' niet gevonden!");
-        return;
-    }
+    console.log("Script is geladen!"); // Debug log 1
 
     const urlParams = new URLSearchParams(window.location.search);
     const recipeId = urlParams.get("id");
+    console.log("Recipe ID opgehaald:", recipeId); // Debug log 2
 
     if (!recipeId) {
-        recipeTitle.textContent = "Recept niet gevonden!";
+        console.error("Geen recept-ID gevonden!");
+        document.getElementById("recipe-title").textContent = "Recept niet gevonden!";
         return;
     }
 
     fetch("https://edro01.github.io/recepten-website/recepten.json")
-        .then(response => response.json())
+        .then(response => {
+            console.log("Fetching recepten.json..."); // Debug log 3
+            if (!response.ok) {
+                throw new Error(`Fout bij laden recepten.json: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
+            console.log("Data ontvangen:", data); // Debug log 4
+
+            if (!Array.isArray(data)) {
+                throw new Error("Ongeldig receptformaat!");
+            }
+
             const recipe = data.find(r => r.id === recipeId);
+            console.log("Gevonden recept:", recipe); // Debug log 5
 
             if (!recipe) {
-                recipeTitle.textContent = "Recept niet gevonden!";
+                document.getElementById("recipe-title").textContent = "Recept niet gevonden!";
                 return;
             }
 
-            recipeTitle.textContent = recipe.naam;
+            document.getElementById("recipe-title").textContent = recipe.naam;
             document.getElementById("recipe-image").src = recipe.afbeelding;
             document.getElementById("recipe-image").alt = recipe.naam;
 
@@ -50,6 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 li.textContent = step;
                 instructionsList.appendChild(li);
             });
+
+            console.log("Recept succesvol weergegeven!"); // Debug log 6
         })
-        .catch(error => console.error("Fout bij laden recepten:", error));
+        .catch(error => {
+            console.error("Fout bij laden recepten:", error);
+            document.getElementById("recipe-title").textContent = "Recept kon niet worden geladen!";
+        });
 });
