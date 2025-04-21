@@ -1,33 +1,30 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const recipeTitle = document.getElementById("recipe-title");
+
+    if (!recipeTitle) {
+        console.error("Element 'recipe-title' niet gevonden!");
+        return;
+    }
+
     const urlParams = new URLSearchParams(window.location.search);
     const recipeId = urlParams.get("id");
 
     if (!recipeId) {
-        console.error("Geen recept-ID gevonden!");
-        document.getElementById("recipe-title").textContent = "Recept niet gevonden!";
+        recipeTitle.textContent = "Recept niet gevonden!";
         return;
     }
 
     fetch("https://edro01.github.io/recepten-website/recepten.json")
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`Fout bij laden recepten.json: ${response.status}`);
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(data => {
-            if (!Array.isArray(data)) {
-                throw new Error("Ongeldig receptformaat!");
-            }
-
             const recipe = data.find(r => r.id === recipeId);
 
             if (!recipe) {
-                document.getElementById("recipe-title").textContent = "Recept niet gevonden!";
+                recipeTitle.textContent = "Recept niet gevonden!";
                 return;
             }
 
-            document.getElementById("recipe-title").textContent = recipe.naam;
+            recipeTitle.textContent = recipe.naam;
             document.getElementById("recipe-image").src = recipe.afbeelding;
             document.getElementById("recipe-image").alt = recipe.naam;
 
@@ -54,8 +51,5 @@ document.addEventListener("DOMContentLoaded", () => {
                 instructionsList.appendChild(li);
             });
         })
-        .catch(error => {
-            console.error("Fout bij laden recepten:", error);
-            document.getElementById("recipe-title").textContent = "Recept kon niet worden geladen!";
-        });
+        .catch(error => console.error("Fout bij laden recepten:", error));
 });
