@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const recipeId = urlParams.get("id");
 
     if (!recipeId) {
+        console.error("Geen recept-ID gevonden!");
         document.getElementById("recipe-title").textContent = "Recept niet gevonden!";
         return;
     }
@@ -15,6 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
             return response.json();
         })
         .then(data => {
+            if (!Array.isArray(data)) {
+                throw new Error("Ongeldig receptformaat!");
+            }
+
             const recipe = data.find(r => r.id === recipeId);
 
             if (!recipe) {
