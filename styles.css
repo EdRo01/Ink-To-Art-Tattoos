@@ -1,0 +1,9 @@
+.header-bar {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+}
