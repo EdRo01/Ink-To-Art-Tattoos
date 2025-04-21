@@ -2,7 +2,7 @@
     {
         "id": "kofte",
         "naam": "Köfte",
-        "afbeelding": "images/kofte.jpg",
+        "afbeelding": "images/Kofte.jpg",
         "ingrediënten": [
             "500g gehakt",
             "1 ui, fijngehakt",
@@ -20,7 +20,7 @@
     {
         "id": "kebab",
         "naam": "Kebab",
-        "afbeelding": "images/kebab.jpg",
+        "afbeelding": "images/Kebab.jpg",
         "ingrediënten": [
             "500g lamsgehakt",
             "1 tl cayennepeper",
