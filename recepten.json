@@ -1,0 +1,37 @@
+[
+    {
+        "id": "kofte",
+        "naam": "Köfte",
+        "afbeelding": "images/kofte.jpg",
+        "ingrediënten": [
+            "500g gehakt",
+            "1 ui, fijngehakt",
+            "1 teentje knoflook",
+            "1 tl komijn",
+            "1 tl paprikapoeder",
+            "Zout en peper naar smaak"
+        ],
+        "bereiding": [
+            "Meng alle ingrediënten in een kom.",
+            "Maak kleine balletjes en druk ze plat.",
+            "Bak ze in een pan tot ze goudbruin zijn."
+        ]
+    },
+    {
+        "id": "kebab",
+        "naam": "Kebab",
+        "afbeelding": "images/kebab.jpg",
+        "ingrediënten": [
+            "500g lamsgehakt",
+            "1 tl cayennepeper",
+            "1 tl oregano",
+            "1 tl knoflookpoeder",
+            "Zout en peper naar smaak"
+        ],
+        "bereiding": [
+            "Meng alle ingrediënten in een kom.",
+            "Rijg het gehakt aan spiesen.",
+            "Grill de spiesen tot ze gaar zijn."
+        ]
+    }
+]
