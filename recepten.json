@@ -1,0 +1,126 @@
+/* Algemene stijl */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #2e8b57;
+    color: white;
+    padding: 20px;
+}
+
+/* Receptengrid */
+.recipe-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individuele recepttegels */
+.recipe-tile {
+    width: 220px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #2e8b57;
+    transition: transform 0.2s;
+}
+
+.recipe-tile:hover {
+    transform: scale(1.05);
+}
+
+/* Afbeeldingen in tegels */
+.recipe-tile img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Sidebar-stijl */
+.left-sidebar, .right-sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #d9f2e6;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+[
+    {
+        "id": "kip-sis-kebab",
+        "naam": "Kip şiş kebab",
+        "categorie": "Aziatisch",
+        "afbeelding": "https://voorbeeld.com/kip-sis-kebab.jpg",
+        "ingrediënten": [
+            "125 g kipfilet(s)",
+            "120 g magere kwark",
+            "75 ml kippenbouillon",
+            "45 g pilavlik bulgur",
+            "7 pufje(s) spray-olijfolie",
+            "1 middelgrote toma(a)t(en)",
+            "1 theelepel(s) paprikapoeder",
+            "1 teentje(s) knoflook",
+            "1 eetlepel(s) citroensap",
+            "0,5 komkommer(s)",
+            "0,5 eetlepel(s) tomatenpuree",
+            "0,5 theelepel(s) komijnpoeder",
+            "0,5 theelepel(s) gedroogde oregano",
+            "0,5 theelepel(s) gedroogde dille",
+            "0,25 rode ui(en)",
+            "0,25 middelgrote ui(en)",
+            "Zout en peper (naar smaak)"
+        ],
+        "bereiding": [
+            "1. Meng 4 pufjes spray-olijfolie, paprikapoeder, komijn, oregano, uitgeperste knoflook, zout en peper in een kom. Voeg de blokjes kipfilet toe en laat minimaal 30 minuten rusten voor malsheid en smaak.",
+            "2. Verhit een koekenpan op middelhoog vuur en bak de blokjes kipfilet 6-8 minuten tot ze gaar en lichtbruin zijn. Haal de kip direct van het vuur om uitdrogen te voorkomen.",
+            "3. Snipper de ui(en) en snijd de toma(a)t(en) in kleine stukjes. Verhit 3 pufjes spray-olijfolie in een kleine pan en fruit de ui(en) en tomaat zachtjes. Voeg de tomatenpuree toe en roer kort. Voeg de bulgur toe, meng goed en giet de kippenbouillon erbij. Laat het geheel op laag vuur sudderen tot de bulgur gaar is en het vocht is opgenomen (ongeveer 10-12 minuten).",
+            "4. Meng de magere kwark met de geraspte en goed uitgelekte komkommer(s), uitgeperste knoflook, gedroogde dille, citroensap, zout en peper. Zet de saus koel weg tot het serveren.",
+            "5. Plaats de bulgur op een bord, leg de kipfilet(s) ernaast en schep een royale lepel van de frisse kwarksaus erbij. Garneer eventueel met een snufje zwarte peper of verse kruiden zoals peterselie."
+        ]
+    },
+    {
+        "id": "kofte",
+        "naam": "Köfte",
+        "categorie": "Turks",
+        "afbeelding": "https://voorbeeld.com/kofte.jpg",
+        "ingrediënten": [
+            "150 g ovenfrites",
+            "100 g mager rundergehakt",
+            "75 g magere kwark",
+            "50 g rucola gemengde melange",
+            "4 pufje(s) spray-olijfolie",
+            "2 teentje(s) knoflook",
+            "1 kleine volkoren pita('s)",
+            "1 theelepel(s) gedroogde peterselie",
+            "1 snufje(s) komijnpoeder",
+            "0,5 middelgrote ui(en)",
+            "0,5 middelgrote toma(a)t(en)",
+            "0,5 theelepel(s) paprikapoeder",
+            "0,5 theelepel(s) citroensap (flesje)",
+            "0,25 rode ui(en)",
+            "0,25 theelepel(s) chilivlokken",
+            "Zout en peper (naar smaak)"
+        ],
+        "bereiding": [
+            "1. Snijd de tomaat in plakjes, de rode ui in dunne ringen en pers de knoflook uit. Snipper vervolgens de ui, zodat alles voorbereid is voor de bereiding.",
+            "2. Meng in een kom het rundergehakt met de gesnipperde ui, uitgeperste knoflook, paprikapoeder, komijnpoeder, chilivlokken, peterselie en zout en peper. Kneed het mengsel goed door.",
+            "3. Verhit een grillpan of koekenpan en gebruik 4 pufjes spray-olijfolie. Bak de köfte op middelhoog vuur tot het volledig gaar en goudbruin is. Dit duurt zo'n 8-10 minuten.",
+            "4. Meng in een kom de rucola melange, tomatenplakjes en ringen van rode ui tot een frisse salade. Besprenkel met citroensap en voeg zout en peper toe om de smaak compleet te maken.",
+            "5. Maak een eenvoudige maar smaakvolle kwarksaus door de magere kwark te mengen met een snufje zout. Voeg desgewenst wat uitgeperste knoflook toe voor een extra smaakdimensie.",
+            "6. Verwarm de volkoren pita kort in de oven of in een broodrooster tot deze licht krokant is.",
+            "7. Vul de pita met de frisse salade, de sappige köfte en een royale lepel van de romige kwarksaus.",
+            "8. Serveer dit gerecht warm met de frites en geniet van de perfecte balans tussen kruidigheid, frisheid en romigheid."
+        ]
+    }
+]
