@@ -1,0 +1,35 @@
+[
+    {
+        "id": "kip-sis-kebab",
+        "naam": "Kip şiş kebab",
+        "categorie": "Aziatisch",
+        "afbeelding": "https://voorbeeld.com/kip-sis-kebab.jpg",
+        "ingrediënten": [
+            "125 g kipfilet(s)",
+            "120 g magere kwark",
+            "75 ml kippenbouillon"
+        ],
+        "bereiding": [
+            "Meng olijfolie met kruiden en marineer de kip.",
+            "Grill de kip en serveer met saus."
+        ]
+    },
+    {
+        "id": "kofte",
+        "naam": "Köfte",
+        "categorie": "Turks",
+        "afbeelding": "https://voorbeeld.com/kofte.jpg",
+        "ingrediënten": [
+            "250 g rundergehakt",
+            "1 kleine ui, fijngesneden",
+            "1 theelepel komijn",
+            "1 theelepel paprikapoeder",
+            "Zout en peper naar smaak"
+        ],
+        "bereiding": [
+            "Meng gehakt met ui, kruiden en zout.",
+            "Vorm kleine balletjes en grill of bak ze.",
+            "Serveer met yoghurt en salade."
+        ]
+    }
+]
