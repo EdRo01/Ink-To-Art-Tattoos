@@ -63,7 +63,7 @@ main {
     max-width: 280px;
     text-align: left;
     padding: 10px;
-    height: 80vh; /* Zorgt ervoor dat de kolom altijd een vaste hoogte heeft */
+    height: calc(100vh - 80px); /* Houdt rekening met de header */
     overflow-y: auto; /* Maakt scrollen mogelijk */
 }
 
@@ -72,7 +72,7 @@ main {
     flex: 2;
     max-width: 600px;
     padding: 10px;
-    height: 80vh; /* Zelfde principe als de linker kolom */
+    height: calc(100vh - 80px);
     overflow-y: auto;
 }
 

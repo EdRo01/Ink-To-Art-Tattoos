@@ -1,69 +1,39 @@
-[
-    {
-        "id": "kofte",
-        "naam": "Köfte",
-        "afbeelding": "images/Kofte.jpg",
-        "ingrediënten": [
-            "150 g ovenfrites",
-            "100 g mager rundergehakt",
-            "75 g magere kwark",
-            "50 g rucola gemengde melange",
-            "4 pufje(s) spray-olijfolie",
-            "2 teentje(s) knoflook",
-            "1 kleine volkoren pita('s)",
-            "1 theelepel(s) gedroogde peterselie",
-            "1 snufje(s) komijnpoeder",
-            "0.5 middelgrote ui(en)",
-            "0.5 middelgrote toma(a)t(en)",
-            "0.5 theelepel(s) paprikapoeder",
-            "0.5 theelepel(s) citroensap (flesje)",
-            "0.25 rode ui(en)",
-            "0.25 theelepel(s) chilivlokken",
-            "Zout en peper (naar smaak)"
-        ],
-        "calorieën": 602,
-        "bereiding": [
-            "Snijd de tomaat in plakjes, de rode ui in dunne ringen en pers de knoflook uit.",
-            "Meng het gehakt met de ui, knoflook, paprikapoeder, komijnpoeder, chilivlokken, peterselie, zout en peper. Kneed goed door.",
-            "Bak de köfte op middelhoog vuur in spray-olijfolie tot goudbruin en gaar.",
-            "Meng rucola, tomaat en rode ui tot een salade en besprenkel met citroensap, zout en peper.",
-            "Maak een kwarksaus door magere kwark te mengen met zout en eventueel knoflook.",
-            "Verwarm de pita tot krokant.",
-            "Vul de pita met salade, köfte en kwarksaus.",
-            "Serveer met de frites."
-        ]
-    },
-    {
-        "id": "kebab",
-        "naam": "Kebab",
-        "afbeelding": "images/Kebab.jpg",
-        "ingrediënten": [
-            "125 g kipfilet(s)",
-            "120 g magere kwark",
-            "75 ml kippenbouillon",
-            "45 g pilavlik bulgur",
-            "7 pufje(s) spray-olijfolie",
-            "1 middelgrote toma(a)t(en)",
-            "1 theelepel(s) paprikapoeder",
-            "1 teentje(s) knoflook",
-            "1 eetlepel(s) citroensap",
-            "0.5 komkommer(s)",
-            "0.5 eetlepel(s) tomatenpuree",
-            "0.5 theelepel(s) komijnpoeder",
-            "0.5 theelepel(s) gedroogde oregano",
-            "0.5 theelepel(s) gedroogde dille",
-            "0.25 rode ui(en)",
-            "0.25 middelgrote ui(en)",
-            "Zout en peper (naar smaak)"
-        ],
-        "calorieën": 1000,
-        "bereiding": [
-            "Marineer de kipfilet met kruiden, knoflook en spray-olijfolie. Laat 30 minuten rusten.",
-            "Bak de kipfilet tot gaar en lichtbruin.",
-            "Fruit de ui en tomaat in spray-olijfolie, voeg tomatenpuree toe.",
-            "Voeg bulgur toe, meng goed en giet kippenbouillon erbij. Laat sudderen tot gaar.",
-            "Meng kwark met geraspte komkommer, knoflook, dille, citroensap, zout en peper.",
-            "Serveer bulgur met kipfilet en een royale lepel kwarksaus."
-        ]
-    }
-]
+{
+    "recepten": [
+        {
+            "id": "1",
+            "naam": "Testrecept",
+            "afbeelding": "https://via.placeholder.com/250x180",
+            "calorieën": 500,
+            "ingrediënten": [
+                "200g bloem",
+                "2 eieren",
+                "100g suiker",
+                "1 tl zout",
+                "50ml melk"
+            ],
+            "bereiding": [
+                "Stap 1: Doe dit...",
+                "Stap 2: Doe dat...",
+                "Stap 3: Voeg toe...",
+                "Stap 4: Roer goed...",
+                "Stap 5: Laat staan...",
+                "Stap 6: Proef en pas aan...",
+                "Stap 7: Serveer...",
+                "Stap 8: Geniet...",
+                "Stap 9: Nog een stap...",
+                "Stap 10: En nog een...",
+                "Stap 11: Test scrollen...",
+                "Stap 12: Nog meer...",
+                "Stap 13: Dit zou moeten werken...",
+                "Stap 14: Scrol naar beneden...",
+                "Stap 15: Kan je alles zien?",
+                "Stap 16: We testen door...",
+                "Stap 17: Bijna klaar...",
+                "Stap 18: En werkt het?",
+                "Stap 19: Dit is een test...",
+                "Stap 20: Perfect?"
+            ]
+        }
+    ]
+}
