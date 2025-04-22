@@ -31,7 +31,7 @@ header {
 
 /* Stijl van receptenblokken */
 .recipe-tile {
-    width: 250px;
+    width: 200px; /* Verkleind zodat het grid intact blijft */
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -48,8 +48,8 @@ header {
 }
 
 .recipe-tile img {
-    width: 200px;
-    height: 150px;
+    width: 150px; /* Kleiner zodat afbeeldingen netjes blijven */
+    height: 100px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -172,13 +172,22 @@ main {
     }
 
     .left, .center, .right {
-        max-width: 90%; /* Beperkt de breedte zodat desktop ongewijzigd blijft */
+        max-width: 90%; /* Behoudt layout zonder desktop te beïnvloeden */
         text-align: center;
     }
 
     .left img {
-        max-width: 250px; /* Houdt afbeelding kleiner op mobiel */
+        max-width: 200px; /* Behoudt nette afmetingen */
         width: 100%;
         height: auto;
+    }
+
+    .recipe-tile {
+        width: 150px; /* Verminderd formaat zodat de index niet uit elkaar valt */
+    }
+
+    .recipe-tile img {
+        width: 120px; /* Beperkt afbeelding op indexpagina */
+        height: 90px;
     }
 }
