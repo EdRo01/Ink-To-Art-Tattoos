@@ -4,17 +4,33 @@
         "naam": "Köfte",
         "afbeelding": "images/Kofte.jpg",
         "ingrediënten": [
-            "500g gehakt",
-            "1 ui, fijngehakt",
-            "1 teentje knoflook",
-            "1 tl komijn",
-            "1 tl paprikapoeder",
-            "Zout en peper naar smaak"
+            "150 g ovenfrites",
+            "100 g mager rundergehakt",
+            "75 g magere kwark",
+            "50 g rucola gemengde melange",
+            "4 pufje(s) spray-olijfolie",
+            "2 teentje(s) knoflook",
+            "1 kleine volkoren pita('s)",
+            "1 theelepel(s) gedroogde peterselie",
+            "1 snufje(s) komijnpoeder",
+            "0.5 middelgrote ui(en)",
+            "0.5 middelgrote toma(a)t(en)",
+            "0.5 theelepel(s) paprikapoeder",
+            "0.5 theelepel(s) citroensap (flesje)",
+            "0.25 rode ui(en)",
+            "0.25 theelepel(s) chilivlokken",
+            "Zout en peper (naar smaak)"
         ],
+        "calorieën": 602,
         "bereiding": [
-            "Meng alle ingrediënten in een kom.",
-            "Maak kleine balletjes en druk ze plat.",
-            "Bak ze in een pan tot ze goudbruin zijn."
+            "Snijd de tomaat in plakjes, de rode ui in dunne ringen en pers de knoflook uit. Snipper vervolgens de ui.",
+            "Meng het gehakt met de ui, knoflook, paprikapoeder, komijnpoeder, chilivlokken, peterselie, zout en peper. Kneed goed door.",
+            "Bak de köfte op middelhoog vuur in spray-olijfolie tot goudbruin en gaar.",
+            "Meng rucola, tomaat en rode ui tot een salade en besprenkel met citroensap, zout en peper.",
+            "Maak een kwarksaus door magere kwark te mengen met zout en eventueel knoflook.",
+            "Verwarm de pita tot krokant.",
+            "Vul de pita met salade, köfte en kwarksaus.",
+            "Serveer met de frites."
         ]
     },
     {
@@ -22,16 +38,32 @@
         "naam": "Kebab",
         "afbeelding": "images/Kebab.jpg",
         "ingrediënten": [
-            "500g lamsgehakt",
-            "1 tl cayennepeper",
-            "1 tl oregano",
-            "1 tl knoflookpoeder",
-            "Zout en peper naar smaak"
+            "125 g kipfilet(s)",
+            "120 g magere kwark",
+            "75 ml kippenbouillon",
+            "45 g pilavlik bulgur",
+            "7 pufje(s) spray-olijfolie",
+            "1 middelgrote toma(a)t(en)",
+            "1 theelepel(s) paprikapoeder",
+            "1 teentje(s) knoflook",
+            "1 eetlepel(s) citroensap",
+            "0.5 komkommer(s)",
+            "0.5 eetlepel(s) tomatenpuree",
+            "0.5 theelepel(s) komijnpoeder",
+            "0.5 theelepel(s) gedroogde oregano",
+            "0.5 theelepel(s) gedroogde dille",
+            "0.25 rode ui(en)",
+            "0.25 middelgrote ui(en)",
+            "Zout en peper (naar smaak)"
         ],
+        "calorieën": 1000,
         "bereiding": [
-            "Meng alle ingrediënten in een kom.",
-            "Rijg het gehakt aan spiesen.",
-            "Grill de spiesen tot ze gaar zijn."
+            "Marineer de kipfilet met kruiden, knoflook en spray-olijfolie. Laat 30 minuten rusten.",
+            "Bak de kipfilet tot gaar en lichtbruin.",
+            "Fruit de ui en tomaat in spray-olijfolie, voeg tomatenpuree toe.",
+            "Voeg bulgur toe, meng goed en giet kippenbouillon erbij. Laat sudderen tot gaar.",
+            "Meng kwark met geraspte komkommer, knoflook, dille, citroensap, zout en peper.",
+            "Serveer bulgur met kipfilet en een royale lepel kwarksaus."
         ]
     }
 ]
