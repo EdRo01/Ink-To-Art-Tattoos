@@ -62,21 +62,15 @@ function loadRecipeDetails(recipeId) {
             document.getElementById("recipe-image").alt = recipe.naam;
 
             const ingredientsList = document.getElementById("ingredients-list");
-            const instructionsList = document.getElementById("instructions-list");
+            const caloriesDisplay = document.getElementById("calories");
 
             ingredientsList.innerHTML = "";
-            instructionsList.innerHTML = "";
+            caloriesDisplay.textContent = `Calorieën: ${recipe.calorieën}`;
 
             recipe.ingrediënten.forEach(item => {
                 let li = document.createElement("li");
                 li.textContent = item;
                 ingredientsList.appendChild(li);
-            });
-
-            recipe.bereiding.forEach(step => {
-                let li = document.createElement("li");
-                li.textContent = step;
-                instructionsList.appendChild(li);
             });
 
             setupPortionAdjustment(recipe);
@@ -95,19 +89,21 @@ function setupPortionAdjustment(recipe) {
 
     updateButton.addEventListener("click", () => {
         const portionSize = parseFloat(portionInput.value);
-        
+
         if (isNaN(portionSize) || portionSize <= 0) {
             alert("Voer een geldige portiegrootte in!");
             return;
         }
 
         const ingredientsList = document.getElementById("ingredients-list");
+        const caloriesDisplay = document.getElementById("calories");
+
         ingredientsList.innerHTML = "";
 
         recipe.ingrediënten.forEach(item => {
             let updatedItem = item.replace(/(\d+(\.\d+)?)/g, match => {
                 let newAmount = parseFloat(match) * portionSize;
-                return (Math.round(newAmount * 10) / 10).toFixed(1); // Afronden op 1 decimaal
+                return (Math.round(newAmount * 10) / 10).toFixed(1);
             });
 
             let li = document.createElement("li");
@@ -115,6 +111,9 @@ function setupPortionAdjustment(recipe) {
             ingredientsList.appendChild(li);
         });
 
-        console.log(`Portiegrootte aangepast: x${portionSize}`);
+        let newCalories = Math.round(recipe.calorieën * portionSize);
+        caloriesDisplay.textContent = `Calorieën: ${newCalories}`;
+
+        console.log(`Portiegrootte aangepast: x${portionSize}, nieuwe calorieën: ${newCalories}`);
     });
 }
