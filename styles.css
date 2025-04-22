@@ -67,7 +67,7 @@ main {
 /* Linkerkolom correct scrollbaar en perfect uitgelijnd */
 .left {
     flex: 0.5;
-    max-width: 200px;
+    max-width: 180px;
     text-align: left; /* Tekst links uitlijnen */
     padding: 10px;
     height: calc(100vh - 80px);
@@ -83,6 +83,19 @@ main {
     width: 100%;
     height: auto;
     margin: 20px auto; /* Centreert de afbeelding in de linker kolom */
+}
+
+/* Ingrediëntenlijst correct uitlijnen */
+.left ul {
+    list-style-type: none; /* Verwijdert de standaard opsommingstekens */
+    padding-left: 0; /* Verwijdert extra ruimte links */
+    margin-left: 0; /* Zorgt ervoor dat de tekst op één lijn begint */
+}
+
+.left li {
+    text-align: left;
+    margin-left: 0; /* Zorgt ervoor dat elke ingrediënt netjes start direct onder 'Ingrediënten' */
+    padding-left: 0; /* Voorkomt extra ruimte */
 }
 
 /* Middelste kolom correct scrollbaar en uitgelijnd */
@@ -105,7 +118,7 @@ main {
 /* Rechterkolom correct scrollbaar en goed uitgelijnd */
 .right {
     flex: 0.5;
-    max-width: 200px;
+    max-width: 180px;
     padding: 10px;
     height: calc(100vh - 80px);
     overflow-y: auto;
