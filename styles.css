@@ -68,21 +68,21 @@ main {
 .left {
     flex: 0.5;
     max-width: 180px;
-    text-align: left;
+    text-align: left; /* Tekst links uitlijnen */
     padding: 10px;
     height: calc(100vh - 80px);
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; /* Zorgt dat de tekst links begint */
 }
 
-/* Zorg dat de afbeelding in de linker kolom perfect uitgelijnd is */
+/* Zorg ervoor dat de afbeelding gecentreerd wordt */
 .left img {
     display: block;
     width: 100%;
     height: auto;
-    margin-top: 60px; /* Zet de afbeelding op dezelfde hoogte als de tekst in de andere kolommen */
+    margin: 20px auto; /* Centreert de afbeelding in de linker kolom */
 }
 
 /* Middelste kolom correct scrollbaar en uitgelijnd */
