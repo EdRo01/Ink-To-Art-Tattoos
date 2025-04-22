@@ -31,7 +31,7 @@ header {
 
 /* Stijl van receptenblokken */
 .recipe-tile {
-    width: 200px; /* Verkleind zodat het grid intact blijft */
+    width: 200px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -48,7 +48,7 @@ header {
 }
 
 .recipe-tile img {
-    width: 150px; /* Kleiner zodat afbeeldingen netjes blijven */
+    width: 150px;
     height: 100px;
     object-fit: cover;
     border-radius: 10px;
@@ -82,23 +82,10 @@ main {
 .left img {
     display: block;
     width: 100%;
-    max-width: 180px; /* Beperkt desktopformaat */
+    max-width: 180px;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
-}
-
-/* Ingrediëntenlijst */
-.left ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-}
-
-.left li {
-    text-align: left;
-    margin-left: 0;
-    padding-left: 0;
 }
 
 /* Middelste kolom */
@@ -126,44 +113,6 @@ main {
     margin-top: 60px;
 }
 
-/* Portiegrootte-aanpassing */
-#portion-section {
-    margin-top: 10px;
-    padding: 5px;
-    text-align: center;
-    font-weight: bold;
-}
-
-/* Voedingswaarden */
-#calories {
-    margin-top: 20px;
-}
-
-/* Knop styling */
-.back-button {
-    background-color: #228B22;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.back-button:hover {
-    background-color: #1A6F1A;
-}
-
-/* Copyright */
-.copyright {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    font-size: 12px;
-    color: #888;
-}
-
 /* Mobiele weergave voor landscape */
 @media screen and (max-width: 1024px) and (orientation: landscape) {
     main {
@@ -172,22 +121,22 @@ main {
     }
 
     .left, .center, .right {
-        max-width: 90%; /* Behoudt layout zonder desktop te beïnvloeden */
+        max-width: 90%;
         text-align: center;
     }
 
     .left img {
-        max-width: 200px; /* Behoudt nette afmetingen */
+        max-width: 200px;
         width: 100%;
         height: auto;
     }
 
     .recipe-tile {
-        width: 150px; /* Verminderd formaat zodat de index niet uit elkaar valt */
+        width: 150px;
     }
 
     .recipe-tile img {
-        width: 120px; /* Beperkt afbeelding op indexpagina */
+        width: 120px;
         height: 90px;
     }
 }
