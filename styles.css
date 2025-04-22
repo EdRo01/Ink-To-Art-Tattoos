@@ -83,11 +83,16 @@ main {
     overflow-y: auto;
 }
 
-/* Rechterkolom correct scrollbaar */
+/* Rechterkolom correct scrollbaar en goed uitgelijnd */
 .right {
     flex: 0.5;
     max-width: 180px;
     padding: 10px;
+    height: calc(100vh - 80px); /* Zorgt ervoor dat de kolom correct blijft */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Zorgt ervoor dat alles goed verdeeld blijft */
 }
 
 /* Afbeelding boven het recept gecentreerd en vaste grootte */
