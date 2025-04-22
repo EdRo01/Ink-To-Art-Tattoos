@@ -24,6 +24,7 @@ header {
     padding: 20px;
 }
 
+/* Stijl van receptenblokken op indexpagina */
 .recipe-tile {
     width: 250px;
     background-color: white;
@@ -48,7 +49,7 @@ header {
     border-radius: 10px;
 }
 
-/* Correcte layout met drie kolommen */
+/* Layout met drie kolommen */
 main {
     display: flex;
     justify-content: space-between;
@@ -63,8 +64,8 @@ main {
     max-width: 280px;
     text-align: left;
     padding: 10px;
-    height: calc(100vh - 80px); /* Houdt rekening met de header */
-    overflow-y: auto; /* Maakt scrollen mogelijk */
+    height: calc(100vh - 80px);
+    overflow-y: auto;
 }
 
 /* Middelste kolom correct scrollbaar */
@@ -114,7 +115,7 @@ main {
     background-color: #1A6F1A;
 }
 
-/* Copyright rechtsonder vastzetten */
+/* Copyright subtiel rechtsonder vastzetten */
 .copyright {
     position: fixed;
     bottom: 10px;
