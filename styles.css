@@ -57,23 +57,26 @@ main {
     flex-wrap: wrap;
 }
 
+/* Linkerkolom correct scrollbaar */
 .left {
     flex: 1;
     max-width: 280px;
     text-align: left;
     padding: 10px;
-    overflow-y: auto;
-    height: calc(100vh - 60px); /* Laat de linker kolom goed scrollen */
+    height: 80vh; /* Zorgt ervoor dat de kolom altijd een vaste hoogte heeft */
+    overflow-y: auto; /* Maakt scrollen mogelijk */
 }
 
+/* Middelste kolom correct scrollbaar */
 .center {
     flex: 2;
     max-width: 600px;
     padding: 10px;
-    max-height: 80vh;
+    height: 80vh; /* Zelfde principe als de linker kolom */
     overflow-y: auto;
 }
 
+/* Rechterkolom */
 .right {
     flex: 1;
     max-width: 280px;
