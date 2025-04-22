@@ -41,6 +41,13 @@ header {
     cursor: pointer;
 }
 
+.recipe-tile img {
+    width: 200px; /* Vaste grootte zoals Köfte */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 /* Receptenpagina: Layout met drie kolommen */
 main {
     display: flex;
@@ -52,6 +59,7 @@ main {
 .left {
     flex: 1.2; /* Meer ruimte naar links */
     max-width: 280px;
+    text-align: center;
 }
 
 .center {
@@ -62,4 +70,19 @@ main {
 .right {
     flex: 1;
     max-width: 280px;
+}
+
+/* Afbeelding boven het recept gecentreerd en vaste grootte */
+#recipe-image {
+    display: block;
+    width: 250px; /* Vaste grootte voor receptenpagina */
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto; /* Centreren */
+}
+
+/* Voedingswaarden iets verder naar beneden */
+#calories {
+    margin-top: 20px;
 }
