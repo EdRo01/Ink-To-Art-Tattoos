@@ -3,7 +3,7 @@
         {
             "id": "1",
             "naam": "Testrecept",
-            "afbeelding": "https://via.placeholder.com/250x180",
+            "afbeelding": "https://edro01.github.io/recepten-website/img/testrecept.jpg/250x180",
             "calorieën": 500,
             "ingrediënten": [
                 "200g bloem",
@@ -54,7 +54,7 @@
         {
             "id": "2",
             "naam": "Köfte",
-            "afbeelding": "https://via.placeholder.com/250x180",
+            "afbeelding": "https://edro01.github.io/recepten-website/img/Kofte.jpg/250x180",
             "calorieën": 600,
             "ingrediënten": [
                 "500g rundergehakt",
@@ -80,7 +80,7 @@
         {
             "id": "3",
             "naam": "Kebab",
-            "afbeelding": "https://via.placeholder.com/250x180",
+            "afbeelding": "https://edro01.github.io/recepten-website/img/Kebab.jpg/250x180",
             "calorieën": 700,
             "ingrediënten": [
                 "500g lamsgehakt",
