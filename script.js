@@ -98,11 +98,6 @@ function setupPortionAdjustment(recipe) {
     updateButton.addEventListener("click", () => {
         const portionSize = parseFloat(portionInput.value);
 
-        if (isNaN(portionSize) || portionSize <= 0) {
-            alert("Voer een geldige portiegrootte in!");
-            return;
-        }
-
         const ingredientsList = document.getElementById("ingredients-list");
         const caloriesDisplay = document.getElementById("calories");
 
@@ -111,7 +106,8 @@ function setupPortionAdjustment(recipe) {
         recipe.ingrediënten.forEach(item => {
             let updatedItem = item.replace(/(\d+(\.\d+)?)/g, match => {
                 let newAmount = parseFloat(match) * portionSize;
-                return (Math.round(newAmount * 10) / 10).toFixed(1);
+                let roundedAmount = (Math.round(newAmount * 10) / 10); 
+                return roundedAmount % 1 === 0 ? roundedAmount.toFixed(0) : roundedAmount.toFixed(1);
             });
 
             let li = document.createElement("li");

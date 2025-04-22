@@ -24,15 +24,7 @@
 
         <div class="right">
             <h2>Portiegrootte aanpassen</h2>
-            <select id="portion-size">
-                <option value="0.5">0.5x</option>
-                <option value="1">1.0x</option>
-                <option value="1.5">1.5x</option>
-                <option value="2">2.0x</option>
-                <option value="3">3.0x</option>
-                <option value="4">4.0x</option>
-                <option value="5">5.0x</option>
-            </select>
+            <input type="number" id="portion-size" step="0.5" min="0.5" max="10" value="1">
             <button id="update-portion">Portie aanpassen</button>
 
             <h2>Voedingswaarden</h2>
