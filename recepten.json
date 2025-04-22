@@ -3,7 +3,7 @@
         {
             "id": "1",
             "naam": "Adana Bowl Met Bulgur",
-            "afbeelding": "https://edro01.github.io/recepten-website/images/Adana-Bowl.jpg",
+            "afbeelding": "https://edro01.github.io/recepten-website/images/Adana-Bowl.webp",
             "calorieën": 600,
             "ingrediënten": [
                 "150 g Bulgur",
@@ -32,7 +32,7 @@
         {
             "id": "2",
             "naam": "Ajam Pangang",
-            "afbeelding": "https://edro01.github.io/recepten-website/images/Ajam-Pangang.jpg",
+            "afbeelding": "https://edro01.github.io/recepten-website/images/Ajam-Pangang.webp",
             "calorieën": 600,
             "ingrediënten": [
                 "600 g Kipfilet(s)",
