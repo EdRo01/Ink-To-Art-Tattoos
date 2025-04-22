@@ -1,4 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
+    console.log("Script geladen!");
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const recipeId = urlParams.get("id");
+    console.log("Recipe ID opgehaald:", recipeId);
+
+    if (!recipeId) {
+        console.log("Geen recept-ID gevonden! Laden van indexpagina...");
+        loadRecipeGrid();
+        return;
+    }
+
+    loadRecipeDetails(recipeId);
+});
+
+function loadRecipeGrid() {
     const recipeGrid = document.getElementById("recipe-grid");
 
     if (!recipeGrid) {
@@ -9,20 +25,14 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch("https://edro01.github.io/recepten-website/recepten.json")
         .then(response => response.json())
         .then(data => {
-            if (!data || data.length === 0) {
-                console.error("Geen recepten gevonden!");
-                recipeGrid.innerHTML = "<p>Geen recepten beschikbaar.</p>";
-                return;
-            }
-
-            recipeGrid.innerHTML = ""; 
+            recipeGrid.innerHTML = "";
 
             data.forEach(recipe => {
                 const recipeTile = document.createElement("div");
                 recipeTile.classList.add("recipe-tile");
                 recipeTile.innerHTML = `
                     <a href="recept.html?id=${recipe.id}">
-                        <img src="${recipe.afbeelding}" alt="${recipe.naam}">
+                        <img class="recipe-img" src="${recipe.afbeelding}" alt="${recipe.naam}">
                         <h3>${recipe.naam}</h3>
                     </a>
                 `;
@@ -31,6 +41,41 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => {
             console.error("Fout bij laden recepten:", error);
-            recipeGrid.innerHTML = "<p>Kan recepten niet laden. Probeer later opnieuw.</p>";
         });
-});
+}
+
+function loadRecipeDetails(recipeId) {
+    fetch("https://edro01.github.io/recepten-website/recepten.json")
+        .then(response => response.json())
+        .then(data => {
+            const recipe = data.find(r => r.id === recipeId);
+
+            if (!recipe) {
+                document.getElementById("recipe-title").textContent = "Recept niet gevonden!";
+                return;
+            }
+
+            document.getElementById("recipe-title").textContent = recipe.naam;
+            document.getElementById("recipe-image").src = recipe.afbeelding;
+            document.getElementById("recipe-image").alt = recipe.naam;
+
+            const ingredientsList = document.getElementById("ingredients-list");
+            const instructionsList = document.getElementById("instructions-list");
+
+            ingredientsList.innerHTML = "";
+            instructionsList.innerHTML = "";
+
+            recipe.ingrediënten.forEach(item => {
+                let li = document.createElement("li");
+                li.textContent = item;
+                ingredientsList.appendChild(li);
+            });
+
+            recipe.bereiding.forEach(step => {
+                let li = document.createElement("li");
+                li.textContent = step;
+                instructionsList.appendChild(li);
+            });
+        })
+        .catch(error => console.error("Fout bij laden recepten:", error));
+}
