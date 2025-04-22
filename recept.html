@@ -24,13 +24,21 @@
 
         <div class="right">
             <h2>Portiegrootte aanpassen</h2>
-            <input type="number" id="portion-size" step="0.5" min="0.5" placeholder="1.0"> <!-- Stapgrootte aangepast -->
+            <select id="portion-size">
+                <option value="0.5">0.5x</option>
+                <option value="1">1.0x</option>
+                <option value="1.5">1.5x</option>
+                <option value="2">2.0x</option>
+                <option value="3">3.0x</option>
+                <option value="4">4.0x</option>
+                <option value="5">5.0x</option>
+            </select>
             <button id="update-portion">Portie aanpassen</button>
 
             <h2>Voedingswaarden</h2>
             <p id="calories">Calorieën: --</p>
 
-            <button onclick="window.location.href='index.html'">Terug naar index</button> <!-- Nieuw! -->
+            <button onclick="window.location.href='index.html'">Terug naar index</button>
         </div>
     </main>
     <script src="script.js"></script>

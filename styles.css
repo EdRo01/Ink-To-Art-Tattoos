@@ -57,19 +57,22 @@ main {
 }
 
 .left {
-    flex: 1.2; /* Meer ruimte naar links */
+    flex: 1.2;
     max-width: 280px;
-    text-align: center;
+    text-align: left; /* Zorgt ervoor dat tekst links uitgelijnd blijft */
+    padding: 10px;
 }
 
 .center {
     flex: 2;
     max-width: 600px;
+    padding: 10px;
 }
 
 .right {
     flex: 1;
     max-width: 280px;
+    padding: 10px;
 }
 
 /* Afbeelding boven het recept gecentreerd en vaste grootte */
@@ -79,7 +82,7 @@ main {
     height: 180px;
     object-fit: cover;
     border-radius: 10px;
-    margin: 0 auto; /* Centreren */
+    margin: 0 auto; /* Houdt de afbeelding gecentreerd */
 }
 
 /* Voedingswaarden iets verder naar beneden */
