@@ -6,13 +6,17 @@ body {
     background-color: #f8f8f8;
 }
 
-/* Header styling */
+/* Header styling: Vastzetten bovenaan */
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #228B22;
     padding: 12px;
     text-align: center;
     color: white;
     font-size: 24px;
+    z-index: 1000; /* Zorgt ervoor dat de header altijd bovenop ligt */
 }
 
 /* Indexpagina: Grid-layout voor recepten */
@@ -22,6 +26,7 @@ header {
     gap: 20px;
     justify-content: center;
     padding: 20px;
+    margin-top: 60px; /* Voorkomt overlap met de vaste header */
 }
 
 /* Stijl van receptenblokken op indexpagina */
@@ -49,18 +54,19 @@ header {
     border-radius: 10px;
 }
 
-/* Layout met drie kolommen */
+/* Layout met drie kolommen, correct onder de header */
 main {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
     flex-wrap: wrap;
+    margin-top: 60px; /* Voorkomt dat de content onder de vaste header verdwijnt */
 }
 
-/* Linkerkolom veel smaller */
+/* Linkerkolom correct scrollbaar */
 .left {
-    flex: 0.5; /* Kleiner maken */
+    flex: 0.5;
     max-width: 180px;
     text-align: left;
     padding: 10px;
@@ -68,18 +74,18 @@ main {
     overflow-y: auto;
 }
 
-/* Middelste kolom veel breder */
+/* Middelste kolom correct scrollbaar */
 .center {
-    flex: 3; /* Meer ruimte voor tekst */
+    flex: 3;
     max-width: 800px;
     padding: 10px;
     height: calc(100vh - 80px);
     overflow-y: auto;
 }
 
-/* Rechterkolom veel smaller */
+/* Rechterkolom correct scrollbaar */
 .right {
-    flex: 0.5; /* Kleiner maken */
+    flex: 0.5;
     max-width: 180px;
     padding: 10px;
 }
