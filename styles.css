@@ -112,6 +112,14 @@ main {
     margin-top: 60px; /* Zorgt ervoor dat de tekst in de rechterkolom exact gelijk loopt met de rest */
 }
 
+/* Portiegrootte-aanpassing correct gepositioneerd */
+#portion-section {
+    margin-top: 10px; /* Zorgt ervoor dat de titel dichter bij de bovenkant staat */
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
 /* Voedingswaarden iets verder naar beneden */
 #calories {
     margin-top: 20px;
