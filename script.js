@@ -79,6 +79,8 @@ function loadRecipeDetails(recipeId) {
                 let li = document.createElement("li");
                 li.textContent = step;
                 instructionsList.appendChild(li);
+
+                instructionsList.appendChild(document.createElement("br")); // Extra witregel
             });
 
             setupPortionAdjustment(recipe);
