@@ -79,47 +79,10 @@ function loadRecipeDetails(recipeId) {
                 let li = document.createElement("li");
                 li.textContent = step;
                 instructionsList.appendChild(li);
-
-                instructionsList.appendChild(document.createElement("br")); // Extra witregel
+                instructionsList.appendChild(document.createElement("br"));
             });
 
             setupPortionAdjustment(recipe);
         })
         .catch(error => console.error("Fout bij laden recepten:", error));
-}
-
-function setupPortionAdjustment(recipe) {
-    const portionInput = document.getElementById("portion-size");
-    const updateButton = document.getElementById("update-portion");
-
-    if (!portionInput || !updateButton) {
-        console.error("Portie-aanpassings elementen niet gevonden!");
-        return;
-    }
-
-    updateButton.addEventListener("click", () => {
-        const portionSize = parseFloat(portionInput.value);
-
-        const ingredientsList = document.getElementById("ingredients-list");
-        const caloriesDisplay = document.getElementById("calories");
-
-        ingredientsList.innerHTML = "";
-
-        recipe.ingrediënten.forEach(item => {
-            let updatedItem = item.replace(/(\d+(\.\d+)?)/g, match => {
-                let newAmount = parseFloat(match) * portionSize;
-                let roundedAmount = (Math.round(newAmount * 10) / 10); 
-                return roundedAmount % 1 === 0 ? roundedAmount.toFixed(0) : roundedAmount.toFixed(1);
-            });
-
-            let li = document.createElement("li");
-            li.textContent = updatedItem;
-            ingredientsList.appendChild(li);
-        });
-
-        let newCalories = Math.round(recipe.calorieën * portionSize);
-        caloriesDisplay.textContent = `Calorieën: ${newCalories}`;
-
-        console.log(`Portiegrootte aangepast: x${portionSize}, nieuwe calorieën: ${newCalories}`);
-    });
 }

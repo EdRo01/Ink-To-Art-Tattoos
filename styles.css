@@ -48,25 +48,22 @@ header {
     border-radius: 10px;
 }
 
-/* Receptenpagina: Layout met drie kolommen */
-main {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 20px;
-}
-
+/* Scrollbare kolommen */
 .left {
     flex: 1.2;
     max-width: 280px;
-    text-align: left; /* Zorgt ervoor dat tekst links uitgelijnd blijft */
+    text-align: left;
     padding: 10px;
+    max-height: 80vh;
+    overflow-y: auto;
 }
 
 .center {
     flex: 2;
     max-width: 600px;
     padding: 10px;
+    max-height: 80vh;
+    overflow-y: auto;
 }
 
 .right {
@@ -82,7 +79,7 @@ main {
     height: 180px;
     object-fit: cover;
     border-radius: 10px;
-    margin: 0 auto; /* Houdt de afbeelding gecentreerd */
+    margin: 0 auto;
 }
 
 /* Voedingswaarden iets verder naar beneden */
@@ -103,5 +100,13 @@ main {
 }
 
 .back-button:hover {
-    background-color: #1A6F1A; /* Donkerdere tint bij hover */
+    background-color: #1A6F1A;
+}
+
+/* Copyright */
+.copyright {
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+    padding-top: 10px;
 }
