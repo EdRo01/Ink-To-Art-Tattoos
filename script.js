@@ -115,6 +115,6 @@ function setupPortionAdjustment(recipe) {
             ingredientsList.appendChild(li);
         });
 
-        console.log("Portiegrootte succesvol aangepast!");
+        console.log(`Portiegrootte aangepast: x${portionSize}`);
     });
 }
