@@ -29,6 +29,31 @@
                 "Lepel de saus naast de Bulgur."
             ]
         },
+{
+    "id": "2",
+    "naam": ""calorieën": 600,Biefstuk, Gegrilde Met Asperges En Gebakken Krieltjes",
+    "afbeelding": "https://edro01.github.io/recepten-website/images/Biefstuk-Gegrilde.jpg",
+    "calorieën": 600,
+"ingrediënten": [
+        "200 g Krieltjes",
+        "150 g Biefstuk",
+        "1 Bosje(s) Groene Asperges",
+        "6 Pufje(s) Spray-Olijfolie",
+        "1 Theelepel(s) Gedroogde Tijm (optioneel)",
+        "1 Theelepel(s) Gedroogde Rozemarijn (optioneel)",
+        "1 Theelepel(s) Biefstuk Kruidenmix",
+        "Zout En Peper (naar Smaak)"
+    ],
+    
+    "instructies": [
+        "Haal de biefstuk uit de koelkast en laat hem op kamertemperatuur komen.",
+        "Was de krieltjes grondig en snijd de grotere exemplaren doormidden, zodat alle krieltjes ongeveer dezelfde grootte hebben. Meng ze in een kom met 3 pufjes spray-olijfolie, zout, peper en eventueel de tijm en rozemarijn.",
+        "Verwarm de airfryer voor op 180°C. Plaats de krieltjes in een enkele laag in het mandje en bak ze gedurende 15-20 minuten. Schud het mandje halverwege om de krieltjes gelijkmatig te bakken. Ze zijn klaar wanneer ze goudbruin en knapperig zijn.",
+        "Snijd de houtachtige uiteinden van de asperges af. Bestrijk de asperges licht met 2 pufjes spray-olijfolie en breng op smaak met zout en peper. Open na 10 minuten de airfryer en voeg de asperges naast de krieltjes toe. Bak ze nog ongeveer 10 minuten tot ze gaar en lichtbruin zijn.",
+        "Verhit een contactgrill, grillpan of gewone pan op hoog vuur. Bestrijk de biefstuk licht met 1 pufje spray-olijfolie en breng op smaak met biefstukkruiden, zodat de smaken mooi intrekken. Leg de biefstuk in de contactgrill en grill deze in ongeveer 2,5 minuten voor een perfecte medium-rare bereiding. Gebruik je een grillpan of koekenpan, grill de biefstuk 2-3 minuten aan elke kant, afhankelijk van je voorkeur.",
+        "Laat de biefstuk na het grillen rusten onder aluminiumfolie gedurende ongeveer 5 minuten, zodat de sappen zich goed verdelen."
+    ]
+},
         {
             "id": "2",
             "naam": "Ajam Pangang",
