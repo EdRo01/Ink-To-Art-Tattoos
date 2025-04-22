@@ -68,13 +68,14 @@ main {
 .left {
     flex: 0.5;
     max-width: 180px;
-    text-align: left; /* Tekst links uitlijnen */
+    text-align: left;
     padding: 10px;
     height: calc(100vh - 80px);
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Zorgt dat de tekst links begint */
+    align-items: flex-start; /* Zorgt ervoor dat de tekst links begint */
+    margin-top: 60px; /* Zet de linker kolom exact op dezelfde hoogte als de andere kolommen */
 }
 
 /* Zorg ervoor dat de afbeelding gecentreerd wordt */
