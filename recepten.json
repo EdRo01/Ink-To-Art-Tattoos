@@ -31,10 +31,10 @@
         },
 {
     "id": "2",
-    "naam": ""calorieën": 600,Biefstuk, Gegrilde Met Asperges En Gebakken Krieltjes",
+    "naam": "Biefstuk, Gegrilde Met Asperges En Gebakken Krieltjes",
     "afbeelding": "https://edro01.github.io/recepten-website/images/Biefstuk-Gegrilde.jpg",
     "calorieën": 600,
-"ingrediënten": [
+    "ingrediënten": [
         "200 g Krieltjes",
         "150 g Biefstuk",
         "1 Bosje(s) Groene Asperges",
@@ -44,7 +44,7 @@
         "1 Theelepel(s) Biefstuk Kruidenmix",
         "Zout En Peper (naar Smaak)"
     ],
-    
+    "calorieën": 600,
     "instructies": [
         "Haal de biefstuk uit de koelkast en laat hem op kamertemperatuur komen.",
         "Was de krieltjes grondig en snijd de grotere exemplaren doormidden, zodat alle krieltjes ongeveer dezelfde grootte hebben. Meng ze in een kom met 3 pufjes spray-olijfolie, zout, peper en eventueel de tijm en rozemarijn.",
@@ -55,7 +55,7 @@
     ]
 },
         {
-            "id": "2",
+            "id": "3",
             "naam": "Ajam Pangang",
             "afbeelding": "https://edro01.github.io/recepten-website/images/Ajam-Pangang.webp",
             "calorieën": 600,
