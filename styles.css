@@ -64,7 +64,7 @@ main {
     margin-top: 60px; /* Voorkomt dat de content onder de vaste header verdwijnt */
 }
 
-/* Linkerkolom correct scrollbaar */
+/* Linkerkolom correct scrollbaar en perfect uitgelijnd */
 .left {
     flex: 0.5;
     max-width: 180px;
@@ -72,9 +72,20 @@ main {
     padding: 10px;
     height: calc(100vh - 80px);
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Middelste kolom correct scrollbaar */
+/* Zorg dat de afbeelding in de linker kolom perfect uitgelijnd is */
+.left img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 60px; /* Zet de afbeelding op dezelfde hoogte als de tekst in de andere kolommen */
+}
+
+/* Middelste kolom correct scrollbaar en uitgelijnd */
 .center {
     flex: 3;
     max-width: 800px;
@@ -83,27 +94,22 @@ main {
     overflow-y: auto;
 }
 
+/* Zorg ervoor dat de tekst in het midden perfect uitgelijnd is */
+.center p {
+    margin-top: 60px; /* Zorgt ervoor dat de tekst in het midden exact begint waar de foto in de linker kolom begint */
+}
+
 /* Rechterkolom correct scrollbaar en goed uitgelijnd */
 .right {
     flex: 0.5;
     max-width: 180px;
     padding: 10px;
-    height: calc(100vh - 80px); /* Zorgt ervoor dat de kolom correct blijft */
+    height: calc(100vh - 80px);
     overflow-y: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Voorkomt dat elementen te ver naar beneden worden gedrukt */
-    margin-top: 60px; /* Zorgt ervoor dat de kolom onder de header begint */
-}
-
-/* Afbeelding boven het recept gecentreerd en vaste grootte */
-#recipe-image {
-    display: block;
-    width: 250px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin: 0 auto;
+    margin-top: 60px; /* Zorgt ervoor dat de tekst in de rechterkolom exact gelijk loopt met de rest */
 }
 
 /* Voedingswaarden iets verder naar beneden */
