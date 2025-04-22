@@ -25,14 +25,16 @@ function loadRecipeGrid() {
     fetch("https://edro01.github.io/recepten-website/recepten.json")
         .then(response => response.json())
         .then(data => {
-            console.log("Ontvangen data:", data); // Debugging: Wat bevat data?
+            console.log("Ontvangen data:", data);
 
             if (!Array.isArray(data)) {
                 console.error("Data is geen array! Mogelijk moet data.recepten worden gebruikt.");
-                data = data.recepten || []; // Voorkom fouten als data.recepten niet bestaat
+                data = data.recepten || [];
             }
 
-            recipeGrid.innerHTML = ""; 
+            recipeGrid.innerHTML = "";
+
+            data.sort((a, b) => a.naam.localeCompare(b.naam)); // ✅ Alfabetisch sorteren
 
             data.forEach(recipe => {
                 const recipeTile = document.createElement("div");
@@ -46,7 +48,7 @@ function loadRecipeGrid() {
                 recipeGrid.appendChild(recipeTile);
             });
 
-            console.log("Recepten succesvol geladen op de indexpagina!");
+            console.log("Recepten alfabetisch gesorteerd en geladen!");
         })
         .catch(error => {
             console.error("Fout bij laden recepten:", error);
@@ -57,7 +59,7 @@ function loadRecipeDetails(recipeId) {
     fetch("https://edro01.github.io/recepten-website/recepten.json")
         .then(response => response.json())
         .then(data => {
-            console.log("Ontvangen data:", data); // Debugging
+            console.log("Ontvangen data:", data);
 
             if (!Array.isArray(data.recepten)) {
                 console.error("Data.recepten is geen array! Kan recept niet laden.");
