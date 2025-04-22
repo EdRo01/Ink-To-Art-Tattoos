@@ -1,107 +1,215 @@
 {
-    "recepten": [
-        {
-            "id": "1",
-            "naam": "Testrecept",
-            "afbeelding": "https://edro01.github.io/recepten-website/images/Testrecept.jpg",
-            "calorieën": 500,
-            "ingrediënten": [
-                "200g bloem",
-                "2 eieren",
-                "100g suiker",
-                "1 tl zout",
-                "50ml melk",
-                "50g boter",
-                "1 zakje vanillesuiker",
-                "250ml water",
-                "75g cacaopoeder",
-                "100g gehakte noten",
-                "50g rozijnen",
-                "2 el honing",
-                "1 tl bakpoeder",
-                "1 tl kaneel",
-                "150g chocolade",
-                "50ml slagroom",
-                "50g poedersuiker",
-                "1 tl citroensap",
-                "1 zakje gist",
-                "250ml karnemelk",
-                "1 tl speculaaskruiden"
-            ],
-            "bereiding": [
-                "Stap 1: Doe dit...",
-                "Stap 2: Doe dat...",
-                "Stap 3: Voeg toe...",
-                "Stap 4: Roer goed...",
-                "Stap 5: Laat staan...",
-                "Stap 6: Proef en pas aan...",
-                "Stap 7: Doe dit...",
-                "Stap 8: Doe dat...",
-                "Stap 9: Voeg toe...",
-                "Stap 10: Roer goed...",
-                "Stap 11: Laat staan...",
-                "Stap 12: Proef en pas aan...",
-                "Stap 13: Proef en pas aan...",
-                "Stap 14: Doe dit...",
-                "Stap 15: Doe dat...",
-                "Stap 16: Voeg toe...",
-                "Stap 17: Roer goed...",
-                "Stap 18: Laat staan...",
-                "Stap 19: Proef en pas aan...",
-                "Stap 20: Serveer..."
-            ]
-        },
-        {
-            "id": "2",
-            "naam": "Köfte",
-            "afbeelding": "https://edro01.github.io/recepten-website/images/Kofte.jpg",
-            "calorieën": 600,
-            "ingrediënten": [
-                "500g rundergehakt",
-                "1 ui, fijngesnipperd",
-                "2 teentjes knoflook, geperst",
-                "1 tl komijn",
-                "1 tl paprikapoeder",
-                "1 tl peper",
-                "1 tl zout",
-                "1 handvol verse peterselie, gehakt",
-                "1 ei",
-                "50g paneermeel",
-                "2 el olijfolie",
-                "1 tl oregano"
-            ],
-            "bereiding": [
-                "Stap 1: Meng alle ingrediënten in een kom.",
-                "Stap 2: Vorm kleine balletjes of staafjes van het gehaktmengsel.",
-                "Stap 3: Bak de köfte in een pan met olijfolie tot ze goudbruin en gaar zijn.",
-                "Stap 4: Serveer met een frisse yoghurtsaus en salade."
-            ]
-        },
-        {
-            "id": "3",
-            "naam": "Kebab",
-            "afbeelding": "https://edro01.github.io/recepten-website/images/Kebab.jpg",
-            "calorieën": 700,
-            "ingrediënten": [
-                "500g lamsgehakt",
-                "1 ui, geraspt",
-                "2 teentjes knoflook, fijngesneden",
-                "1 tl korianderpoeder",
-                "1 tl komijn",
-                "1 tl chilipoeder",
-                "1 tl zout",
-                "1 handvol munt, fijngehakt",
-                "1 ei",
-                "50g broodkruimels",
-                "2 el olijfolie",
-                "1 tl citroensap"
-            ],
-            "bereiding": [
-                "Stap 1: Meng alle ingrediënten tot een homogeen mengsel.",
-                "Stap 2: Vorm lange kebabs en prik ze aan spiezen.",
-                "Stap 3: Grill de kebabs op een hete barbecue of grillplaat.",
-                "Stap 4: Serveer met flatbread en knoflooksaus."
-            ]
-        }
+    "naam": "Adana Bowl Met Bulgur",
+    "afbeelding": "https://edro01.github.io/recepten-website/images/Adana-Bowl.jpg",
+    "ingrediënten": [
+        "150 g Bulgur",
+        "100 g Rundergehakt",
+        "50 g Magere Kwark",
+        "25 g Witte Kaas",
+        "5 Pufjes Spray-Olijfolie",
+        "1 Tomaat",
+        "1 Komkommer",
+        "1 Teentje(s) Knoflook",
+        "1 Theelepel(s) Oregano",
+        "0.5 Theelepel(s) Chilivlokken",
+        "0.5 Theelepel(s) Gedroogde Munt",
+        "0.5 Theelepel(s) Gedroogde Peterselie",
+        "Zout En Peper (naar Smaak)"
+    ],
+"caloriën:": 600    
+"instructies": [
+        "Maak de saus: pers het Teentje(s) Knoflook en meng dit met de Magere Kwark, een snufje Zout, de Gedroogde Munt en de Gedroogde Peterselie. Roer goed door tot een romige saus. Zet dit even in de koelkast.",
+        "Meng het Rundergehakt met Oregano, Chilivlokken en Gedroogde Munt. Kneed het goed door en vorm kleine spiesjes. Grill deze tot ze gaar en mooi bruin zijn.",
+        "Kook de Bulgur volgens de aanwijzingen op de verpakking en laat deze afkoelen tot lauwwarm.",
+        "Snijd ondertussen de Tomaat en Komkommer in blokjes.",
+        "Schep de Bulgur op een bord en leg de spiesjes erop. Garneer met de blokjes Tomaat en Komkommer en strooi hierover de verkruimelde Witte Kaas.",
+        "Lepel de saus naast de Bulgur."
+    ]
+}
+{
+    "naam": "Ajam Pangang",
+    "afbeelding": "https://edro01.github.io/recepten-website/images/Ajam-Pangang.jpg",
+    "ingrediënten": [
+        "600 g Kipfilet(s)",
+        "75 g Witte Rijst (per portie)",
+        "60 ml Water",
+        "3 Eetlepel(s) Bruine Basterdsuiker",
+        "3 Eetlepel(s) Tomatenketchup",
+        "2 Eetlepel(s) Citroensap (flesje)",
+        "2 Eetlepel(s) Ketjap Manis",
+        "2 Teentje(s) Knoflook",
+        "1 Middelgrote Ui(en)",
+        "1 Eetlepel(s) Gembersiroop",
+        "1 Eetlepel(s) Sojasaus",
+        "1 Eetlepel(s) Tomatenpuree",
+        "1 Theelepel(s) Sambal Oelek",
+        "7 Pufje(s) Spray-Olijfolie",
+        "Zout En Peper (naar Smaak)"
+    ],
+"caloriën:": 600    
+"instructies": [
+        "Snijd de kipfilet(s) in blokjes. Meng deze met een klein beetje van de sojasaus, citroensap en 3 pufje(s) spray-olijfolie om ze te marineren. Laat de kip minstens 1 uur rusten in de koelkast om malsheid te bevorderen.",
+        "Snipper de ui(en) en pers de teentje(s) knoflook uit, zodat alles klaarstaat.",
+        "Verhit een pan en gebruik 4 pufje(s) spray-olijfolie. Bak de gemarineerde kipfiletblokjes kort aan op middelhoog vuur, 2 minuten per kant, tot ze lichtbruin zijn. Haal de kip direct uit de pan om verdere garing te voorkomen.",
+        "Voeg in de slowcooker de ui(en), knoflook, water, bruine basterdsuiker, tomatenketchup, citroensap, ketjap manis, gembersiroop, sojasaus, tomatenpuree, sambal oelek, zout en peper samen. Roer goed door tot het gemengd is.",
+        "Voeg de aangebakken kipfilet(s) toe aan de slowcooker. Stel de slowcooker in op 2,5-3 uur op LOW om de kip mals te houden terwijl de smaken samenkomen.",
+        "Bereid de rijst ongeveer 10 minuten voor het einde van de kooktijd volgens de instructies op de verpakking.",
+        "Serveer een portie van de ajam pangang met witte rijst en geniet van de rijke mix van smaken."
+    ]
+}
+{
+    "naam": "Asperges Athena",
+    "afbeelding": "https://edro01.github.io/recepten-website/images/Asperges-Athena.jpg",
+    "ingrediënten": [
+        "150 g Mager Rundergehakt",
+        "125 g Champignons",
+        "125 g Groene Asperges",
+        "100 g Bulgur",
+        "50 g Fetakaas",
+        "3 Pufjes Spray-Olijfolie",
+        "1 Eetlepel(s) Citroensap",
+        "1 Theelepel(s) Oregano",
+        "1 Teentje(s) Knoflook",
+        "1 Theelepel(s) Gedroogde Peterselie",
+        "Zout En Peper (naar Smaak)"
+    ],
+"caloriën:": 600    
+"instructies": [
+        "Meng het Rundergehakt met Zout, Peper, Oregano en het geperste Teentje(s) Knoflook. Vorm kleine Gehaktballetjes.",
+        "Bereid de Bulgur volgens de aanwijzingen op de verpakking. Laat deze afkoelen tot lauwwarm terwijl je de overige ingrediënten bereidt.",
+        "Snijd de Champignons in plakjes en de Asperges in stukken van ongeveer 3-4 cm.",
+        "Verhit een pan met een beetje olie en bak de Champignons en Asperges tot ze gaar en licht goudbruin zijn. Zet apart.",
+        "Verhit dezelfde pan en bak de Gehaktballetjes tot ze mooi bruin en gaar zijn.",
+        "Meng de Bulgur met het Citroensap. Voeg vervolgens de gebakken Champignons, Asperges en Gehaktballetjes toe. Verkruimel de Fetakaas eroverheen.",
+        "Garneer met de Gedroogde Peterselie."
+    ]
+}
+{
+    "naam": "Atjar Ketimoen",
+    "afbeelding": "https://edro01.github.io/recepten-website/images/Atjar-Ketimoen.jpg",
+    "ingrediënten": [
+        "200 ml Witte Azijn",
+        "10 g Suiker",
+        "1 Teentje(s) Knoflook",
+        "0.25 Komkommer(s)",
+        "0.25 Theelepel(s) Kurkuma",
+        "0.25 Theelepel(s) Zout",
+        "0.1 Rode Peper(s)"
+    ],
+"caloriën:": 600    
+"instructies": [
+        "Snijd de komkommer(s) in dunne plakjes of halve maantjes en leg deze in een kom. Pers het teentje(s) knoflook en snijd de rode peper(s) in hele kleine stukjes.",
+        "Meng in een klein pannetje de witte azijn, suiker, kurkuma, zout en teentje(s) knoflook. Verhit het mengsel lichtjes tot de suiker oplost (het hoeft niet te koken).",
+        "Giet de warme marinade over de komkommer(s) en voeg indien gewenst een paar stukjes rode peper toe voor wat extra pit.",
+        "Roer alles goed door en laat minstens 15-30 minuten staan, zodat de smaken goed kunnen intrekken. Voor een intensere smaak kun je het langer laten staan, bij voorkeur in de koelkast.",
+        "Serveer koud als een fris en smaakvol bijgerecht dat elke maaltijd opfrist."
+    ]
+}
+{
+    "naam": "Babi Pangang",
+    "afbeelding": "https://edro01.github.io/recepten-website/images/Babi-Pangang.jpg",
+    "ingrediënten": [
+        "450 g Hamlappen",
+        "400 g Taugé",
+        "300 g Atjar Tjampoer",
+        "100 ml Sweet Chilisaus",
+        "3 Eetlepel(s) Ketjap Manis",
+        "3 Teentje(s) Knoflook",
+        "2 Theelepel(s) Sambal Manis",
+        "1.5 Groentebouillonblokje(s)",
+        "1 Middelgrote Ui(en)",
+        "1 Eetlepel(s) Tomatenpuree",
+        "1 Eetlepel(s) Bruine Basterdsuiker",
+        "0.5 Eetlepel(s) Gemberpoeder",
+        "0.5 Theelepel(s) Citroensap (flesje)",
+        "Zout En Peper (naar Smaak)"
+    ],
+"caloriën:": 600    
+"instructies": [
+        "Snijd de Hamlappen in reepjes. Pers de Knoflook uit, rasp de Gember en snipper de Ui fijn.",
+        "Doe de Taugé, Ui, Knoflook en geraspte Gember in de slowcooker. Verdeel de reepjes Hamlappen erop en verdeel de Tomatenpuree, Sweet Chilisaus, Ketjap en Sambal erover.",
+        "Voeg het Citroensap, de Bruine Basterdsuiker, 100 ml Water en één Groentebouillonblokje toe. Stel de slowcooker in op 5 uur op low.",
+        "Voeg een half uur voor het einde de Atjar Tjampoer toe en laat dit nog 30 minuten meekoken.",
+        "Kook de Mie Nestjes volgens de aanwijzingen op de verpakking en voeg het halve Bouillonblokje toe aan het kookwater.",
+        "Serveer de gewenste hoeveelheid Babi Pangang met de gekookte Mie.",
+        "Verdeel de rest in drie gelijke porties en vries deze in. De volgende keer hoef je alleen wat Mie Nestjes toe te voegen."
+    ]
+}
+{
+    "naam": "Bami",
+    "afbeelding": "https://edro01.github.io/recepten-website/images/Bami.jpg",
+    "ingrediënten": [
+        "80 g Hamblokjes of -reepjes",
+        "2 Mie Nestje(s)",
+        "1 Middelgrote Ei(eren)",
+        "0.5 Dunne Prei(en)",
+        "1 Teentje(s) Knoflook",
+        "1 Eetlepel(s) Zonnebloemolie",
+        "0.25 Kippenbouillonblokje(s)",
+        "0.25 Middelgrote Ui(en)",
+        "Zout En Peper (naar Smaak)"
+    ],
+"caloriën:": 600    
+"instructies": [
+        "Klop de eieren los in een kom. Halveer de preien in de lengte en snijd ze in dunne sliertjes. Was de sliertjes grondig en laat ze uitlekken. Pers de knoflook fijn en zet opzij.",
+        "Breng een ruime pan water aan de kook met de kippenbouillonblokjes. Breek de mie in kleinere stukken, zoals vermicelli, en kook deze volgens de aanwijzingen op de verpakking. Spoel de gekookte mie af onder koud water, laat goed uitlekken en zet apart.",
+        "Verhit de zonnebloemolie in een hete wok en fruit de geperste knoflook kort aan tot het geurt. Voeg de gesnipperde ui toe en bak dit 3 minuten mee op middelhoog vuur.",
+        "Voeg de gesneden prei toe aan de wok en bak dit tot de prei zacht en glanzend is. Roer regelmatig om aanbakken te voorkomen.",
+        "Doe de hamblokjes of -reepjes in de wok en bak ze 2 minuten mee totdat ze licht beginnen te kleuren.",
+        "Verhit ondertussen een aparte pan en bak de losgeklopte eieren tot ze stevige scrambled eggs vormen. Voeg de eieren toe aan het prei- en hammengsel in de wok.",
+        "Roer de gekookte mie door het mengsel in de wok en zorg ervoor dat alles goed wordt gemengd.",
+        "Breng de bami op smaak met zout en peper.",
+        "Verdeel de bami in drie gelijke porties. Serveer één portie direct en vries de andere twee porties in voor later gebruik."
+    ]
+}
+{
+    "naam": "Bami Shoarma",
+    "afbeelding": "https://edro01.github.io/recepten-website/images/Bami-Shoarma.jpg",
+    "ingrediënten": [
+        "500 g Kipfilet(s)",
+        "450 g Bami Groenten",
+        "250 ml Kippenbouillon",
+        "50 g Gebakken Uitjes",
+        "8 Mie Nestje(s)",
+        "7 Pufjes Spray-Olijfolie",
+        "2 Teentje(s) Knoflook",
+        "1 Eetlepel(s) Chinese Vijfkruidenmix",
+        "1 Eetlepel(s) BBQ-Saus",
+        "1 Eetlepel(s) Tomatenketchup",
+        "1 Eetlepel(s) Teriyakisaus",
+        "1 Eetlepel(s) Sriracha"
+    ],
+"caloriën:": 600    
+"instructies": [
+        "Snijd de kipfilet(s) in dunne reepjes en meng deze met 4 pufje(s) spray-olijfolie, de uitgeperste teentje(s) knoflook en de vijf Chinese kruidenmix. Laat de kipfilet(s) minstens 1 uur marineren in de koelkast zodat de smaken goed kunnen intrekken.",
+        "Verhit 3 pufjes spray-olijfolie in een koekenpan op middelhoog vuur. Bak de gemarineerde kipfiletreepjes kort aan, ongeveer 2-3 minuten per kant, tot ze lichtbruin zijn. Haal de kipfilet uit de pan zodra deze net gaar is.",
+        "Voeg de bami groenten, gebakken uitjes, BBQ-saus, tomatenketchup, teriyakisaus, sriracha en 100 ml kippenbouillon toe aan de slowcooker. Roer goed door.",
+        "Voeg de voorgebakken kipfilet(s) toe aan de slowcooker. Zet de slowcooker 3 uur op LOW, zodat de smaken goed kunnen mengen.",
+        "Voeg 60 minuten voor het einde de gebroken (zoals je zou doen met vermicelli) mie nestje(s) toe en roer voorzichtig door, zodat de mie de saus en kruiden goed opneemt.",
+        "Controleer aan het einde of de mie gaar is en pas indien nodig de smaak aan met zout en peper.",
+        "Serveer het gerecht warm met eventueel een garnering van verse kruiden zoals koriander of lente-ui."
+    ]
+}
+{
+    "naam": "Biefstuk, Gegrilde Met Asperges En Gebakken Krieltjes",
+    "afbeelding": "https://edro01.github.io/recepten-website/images/Biefstuk-Gegrilde.jpg",
+    "ingrediënten": [
+        "200 g Krieltjes",
+        "150 g Biefstuk",
+        "1 Bosje(s) Groene Asperges",
+        "6 Pufje(s) Spray-Olijfolie",
+        "1 Theelepel(s) Gedroogde Tijm (optioneel)",
+        "1 Theelepel(s) Gedroogde Rozemarijn (optioneel)",
+        "1 Theelepel(s) Biefstuk Kruidenmix",
+        "Zout En Peper (naar Smaak)"
+    ],
+"caloriën:": 600    
+"instructies": [
+        "Haal de biefstuk uit de koelkast en laat hem op kamertemperatuur komen.",
+        "Was de krieltjes grondig en snijd de grotere exemplaren doormidden, zodat alle krieltjes ongeveer dezelfde grootte hebben. Meng ze in een kom met 3 pufjes spray-olijfolie, zout, peper en eventueel de tijm en rozemarijn.",
+        "Verwarm de airfryer voor op 180°C. Plaats de krieltjes in een enkele laag in het mandje en bak ze gedurende 15-20 minuten. Schud het mandje halverwege om de krieltjes gelijkmatig te bakken. Ze zijn klaar wanneer ze goudbruin en knapperig zijn.",
+        "Snijd de houtachtige uiteinden van de asperges af. Bestrijk de asperges licht met 2 pufjes spray-olijfolie en breng op smaak met zout en peper. Open na 10 minuten de airfryer en voeg de asperges naast de krieltjes toe. Bak ze nog ongeveer 10 minuten tot ze gaar en lichtbruin zijn.",
+        "Verhit een contactgrill, grillpan of gewone pan op hoog vuur. Bestrijk de biefstuk licht met 1 pufje spray-olijfolie en breng op smaak met biefstukkruiden, zodat de smaken mooi intrekken. Leg de biefstuk in de contactgrill en grill deze in ongeveer 2,5 minuten voor een perfecte medium-rare bereiding. Gebruik je een grillpan of koekenpan, grill de biefstuk 2-3 minuten aan elke kant, afhankelijk van je voorkeur.",
+        "Laat de biefstuk na het grillen rusten onder aluminiumfolie gedurende ongeveer 5 minuten, zodat de sappen zich goed verdelen."
     ]
 }
