@@ -58,29 +58,29 @@ main {
     flex-wrap: wrap;
 }
 
-/* Linkerkolom correct scrollbaar */
+/* Linkerkolom veel smaller */
 .left {
-    flex: 1;
-    max-width: 280px;
+    flex: 0.5; /* Kleiner maken */
+    max-width: 180px;
     text-align: left;
     padding: 10px;
     height: calc(100vh - 80px);
     overflow-y: auto;
 }
 
-/* Middelste kolom correct scrollbaar */
+/* Middelste kolom veel breder */
 .center {
-    flex: 2;
-    max-width: 600px;
+    flex: 3; /* Meer ruimte voor tekst */
+    max-width: 800px;
     padding: 10px;
     height: calc(100vh - 80px);
     overflow-y: auto;
 }
 
-/* Rechterkolom */
+/* Rechterkolom veel smaller */
 .right {
-    flex: 1;
-    max-width: 280px;
+    flex: 0.5; /* Kleiner maken */
+    max-width: 180px;
     padding: 10px;
 }
 
