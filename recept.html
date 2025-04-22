@@ -3,35 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recept</title>
+    <title>Receptenpagina</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1 id="recipe-title">Receptnaam</h1>
+        <h1 id="recipe-title">Recept</h1>
     </header>
     <main>
-        <section class="left">
+        <div class="left">
             <h2>Ingrediënten</h2>
             <ul id="ingredients-list"></ul>
-        </section>
 
-        <section class="center">
-            <h2>Bereiding</h2>
+            <h2>Voedingswaarden</h2>
+            <p id="calories">Calorieën: --</p>
+
+            <h2>Portiegrootte aanpassen</h2>
+            <input type="number" id="portion-size" step="0.1" min="0.1" placeholder="1.0">
+            <button id="update-portion">Portie aanpassen</button>
+        </div>
+
+        <div class="center">
+            <h2>Bereidingswijze</h2>
             <ol id="instructions-list"></ol>
-        </section>
+        </div>
 
-        <section class="right">
-            <h2>Portiegrootte</h2>
-            <label for="portion-size">Aantal personen:</label>
-            <input type="number" id="portion-size" value="1" min="1">
-        </section>
+        <div class="right">
+            <h2>Recept afbeelding</h2>
+            <img id="recipe-image" src="" alt="Recept afbeelding">
+        </div>
     </main>
-
-    <img id="recipe-image" src="" alt="">
-
-    <button onclick="window.location.href='index.html'">Terug naar overzicht</button>
-
     <script src="script.js"></script>
 </body>
 </html>

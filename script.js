@@ -25,7 +25,7 @@ function loadRecipeGrid() {
     fetch("https://edro01.github.io/recepten-website/recepten.json")
         .then(response => response.json())
         .then(data => {
-            recipeGrid.innerHTML = ""; // Zorg dat het grid correct gevuld wordt
+            recipeGrid.innerHTML = ""; 
 
             data.forEach(recipe => {
                 const recipeTile = document.createElement("div");
@@ -62,15 +62,23 @@ function loadRecipeDetails(recipeId) {
             document.getElementById("recipe-image").alt = recipe.naam;
 
             const ingredientsList = document.getElementById("ingredients-list");
+            const instructionsList = document.getElementById("instructions-list");
             const caloriesDisplay = document.getElementById("calories");
 
             ingredientsList.innerHTML = "";
+            instructionsList.innerHTML = "";
             caloriesDisplay.textContent = `Calorieën: ${recipe.calorieën}`;
 
             recipe.ingrediënten.forEach(item => {
                 let li = document.createElement("li");
                 li.textContent = item;
                 ingredientsList.appendChild(li);
+            });
+
+            recipe.bereiding.forEach(step => {
+                let li = document.createElement("li");
+                li.textContent = step;
+                instructionsList.appendChild(li);
             });
 
             setupPortionAdjustment(recipe);
