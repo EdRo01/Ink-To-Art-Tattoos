@@ -29,3 +29,80 @@ header {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Hover-effect */
+.recipe-tile:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.recipe-tile img {
+    width: 200px; /* Vaste breedte */
+    height: 150px; /* Vaste hoogte */
+    object-fit: cover; /* Zorgt ervoor dat de afbeelding altijd mooi blijft */
+    border-radius: 10px;
+}
+
+.recipe-tile h3 {
+    margin-top: 10px;
+}
+
+/* Receptenpagina: Layout met drie kolommen */
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left {
+    flex: 1;
+    max-width: 300px;
+}
+
+.center {
+    flex: 2;
+    max-width: 600px;
+}
+
+.right {
+    flex: 1;
+    max-width: 300px;
+}
+
+/* Afbeelding styling */
+#recipe-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Lijst styling */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Knop styling */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #228B22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1c7a1c;
+}
