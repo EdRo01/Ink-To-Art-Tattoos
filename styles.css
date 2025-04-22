@@ -6,7 +6,7 @@ body {
     background-color: #f8f8f8;
 }
 
-/* Header styling: Vastzetten bovenaan */
+/* Header styling */
 header {
     position: fixed;
     top: 0;
@@ -16,20 +16,20 @@ header {
     text-align: center;
     color: white;
     font-size: 24px;
-    z-index: 1000; /* Zorgt ervoor dat de header altijd bovenop ligt */
+    z-index: 1000;
 }
 
-/* Indexpagina: Grid-layout voor recepten */
+/* Indexpagina */
 #recipe-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     padding: 20px;
-    margin-top: 60px; /* Voorkomt overlap met de vaste header */
+    margin-top: 60px;
 }
 
-/* Stijl van receptenblokken op indexpagina */
+/* Stijl van receptenblokken */
 .recipe-tile {
     width: 250px;
     background-color: white;
@@ -54,46 +54,46 @@ header {
     border-radius: 10px;
 }
 
-/* Layout met drie kolommen, correct onder de header */
+/* Layout met drie kolommen */
 main {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
     flex-wrap: wrap;
-    margin-top: 60px; /* Voorkomt dat de content onder de vaste header verdwijnt */
+    margin-top: 60px;
 }
 
-/* Linkerkolom correct scrollbaar en perfect uitgelijnd */
+/* Linkerkolom */
 .left {
     flex: 0.5;
     max-width: 180px;
-    text-align: left; /* Tekst links uitlijnen */
+    text-align: left;
     padding: 10px;
     height: calc(100vh - 80px);
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Zorgt dat de tekst links begint */
+    align-items: flex-start;
+    margin-top: 60px;
 }
 
-/* Geüploade afbeelding correct positioneren en schalen */
+/* Afbeelding in linker kolom correct uitlijnen */
 .left img {
     display: block;
     width: 100%;
-    max-width: 180px; /* Maximale breedte binnen linker kolom */
+    max-width: 180px;
     height: auto;
-    aspect-ratio: 16/9; /* Houdt een vaste verhouding aan */
-    object-fit: cover; /* Zorgt ervoor dat de afbeelding mooi gecropt wordt zonder uitrekken */
-    border-radius: 10px; /* Optioneel: afgeronde hoeken voor een strakker design */
-    margin: 10px auto; /* Centreert de afbeelding netjes */
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-/* Ingrediëntenlijst correct uitlijnen */
+/* Ingrediëntenlijst */
 .left ul {
-    list-style-type: none; /* Verwijdert de standaard opsommingstekens */
-    padding-left: 0; /* Verwijdert extra ruimte links */
-    margin-left: 0; /* Zorgt ervoor dat de tekst op één lijn begint */
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .left li {
@@ -102,7 +102,7 @@ main {
     padding-left: 0;
 }
 
-/* Middelste kolom correct scrollbaar en uitgelijnd */
+/* Middelste kolom */
 .center {
     flex: 3;
     max-width: 800px;
@@ -114,12 +114,7 @@ main {
     justify-content: flex-start;
 }
 
-/* Zorg ervoor dat de tekst in het midden perfect uitgelijnd is */
-.center p {
-    margin-top: 60px;
-}
-
-/* Rechterkolom correct scrollbaar en goed uitgelijnd */
+/* Rechterkolom */
 .right {
     flex: 0.5;
     max-width: 180px;
@@ -132,7 +127,7 @@ main {
     margin-top: 60px;
 }
 
-/* Portiegrootte-aanpassing correct gepositioneerd */
+/* Portiegrootte-aanpassing */
 #portion-section {
     margin-top: 10px;
     padding: 5px;
@@ -140,12 +135,12 @@ main {
     font-weight: bold;
 }
 
-/* Voedingswaarden iets verder naar beneden */
+/* Voedingswaarden */
 #calories {
     margin-top: 20px;
 }
 
-/* Stijl voor groene 'Terug naar index'-knop */
+/* Knop styling */
 .back-button {
     background-color: #228B22;
     color: white;
@@ -161,7 +156,7 @@ main {
     background-color: #1A6F1A;
 }
 
-/* Copyright subtiel rechtsonder vastzetten */
+/* Copyright */
 .copyright {
     position: fixed;
     bottom: 10px;
