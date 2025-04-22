@@ -9,7 +9,7 @@ body {
 /* Header styling */
 header {
     background-color: #228B22; /* Jouw gewenste groene kleur */
-    padding: 20px;
+    padding: 15px; /* Verminderd de hoogte iets */
     text-align: center;
     color: white;
     font-size: 24px;
@@ -32,15 +32,23 @@ header {
     overflow: hidden;
     text-align: center;
     padding: 15px;
+    transition: 0.3s ease-in-out;
 }
 
 .recipe-tile img {
-    width: 100%;
-    height: auto;
+    width: 200px; /* Vaste breedte */
+    height: 150px; /* Vaste hoogte */
+    object-fit: cover; /* Zorgt ervoor dat de afbeelding altijd mooi blijft */
     border-radius: 10px;
 }
 
-.recipe-tile h3 {
+/* Hover-effect */
+.recipe-tile:hover {
+    transform: scale(1.05); /* Laat de blokjes iets groter worden */
+    cursor: pointer;
+}
+
+/.recipe-tile h3 {
     margin-top: 10px;
 }
 
@@ -51,12 +59,14 @@ main {
     padding: 20px;
 }
 
-.left, .center, .right {
-    flex: 1;
+.left, .right {
+    flex: 0.6; /* Maak ze smaller */
+    padding: 15px;
+}
+
+.center {
+    flex: 1.8; /* Geef de bereiding meer ruimte */
     padding: 20px;
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
 }
 
 /* Afbeelding styling */
@@ -73,6 +83,7 @@ ul, ol {
     padding-left: 20px;
 }
 
+/* Knop styling */
 button {
     display: block;
     margin: 20px auto;
