@@ -76,6 +76,4 @@ function loadRecipeDetails(recipeId) {
                 li.textContent = step;
                 instructionsList.appendChild(li);
             });
-        })
-        .catch(error => console.error("Fout bij laden recepten:", error));
-}
+
