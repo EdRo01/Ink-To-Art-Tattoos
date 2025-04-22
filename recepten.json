@@ -10,7 +10,23 @@
                 "2 eieren",
                 "100g suiker",
                 "1 tl zout",
-                "50ml melk"
+                "50ml melk",
+                "50g boter",
+                "1 zakje vanillesuiker",
+                "250ml water",
+                "75g cacaopoeder",
+                "100g gehakte noten",
+                "50g rozijnen",
+                "2 el honing",
+                "1 tl bakpoeder",
+                "1 tl kaneel",
+                "150g chocolade",
+                "50ml slagroom",
+                "50g poedersuiker",
+                "1 tl citroensap",
+                "1 zakje gist",
+                "250ml karnemelk",
+                "1 tl speculaaskruiden"
             ],
             "bereiding": [
                 "Stap 1: Doe dit...",
@@ -19,20 +35,65 @@
                 "Stap 4: Roer goed...",
                 "Stap 5: Laat staan...",
                 "Stap 6: Proef en pas aan...",
-                "Stap 7: Serveer...",
-                "Stap 8: Geniet...",
-                "Stap 9: Nog een stap...",
-                "Stap 10: En nog een...",
-                "Stap 11: Test scrollen...",
-                "Stap 12: Nog meer...",
-                "Stap 13: Dit zou moeten werken...",
-                "Stap 14: Scrol naar beneden...",
-                "Stap 15: Kan je alles zien?",
-                "Stap 16: We testen door...",
-                "Stap 17: Bijna klaar...",
-                "Stap 18: En werkt het?",
-                "Stap 19: Dit is een test...",
-                "Stap 20: Perfect?"
+                "Stap 7: Doe dit...",
+                "Stap 8: Doe dat...",
+                "Stap 9: Voeg toe...",
+                "Stap 10: Roer goed...",
+                "Stap 11: Laat staan...",
+                "Stap 12: Proef en pas aan...",
+                "Stap 13: Serveer..."
+            ]
+        },
+        {
+            "id": "2",
+            "naam": "Köfte",
+            "afbeelding": "https://via.placeholder.com/250x180",
+            "calorieën": 600,
+            "ingrediënten": [
+                "500g rundergehakt",
+                "1 ui, fijngesnipperd",
+                "2 teentjes knoflook, geperst",
+                "1 tl komijn",
+                "1 tl paprikapoeder",
+                "1 tl peper",
+                "1 tl zout",
+                "1 handvol verse peterselie, gehakt",
+                "1 ei",
+                "50g paneermeel",
+                "2 el olijfolie",
+                "1 tl oregano"
+            ],
+            "bereiding": [
+                "Stap 1: Meng alle ingrediënten in een kom.",
+                "Stap 2: Vorm kleine balletjes of staafjes van het gehaktmengsel.",
+                "Stap 3: Bak de köfte in een pan met olijfolie tot ze goudbruin en gaar zijn.",
+                "Stap 4: Serveer met een frisse yoghurtsaus en salade."
+            ]
+        },
+        {
+            "id": "3",
+            "naam": "Kebab",
+            "afbeelding": "https://via.placeholder.com/250x180",
+            "calorieën": 700,
+            "ingrediënten": [
+                "500g lamsgehakt",
+                "1 ui, geraspt",
+                "2 teentjes knoflook, fijngesneden",
+                "1 tl korianderpoeder",
+                "1 tl komijn",
+                "1 tl chilipoeder",
+                "1 tl zout",
+                "1 handvol munt, fijngehakt",
+                "1 ei",
+                "50g broodkruimels",
+                "2 el olijfolie",
+                "1 tl citroensap"
+            ],
+            "bereiding": [
+                "Stap 1: Meng alle ingrediënten tot een homogeen mengsel.",
+                "Stap 2: Vorm lange kebabs en prik ze aan spiezen.",
+                "Stap 3: Grill de kebabs op een hete barbecue of grillplaat.",
+                "Stap 4: Serveer met flatbread en knoflooksaus."
             ]
         }
     ]
