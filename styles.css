@@ -69,7 +69,7 @@ main {
     flex: 0.5;
     max-width: 180px;
     text-align: left;
-    padding: 1px;
+    padding: 10px;
     height: calc(100vh - 80px);
     overflow-y: auto;
     display: flex;
