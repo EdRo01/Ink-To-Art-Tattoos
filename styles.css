@@ -92,6 +92,9 @@ main {
     padding: 10px;
     height: calc(100vh - 80px);
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Zorgt dat de tekst op dezelfde hoogte begint */
 }
 
 /* Zorg ervoor dat de tekst in het midden perfect uitgelijnd is */
