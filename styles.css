@@ -92,7 +92,8 @@ main {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Zorgt ervoor dat alles goed verdeeld blijft */
+    justify-content: flex-start; /* Voorkomt dat elementen te ver naar beneden worden gedrukt */
+    margin-top: 60px; /* Zorgt ervoor dat de kolom onder de header begint */
 }
 
 /* Afbeelding boven het recept gecentreerd en vaste grootte */
