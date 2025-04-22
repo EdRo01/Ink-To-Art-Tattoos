@@ -25,7 +25,7 @@ function loadRecipeGrid() {
     fetch("https://edro01.github.io/recepten-website/recepten.json")
         .then(response => response.json())
         .then(data => {
-            recipeGrid.innerHTML = "";
+            recipeGrid.innerHTML = ""; // Zorg dat het grid correct gevuld wordt
 
             data.forEach(recipe => {
                 const recipeTile = document.createElement("div");
@@ -38,6 +38,8 @@ function loadRecipeGrid() {
                 `;
                 recipeGrid.appendChild(recipeTile);
             });
+
+            console.log("Recepten succesvol geladen op de indexpagina!");
         })
         .catch(error => {
             console.error("Fout bij laden recepten:", error);
@@ -77,3 +79,42 @@ function loadRecipeDetails(recipeId) {
                 instructionsList.appendChild(li);
             });
 
+            setupPortionAdjustment(recipe);
+        })
+        .catch(error => console.error("Fout bij laden recepten:", error));
+}
+
+function setupPortionAdjustment(recipe) {
+    const portionInput = document.getElementById("portion-size");
+    const updateButton = document.getElementById("update-portion");
+
+    if (!portionInput || !updateButton) {
+        console.error("Portie-aanpassings elementen niet gevonden!");
+        return;
+    }
+
+    updateButton.addEventListener("click", () => {
+        const portionSize = parseFloat(portionInput.value);
+        
+        if (isNaN(portionSize) || portionSize <= 0) {
+            alert("Voer een geldige portiegrootte in!");
+            return;
+        }
+
+        const ingredientsList = document.getElementById("ingredients-list");
+        ingredientsList.innerHTML = "";
+
+        recipe.ingrediënten.forEach(item => {
+            let updatedItem = item.replace(/(\d+(\.\d+)?)/g, match => {
+                let newAmount = parseFloat(match) * portionSize;
+                return (Math.round(newAmount * 10) / 10).toFixed(1); // Afronden op 1 decimaal
+            });
+
+            let li = document.createElement("li");
+            li.textContent = updatedItem;
+            ingredientsList.appendChild(li);
+        });
+
+        console.log("Portiegrootte succesvol aangepast!");
+    });
+}
