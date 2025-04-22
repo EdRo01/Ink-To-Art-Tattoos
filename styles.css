@@ -54,7 +54,7 @@ main {
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
-    flex-wrap: wrap; /* Voorkomt dat kolommen verdwijnen */
+    flex-wrap: wrap;
 }
 
 .left {
@@ -62,8 +62,8 @@ main {
     max-width: 280px;
     text-align: left;
     padding: 10px;
-    max-height: 80vh;
     overflow-y: auto;
+    height: calc(100vh - 60px); /* Laat de linker kolom goed scrollen */
 }
 
 .center {
@@ -111,10 +111,11 @@ main {
     background-color: #1A6F1A;
 }
 
-/* Copyright correct geplaatst */
+/* Copyright rechtsonder vastzetten */
 .copyright {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
     font-size: 12px;
     color: #888;
-    text-align: center;
-    padding-top: 10px;
 }
