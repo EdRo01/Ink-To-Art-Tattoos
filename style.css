@@ -101,7 +101,7 @@ input[type="checkbox"] {
     height: 20px !important;
     width: 20px !important;
     display: inline-block !important; /* Voorkomt dat ze de hele container vullen */
-    flex-shrink: 0 !important; /* Voorkomt dat ze mee rekken in flex-container */
+    flex-shrink: 0 !important; /* Voorkomt dat ze meerekken in flex-container */
 }
 
 .checkbox-container {
@@ -110,6 +110,7 @@ input[type="checkbox"] {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-grow: 0 !important; /* Voorkomt dat de container de checkboxen uitrekt */
 }
 
 /* Rechter kolom niet scrollbaar en juiste elementen erin */
