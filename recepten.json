@@ -22,7 +22,7 @@
         },
         {
             "id": "2",
-            "naam": "ATest - Testrecept met veel ingrediënten",
+            "naam": "ATest - Testrecept met EXTREEM veel ingrediënten",
             "afbeelding": "https://edro01.github.io/recepten-website/images/test-atest.jpg",
             "calorieën": 700,
             "ingrediënten": [
@@ -46,7 +46,17 @@
                 "Extra ingrediënt 7",
                 "Extra ingrediënt 8",
                 "Extra ingrediënt 9",
-                "Extra ingrediënt 10"
+                "Extra ingrediënt 10",
+                "Super extra ingrediënt 11",
+                "Super extra ingrediënt 12",
+                "Super extra ingrediënt 13",
+                "Super extra ingrediënt 14",
+                "Super extra ingrediënt 15",
+                "Super extra ingrediënt 16",
+                "Super extra ingrediënt 17",
+                "Super extra ingrediënt 18",
+                "Super extra ingrediënt 19",
+                "Super extra ingrediënt 20"
             ],
             "bereiding": [
                 "Stap 1: Doe iets in een pan.",
@@ -63,7 +73,16 @@
                 "Stap 12: Roer nog een keer door.",
                 "Stap 13: Dek het af en laat rusten.",
                 "Stap 14: Maak een bord mooi op.",
-                "Stap 15: Geniet van je maaltijd!"
+                "Stap 15: Geniet van je maaltijd!",
+                "Stap 16: Zet de oven uit.",
+                "Stap 17: Laat het gerecht 10 minuten rusten.",
+                "Stap 18: Voeg nog een snufje zout toe.",
+                "Stap 19: Mix de saus apart.",
+                "Stap 20: Besprenkel de saus over het gerecht.",
+                "Stap 21: Rooster het nog een paar minuten.",
+                "Stap 22: Laat het afkoelen.",
+                "Stap 23: Garneer met verse kruiden.",
+                "Stap 24: Serveer met een grote glimlach!"
             ]
         },
         {
