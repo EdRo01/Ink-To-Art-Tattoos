@@ -57,24 +57,27 @@ header {
 /* Layout met drie kolommen */
 main {
     display: flex;
-    flex-wrap: nowrap; /* Voorkomt dat kolommen onder elkaar komen */
+    flex-wrap: nowrap;
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
     margin-top: 60px;
 }
 
-/* Linkerkolom en rechterkolom breder maken */
+/* Linker- en rechterkolom breder maken */
 .left, .right {
-    flex: 1; /* Was 0.7, nu breder */
+    flex: 1;
     max-width: 260px;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+    padding: 10px;
 }
 
-/* Beperkte afbeeldingsgrootte in receptpagina */
+/* Beperkte afbeeldingsgrootte */
 .left img {
     display: block;
     width: 100%;
-    max-width: 200px; /* Houdt afbeelding kleiner */
+    max-width: 200px;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
@@ -109,7 +112,7 @@ main {
 /* Mobiele weergave (landscape) fix */
 @media screen and (max-width: 1024px) and (orientation: landscape) {
     main {
-        flex-direction: row; /* Zorgt ervoor dat de kolommen behouden blijven */
+        flex-direction: row;
         align-items: flex-start;
     }
 

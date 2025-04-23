@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 return;
             }
 
+            // Sorteer recepten alfabetisch op naam
+            data.recepten.sort((a, b) => a.naam.localeCompare(b.naam));
+
             data.recepten.forEach(recipe => {
                 const tile = document.createElement("div");
                 tile.classList.add("recipe-tile");
@@ -55,7 +58,6 @@ function getRecipeDetails() {
                     instructionsList.appendChild(li);
                 });
 
-                // Calorieën berekenen en weergeven
                 const calorieElement = document.getElementById("calories");
                 calorieElement.textContent = `Calorieën: ${recipe.calorieën}`;
             }
@@ -89,7 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
                         ingredientsList.appendChild(li);
                     });
 
-                    // Calorieën bijwerken
                     const calorieElement = document.getElementById("calories");
                     calorieElement.textContent = `Calorieën: ${recipe.calorieën * portionSize}`;
                 }
