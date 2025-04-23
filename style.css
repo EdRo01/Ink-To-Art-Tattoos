@@ -96,29 +96,18 @@ main {
     max-width: none;
 }
 
-.center ol {
-    counter-reset: bereiding-stappen;
-    width: 100%;
-    max-width: none;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+/* Correcte weergave van checkboxes */
+input[type="checkbox"] {
+    height: 20px !important;
+    width: 20px !important;
+    display: inline-block !important; /* Voorkomt dat ze de hele container vullen */
 }
 
-.center li {
-    display: block;
-    width: 100%;
-    margin-bottom: 15px;
-    counter-increment: bereiding-stappen;
-    position: relative;
-    padding-left: 30px;
-}
-
-.center li::before {
-    content: counter(bereiding-stappen) ".";
-    position: absolute;
-    left: 0;
-    font-weight: bold;
+.checkbox-container {
+    height: auto !important; /* Zorgt ervoor dat de container niet uitrekt */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Voorkomt volledige verticale uitrekking */
 }
 
 /* Rechter kolom niet scrollbaar en juiste elementen erin */
@@ -129,19 +118,6 @@ main {
     max-width: 230px;
     height: auto;
     padding: 10px;
-}
-
-/* Keuzehokjes correct formaat en container fix */
-input[type="checkbox"] {
-    height: 20px !important;
-    width: 20px !important;
-    display: inline-block !important; /* Voorkomt dat de checkbox de hele container vult */
-}
-
-.checkbox-container {
-    height: auto !important; /* Zorgt ervoor dat de container niet uitrekt */
-    display: flex;
-    align-items: center;
 }
 
 /* Beperkte afbeeldingsgrootte */
