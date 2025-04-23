@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
+    overflow-y: auto; /* Voorkomt constante verticale scrollbalk */
 }
 
 /* Header */
@@ -75,7 +76,7 @@ main {
     padding: 10px;
 }
 
-/* Middenkolom ook scrollbaar en juiste breedte benutten */
+/* Middenkolom correct scrollbaar en breedte benutten */
 .center {
     display: flex;
     flex-direction: column;
@@ -84,6 +85,7 @@ main {
     max-width: none;
     height: calc(100vh - 80px);
     overflow-y: auto;
+    overflow-x: hidden; /* Voorkomt horizontaal scrollen */
     padding: 10px;
 }
 
@@ -154,7 +156,7 @@ main {
     background-color: #1A6F1A;
 }
 
-/* Copyright exact uitgelijnd tussen index- en receptenpagina */
+/* Copyright correct uitgelijnd op alle pagina's */
 .copyright {
     position: fixed;
     bottom: 10px;
