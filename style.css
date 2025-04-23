@@ -50,7 +50,7 @@ header {
     cursor: pointer;
 }
 
-recipe-tile img {
+.recipe-tile img {
     width: 150px;
     height: 100px;
     object-fit: cover;
@@ -111,12 +111,12 @@ input[type="checkbox"] {
 }
 
 .checkbox-container {
-    max-height: 60px !important; /* Voorkomt uitrekking op grote schermen */
+    max-height: 60px !important; /* Voorkomt uitrekking */
     height: auto !important;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-grow: 0 !important; /* Voorkomt dat de container de checkboxen uitrekt */
+    flex-grow: 0 !important; /* Voorkomt dat de container ze forceert te groeien */
 }
 
 /* Zorgt ervoor dat er witregels zijn tussen bereidingsstappen */
