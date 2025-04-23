@@ -2,7 +2,7 @@
 html, body {
     height: auto !important; /* Voorkomt dat de hele pagina de schermhoogte overneemt */
     min-height: 100vh; /* Zorgt ervoor dat de site minimaal het scherm vult */
-    overflow-y: auto; /* Voorkomt verborgen inhoud */
+    overflow-y: hidden !important; /* Voorkomt dat een verticale scrollbar verschijnt */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -126,44 +126,7 @@ input[type="checkbox"] {
     padding-bottom: 10px !important; /* Extra ruimte tussen regels */
 }
 
-/* Rechter kolom niet scrollbaar en juiste elementen erin */
-.right {
-    display: flex;
-    flex-direction: column;
-    flex: 0.8;
-    max-width: 230px;
-    height: auto;
-    padding: 10px;
-}
-
-/* Beperkte afbeeldingsgrootte */
-.left img {
-    display: block;
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-/* Terugknop naar overzicht */
-.back-button {
-    background-color: #228B22;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
-    display: block;
-}
-
-.back-button:hover {
-    background-color: #1A6F1A;
-}
-
-/* Copyright correct uitgelijnd op alle pagina's */
+/* Copyright correct uitgelijnd en gefixeerd */
 .copyright {
     position: fixed;
     bottom: 10px;
