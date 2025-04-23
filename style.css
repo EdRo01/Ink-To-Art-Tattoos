@@ -131,6 +131,12 @@ main {
     padding: 10px;
 }
 
+/* Keuzehokjes correct formaat */
+input[type="checkbox"] {
+    height: auto;
+    width: 20px;
+}
+
 /* Beperkte afbeeldingsgrootte */
 .left img {
     display: block;
