@@ -101,14 +101,15 @@ input[type="checkbox"] {
     height: 20px !important;
     width: 20px !important;
     display: inline-block !important; /* Voorkomt dat ze de hele container vullen */
+    flex-shrink: 0 !important; /* Voorkomt dat ze mee rekken in flex-container */
 }
 
 .checkbox-container {
-    max-height: 60px !important; /* Zorgt ervoor dat de container niet wordt uitgerekt */
+    max-height: 60px !important; /* Voorkomt uitrekking op grote schermen */
     height: auto !important;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Voorkomt volledige verticale uitrekking */
+    justify-content: flex-start;
 }
 
 /* Rechter kolom niet scrollbaar en juiste elementen erin */
