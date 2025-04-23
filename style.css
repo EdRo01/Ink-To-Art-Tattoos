@@ -50,7 +50,7 @@ header {
     cursor: pointer;
 }
 
-.recipe-tile img {
+recipe-tile img {
     width: 150px;
     height: 100px;
     object-fit: cover;
@@ -135,6 +135,24 @@ input[type="checkbox"] {
     color: #888;
     text-align: right;
     width: 100%;
+}
+
+/* Terug naar index-knop in dezelfde kleur als de header */
+.back-button {
+    background-color: #228B22 !important; /* Exact dezelfde groene kleur als de balk */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.back-button:hover {
+    background-color: #1A6F1A !important; /* Donkere tint groen bij hover */
 }
 
 /* Mobiele weergave (landscape) fix */
