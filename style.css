@@ -75,7 +75,7 @@ main {
     padding: 10px;
 }
 
-/* Middenkolom scrollbaar en juiste breedte benutten */
+/* Middenkolom ook scrollbaar en juiste breedte benutten */
 .center {
     display: flex;
     flex-direction: column;
@@ -93,25 +93,25 @@ main {
 }
 
 .center ol {
-    counter-reset: bereiding-stappen; /* Reset de nummering */
+    counter-reset: bereiding-stappen;
     width: 100%;
     max-width: none;
     padding: 0;
     margin: 0;
-    list-style: none; /* Verwijder standaard opsommingstekens */
+    list-style: none;
 }
 
 .center li {
     display: block;
     width: 100%;
-    margin-bottom: 15px; /* Voegt een extra witregel toe tussen de stappen */
-    counter-increment: bereiding-stappen; /* Verhoog de nummering */
+    margin-bottom: 15px;
+    counter-increment: bereiding-stappen;
     position: relative;
-    padding-left: 30px; /* Zorgt dat er ruimte is voor het nummer */
+    padding-left: 30px;
 }
 
 .center li::before {
-    content: counter(bereiding-stappen) "."; /* Voeg het nummer toe */
+    content: counter(bereiding-stappen) ".";
     position: absolute;
     left: 0;
     font-weight: bold;
@@ -154,13 +154,15 @@ main {
     background-color: #1A6F1A;
 }
 
-/* Copyright vast rechtsonder */
+/* Copyright exact uitgelijnd tussen index- en receptenpagina */
 .copyright {
     position: fixed;
     bottom: 10px;
     right: 10px;
     font-size: 12px;
     color: #888;
+    text-align: right;
+    width: 100%;
 }
 
 /* Mobiele weergave (landscape) fix */
