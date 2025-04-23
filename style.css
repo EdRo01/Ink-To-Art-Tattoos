@@ -100,9 +100,11 @@ main {
     list-style-position: inside;
 }
 
+/* ✅ Witregel tussen instructies */
 .center li {
     display: block;
     width: 100%;
+    margin-bottom: 15px; /* Voegt een extra witregel toe */
 }
 
 /* Rechter kolom niet scrollbaar en juiste elementen erin */
