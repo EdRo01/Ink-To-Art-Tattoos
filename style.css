@@ -64,14 +64,35 @@ main {
     margin-top: 60px;
 }
 
-/* Linker- en rechterkolom correct in beeld houden */
-.left, .right {
+/* Linkerkolom scrollbaar */
+.left {
     display: flex;
     flex-direction: column; /* Zorgt ervoor dat alle content correct in de kolom blijft */
-    flex: 0.8; /* Was 1, nu iets kleiner zodat ze binnen het scherm blijven */
+    flex: 0.8; 
     max-width: 230px;
     height: calc(100vh - 80px);
-    overflow-y: auto;
+    overflow-y: auto; /* Scrollfunctie correct behouden */
+    padding: 10px;
+}
+
+/* Middenkolom ook scrollbaar */
+.center {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 400px;
+    height: calc(100vh - 80px);
+    overflow-y: auto; /* Zelfde scrollmethode als linker kolom */
+    padding: 10px;
+}
+
+/* Rechter kolom niet scrollbaar en juiste elementen erin */
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+    max-width: 230px;
+    height: auto;
     padding: 10px;
 }
 
