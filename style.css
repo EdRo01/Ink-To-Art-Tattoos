@@ -119,6 +119,13 @@ input[type="checkbox"] {
     flex-grow: 0 !important; /* Voorkomt dat de container de checkboxen uitrekt */
 }
 
+/* Zorgt ervoor dat er witregels zijn tussen bereidingsstappen */
+.center li {
+    display: block;
+    margin-bottom: 15px !important; /* Voegt ruimte toe tussen stappen */
+    padding-bottom: 10px !important; /* Extra ruimte tussen regels */
+}
+
 /* Rechter kolom niet scrollbaar en juiste elementen erin */
 .right {
     display: flex;
