@@ -104,7 +104,8 @@ input[type="checkbox"] {
 }
 
 .checkbox-container {
-    height: auto !important; /* Zorgt ervoor dat de container niet uitrekt */
+    max-height: 60px !important; /* Zorgt ervoor dat de container niet wordt uitgerekt */
+    height: auto !important;
     display: flex;
     align-items: center;
     justify-content: flex-start; /* Voorkomt volledige verticale uitrekking */
