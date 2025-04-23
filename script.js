@@ -1,41 +1,98 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recept Details</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-</head>
-<body>
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("recepten.json")
+        .then(response => response.json())
+        .then(data => {
+            const recipeGrid = document.getElementById("recipe-grid");
 
-<header>Recept Details</header>
+            if (!recipeGrid) {
+                console.error("Element #recipe-grid niet gevonden!");
+                return;
+            }
 
-<main>
-    <section class="left">
-        <img id="recipe-image" src="" alt="Recept afbeelding">
-        <h2 id="recipe-title"></h2>
-        <ul id="ingredients-list"></ul>
-    </section>
+            data.recepten.forEach(recipe => {
+                const tile = document.createElement("div");
+                tile.classList.add("recipe-tile");
+                tile.innerHTML = `
+                    <img src="${recipe.afbeelding}" alt="${recipe.naam}">
+                    <h3>${recipe.naam}</h3>
+                `;
+                tile.addEventListener("click", function () {
+                    window.location.href = `recept.html?id=${recipe.id}`;
+                });
 
-    <section class="center">
-        <h3>Bereiding</h3>
-        <ol id="instructions-list"></ol>
-    </section>
+                recipeGrid.appendChild(tile);
+            });
+        }).catch(error => console.error("Fout bij laden recepten:", error));
+});
 
-    <section class="right">
-        <div id="portion-section">
-            <label for="portion-size">Portiegrootte:</label>
-            <input type="number" id="portion-size" value="1" min="0.5" step="0.5">
-            <button id="update-portion">Update</button>
-            <p id="calories"></p>
-        </div>
+// Recept details ophalen
+function getRecipeDetails() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const recipeId = urlParams.get("id");
 
-        <button class="back-button" onclick="window.location.href='index.html'">Terug naar overzicht</button>
-    </section>
-</main>
+    fetch("recepten.json")
+        .then(response => response.json())
+        .then(data => {
+            const recipe = data.recepten.find(r => r.id === recipeId);
 
-<p class="copyright">© 2025 RijstwijzerPro.nl</p>
+            if (recipe) {
+                document.getElementById("recipe-image").src = recipe.afbeelding;
+                document.getElementById("recipe-title").textContent = recipe.naam;
 
-</body>
-</html>
+                const ingredientsList = document.getElementById("ingredients-list");
+                ingredientsList.innerHTML = "";
+                recipe.ingrediënten.forEach(ingredient => {
+                    const li = document.createElement("li");
+                    li.textContent = ingredient;
+                    ingredientsList.appendChild(li);
+                });
+
+                const instructionsList = document.getElementById("instructions-list");
+                instructionsList.innerHTML = "";
+                recipe.bereiding.forEach(step => {
+                    const li = document.createElement("li");
+                    li.textContent = step;
+                    instructionsList.appendChild(li);
+                });
+
+                // Calorieën berekenen en weergeven
+                const calorieElement = document.getElementById("calories");
+                calorieElement.textContent = `Calorieën: ${recipe.calorieën}`;
+            }
+        }).catch(error => console.error("Fout bij laden recept details:", error));
+}
+
+if (window.location.pathname.includes("recept.html")) {
+    getRecipeDetails();
+}
+
+// Portiegrootte aanpassen
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("update-portion").addEventListener("click", function () {
+        const portionSize = parseFloat(document.getElementById("portion-size").value);
+
+        fetch("recepten.json")
+            .then(response => response.json())
+            .then(data => {
+                const urlParams = new URLSearchParams(window.location.search);
+                const recipeId = urlParams.get("id");
+                const recipe = data.recepten.find(r => r.id === recipeId);
+
+                if (recipe) {
+                    const ingredientsList = document.getElementById("ingredients-list");
+                    ingredientsList.innerHTML = "";
+
+                    recipe.ingrediënten.forEach(ingredient => {
+                        const hoeveelheid = parseFloat(ingredient.split(" ")[0]) * portionSize;
+                        const li = document.createElement("li");
+                        li.textContent = `${hoeveelheid} ${ingredient.split(" ").slice(1).join(" ")}`;
+                        ingredientsList.appendChild(li);
+                    });
+
+                    // Calorieën bijwerken
+                    const calorieElement = document.getElementById("calories");
+                    calorieElement.textContent = `Calorieën: ${recipe.calorieën * portionSize}`;
+                }
+            }).catch(error => console.error("Fout bij portieberekening:", error));
+    });
+});
