@@ -67,11 +67,11 @@ main {
 /* Linkerkolom scrollbaar */
 .left {
     display: flex;
-    flex-direction: column; /* Zorgt ervoor dat alle content correct in de kolom blijft */
-    flex: 0.8; 
+    flex-direction: column;
+    flex: 0.8;
     max-width: 230px;
     height: calc(100vh - 80px);
-    overflow-y: auto; /* Scrollfunctie correct behouden */
+    overflow-y: auto;
     padding: 10px;
 }
 
@@ -87,10 +87,16 @@ main {
 }
 
 .center ol {
-    width: 100%; /* Laat de bereidingstekst de volledige kolombreedte gebruiken */
+    width: 100%; /* Laat de bereidingstekst de volledige breedte benutten */
     max-width: 100%; /* Voorkomt dat de tekst te smal wordt weergegeven */
     padding: 0;
     margin: 0;
+    list-style-position: inside;
+}
+
+.center li {
+    display: block; /* Voorkomt dat de lijstitems te smal worden */
+    width: 100%; /* Laat elk lijstitem de maximale breedte gebruiken */
 }
 
 /* Rechter kolom niet scrollbaar en juiste elementen erin */
