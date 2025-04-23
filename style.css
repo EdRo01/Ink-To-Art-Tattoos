@@ -75,7 +75,7 @@ main {
     padding: 10px;
 }
 
-/* Middenkolom ook scrollbaar en juiste breedte benutten */
+/* Middenkolom scrollbaar en juiste breedte benutten */
 .center {
     display: flex;
     flex-direction: column;
@@ -93,18 +93,28 @@ main {
 }
 
 .center ol {
+    counter-reset: bereiding-stappen; /* Reset de nummering */
     width: 100%;
     max-width: none;
     padding: 0;
     margin: 0;
-    list-style-position: inside;
+    list-style: none; /* Verwijder standaard opsommingstekens */
 }
 
-/* ✅ Witregel tussen instructies */
 .center li {
     display: block;
     width: 100%;
-    margin-bottom: 15px; /* Voegt een extra witregel toe */
+    margin-bottom: 15px; /* Voegt een extra witregel toe tussen de stappen */
+    counter-increment: bereiding-stappen; /* Verhoog de nummering */
+    position: relative;
+    padding-left: 30px; /* Zorgt dat er ruimte is voor het nummer */
+}
+
+.center li::before {
+    content: counter(bereiding-stappen) "."; /* Voeg het nummer toe */
+    position: absolute;
+    left: 0;
+    font-weight: bold;
 }
 
 /* Rechter kolom niet scrollbaar en juiste elementen erin */
