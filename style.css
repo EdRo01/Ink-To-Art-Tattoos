@@ -140,6 +140,8 @@ input[type="checkbox"] {
 
 .checkbox-container {
     height: auto !important; /* Zorgt ervoor dat de container niet uitrekt */
+    display: flex;
+    align-items: center;
 }
 
 /* Beperkte afbeeldingsgrootte */
