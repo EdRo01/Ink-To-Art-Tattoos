@@ -64,10 +64,10 @@ main {
     margin-top: 60px;
 }
 
-/* Linkerkolom correct schalen */
-.left {
-    flex: 0.7; /* Breder maken */
-    max-width: 220px;
+/* Linkerkolom en rechterkolom breder maken */
+.left, .right {
+    flex: 1; /* Was 0.7, nu breder */
+    max-width: 260px;
 }
 
 /* Beperkte afbeeldingsgrootte in receptpagina */
@@ -80,7 +80,7 @@ main {
     border-radius: 10px;
 }
 
-/* Terugknop naar overzicht */
+/* Terugknop naar overzicht in rechterkolom */
 .back-button {
     background-color: #228B22;
     color: white;
@@ -97,6 +97,15 @@ main {
     background-color: #1A6F1A;
 }
 
+/* Copyright vast rechtsonder */
+.copyright {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #888;
+}
+
 /* Mobiele weergave (landscape) fix */
 @media screen and (max-width: 1024px) and (orientation: landscape) {
     main {
@@ -105,7 +114,7 @@ main {
     }
 
     .left, .center, .right {
-        max-width: 32%; /* Laat de kolommen intact */
+        max-width: 32%;
         text-align: left;
     }
 }
