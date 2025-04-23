@@ -49,7 +49,7 @@ header {
     cursor: pointer;
 }
 
-recipe-tile img {
+.recipe-tile img {
     width: 150px;
     height: 100px;
     object-fit: cover;
@@ -131,10 +131,15 @@ main {
     padding: 10px;
 }
 
-/* Keuzehokjes correct formaat */
+/* Keuzehokjes correct formaat en container fix */
 input[type="checkbox"] {
     height: 20px !important;
     width: 20px !important;
+    display: inline-block !important; /* Voorkomt dat de checkbox de hele container vult */
+}
+
+.checkbox-container {
+    height: auto !important; /* Zorgt ervoor dat de container niet uitrekt */
 }
 
 /* Beperkte afbeeldingsgrootte */
