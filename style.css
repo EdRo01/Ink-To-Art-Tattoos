@@ -20,13 +20,13 @@ header {
     background-color: #228B22;
     padding: 8px;
     color: white;
-    font-size: 18px;
+    font-size: 20px; /* Groter voor desktop */
     z-index: 9999 !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     text-align: center !important;
-    height: 50px !important;
+    height: 60px !important; /* Iets hoger voor desktop */
     box-sizing: border-box;
 }
 
@@ -34,7 +34,11 @@ header {
 #recipe-grid {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 60px !important;
+    margin-top: 80px !important; /* Ruimte voor hogere header */
+    padding: 0 20px; /* Marges aan zijkanten */
+    max-width: 1200px; /* Gecentreerde inhoud */
+    margin-left: auto;
+    margin-right: auto;
     overflow-y: auto;
 }
 
@@ -42,25 +46,40 @@ header {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px); /* 4 tegels per rij, met tussenruimte */
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: transform 0.2s, box-shadow 0.2s; /* Voor hover-effect */
+}
+
+.recipe-tile:hover {
+    transform: scale(1.05); /* Lichte vergroting */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Diepere schaduw */
+    cursor: pointer; /* Handje bij hover */
 }
 
 .recipe-tile img {
     width: 100%;
+    height: 120px; /* Grotere afbeelding voor desktop */
     object-fit: cover;
     border-radius: 5px;
 }
 
-.recipe-tile p {
+.recipe-tile h3 {
+    font-size: 14px; /* Iets groter dan mobiel */
     text-align: center;
+    margin: 5px 0;
+    color: #333;
 }
 
-/* Receptpagina (algemene styling) */
+/* Receptpagina (algemene styling, tijdelijk ongewijzigd voor desktop) */
 main {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    margin-top: 60px !important;
+    margin-top: 80px !important;
     overflow-y: auto;
     overflow-x: hidden !important;
     box-sizing: border-box;
@@ -72,11 +91,10 @@ main {
 .copyright {
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    right: 20px;
     font-size: 12px;
     color: #888;
     text-align: right;
-    width: 100%;
 }
 
 /* Terug naar index-knop */
@@ -97,7 +115,43 @@ main {
     background-color: #1A6F1A !important;
 }
 
-/* Mobiele layout */
+/* Desktop-specifieke stijlen */
+@media (min-width: 769px) {
+    /* Indexpagina */
+    #recipe-grid {
+        gap: 20px; /* Meer ruimte tussen tegels */
+    }
+
+    .recipe-tile {
+        width: calc(25% - 20px); /* 4 tegels per rij */
+        height: 200px; /* Grotere tegels */
+    }
+
+    .recipe-tile img {
+        height: 120px; /* Consistente afbeeldinghoogte */
+    }
+
+    .recipe-tile h3 {
+        font-size: 14px;
+        line-height: 1.2;
+        max-height: 60px; /* Beperk lange titels */
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    /* Receptpagina (placeholder, wordt later aangepast) */
+    .left, .center, .right {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden !important;
+        height: auto;
+    }
+}
+
+/* Mobiele layout (ongewijzigd) */
 @media screen and (max-width: 768px) {
     body {
         width: 100% !important;
@@ -152,7 +206,7 @@ main {
         border-radius: 5px;
     }
 
-    .recipe-tile p {
+    .recipe-tile h3 {
         font-size: 8px;
         max-height: 80px;
         line-height: 1.15;
@@ -192,13 +246,13 @@ main {
     }
 
     .left img {
-        width: 100%; /* Volledige schermbreedte */
-        height: 200px; /* Vaste hoogte voor consistente ruimte */
+        width: 100%;
+        height: 200px;
         border-radius: 5px;
-        object-fit: cover; /* Bijsnijden om ruimte te vullen */
-        object-position: center; /* Centreer de foto */
+        object-fit: cover;
+        object-position: center;
         margin: 0;
-        display: block; /* Zorgt voor nette weergave */
+        display: block;
     }
 
     .left h2 {
@@ -236,7 +290,7 @@ main {
     }
 
     .center li {
-        margin-bottom: 12px; /* Witregel tussen stappen */
+        margin-bottom: 12px;
     }
 
     .right #portion-section {
@@ -319,7 +373,7 @@ main {
         height: 60px;
     }
 
-    .recipe-tile p {
+    .recipe-tile h3 {
         font-size: 7px;
         max-height: 74px;
         line-height: 1.1;
@@ -333,7 +387,7 @@ main {
     }
 
     .left img {
-        height: 180px; /* Iets kleinere vaste hoogte voor kleinere schermen */
+        height: 180px;
     }
 
     .left h2 {
