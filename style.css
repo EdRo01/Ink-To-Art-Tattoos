@@ -154,7 +154,7 @@ main {
         margin-right: 20px;
         max-width: 1200px;
         height: calc(100vh - 80px);
-        justify-content: space-between; /* Duwt .right naar rechts */
+        position: relative; /* Voor absolute positionering van .right */
     }
 
     .left {
@@ -175,6 +175,7 @@ main {
         width: 250px;
         position: sticky;
         top: 80px;
+        right: 20px; /* 20px van de rechter rand van het scherm */
         height: fit-content;
         padding: 10px;
         box-sizing: border-box;
@@ -274,7 +275,7 @@ main {
     .right #calories {
         font-size: 14px;
         color: #555;
-        margin: 20px 0; /* Meer ruimte */
+        margin: 20px 0;
         width: 100%;
         word-wrap: break-word;
     }
@@ -282,7 +283,7 @@ main {
     .back-button {
         padding: 10px 15px;
         font-size: 16px;
-        margin: 25px auto; /* Meer ruimte */
+        margin: 25px auto;
         width: fit-content;
     }
 }
