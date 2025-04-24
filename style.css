@@ -178,7 +178,7 @@ input[type="checkbox"] {
         justify-content: center;
     }
 
-    /* Indexpagina - correct per twee knoppen naast elkaar */
+    /* Indexpagina - correct per twee knoppen naast elkaar met vaste hoogte */
     #recipe-grid {
         display: flex;
         flex-wrap: wrap;
@@ -193,9 +193,16 @@ input[type="checkbox"] {
     }
 
     .recipe-tile {
+        width: 40%; /* Correct formaat zodat ze netjes naast elkaar staan */
+        height: 80px; /* Vaste hoogte zodat knoppen gelijk blijven */
+        font-size: 14px; /* Kleinere tekst zodat lange namen passen */
         text-align: center;
-        width: 40%; /* Kleiner gemaakt zodat ze netjes naast elkaar passen */
-        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     .recipe-tile img {
