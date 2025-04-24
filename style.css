@@ -158,22 +158,27 @@ main {
 
     .left {
         width: 250px;
-        overflow-y: auto;
+        overflow-y: overlay; /* Voorkomt breedteverandering door scrollbar */
         padding: 10px;
         box-sizing: border-box;
+        scrollbar-width: none; /* Voor Firefox: verberg scrollbar */
+    }
+
+    .left::-webkit-scrollbar {
+        display: none; /* Voor Chrome/Safari: verberg scrollbar */
     }
 
     .center {
         flex: 1;
-        overflow-y: overlay; /* Voorkomt breedteverandering door scrollbar */
+        overflow-y: overlay;
         padding: 10px;
         box-sizing: border-box;
-        margin-right: 270px; /* Ruimte voor .right (250px + 20px marge) */
-        scrollbar-width: none; /* Voor Firefox: verberg scrollbar */
+        margin-right: 270px;
+        scrollbar-width: none;
     }
 
     .center::-webkit-scrollbar {
-        display: none; /* Voor Chrome/Safari: verberg scrollbar */
+        display: none;
     }
 
     .right {
@@ -192,7 +197,7 @@ main {
         border-radius: 5px;
         object-fit: cover;
         object-position: center;
-        margin: 20px 0 0 0; /* Zorgt voor exacte uitlijning */
+        margin: 20px 0 0 0;
         display: block;
     }
 
@@ -213,7 +218,7 @@ main {
 
     .center h3 {
         font-size: 16px;
-        margin: 20px 0 10px 0; /* Zorgt voor exacte uitlijning */
+        margin: 20px 0 10px 0;
         text-align: left;
         color: #333;
     }
@@ -246,7 +251,7 @@ main {
         flex-wrap: wrap;
         align-items: center;
         gap: 10px;
-        margin: 20px 0 15px 0; /* Zorgt voor exacte uitlijning */
+        margin: 20px 0 15px 0;
         max-width: 100%;
     }
 
