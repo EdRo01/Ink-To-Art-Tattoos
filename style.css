@@ -4,7 +4,7 @@ html, body {
     max-width: 100% !important;
     height: auto !important;
     min-height: 100vh;
-    overflow-y: hidden !important;
+    overflow-y: auto !important;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -177,16 +177,16 @@ input[type="checkbox"] {
         justify-content: center;
     }
 
-    /* Indexpagina - mobiele optimalisatie */
+    /* Indexpagina - correct per twee knoppen naast elkaar */
     #recipe-grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* 2 kolommen naast elkaar */
         gap: 15px;
         justify-content: center;
         align-items: center;
         padding: 15px;
         max-height: 80vh;
-        overflow-y: auto;
+        overflow-y: auto; /* Scrollbaar maken */
     }
 
     .recipe-tile {
