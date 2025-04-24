@@ -194,8 +194,8 @@ input[type="checkbox"] {
 
     .recipe-tile {
         text-align: center;
-        width: 35%; /* Kleiner gemaakt zodat ze netjes naast elkaar passen */
-        margin-top: 2px;
+        width: 40%; /* Kleiner gemaakt zodat ze netjes naast elkaar passen */
+        margin-top: 5px;
     }
 
     .recipe-tile img {
