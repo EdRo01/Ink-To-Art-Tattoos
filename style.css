@@ -33,7 +33,7 @@ header h1 {
     flex-grow: 0 !important;
     width: auto !important;
     text-align: center !important;
-    margin: auto !important; /* Voorkomt dat marges de uitlijning verpesten */
+    margin: auto !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -80,7 +80,7 @@ header h1 {
 
 /* Tekst correct onder de afbeelding en binnen de knop */
 .recipe-tile p {
-    font-size: 14px !important; /* Voorkomt dat de tekst uit de knoppen loopt */
+    font-size: 14px !important;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -136,11 +136,10 @@ header h1 {
     }
 
     header {
-        font-size: 18px;
-        text-align: center;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
+        text-align: center !important;
         height: 50px !important;
     }
 
@@ -148,6 +147,10 @@ header h1 {
         width: auto !important;
         text-align: center !important;
         margin: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: 16px !important;
     }
 
     #recipe-grid {
