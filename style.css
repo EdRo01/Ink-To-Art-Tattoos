@@ -15,7 +15,8 @@ html, body {
 header {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
     background-color: #228B22;
     padding: 12px;
     text-align: center;
@@ -193,7 +194,7 @@ input[type="checkbox"] {
 
     .recipe-tile {
         text-align: center;
-        width: 48%;
+        width: 46%; /* Kleiner gemaakt zodat ze netjes naast elkaar passen */
         margin-top: 5px;
     }
 
