@@ -204,9 +204,9 @@ input[type="checkbox"] {
     }
 
     .recipe-tile img {
-        width: calc(100% - 10px); /* Vergroot de afbeelding zonder randen te overschrijden */
+        width: calc(100% - 5px); /* Vergroot de afbeelding zonder randen te overschrijden */
         height: auto;
-        margin: 8px 0;
+        margin: 5px 0;
     }
 
     .recipe-tile p {
