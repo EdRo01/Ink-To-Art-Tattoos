@@ -159,7 +159,7 @@ input[type="checkbox"] {
 }
 
 /* Mobiele layout */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100%) {
     body {
         overflow-y: auto !important;
     }
