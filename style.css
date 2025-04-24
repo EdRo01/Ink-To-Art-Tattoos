@@ -33,11 +33,11 @@ header h1 {
     flex-grow: 0 !important;
     width: auto !important;
     text-align: center !important;
-    margin: 0 auto !important;
+    margin: auto !important; /* Voorkomt dat marges de uitlijning verpesten */
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    font-size: 18px !important; /* Zorgt voor consistente tekstgrootte */
+    font-size: 18px !important;
 }
 
 /* Indexpagina */
@@ -147,7 +147,7 @@ header h1 {
     header h1 {
         width: auto !important;
         text-align: center !important;
-        margin: 0 auto !important;
+        margin: auto !important;
     }
 
     #recipe-grid {
