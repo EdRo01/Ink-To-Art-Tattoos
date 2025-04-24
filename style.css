@@ -56,13 +56,6 @@ header {
     cursor: pointer;
 }
 
-.recipe-tile img {
-    width: 150px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
 /* Layout met drie kolommen (desktop) */
 main {
     display: flex;
@@ -204,9 +197,9 @@ input[type="checkbox"] {
     }
 
     .recipe-tile img {
-        width: 40px;
+        width: calc(100% - 8px); /* Vergroot de afbeelding zonder randen te overschrijden */
         height: auto;
-        margin-bottom: 5px;
+        margin: 4px;
     }
 
     .recipe-tile p {
