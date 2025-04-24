@@ -20,6 +20,9 @@ header {
     color: white;
     font-size: 24px;
     z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Zorgt dat de tekst gecentreerd blijft */
 }
 
 /* Indexpagina - desktop */
@@ -161,24 +164,29 @@ input[type="checkbox"] {
         overflow-y: auto !important;
     }
 
-    /* Header blijft zoals desktop */
+    /* Header correct gecentreerd */
     header {
-        text-align: center;
         font-size: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    /* Indexpagina - mobiel */
+    /* Indexpagina - mobiele optimalisatie */
     #recipe-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 15px;
         justify-content: center;
+        align-items: center;
         padding: 15px;
     }
 
     .recipe-tile {
+        text-align: center;
         width: 100%;
-        padding: 10px;
+        margin-top: 10px;
     }
 
     .recipe-tile img {
@@ -186,7 +194,13 @@ input[type="checkbox"] {
         height: auto;
     }
 
-    /* Receptpagina - mobiel */
+    /* Zorgt ervoor dat indexpagina kan scrollen */
+    #recipe-grid {
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+
+    /* Receptpagina - correct gecentreerd en scrollbaar */
     .recept-container {
         display: block;
         padding: 15px;
@@ -194,17 +208,11 @@ input[type="checkbox"] {
         overflow-y: auto;
     }
 
-    .left, .center, .right {
-        max-width: 100%;
-        height: auto;
-        overflow-y: visible;
-        padding: 10px;
-    }
-
     .recipe-image {
         width: 100%;
         height: auto;
         display: block;
+        margin: 0 auto;
     }
 
     .ingredients, .calories, .instructions, .portions {
