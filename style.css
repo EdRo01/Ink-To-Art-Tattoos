@@ -37,13 +37,14 @@ header {
     padding: 15px;
     max-width: 90%;
     margin: 0 auto;
+    margin-top: 70px; /* Voorkomt dat de eerste twee knoppen onder de groene balk vallen */
     max-height: 80vh;
     overflow-y: auto;
 }
 
 /* Stijl van receptenblokken */
 .recipe-tile {
-    width: 46%;
+    width: 40%;
     height: 130px; /* Extra hoogte zodat tekst en afbeelding ruimte krijgen */
     background-color: white;
     border-radius: 10px;
@@ -55,7 +56,6 @@ header {
     overflow: hidden;
     text-align: center;
     padding: 10px;
-    margin-top: 0px; /* Voorkomt dat de eerste knop te hoog begint */
 }
 
 /* Zorgt ervoor dat afbeeldingen correct binnen de knoppen blijven */
@@ -140,6 +140,7 @@ header {
         padding: 15px;
         max-width: 90%;
         margin: 0 auto;
+        margin-top: 70px; /* Voorkomt dat de eerste twee knoppen onder de groene balk vallen */
         max-height: 80vh;
         overflow-y: auto;
     }
@@ -154,7 +155,6 @@ header {
         align-items: center;
         justify-content: space-between;
         overflow: hidden;
-        margin-top: 4px; /* Voorkomt dat de eerste knop te hoog begint */
     }
 
     .recipe-tile img {
