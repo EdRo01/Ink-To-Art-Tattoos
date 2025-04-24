@@ -25,7 +25,7 @@ header {
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: center; /* Zorgt dat de tekst gecentreerd blijft */
+    justify-content: center;
 }
 
 /* Indexpagina - desktop */
@@ -178,24 +178,23 @@ input[type="checkbox"] {
         justify-content: center;
     }
 
-    /* Indexpagina - correct per twee knoppen naast elkaar met vaste hoogte */
+    /* Indexpagina - correct per twee knoppen naast elkaar */
     #recipe-grid {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: flex-start;
         gap: 10px;
         padding: 15px;
         max-width: 90%;
         margin: 0 auto;
         max-height: 80vh;
-        overflow-y: auto; /* Alleen onder de balk laten scrollen */
+        overflow-y: auto;
     }
 
     .recipe-tile {
-        width: 40%; /* Correct formaat zodat ze netjes naast elkaar staan */
-        height: 80px; /* Vaste hoogte zodat knoppen gelijk blijven */
-        font-size: 14px; /* Kleinere tekst zodat lange namen passen */
+        width: 40%;
+        height: 80px;
+        font-size: 14px;
         text-align: center;
         display: flex;
         align-items: center;
@@ -206,40 +205,14 @@ input[type="checkbox"] {
     }
 
     .recipe-tile img {
-        width: 100%;
+        width: 40px;
         height: auto;
+        margin-right: 10px;
     }
 
     /* Zorgt ervoor dat alleen onder de balk wordt gescrolld */
     main {
         overflow-y: auto;
         height: calc(100vh - 60px);
-    }
-
-    /* Receptpagina correct gecentreerd en scrollbaar */
-    .recept-container {
-        display: block;
-        padding: 15px;
-        height: auto;
-        overflow-y: auto;
-    }
-
-    .recipe-image {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .ingredients, .calories, .instructions, .portions {
-        width: 100%;
-        text-align: left;
-        margin-top: 15px;
-    }
-
-    .portions input {
-        width: 80px;
-        padding: 5px;
-        font-size: 16px;
     }
 }
