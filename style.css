@@ -60,12 +60,12 @@ main {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    margin-top: 60px !important; /* Ruimte voor header */
-    overflow-y: auto; /* Verticaal scrollen */
-    overflow-x: hidden !important; /* Geen horizontaal scrollen */
+    margin-top: 60px !important;
+    overflow-y: auto;
+    overflow-x: hidden !important;
     box-sizing: border-box;
-    max-width: 100vw; /* Beperk tot schermbreedte */
-    height: auto !important; /* Vrije hoogte voor alle inhoud */
+    max-width: 100vw;
+    height: auto !important;
 }
 
 /* Copyright */
@@ -172,69 +172,71 @@ main {
     /* Receptpagina */
     main {
         display: flex;
-        flex-direction: column; /* Verticaal stapelen */
-        gap: 12px; /* Ruimte tussen secties */
-        padding: 10px; /* Compacte padding */
-        margin-top: 60px !important; /* Ruimte voor header */
-        overflow-y: auto; /* Verticaal scrollen */
-        overflow-x: hidden !important; /* Geen horizontaal scrollen */
+        flex-direction: column;
+        gap: 12px;
+        padding: 10px;
+        margin-top: 60px !important;
+        overflow-y: auto;
+        overflow-x: hidden !important;
         box-sizing: border-box;
-        max-width: 100%; /* Beperk tot schermbreedte */
-        height: auto !important; /* Vrije hoogte */
-        min-height: calc(100vh - 60px); /* Minimaal schermhoogte minus header */
+        max-width: 100%;
+        height: auto !important;
+        min-height: calc(100vh - 60px);
     }
 
     .left, .center, .right {
-        width: 100%; /* Volle breedte op mobiel */
-        max-width: 100%; /* Voorkom uitbreiding */
-        overflow-x: hidden !important; /* Extra zekerheid */
-        height: auto; /* Laat secties groeien */
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden !important;
+        height: auto;
     }
 
     .left img {
         width: 100%; /* Volledige schermbreedte */
-        height: auto; /* Automatische hoogte */
+        height: 200px; /* Vaste hoogte voor consistente ruimte */
         border-radius: 5px;
-        object-fit: cover;
-        margin: 0; /* Geen extra marge */
+        object-fit: cover; /* Bijsnijden om ruimte te vullen */
+        object-position: center; /* Centreer de foto */
+        margin: 0;
+        display: block; /* Zorgt voor nette weergave */
     }
 
     .left h2 {
         font-size: 16px;
-        margin: 10px 0 10px 10px; /* Linkermarge 10px */
+        margin: 10px 0 10px 10px;
         text-align: left;
         color: #333;
-        word-wrap: break-word; /* Lange titels afbreken */
+        word-wrap: break-word;
     }
 
     .left h3, .center h3 {
         font-size: 14px;
-        margin: 10px 0 5px 10px; /* Linkermarge 10px */
+        margin: 10px 0 5px 10px;
         text-align: left;
         color: #333;
     }
 
     .left ul, .center ol {
-        margin: 0 0 10px 20px; /* Linkermarge 10px + 10px voor bullets/nummers */
+        margin: 0 0 10px 20px;
         padding: 0;
         list-style-position: outside;
-        max-width: calc(100% - 20px); /* Beperk breedte tot container */
-        word-wrap: break-word; /* Lange tekst afbreken */
-        white-space: normal; /* Normaal tekstgedrag */
-        height: auto; /* Laat lijsten groeien */
+        max-width: calc(100% - 20px);
+        word-wrap: break-word;
+        white-space: normal;
+        height: auto;
     }
 
     .left li, .center li {
         font-size: 12px;
         line-height: 1.4;
-        margin-bottom: 8px; /* Spacing tussen ingrediënten/stappen */
+        margin-bottom: 8px;
         color: #555;
-        word-wrap: break-word; /* Lange items afbreken */
-        max-width: 100%; /* Beperk breedte */
+        word-wrap: break-word;
+        max-width: 100%;
     }
 
     .center li {
-        margin-bottom: 12px; /* Grotere witregel tussen stappen */
+        margin-bottom: 12px; /* Witregel tussen stappen */
     }
 
     .right #portion-section {
@@ -242,8 +244,8 @@ main {
         flex-wrap: wrap;
         align-items: center;
         gap: 8px;
-        margin: 10px 0 10px 10px; /* Linkermarge 10px */
-        max-width: 100%; /* Beperk breedte */
+        margin: 10px 0 10px 10px;
+        max-width: 100%;
     }
 
     .right label {
@@ -252,7 +254,7 @@ main {
     }
 
     .right input {
-        width: 60px; /* Compacter invulveld */
+        width: 60px;
         padding: 5px;
         font-size: 12px;
         border: 1px solid #ccc;
@@ -277,15 +279,15 @@ main {
         font-size: 12px;
         color: #555;
         margin: 5px 0 0 0;
-        width: 100%; /* Volle breedte voor calorie-tekst */
-        word-wrap: break-word; /* Lange tekst afbreken */
+        width: 100%;
+        word-wrap: break-word;
     }
 
     .back-button {
-        padding: 8px 12px; /* Compacte knop */
+        padding: 8px 12px;
         font-size: 14px;
-        margin: 10px auto; /* Gecentreerd */
-        width: fit-content; /* Knop past bij inhoud */
+        margin: 10px auto;
+        width: fit-content;
     }
 
     .copyright {
@@ -330,19 +332,23 @@ main {
         padding: 8px;
     }
 
+    .left img {
+        height: 180px; /* Iets kleinere vaste hoogte voor kleinere schermen */
+    }
+
     .left h2 {
         font-size: 14px;
-        margin: 8px 0 8px 8px; /* Kleinere marge */
+        margin: 8px 0 8px 8px;
     }
 
     .left h3, .center h3 {
         font-size: 12px;
-        margin: 8px 0 4px 8px; /* Kleinere marge */
+        margin: 8px 0 4px 8px;
     }
 
     .left ul, .center ol {
-        margin: 0 0 8px 16px; /* Kleinere inspringing */
-        max-width: calc(100% - 16px); /* Aanpassen voor kleinere schermen */
+        margin: 0 0 8px 16px;
+        max-width: calc(100% - 16px);
     }
 
     .left li, .center li {
@@ -351,12 +357,12 @@ main {
     }
 
     .center li {
-        margin-bottom: 10px; /* Kleinere witregel */
+        margin-bottom: 10px;
     }
 
     .right #portion-section {
         gap: 6px;
-        margin: 8px 0 8px 8px; /* Kleinere marge */
+        margin: 8px 0 8px 8px;
     }
 
     .right label {
@@ -364,7 +370,7 @@ main {
     }
 
     .right input {
-        width: 50px; /* Nog compacter */
+        width: 50px;
         padding: 4px;
         font-size: 11px;
     }
