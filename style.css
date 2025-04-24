@@ -56,6 +56,13 @@ header {
     cursor: pointer;
 }
 
+.recipe-tile img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 /* Layout met drie kolommen (desktop) */
 main {
     display: flex;
@@ -192,14 +199,14 @@ input[type="checkbox"] {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start; /* Voorkomt dat tekst wordt overschreven */
         overflow: hidden;
     }
 
     .recipe-tile img {
         width: calc(100% - 8px); /* Vergroot de afbeelding zonder randen te overschrijden */
         height: auto;
-        margin: 4px;
+        margin: 4px 0;
     }
 
     .recipe-tile p {
@@ -207,6 +214,7 @@ input[type="checkbox"] {
         text-overflow: ellipsis;
         white-space: nowrap;
         max-width: 90%;
+        margin-top: auto;
     }
 
     /* Zorgt ervoor dat alleen onder de balk wordt gescrolld */
