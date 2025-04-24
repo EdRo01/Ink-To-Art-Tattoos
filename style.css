@@ -1,8 +1,8 @@
 /* Algemene styling */
 html, body {
-    height: auto !important; /* Voorkomt dat de hele pagina de schermhoogte overneemt */
-    min-height: 100vh; /* Zorgt ervoor dat de site minimaal het scherm vult */
-    overflow-y: hidden !important; /* Voorkomt dat een verticale scrollbar verschijnt */
+    height: auto !important;
+    min-height: 100vh;
+    overflow-y: hidden !important;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ header {
     z-index: 1000;
 }
 
-/* Indexpagina */
+/* Indexpagina - desktop */
 #recipe-grid {
     display: flex;
     flex-wrap: wrap;
@@ -57,7 +57,7 @@ header {
     border-radius: 10px;
 }
 
-/* Layout met drie kolommen */
+/* Layout met drie kolommen (desktop) */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -65,16 +65,16 @@ main {
     gap: 20px;
     padding: 20px;
     margin-top: 60px;
-    height: auto; /* Voorkomt dat main zich volledig uitstrekt */
+    height: auto;
 }
 
-/* Scrollbare kolommen op receptpagina */
+/* Scrollbare kolommen op receptpagina (desktop) */
 .recept-container {
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
     padding: 20px;
-    height: calc(100vh - 80px); /* Houdt alles binnen het scherm */
+    height: calc(100vh - 80px);
     overflow-y: hidden;
 }
 
@@ -98,7 +98,7 @@ main {
     max-width: none;
     height: calc(100vh - 80px);
     overflow-y: auto;
-    overflow-x: hidden; /* Voorkomt horizontaal scrollen */
+    overflow-x: hidden;
     padding: 10px;
 }
 
@@ -106,27 +106,27 @@ main {
 input[type="checkbox"] {
     height: 20px !important;
     width: 20px !important;
-    display: inline-block !important; /* Voorkomt dat ze de hele container vullen */
-    flex-shrink: 0 !important; /* Voorkomt dat ze meerekken in flex-container */
+    display: inline-block !important;
+    flex-shrink: 0 !important;
 }
 
 .checkbox-container {
-    max-height: 60px !important; /* Voorkomt uitrekking */
+    max-height: 60px !important;
     height: auto !important;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-grow: 0 !important; /* Voorkomt dat de container ze forceert te groeien */
+    flex-grow: 0 !important;
 }
 
 /* Zorgt ervoor dat er witregels zijn tussen bereidingsstappen */
 .center li {
     display: block;
-    margin-bottom: 15px !important; /* Voegt ruimte toe tussen stappen */
-    padding-bottom: 10px !important; /* Extra ruimte tussen regels */
+    margin-bottom: 15px !important;
+    padding-bottom: 10px !important;
 }
 
-/* Copyright correct uitgelijnd en gefixeerd */
+/* Copyright correct uitgelijnd */
 .copyright {
     position: fixed;
     bottom: 10px;
@@ -139,7 +139,7 @@ input[type="checkbox"] {
 
 /* Terug naar index-knop in dezelfde kleur als de header */
 .back-button {
-    background-color: #228B22 !important; /* Exact dezelfde groene kleur als de balk */
+    background-color: #228B22 !important;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -152,18 +152,70 @@ input[type="checkbox"] {
 }
 
 .back-button:hover {
-    background-color: #1A6F1A !important; /* Donkere tint groen bij hover */
+    background-color: #1A6F1A !important;
 }
 
-/* Mobiele weergave (landscape) fix */
-@media screen and (max-width: 1024px) and (orientation: landscape) {
-    main {
-        flex-direction: row;
-        align-items: flex-start;
+/* Mobiele layout */
+@media screen and (max-width: 768px) {
+    body {
+        overflow-y: auto !important;
+    }
+
+    /* Header blijft zoals desktop */
+    header {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /* Indexpagina - mobiel */
+    #recipe-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .recipe-tile {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .recipe-tile img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Receptpagina - mobiel */
+    .recept-container {
+        display: block;
+        padding: 15px;
+        height: auto;
+        overflow-y: auto;
     }
 
     .left, .center, .right {
-        max-width: 32%;
+        max-width: 100%;
+        height: auto;
+        overflow-y: visible;
+        padding: 10px;
+    }
+
+    .recipe-image {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .ingredients, .calories, .instructions, .portions {
+        width: 100%;
         text-align: left;
+        margin-top: 15px;
+    }
+
+    .portions input {
+        width: 80px;
+        padding: 5px;
+        font-size: 16px;
     }
 }
