@@ -110,7 +110,7 @@ header h1 {
 
     .recipe-tile {
         width: calc(47% - 4px); /* Twee tegels naast elkaar */
-        height: 165px; /* Hogere tegel voor 4 regels tekst */
+        height: 180px; /* Veel hogere tegel voor 4 regels tekst */
         background-color: white;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -120,7 +120,7 @@ header h1 {
         justify-content: space-between;
         overflow: hidden;
         text-align: center;
-        padding: 4px; /* Minder padding */
+        padding: 3px; /* Nog minder padding */
         box-sizing: border-box;
     }
 
@@ -133,10 +133,10 @@ header h1 {
 
     .recipe-tile p {
         font-size: 8px; /* Behouden, voldoende klein */
-        max-height: 72px; /* Ruimte voor 4 regels */
+        max-height: 80px; /* Ruimte voor 4 volledige regels */
         line-height: 1.15; /* Compacte regelafstand */
         padding: 0 2px;
-        margin: 2px 0 0 0; /* Minder marge */
+        margin: 2px 0 0 0; /* Minimale marge */
         text-align: center;
         max-width: 100%;
         overflow: hidden;
@@ -162,8 +162,8 @@ header h1 {
 
     .recipe-tile {
         width: calc(47% - 3px); /* Twee tegels */
-        height: 160px; /* Hogere tegel */
-        padding: 3px; /* Minder padding */
+        height: 175px; /* Veel hogere tegel */
+        padding: 2px; /* Nog minder padding */
     }
 
     .recipe-tile img {
@@ -172,7 +172,7 @@ header h1 {
 
     .recipe-tile p {
         font-size: 7px; /* Behouden, voldoende klein */
-        max-height: 66px; /* Aangepast voor 4 regels */
+        max-height: 74px; /* Aangepast voor 4 volledige regels */
         line-height: 1.1;
         margin: 2px 0 0 0;
         -webkit-line-clamp: 4; /* 4 regels tekst */
