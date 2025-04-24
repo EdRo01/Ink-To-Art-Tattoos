@@ -148,28 +148,30 @@ main {
         display: flex;
         flex-wrap: nowrap;
         gap: 20px;
-        padding: 20px;
-        max-width: 1200px;
+        padding: 20px 0; /* Alleen boven/onder padding */
         margin-top: 80px !important;
+        margin-left: 20px; /* 20px vanaf linker rand */
+        margin-right: 20px; /* 20px vanaf rechter rand */
+        max-width: 1200px;
         height: calc(100vh - 80px);
     }
 
     .left {
-        width: 250px; /* Vaste breedte */
+        width: 250px;
         overflow-y: auto;
         padding: 10px;
         box-sizing: border-box;
     }
 
     .center {
-        flex: 1; /* Resterende ruimte */
+        flex: 1;
         overflow-y: auto;
         padding: 10px;
         box-sizing: border-box;
     }
 
     .right {
-        width: 250px; /* Zelfde als .left */
+        width: 250px;
         position: sticky;
         top: 80px;
         height: fit-content;
@@ -179,7 +181,7 @@ main {
 
     .left img {
         width: 100%;
-        height: 173px; /* 4:3 bij 230px breed */
+        height: 173px;
         border-radius: 5px;
         object-fit: cover;
         object-position: center;
