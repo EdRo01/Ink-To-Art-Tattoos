@@ -183,7 +183,7 @@ input[type="checkbox"] {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 10px;
+        gap: 8px; /* Kleine marge tussen de knoppen */
         padding: 15px;
         max-width: 90%;
         margin: 0 auto;
@@ -193,13 +193,13 @@ input[type="checkbox"] {
 
     .recipe-tile {
         width: 46%;
-        height: 100px;
+        height: 120px; /* Extra hoogte zodat tekst goed binnen blijft */
         font-size: 12px;
         text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start; /* Voorkomt dat tekst wordt overschreven */
+        justify-content: flex-start;
         overflow: hidden;
     }
 
