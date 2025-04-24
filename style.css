@@ -19,19 +19,20 @@ header {
     max-width: 100vw !important;
     background-color: #228B22;
     padding: 12px;
-    text-align: center;
     color: white;
     font-size: 24px;
     z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Zorgt dat de tekst écht gecentreerd is */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
 }
 
-/* Zorgt ervoor dat de tekst binnen de header ook correct gecentreerd is */
+/* Zorgt ervoor dat de tekst binnen de header correct gecentreerd is */
 header h1, header p {
-    width: 100%;
-    text-align: center; /* Voorkomt verkeerd centreren door een vaste breedte */
+    flex-grow: 0 !important;
+    width: auto !important;
+    text-align: center !important;
 }
 
 /* Indexpagina */
@@ -131,14 +132,14 @@ header h1, header p {
     header {
         font-size: 20px;
         text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
     header h1, header p {
-        width: 100%;
-        text-align: center;
+        width: auto !important;
+        text-align: center !important;
     }
 
     #recipe-grid {
