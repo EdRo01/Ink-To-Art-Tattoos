@@ -98,9 +98,9 @@ header h1 {
     #recipe-grid {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; /* Centreert de tegels */
-        gap: 12px; /* Horizontale en verticale ruimte */
-        padding: 0 12px; /* Gelijke zijmarges */
+        justify-content: space-between; /* Gelijke verdeling voor twee tegels */
+        gap: 10px; /* Kleinere ruimte tussen tegels en rijen */
+        padding: 0 10px; /* Gelijke zijmarges */
         max-width: 100%; /* Volledige breedte */
         margin: 0 auto;
         margin-top: 60px !important; /* Ruimte voor header */
@@ -109,7 +109,7 @@ header h1 {
     }
 
     .recipe-tile {
-        width: calc(50% - 6px); /* Twee tegels naast elkaar, rekening met gap */
+        width: calc(48% - 5px); /* Smallere tegels voor twee naast elkaar */
         height: 125px;
         background-color: white;
         border-radius: 10px;
@@ -155,12 +155,12 @@ header h1 {
     }
 
     #recipe-grid {
-        gap: 10px; /* Kleinere ruimte voor kleine schermen */
-        padding: 0 10px; /* Gelijke zijmarges */
+        gap: 8px; /* Nog kleinere ruimte */
+        padding: 0 8px; /* Gelijke zijmarges */
     }
 
     .recipe-tile {
-        width: calc(50% - 5px); /* Twee tegels, aangepast voor kleinere gap */
+        width: calc(48% - 4px); /* Nog smallere tegels */
         height: 120px;
         padding: 5px;
     }
@@ -177,7 +177,7 @@ header h1 {
     }
 }
 
-/* Overige secties (ongewijzigd, minimaal voor context) */
+/* Overige secties (ongewijzigd, voor context) */
 .recept-container {
     display: flex;
     flex-wrap: nowrap;
