@@ -197,15 +197,15 @@ main {
         color: #333;
     }
 
-    .left h3 {
+    .left h3, .center h3 {
         font-size: 14px;
         margin: 10px 0 5px 10px; /* Linkermarge 10px */
         text-align: left;
         color: #333;
     }
 
-    .left ul {
-        margin: 0 0 10px 20px; /* Linkermarge 10px + 10px voor bullets */
+    .left ul, .center ol {
+        margin: 0 0 10px 20px; /* Linkermarge 10px + 10px voor bullets/nummers */
         padding: 0;
         list-style-position: outside;
     }
@@ -215,19 +215,6 @@ main {
         line-height: 1.4;
         margin-bottom: 8px; /* Spacing tussen ingrediënten */
         color: #555;
-    }
-
-    .center h3 {
-        font-size: 14px;
-        margin: 10px 0 5px 10px; /* Linkermarge 10px */
-        text-align: left;
-        color: #333;
-    }
-
-    .center ol {
-        margin: 0 0 10px 20px; /* Linkermarge 10px + 10px voor nummers */
-        padding: 0;
-        list-style-position: outside;
     }
 
     .center li {
@@ -276,6 +263,7 @@ main {
         font-size: 12px;
         color: #555;
         margin: 5px 0 0 0;
+        width: 100%; /* Volle breedte voor calorie-tekst */
     }
 
     .back-button {
@@ -332,27 +320,18 @@ main {
         margin: 8px 0 8px 8px; /* Kleinere marge */
     }
 
-    .left h3 {
+    .left h3, .center h3 {
         font-size: 12px;
         margin: 8px 0 4px 8px; /* Kleinere marge */
     }
 
-    .left ul {
+    .left ul, .center ol {
         margin: 0 0 8px 16px; /* Kleinere inspringing */
     }
 
     .left li {
         font-size: 11px;
         margin-bottom: 6px;
-    }
-
-    .center h3 {
-        font-size: 12px;
-        margin: 8px 0 4px 8px; /* Kleinere marge */
-    }
-
-    .center ol {
-        margin: 0 0 8px 16px; /* Kleinere inspringing */
     }
 
     .center li {
