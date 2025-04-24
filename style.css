@@ -154,7 +154,7 @@ header {
         align-items: center;
         justify-content: space-between;
         overflow: hidden;
-        margin-top: 0px; /* Voorkomt dat de eerste knop te hoog begint */
+        margin-top: 4px; /* Voorkomt dat de eerste knop te hoog begint */
     }
 
     .recipe-tile img {
