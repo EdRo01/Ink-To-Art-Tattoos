@@ -1,5 +1,7 @@
 /* Algemene styling */
 html, body {
+    width: 100% !important;
+    max-width: 100% !important;
     height: auto !important;
     min-height: 100vh;
     overflow-y: hidden !important;
@@ -159,8 +161,10 @@ input[type="checkbox"] {
 }
 
 /* Mobiele layout */
-@media screen and (max-width: 100%) {
+@media screen and (max-width: 768px) {
     body {
+        width: 100% !important;
+        max-width: 100% !important;
         overflow-y: auto !important;
     }
 
@@ -181,6 +185,8 @@ input[type="checkbox"] {
         justify-content: center;
         align-items: center;
         padding: 15px;
+        max-height: 80vh;
+        overflow-y: auto;
     }
 
     .recipe-tile {
@@ -194,13 +200,7 @@ input[type="checkbox"] {
         height: auto;
     }
 
-    /* Zorgt ervoor dat indexpagina kan scrollen */
-    #recipe-grid {
-        max-height: 80vh;
-        overflow-y: auto;
-    }
-
-    /* Receptpagina - correct gecentreerd en scrollbaar */
+    /* Receptpagina correct gecentreerd en scrollbaar */
     .recept-container {
         display: block;
         padding: 15px;
