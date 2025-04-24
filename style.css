@@ -2,7 +2,7 @@
 html, body {
     width: 100% !important;
     max-width: 100vw !important;
-    height: 100vh !important; /* Viewport-hoogte voor desktop */
+    height: 100vh !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
     font-family: Arial, sans-serif;
@@ -33,7 +33,7 @@ header {
 #recipe-grid {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px !important; /* Gehalveerd van 80px */
+    margin-top: 40px !important;
     padding: 0 20px;
     max-width: 1200px;
     margin-left: auto;
@@ -77,14 +77,14 @@ main {
     display: flex;
     gap: 20px;
     padding: 20px;
-    margin-top: 80px !important; /* Ruimte voor header */
+    margin-top: 80px !important;
     overflow-y: auto;
     overflow-x: hidden !important;
     box-sizing: border-box;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    height: calc(100vh - 80px); /* Viewport-hoogte minus header */
+    height: calc(100vh - 80px);
 }
 
 /* Copyright */
@@ -120,7 +120,7 @@ main {
     /* Indexpagina */
     #recipe-grid {
         gap: 20px;
-        margin-top: 40px !important; /* Gehalveerd */
+        margin-top: 40px !important;
     }
 
     .recipe-tile {
@@ -146,64 +146,71 @@ main {
     /* Receptpagina */
     main {
         display: flex;
-        flex-wrap: nowrap; /* Kolommen naast elkaar */
+        flex-wrap: nowrap;
         gap: 20px;
         padding: 20px;
         max-width: 1200px;
         margin-top: 80px !important;
-        height: calc(100vh - 80px); /* Viewport-hoogte minus header */
+        height: calc(100vh - 80px);
     }
 
     .left {
-        width: 25%; /* Smalle linker kolom */
-        overflow-y: auto; /* Scrollen */
-        padding: 15px; /* Interne marge */
+        width: 250px; /* Vaste breedte */
+        overflow-y: auto;
+        padding: 10px;
         box-sizing: border-box;
     }
 
     .center {
-        width: 50%; /* Brede midden kolom */
-        overflow-y: auto; /* Scrollen */
-        padding: 15px; /* Interne marge */
+        flex: 1; /* Resterende ruimte */
+        overflow-y: auto;
+        padding: 10px;
         box-sizing: border-box;
     }
 
     .right {
-        width: 25%; /* Smalle rechter kolom */
-        position: sticky; /* Vast in viewport */
-        top: 80px; /* Onder header */
-        height: fit-content; /* Past bij inhoud */
-        padding: 15px; /* Interne marge */
+        width: 250px; /* Zelfde als .left */
+        position: sticky;
+        top: 80px;
+        height: fit-content;
+        padding: 10px;
         box-sizing: border-box;
     }
 
     .left img {
         width: 100%;
-        height: 300px; /* Grotere consistente hoogte */
+        height: 173px; /* 4:3 bij 230px breed */
         border-radius: 5px;
         object-fit: cover;
         object-position: center;
-        margin: 0;
+        margin: 20px 0 0 0;
         display: block;
     }
 
     .left h2 {
-        font-size: 20px; /* Groter voor desktop */
-        margin: 15px 0 15px 0; /* Geen linkermarge */
+        font-size: 20px;
+        margin: 15px 0;
         text-align: left;
         color: #333;
         word-wrap: break-word;
     }
 
-    .left h3, .center h3 {
+    .left h3 {
         font-size: 16px;
         margin: 15px 0 10px 0;
         text-align: left;
         color: #333;
     }
 
+    .center h3 {
+        font-size: 16px;
+        margin: 20px 0 10px 0;
+        text-align: left;
+        color: #333;
+    }
+
     .left ul, .center ol {
-        margin: 0 0 15px 15px; /* Interne marge + inspringing */
+        margin: 0 0 15px 15px;
         padding: 0;
         list-style-position: outside;
         max-width: calc(100% - 15px);
@@ -213,7 +220,7 @@ main {
     }
 
     .left li, .center li {
-        font-size: 14px; /* Groter voor desktop */
+        font-size: 14px;
         line-height: 1.5;
         margin-bottom: 10px;
         color: #555;
@@ -222,7 +229,7 @@ main {
     }
 
     .center li {
-        margin-bottom: 14px; /* Witregel tussen stappen */
+        margin-bottom: 14px;
     }
 
     .right #portion-section {
@@ -230,7 +237,7 @@ main {
         flex-wrap: wrap;
         align-items: center;
         gap: 10px;
-        margin: 15px 0;
+        margin: 20px 0 15px 0;
         max-width: 100%;
     }
 
@@ -240,7 +247,7 @@ main {
     }
 
     .right input {
-        width: 80px; /* Groter invoerveld */
+        width: 80px;
         padding: 6px;
         font-size: 14px;
         border: 1px solid #ccc;
@@ -296,7 +303,6 @@ main {
         font-size: 16px !important;
     }
 
-    /* Indexpagina */
     #recipe-grid {
         display: flex;
         flex-wrap: wrap;
@@ -349,7 +355,6 @@ main {
         white-space: normal;
     }
 
-    /* Receptpagina */
     main {
         display: flex;
         flex-direction: column;
@@ -483,7 +488,6 @@ main {
         font-size: 14px !important;
     }
 
-    /* Indexpagina */
     #recipe-grid {
         gap: 6px;
         padding: 0 6px;
@@ -506,7 +510,6 @@ main {
         -webkit-line-clamp: 4;
     }
 
-    /* Receptpagina */
     main {
         gap: 10px;
         padding: 8px;
