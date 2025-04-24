@@ -98,7 +98,8 @@ header h1 {
     #recipe-grid {
         display: flex;
         flex-wrap: wrap;
-        gap: 8px; /* Kleine ruimte tussen tegels en rijen */
+        justify-content: center; /* Centreert de tegels */
+        gap: 8px; /* Gelijke ruimte tussen tegels en rijen */
         padding: 0 8px; /* Gelijke zijmarges */
         max-width: 100%; /* Volledige breedte */
         margin: 0 auto;
@@ -108,8 +109,8 @@ header h1 {
     }
 
     .recipe-tile {
-        width: calc(47% - 4px); /* Smallere tegels voor twee naast elkaar */
-        height: 125px;
+        width: calc(47% - 4px); /* Twee tegels naast elkaar */
+        height: 140px; /* Hogere tegel voor meer tekst ruimte */
         background-color: white;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -130,10 +131,10 @@ header h1 {
         border-radius: 5px;
     }
 
-    .recipe-tile P {
-        font-size: 11px;
-        max-height: 48px;
-        line-height: 1.15;
+    .recipe-tile p {
+        font-size: 10px; /* Kleinere tekst */
+        max-height: 54px; /* Ruimte voor 3 regels */
+        line-height: 1.2; /* Iets ruimere regelafstand */
         padding: 0 2px;
         margin: 4px 0 0 0;
         text-align: center;
@@ -155,13 +156,13 @@ header h1 {
     }
 
     #recipe-grid {
-        gap: 6px; /* Nog kleinere ruimte */
+        gap: 6px; /* Kleinere ruimte */
         padding: 0 6px; /* Gelijke zijmarges */
     }
 
     .recipe-tile {
-        width: calc(47% - 3px); /* Nog smallere tegels */
-        height: 120px;
+        width: calc(47% - 3px); /* Twee tegels */
+        height: 135px; /* Iets korter maar hoger dan voorheen */
         padding: 5px;
     }
 
@@ -170,9 +171,9 @@ header h1 {
     }
 
     .recipe-tile p {
-        font-size: 10px;
-        max-height: 45px;
-        line-height: 1.1;
+        font-size: 9px; /* Nog kleinere tekst */
+        max-height: 48px; /* Aangepast voor 3 regels */
+        line-height: 1.15;
         -webkit-line-clamp: 3;
     }
 }
