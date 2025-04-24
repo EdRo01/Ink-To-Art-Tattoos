@@ -1,3 +1,4 @@
+// Indexpagina: Recepten tonen
 document.addEventListener("DOMContentLoaded", function () {
     fetch("recepten.json")
         .then(response => response.json())
@@ -92,9 +93,21 @@ document.addEventListener("DOMContentLoaded", function () {
                     ingredientsList.innerHTML = "";
 
                     recipe.ingrediënten.forEach(ingredient => {
-                        const hoeveelheid = parseFloat(ingredient.split(" ")[0]) * portionSize;
                         const li = document.createElement("li");
-                        li.textContent = `${hoeveelheid} ${ingredient.split(" ").slice(1).join(" ")}`;
+                        const firstPart = ingredient.split(" ")[0];
+                        const amount = parseFloat(firstPart);
+
+                        // Controleer of de hoeveelheid een geldig getal is
+                        if (!isNaN(amount)) {
+                            // Ingrediënt met numerieke hoeveelheid: schaal de hoeveelheid
+                            const scaledAmount = amount * portionSize;
+                            const restOfIngredient = ingredient.split(" ").slice(1).join(" ");
+                            li.textContent = `${scaledAmount} ${restOfIngredient}`;
+                        } else {
+                            // Ingrediënt zonder numerieke hoeveelheid: toon ongewijzigd
+                            li.textContent = ingredient;
+                        }
+
                         ingredientsList.appendChild(li);
                     });
 
