@@ -19,7 +19,7 @@ header {
     background-color: #228B22;
     padding: 8px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     z-index: 9999 !important;
     display: flex !important;
     align-items: center !important;
@@ -29,19 +29,7 @@ header {
     box-sizing: border-box;
 }
 
-/* Zorgt ervoor dat de tekst binnen de header correct gecentreerd is */
-header h1 {
-    flex-grow: 0 !important;
-    width: auto !important;
-    text-align: center !important;
-    margin: auto !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    font-size: 18px !important;
-}
-
-/* Indexpagina (minimaal voor desktop) */
+/* Indexpagina */
 #recipe-grid {
     display: flex;
     flex-wrap: wrap;
@@ -49,23 +37,61 @@ header h1 {
     overflow-y: auto;
 }
 
-/* Stijl van receptenblokken (minimaal voor desktop) */
 .recipe-tile {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Afbeeldingen (minimaal voor desktop) */
 .recipe-tile img {
     width: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
 
-/* Tekst (minimaal voor desktop) */
 .recipe-tile p {
     text-align: center;
+}
+
+/* Receptpagina (algemene styling) */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 60px !important;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+/* Copyright */
+.copyright {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #888;
+    text-align: right;
+    width: 100%;
+}
+
+/* Terug naar index-knop */
+.back-button {
+    background-color: #228B22 !important;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.back-button:hover {
+    background-color: #1A6F1A !important;
 }
 
 /* Mobiele layout */
@@ -83,34 +109,26 @@ header h1 {
         text-align: center !important;
         height: 50px !important;
         padding: 8px;
-    }
-
-    header h1 {
-        width: auto !important;
-        text-align: center !important;
-        margin: auto !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
         font-size: 16px !important;
     }
 
+    /* Indexpagina */
     #recipe-grid {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; /* Centreert de tegels */
-        gap: 8px; /* Gelijke ruimte tussen tegels en rijen */
-        padding: 0 8px; /* Gelijke zijmarges */
-        max-width: 100%; /* Volledige breedte */
+        justify-content: center;
+        gap: 8px;
+        padding: 0 8px;
+        max-width: 100%;
         margin: 0 auto;
-        margin-top: 60px !important; /* Ruimte voor header */
-        max-height: calc(100vh - 60px); /* Scrollen onder header */
+        margin-top: 60px !important;
+        max-height: calc(100vh - 60px);
         overflow-y: auto;
     }
 
     .recipe-tile {
-        width: calc(47% - 4px); /* Twee tegels naast elkaar */
-        height: 180px; /* Veel hogere tegel voor 4 regels tekst */
+        width: calc(47% - 4px);
+        height: 180px;
         background-color: white;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -120,7 +138,7 @@ header h1 {
         justify-content: space-between;
         overflow: hidden;
         text-align: center;
-        padding: 3px; /* Nog minder padding */
+        padding: 3px;
         box-sizing: border-box;
     }
 
@@ -132,38 +150,164 @@ header h1 {
     }
 
     .recipe-tile p {
-        font-size: 8px; /* Behouden, voldoende klein */
-        max-height: 80px; /* Ruimte voor 4 volledige regels */
-        line-height: 1.15; /* Compacte regelafstand */
+        font-size: 8px;
+        max-height: 80px;
+        line-height: 1.15;
         padding: 0 2px;
-        margin: 2px 0 0 0; /* Minimale marge */
+        margin: 2px 0 0 0;
         text-align: center;
         max-width: 100%;
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
-        -webkit-line-clamp: 4; /* 4 regels tekst */
+        -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
         word-wrap: break-word;
         white-space: normal;
+    }
+
+    /* Receptpagina */
+    main {
+        display: flex;
+        flex-direction: column; /* Verticaal stapelen */
+        gap: 12px; /* Ruimte tussen secties */
+        padding: 10px; /* Compacte padding */
+        margin-top: 60px !important; /* Ruimte voor header */
+        max-height: calc(100vh - 60px); /* Scrollen onder header */
+        overflow-y: auto; /* Verticaal scrollen */
+        box-sizing: border-box;
+    }
+
+    .left, .center, .right {
+        width: 100%; /* Volle breedte op mobiel */
+    }
+
+    .left img {
+        width: 100%; /* Volledige schermbreedte */
+        height: auto; /* Automatische hoogte */
+        border-radius: 5px;
+        object-fit: cover;
+        margin: 0; /* Geen extra marge */
+    }
+
+    .left h2 {
+        font-size: 16px;
+        margin: 10px 0 10px 10px; /* Linkermarge 10px */
+        text-align: left;
+        color: #333;
+    }
+
+    .left h3 {
+        font-size: 14px;
+        margin: 10px 0 5px 10px; /* Linkermarge 10px */
+        text-align: left;
+        color: #333;
+    }
+
+    .left ul {
+        margin: 0 0 10px 20px; /* Linkermarge 10px + 10px voor bullets */
+        padding: 0;
+        list-style-position: outside;
+    }
+
+    .left li {
+        font-size: 12px;
+        line-height: 1.4;
+        margin-bottom: 8px; /* Spacing tussen ingrediënten */
+        color: #555;
+    }
+
+    .center h3 {
+        font-size: 14px;
+        margin: 10px 0 5px 10px; /* Linkermarge 10px */
+        text-align: left;
+        color: #333;
+    }
+
+    .center ol {
+        margin: 0 0 10px 20px; /* Linkermarge 10px + 10px voor nummers */
+        padding: 0;
+        list-style-position: outside;
+    }
+
+    .center li {
+        font-size: 12px;
+        line-height: 1.4;
+        margin-bottom: 12px; /* Grotere witregel tussen stappen */
+        color: #555;
+    }
+
+    .right #portion-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+        margin: 10px 0 10px 10px; /* Linkermarge 10px */
+    }
+
+    .right label {
+        font-size: 12px;
+        color: #333;
+    }
+
+    .right input {
+        width: 60px; /* Compacter invulveld */
+        padding: 5px;
+        font-size: 12px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    .right #update-portion {
+        background-color: #228B22;
+        color: white;
+        padding: 5px 10px;
+        font-size: 12px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .right #update-portion:hover {
+        background-color: #1A6F1A;
+    }
+
+    .right #calories {
+        font-size: 12px;
+        color: #555;
+        margin: 5px 0 0 0;
+    }
+
+    .back-button {
+        padding: 8px 12px; /* Compacte knop */
+        font-size: 14px;
+        margin: 10px auto; /* Gecentreerd */
+        width: fit-content; /* Knop past bij inhoud */
+    }
+
+    .copyright {
+        font-size: 10px;
+        bottom: 5px;
+        right: 5px;
     }
 }
 
 /* Voor zeer kleine schermen */
 @media screen and (max-width: 480px) {
-    header h1 {
+    header {
         font-size: 14px !important;
     }
 
+    /* Indexpagina */
     #recipe-grid {
-        gap: 6px; /* Kleinere ruimte */
-        padding: 0 6px; /* Gelijke zijmarges */
+        gap: 6px;
+        padding: 0 6px;
     }
 
     .recipe-tile {
-        width: calc(47% - 3px); /* Twee tegels */
-        height: 175px; /* Veel hogere tegel */
-        padding: 2px; /* Nog minder padding */
+        width: calc(47% - 3px);
+        height: 175px;
+        padding: 2px;
     }
 
     .recipe-tile img {
@@ -171,47 +315,82 @@ header h1 {
     }
 
     .recipe-tile p {
-        font-size: 7px; /* Behouden, voldoende klein */
-        max-height: 74px; /* Aangepast voor 4 volledige regels */
+        font-size: 7px;
+        max-height: 74px;
         line-height: 1.1;
-        margin: 2px 0 0 0;
-        -webkit-line-clamp: 4; /* 4 regels tekst */
+        -webkit-line-clamp: 4;
     }
-}
 
-/* Overige secties (ongewijzigd, voor context) */
-.recept-container {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    padding: 20px;
-    height: calc(100vh - 80px);
-    overflow-y: hidden;
-}
+    /* Receptpagina */
+    main {
+        gap: 10px;
+        padding: 8px;
+    }
 
-.copyright {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    font-size: 12px;
-    color: #888;
-    text-align: right;
-    width: 100%;
-}
+    .left h2 {
+        font-size: 14px;
+        margin: 8px 0 8px 8px; /* Kleinere marge */
+    }
 
-.back-button {
-    background-color: #228B22 !important;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
-    display: block;
-    transition: background-color 0.3s ease-in-out;
-}
+    .left h3 {
+        font-size: 12px;
+        margin: 8px 0 4px 8px; /* Kleinere marge */
+    }
 
-.back-button:hover {
-    background-color: #1A6F1A !important;
+    .left ul {
+        margin: 0 0 8px 16px; /* Kleinere inspringing */
+    }
+
+    .left li {
+        font-size: 11px;
+        margin-bottom: 6px;
+    }
+
+    .center h3 {
+        font-size: 12px;
+        margin: 8px 0 4px 8px; /* Kleinere marge */
+    }
+
+    .center ol {
+        margin: 0 0 8px 16px; /* Kleinere inspringing */
+    }
+
+    .center li {
+        font-size: 11px;
+        margin-bottom: 10px; /* Kleinere witregel */
+    }
+
+    .right #portion-section {
+        gap: 6px;
+        margin: 8px 0 8px 8px; /* Kleinere marge */
+    }
+
+    .right label {
+        font-size: 11px;
+    }
+
+    .right input {
+        width: 50px; /* Nog compacter */
+        padding: 4px;
+        font-size: 11px;
+    }
+
+    .right #update-portion {
+        padding: 4px 8px;
+        font-size: 11px;
+    }
+
+    .right #calories {
+        font-size: 11px;
+    }
+
+    .back-button {
+        padding: 6px 10px;
+        font-size: 12px;
+        margin: 8px auto;
+    }
+
+    .copyright {
+        font-size: 9px;
+    }
 }
