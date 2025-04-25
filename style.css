@@ -348,21 +348,20 @@ main {
 
     #recipe-grid .recipe-tile img {
         width: 100%;
-        height: 60px; /* Verminderde hoogte om meer ruimte te geven aan de tekst */
+        height: 60px;
         object-fit: cover;
         border-radius: 5px;
     }
 
     #recipe-grid .recipe-tile h3 {
         /* Reset alle mogelijke conflicterende stijlen */
-        font-size: 8px !important;
-        line-height: 1.2 !important; /* Iets grotere regelafstand voor betere verdeling */
+        font-size: 9px !important; /* Iets groter voor betere leesbaarheid */
+        line-height: 22px !important; /* Aangepast om 4 regels te vullen: 90px / 4 = 22.5px */
         padding: 2px !important;
         margin: 2px 0 0 0 !important;
         text-align: center !important;
         max-width: 100% !important;
-        /* Gebruik height om 4 regels te forceren */
-        height: 90px !important; /* Verhoogd om meer ruimte te benutten: 8px * 1.2 * 4 + padding */
+        height: 90px !important;
         overflow: hidden !important;
         text-overflow: ellipsis !important;
         word-wrap: break-word !important;
@@ -519,15 +518,14 @@ main {
     }
 
     #recipe-grid .recipe-tile img {
-        height: 55px; /* Verder verkleind om meer ruimte te geven aan de tekst */
+        height: 55px;
     }
 
     #recipe-grid .recipe-tile h3 {
         /* Reset alle mogelijke conflicterende stijlen */
-        font-size: 7px !important;
-        line-height: 1.2 !important; /* Iets grotere regelafstand voor betere verdeling */
-        /* Gebruik height om 4 regels te forceren */
-        height: 84px !important; /* Verhoogd om meer ruimte te benutten: 7px * 1.2 * 4 + padding */
+        font-size: 8px !important; /* Verhoogd voor betere leesbaarheid */
+        line-height: 21px !important; /* Aangepast om 4 regels te vullen: 84px / 4 = 21px */
+        height: 84px !important;
         overflow: hidden !important;
         text-overflow: ellipsis !important;
         word-wrap: break-word !important;
