@@ -355,20 +355,32 @@ main {
     }
 
     #recipe-grid .recipe-tile h3 {
-        font-size: 8px; /* Grotere tekst */
-        max-height: 80px; /* Ruimte voor 4 regels */
-        line-height: 1.15;
-        padding: 0 2px;
-        margin: 2px 0 0 0;
-        text-align: center;
-        max-width: 100%;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 4; /* Vier regels */
-        -webkit-box-orient: vertical;
-        word-wrap: break-word;
-        white-space: normal;
+        font-size: 8px !important; /* Forceer lettergrootte */
+        max-height: 80px !important; /* Ruimte voor 4 regels */
+        line-height: 1.15 !important;
+        padding: 0 2px !important;
+        margin: 2px 0 0 0 !important;
+        text-align: center !important;
+        max-width: 100% !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        display: -webkit-box !important;
+        -webkit-line-clamp: 4 !important; /* Forceer 4 regels */
+        -webkit-box-orient: vertical !important;
+        word-wrap: break-word !important;
+        white-space: normal !important;
+        color: #333 !important;
+    }
+
+    /* Fallback voor browsers die -webkit-line-clamp niet ondersteunen */
+    @supports not (-webkit-line-clamp: 4) {
+        #recipe-grid .recipe-tile h3 {
+            display: block;
+            height: 80px; /* Simuleert 4 regels */
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+        }
     }
 
     main {
@@ -445,153 +457,4 @@ main {
         flex-wrap: wrap;
         align-items: center;
         gap: 8px;
-        margin: 10px 0 10px 10px;
-        max-width: 100%;
-    }
-
-    .right label {
-        font-size: 12px;
-        color: #333;
-    }
-
-    .right input {
-        width: 60px;
-        padding: 5px;
-        font-size: 12px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-    }
-
-    .right #update-portion {
-        background-color: #228B22;
-        color: white;
-        padding: 5px 10px;
-        font-size: 12px;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-    }
-
-    .right #update-portion:hover {
-        background-color: #1A6F1A;
-    }
-
-    .right #calories {
-        font-size: 12px;
-        color: #555;
-        margin: 5px 0 0 0;
-        width: 100%;
-        word-wrap: break-word;
-    }
-
-    .back-button {
-        padding: 8px 12px;
-        font-size: 14px;
-        margin: 10px auto;
-        width: fit-content;
-    }
-
-    .copyright {
-        font-size: 10px;
-        bottom: 5px;
-        right: 5px;
-    }
-}
-
-/* Voor zeer kleine schermen */
-@media screen and (max-width: 480px) {
-    header {
-        font-size: 14px !important;
-    }
-
-    #recipe-grid {
-        gap: 6px;
-        padding: 0 6px;
-        background-color: #e0e0ff; /* Tijdelijke achtergrondkleur om te debuggen */
-    }
-
-    #recipe-grid .recipe-tile {
-        width: calc(47% - 3px); /* Twee tegels naast elkaar */
-        height: 175px;
-        padding: 2px;
-        margin: 1.5px; /* Verminderde marge */
-    }
-
-    #recipe-grid .recipe-tile img {
-        height: 60px;
-    }
-
-    #recipe-grid .recipe-tile h3 {
-        font-size: 7px; /* Kleinere tekst voor zeer kleine schermen */
-        max-height: 74px; /* Ruimte voor 4 regels */
-        line-height: 1.1;
-        -webkit-line-clamp: 4; /* Vier regels */
-    }
-
-    main {
-        gap: 10px;
-        padding: 8px;
-    }
-
-    .left img {
-        height: 180px;
-    }
-
-    .left h2 {
-        font-size: 14px;
-        margin: 8px 0 8px 8px;
-    }
-
-    .left h3, .center h3 {
-        font-size: 12px;
-        margin: 8px 0 4px 8px;
-    }
-
-    .left ul, .center ol {
-        margin: 0 0 8px 16px;
-        max-width: calc(100% - 16px);
-    }
-
-    .left li, .center li {
-        font-size: 11px;
-        margin-bottom: 6px;
-    }
-
-    .center li {
-        margin-bottom: 10px;
-    }
-
-    .right #portion-section {
-        gap: 6px;
-        margin: 8px 0 8px 8px;
-    }
-
-    .right label {
-        font-size: 11px;
-    }
-
-    .right input {
-        width: 50px;
-        padding: 4px;
-        font-size: 11px;
-    }
-
-    .right #update-portion {
-        padding: 4px 8px;
-        font-size: 11px;
-    }
-
-    .right #calories {
-        font-size: 11px;
-    }
-
-    .back-button {
-        padding: 6px 10px;
-        font-size: 12px;
-        margin: 8px auto;
-    }
-
-    .copyright {
-        font-size: 9px;
-    }
-}
+        margin: 10px 0
