@@ -2,112 +2,2926 @@
     "recepten": [
         {
             "id": "1",
-            "naam": "MTest - Middelmatig aantal ingrediënten",
-            "afbeelding": "https://edro01.github.io/recepten-website/images/test-mtest.jpg",
-            "calorieën": 650,
+            "naam": "1 - Bami shoarma",
+            "afbeelding": "images/ad67adc6-8a8b-4c4f-8583-542973546e92_0.jpg",
+            "calorieën": 0,
             "ingrediënten": [
-                "100 g Testingrediënt A",
-                "75 g Testingrediënt B",
-                "50 g Testingrediënt C",
-                "25 g Testingrediënt D",
-                "1 Theelepel Testkruid X",
-                "Zout en peper naar smaak"
+                "250g kipfilet(s)",
+                "225g bami groenten",
+                "125ml kippenbouillon",
+                "25g gebakken uitjes",
+                "4 mie nestje(s)",
+                "3 1/2 pufjes spray-olijfoliie",
+                "1 teentje(s) knoflook",
+                "1/2 eetlepel(s) Chinese vijfkruidenmix",
+                "1/2 eetlepel(s) bbq-saus",
+                "1/2 eetlepel(s) tomatenketchup",
+                "1/2 eetlepel(s) teriyakisaus",
+                "1/2 eetlepel(s) sriracha"
             ],
             "bereiding": [
-                "Stap 1: Begin met het eerste ingrediënt.",
-                "Stap 2: Meng goed door.",
-                "Stap 3: Bak het in een pan.",
-                "Stap 4: Serveer op een bord."
+                "1. Snijd de kipfilet(s) in dunne reepjes en meng deze met 4 pufje(s) spray-olijfolie, de uitgeperste teentje(s) knoflook en de vijf Chinese kruidenmix. Laat de kipfilet(s) minstens 1 uur marineren in de koelkast zodat de smaken goed kunnen intrekken.",
+                "2. Verhit 3 pufjes spray-olijfolie in een koekenpan op middelhoog vuur. Bak de gemarineerde kipfiletreepjes kort aan, ongeveer 2-3 minuten per kant, tot ze lichtbruin zijn. Haal de kipfilet uit de pan zodra deze net gaar is.",
+                "3. Voeg de bami groenten, gebakken uitjes, bbq-saus, tomatenketchup, teriyakisaus, sriracha en 100 ml kippenbouillon toe aan de slowcooker. Roer goed door.",
+                "4. Voeg de voorgebakken kipfilet(s) toe aan de slowcooker. Zet de slowcooker 3 uur op LOW, zodat de smaken goed kunnen mengen.",
+                "5. Voeg 60 minuten voor het einde de gebroken (zoals je zou doen met vermicelli) mie nestje(s) toe en roer voorzichtig door, zodat de mie de saus en kruiden goed opneemt.",
+                "6. Controleer aan het einde of de mie gaar is en pas indien nodig de smaak aan met zout en peper.",
+                "7. Serveer het gerecht warm met eventueel een garnering van verse kruiden zoals koriander of lente-ui."
             ]
         },
         {
             "id": "2",
-            "naam": "ATest - Testrecept met EXTREEM veel ingrediënten",
-            "afbeelding": "https://edro01.github.io/recepten-website/images/test-atest.jpg",
-            "calorieën": 700,
+            "naam": "2 - Spaghetti",
+            "afbeelding": "images/569160cd-eb4d-4172-9fd9-60941380b163_0.jpg",
+            "calorieën": 0,
             "ingrediënten": [
-                "200 g Testingrediënt 1",
-                "150 g Testingrediënt 2",
-                "100 g Testingrediënt 3",
-                "75 g Testingrediënt 4",
-                "50 g Testingrediënt 5",
-                "25 g Testingrediënt 6",
-                "10 g Testingrediënt 7",
-                "1 Theelepel Testkruid 1",
-                "0.5 Theelepel Testkruid 2",
-                "0.5 Theelepel Testkruid 3",
-                "Zout en peper naar smaak",
-                "Extra ingrediënt 1",
-                "Extra ingrediënt 2",
-                "Extra ingrediënt 3",
-                "Extra ingrediënt 4",
-                "Extra ingrediënt 5",
-                "Extra ingrediënt 6",
-                "Extra ingrediënt 7",
-                "Extra ingrediënt 8",
-                "Extra ingrediënt 9",
-                "Extra ingrediënt 10",
-                "Super extra ingrediënt 11",
-                "Super extra ingrediënt 12",
-                "Super extra ingrediënt 13",
-                "Super extra ingrediënt 14",
-                "Super extra ingrediënt 15",
-                "Super extra ingrediënt 16",
-                "Super extra ingrediënt 17",
-                "Super extra ingrediënt 18",
-                "Super extra ingrediënt 19",
-                "Super extra ingrediënt 20"
+                "500 g gehakt",
+                "1 ei",
+                "0,5 theelepel(s) peper",
+                "0,5 theelepel(s) zout",
+                "0,5 theelepel(s) uienpoeder",
+                "0,5 theelepel(s) paprikapoeder (mild)",
+                "2 teentje(s) knoflook",
+                "0,5 theelepel(s) oregano",
+                "2 eetlepel(s) paneermeel",
+                "0,25 theelepel(s) chilipoeder",
+                "0,5 eetlepel(s) mosterd",
+                "voor de saus",
+                "1 middelgrote ui(en)",
+                "0,5 grote winterpeen",
+                "2 teentje(s) knoflook",
+                "2 laurierbladen",
+                "0,5 theelepel(s) kaneel",
+                "600 ml passata",
+                "1 bouillonblokje(s)",
+                "1,5 theelepel(s) oregano",
+                "1 blikje tomatenpuree  (140g)",
+                "0,5 theelepel(s) paprikapoeder",
+                "2 theelepel(s) basilicum",
+                "Snufje zout",
+                "Snufje peper",
+                "0,5 eetlepel(s) Italiaanse kruiden"
             ],
             "bereiding": [
-                "Stap 1: Doe iets in een pan.",
-                "Stap 2: Voeg iets anders toe.",
-                "Stap 3: Roer goed door.",
-                "Stap 4: Laat het sudderen.",
-                "Stap 5: Voeg nog een ingrediënt toe.",
-                "Stap 6: Serveer en geniet.",
-                "Stap 7: Doe nog een extra handeling.",
-                "Stap 8: Herhaal stap 2, maar langer.",
-                "Stap 9: Laat nogmaals sudderen.",
-                "Stap 10: Voeg een bijzondere smaakmaker toe.",
-                "Stap 11: Test of het gaar is.",
-                "Stap 12: Roer nog een keer door.",
-                "Stap 13: Dek het af en laat rusten.",
-                "Stap 14: Maak een bord mooi op.",
-                "Stap 15: Geniet van je maaltijd!",
-                "Stap 16: Zet de oven uit.",
-                "Stap 17: Laat het gerecht 10 minuten rusten.",
-                "Stap 18: Voeg nog een snufje zout toe.",
-                "Stap 19: Mix de saus apart.",
-                "Stap 20: Besprenkel de saus over het gerecht.",
-                "Stap 21: Rooster het nog een paar minuten.",
-                "Stap 22: Laat het afkoelen.",
-                "Stap 23: Garneer met verse kruiden.",
-                "Stap 24: Serveer met een grote glimlach!"
+                "1. Meng alle ingrediënten voor de gehaktballen goed door elkaar. Draai gehaktballen ter grootte van een walnoot. Voorbakken is optioneel.",
+                "2. Doe alle ingrediënten voor de saus in de slowcooker. Roer alles even door.",
+                "3. Voeg de gehaktballen toe aan de saus in de slowcooker.",
+                "4. Voeg het laatste uur de gebroken spaghetti toe en roer goed door. Voeg eventueel extra vocht toe als de saus te dik is.",
+                "5. Zet de slowcooker aan op 3,5 uur op high of 5 uur op low.",
+                "6. Serveer met de spaghetti, die in de slowcooker heerlijk gaar is geworden."
             ]
         },
         {
             "id": "3",
-            "naam": "ZTest - Testrecept met lange bereiding",
-            "afbeelding": "https://edro01.github.io/recepten-website/images/test-ztest.jpg",
-            "calorieën": 600,
+            "naam": "3 - Surinaamse kip",
+            "afbeelding": "images/99482969-da05-41ef-8f16-9b7368ca07f4_0.jpg",
+            "calorieën": 0,
             "ingrediënten": [
-                "300 g Testingrediënt Z1",
-                "200 g Testingrediënt Z2",
-                "100 g Testingrediënt Z3",
-                "50 g Testingrediënt Z4",
-                "1 Theelepel Testkruid Z",
-                "Zout en peper naar smaak"
+                "875 g kipdijfilet",
+                "1 rode ui",
+                "3 teentje(s) knoflook",
+                "1 theelepel(s) gedroogde gember",
+                "1,25 eetlepel(s) kerrie Masala",
+                "2,5 eetlepel(s) pindakaas",
+                "2,5 eetlepel(s) ketjap manis",
+                "1,25 eetlepel(s) oestersaus",
+                "1,25 theelepel(s) sambal",
+                "1 klein blikje tomatenpuree (70 g)",
+                "250 g tomatenblokjes",
+                "0,75 bouillonblokje",
+                "1 eetlepel(s) bruine suiker",
+                "0,75 theelepel(s) citroengraspoeder",
+                "1 theelepel gedroogde selderij",
+                "3 roti platen",
+                "200 g sperziebonen uit pot (uitgelekt)"
             ],
             "bereiding": [
-                "Stap 1: Pak alle ingrediënten.",
-                "Stap 2: Snijd ze in stukjes.",
-                "Stap 3: Verhit een pan op hoog vuur.",
-                "Stap 4: Voeg de eerste ingrediënten toe.",
-                "Stap 5: Laat het goed bakken.",
-                "Stap 6: Voeg de rest van de ingrediënten toe.",
-                "Stap 7: Roer goed door en laat sudderen.",
-                "Stap 8: Controleer de gaarheid.",
-                "Stap 9: Serveer en geniet van dit geweldige testgerecht!"
+                "1. Bestrooi de kip met peper, zout en kerriepoeder en snipper de rode ui.",
+                "2. Meng de tomatenpuree, tomatenblokjes, gember, knoflook, ui, pindakaas, ketjap manis, oestersaus, sambal, bouillonblokje, bruine suiker, citroengraspoeder, en gedroogde selderij goed door elkaar.",
+                "3. Voeg dit mengsel toe aan de multicooker. Plaats de kip bovenop en druk deze een beetje in de saus.",
+                "4. Zet de multicooker 3-4 uur op low of 2-3 uur op high. Roer eventueel halverwege voorzichtig door om ervoor te zorgen dat alles gelijkmatig gaar wordt.",
+                "5. Leg de roti platen pas in de laatste 15-20 minuten bovenop de saus in de multicooker, zodat ze kunnen stomen zonder te veel vocht op te nemen.",
+                "6. Serveer de kip en saus met de gestoomde roti en sperziebonen als complete maaltijd."
+            ]
+        },
+        {
+            "id": "4",
+            "naam": "4 - Gehaktballetjes honing-mosterdsaus & brood",
+            "afbeelding": "images/95bc91e7-7862-407e-98c5-de80a15e8a62_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "voor de gehaktballen:",
+                "500 g half-om-half gehakt",
+                "4 eetlepel(s) paneermeel",
+                "2 eetlepel(s) black sojasaus",
+                "1 eetlepel(s) chilisaus",
+                "0,5 eetlepel(s) grove Dijon mosterd",
+                "0,5 eetlepel(s) sambal oelek",
+                "1 theelepel(s) knoflookpoeder",
+                "1 theelepel(s) pikant paprikapoeder",
+                "1 theelepel(s) uienpoeder",
+                "1 theelepel(s) zwarte peper",
+                "1 theelepel(s) zout",
+                "1 ei",
+                "Bloem",
+                "Olie",
+                "voor de saus:",
+                "250 g champignons",
+                "150 g crème fraîche",
+                "3 eetlepel(s) ketjap manis",
+                "2 eetlepel(s) sojasaus",
+                "2 eetlepel(s) honing",
+                "2 eetlepel(s) bruine basterdsuiker",
+                "2 flinke eetlepel(s) grove Dijon mosterd",
+                "2 runderbouillonblokje(s)",
+                "1 middelgrote ui(en)",
+                "4 teentje(s) knoflook",
+                "1 blikje(s) tomatenpuree (70g)",
+                "1 eetlepel(s) sambal oelek",
+                "Zwarte peper",
+                "Zout"
+            ],
+            "bereiding": [
+                "1. Meng het gehakt met paneermeel, sojasaus, chilisaus, grove Dijon mosterd, sambal oelek, knoflookpoeder, pikant paprikapoeder, uienpoeder, zwarte peper, zout en het ei. Draai met vochtige handen kleine gehaktballen en rol ze door de bloem.",
+                "2. Gebruik de braden-functie van de multicooker, verhit een scheutje olie en braad de gehaktballen kort rondom bruin. Haal ze uit de multicooker en zet apart.",
+                "3. Snipper de ui en hak de knoflook fijn. Gebruik dezelfde multicooker om de ui en knoflook te fruiten in het achtergebleven vet. Voeg de tomatenpuree toe en roerbak kort.",
+                "4. Snijd de champignons in blokjes en voeg deze samen met de grove Dijon mosterd, sambal oelek, ketjap manis, black sojasaus, honing, bruine basterdsuiker, verkruimelde runderbouillonblokjes, zwarte peper en zout toe. Roer alles goed door en laat even opbruisen.",
+                "5. Selecteer de slowcook-functie en voeg de gehaktballen terug in de multicooker en laat het geheel 3 uur op low garen.",
+                "6. Zet de multicooker uit en meng de crème fraîche door de saus voor een romige afwerking.",
+                "7. Serveer de gehaktballetjes met brood."
+            ]
+        },
+        {
+            "id": "5",
+            "naam": "5 - Pindakip",
+            "afbeelding": "images/48a04e8a-f996-4e56-803e-f6a7acd33861_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "400g kipfilet(s)",
+                "20ml kookroom",
+                "4 mie nestje(s)",
+                "1,5 eetlepel(s) pindakaas",
+                "1,5 eetlepel(s) ketjap manis",
+                "2 eetlepel(s) sweet chilisaus",
+                "1 teentje(s) knoflook",
+                "1 kleine ui(en)",
+                "0,5 eetlepel(s) allesbinder",
+                "1 bosuitje(s)",
+                "0,5 theelepel(s) sambal manis",
+                "0,5 theelepel(s) uienpoeder",
+                "0,25 theelepel(s) sesamolie",
+                "0,25 theelepel(s) gemberpoeder",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet in grote blokjes. Snipper de ui(en) grof, snijd de bosuitje(s) in grove ringen en pers de knoflook. Bereid alle ingrediënten voor gebruik.",
+                "2. Voeg alle ingrediënten, behalve de mie nestje(s), toe aan de slowcooker. Roer alles voorzichtig door, zodat de smaken goed mengen. Stel de slowcooker in op LOW en laat het gerecht 3 uur zachtjes op LOW, totdat de mie volledig gaar is.",
+                "4. Haal de deksel van de slowcooker en roer het gerecht goed door. Als de saus te dik is, voeg een beetje water toe. Is de saus te dun, gebruik dan de allesbinder om het gerecht iets meer te laten binden."
+            ]
+        },
+        {
+            "id": "6",
+            "naam": "6 - Babi pangang",
+            "afbeelding": "images/8e1a3e94-8da7-4d3d-ba07-7b3fa56f9dbe_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "350g hamlappen",
+                "300g taugé",
+                "225g atjar tjampoer",
+                "75ml sweet chilisaus",
+                "2,5 eetlepel(s) ketjap manis",
+                "3 teentje(s) knoflook",
+                "1,5 theelepel(s) sambal manis",
+                "1 groentebouillonblokje(s)",
+                "1 middelgrote ui(en)",
+                "1 eetlepel(s) tomatenpuree",
+                "0,75 eetlepel(s) bruine basterdsuiker",
+                "0,5 eetlepel(s) gemberpoeder",
+                "0,5 theelepel(s) citroensap (flesje)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de hamlappen in reepjes. Pers de knoflook uit, rasp de gember en snipper de ui fijn.",
+                "2. Doe de taugé, ui, knoflook en geraspte gember in de slowcooker. Verdeel de reepjes hamlappen erop en verdeel de tomatenpuree, sweet chilisaus, ketjap en sambal erover.",
+                "3. Voeg het citroensap, de bruine basterdsuiker, 100 ml water en één groentebouillonblokje toe. Stel de slowcooker in op 5 uur op low.",
+                "4. Voeg een uur voor het einde de zachtjes fijn geknepen mie nestjes mee.",
+                "5. Voeg een half uur voor het einde de atjar tjampoer toe en laat dit nog 30 minuten meekoken.",
+                "6. Kook de mie nestjes volgens de aanwijzingen op de verpakking en voeg het halve bouillonblokje toe aan het kookwater.",
+                "7. Serveer de gewenste hoeveelheid babi pangang met de gekookte mie.",
+                "7. Verdeel de rest in drie gelijke porties en vries deze in. De volgende keer hoef je alleen wat mie nestjes toe te voegen."
+            ]
+        },
+        {
+            "id": "7",
+            "naam": "Adana Bowl met Bulgur *",
+            "afbeelding": "",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g bulgur",
+                "100 g rundergehakt",
+                "50 g magere kwark",
+                "25 g witte kaas",
+                "5 pufjes spray-olijfolie",
+                "1 tomaat",
+                "1 komkommer",
+                "1 teentje(s) knoflook",
+                "1 theelepel(s) oregano",
+                "0,5 theelepel(s) chilivlokken",
+                "0,5 theelepel(s) gedroogde munt",
+                "0,5 theelepel(s) gedroogde peterselie",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Maak de saus: pers het teentje(s) knoflook en meng dit met de magere kwark, een snufje zout, de gedroogde munt en de gedroogde peterselie. Roer goed door tot een romige saus. Zet dit even in de koelkast.",
+                "2. Meng het rundergehakt met oregano, chilivlokken en gedroogde munt. Kneed het goed door en vorm kleine spiesjes. Grill deze tot ze gaar en mooi bruin zijn.",
+                "3. Kook de bulgur volgens de aanwijzingen op de verpakking en laat deze afkoelen tot lauwwarm.",
+                "4. Snijd ondertussen de tomaat en komkommer in blokjes.",
+                "5. Schep de bulgur op een bord en leg de spiesjes erop. Garneer met de blokjes tomaat en komkommer en strooi hierover de verkruimelde witte kaas.",
+                "6. Lepel de saus naast de bulgur."
+            ]
+        },
+        {
+            "id": "8",
+            "naam": "Ajam pangang (slowcooker)",
+            "afbeelding": "images/cbe7212b-ac3c-454d-87eb-175ebf638dc1_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "600 g kipfilet(s)",
+                "75 g witte rijst (per portie)",
+                "60 ml water",
+                "3 eetlepel(s) bruine basterdsuiker",
+                "3 eetlepel(s) tomatenketchup",
+                "2 eetlepel(s) citroensap (flesje)",
+                "2 eetlepel(s) ketjap manis",
+                "2 teentje(s) knoflook",
+                "1 middelgrote ui(en)",
+                "1 eetlepel(s) gembersiroop",
+                "1 eetlepel(s) sojasaus",
+                "1 eetlepel(s) tomatenpuree",
+                "1 theelepel(s) sambal oelek",
+                "7 pufje(s) spray-olijfolie",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet(s) in blokjes. Meng deze met een klein beetje van de sojasaus, citroensap en 3 pufje(s) spray-olijfolie om ze te marineren. Laat de kip minstens 1 uur rusten in de koelkast om malsheid te bevorderen.",
+                "2. Snipper de ui(en) en pers de teentje(s) knoflook uit, zodat alles klaarstaat.",
+                "3. Verhit een pan en gebruik 4 pufje(s) spray-olijfolie. Bak de gemarineerde kipfiletblokjes kort aan op middelhoog vuur, 2 minuten per kant, tot ze lichtbruin zijn. Haal de kip direct uit de pan om verdere garing te voorkomen.",
+                "4. Voeg in de slowcooker de ui(en), knoflook, water, bruine basterdsuiker, tomatenketchup, citroensap, ketjap manis, gembersiroop, sojasaus, tomatenpuree, sambal oelek, zout en peper samen. Roer goed door tot het gemengd is.",
+                "5. Voeg de aangebakken kipfilet(s) toe aan de slowcooker. Stel de slowcooker in op 2,5-3 uur op LOW om de kip mals te houden terwijl de smaken samenkomen.",
+                "6. Bereid de rijst ongeveer 10 minuten voor het einde van de kooktijd volgens de instructies op de verpakking.",
+                "7. Serveer ??? g van de ajam pangang met een portie witte rijst en geniet van de rijke mix van smaken."
+            ]
+        },
+        {
+            "id": "9",
+            "naam": "Asperges Athena *",
+            "afbeelding": "images/331af1a8-9157-4454-87da-91196c7e9b03_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g mager rundergehakt",
+                "125 g champignons",
+                "125 g groene asperges",
+                "100 g bulgur",
+                "50 g fetakaas",
+                "3 pufjes spray-olijfolie",
+                "1 eetlepel(s) citroensap",
+                "1 theelepel(s) oregano",
+                "1 teentje(s) knoflook",
+                "1 theelepel(s) gedroogde peterselie",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Meng het rundergehakt met zout, peper, oregano en het geperste teentje(s) knoflook. Vorm kleine gehaktballetjes.",
+                "2. Bereid de bulgur volgens de aanwijzingen op de verpakking. Laat deze afkoelen tot lauwwarm terwijl je de overige ingrediënten bereidt.",
+                "3. Snijd de champignons in plakjes en de asperges in stukken van ongeveer 3-4 cm.",
+                "4. Verhit een pan met een beetje olie en bak de champignons en asperges tot ze gaar en licht goudbruin zijn. Zet apart.",
+                "5. Verhit dezelfde pan en bak de gehaktballetjes tot ze mooi bruin en gaar zijn.",
+                "6. Meng de bulgur met het citroensap. Voeg vervolgens de gebakken champignons, asperges en gehaktballetjes toe. Verkruimel de fetakaas eroverheen.",
+                "7. Garneer met de gedroogde peterselie"
+            ]
+        },
+        {
+            "id": "10",
+            "naam": "Atjar Ketimoen",
+            "afbeelding": "images/1f14e504-89ef-4840-9057-1c00a9a705e6_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 ml witte azijn",
+                "10 g suiker",
+                "1 teentje(s) knoflook",
+                "0,25 komkommer(s)",
+                "0,25 theelepel(s) kurkuma",
+                "0,25 theelepel(s) zout",
+                "0,1 rode peper(s)"
+            ],
+            "bereiding": [
+                "1. Snijd de komkommer(s) in dunne plakjes of halve maantjes en leg deze in een kom. Pers het teentje(s) knoflook en snijd de rode peper(s) in hele kleine stukjes.",
+                "2. Meng in een klein pannetje de witte azijn, suiker, kurkuma, zout en teentje(s) knoflook. Verhit het mengsel lichtjes tot de suiker oplost (het hoeft niet te koken).",
+                "3. Giet de warme marinade over de komkommer(s) en voeg indien gewenst een paar stukjes rode peper toe voor wat extra pit.",
+                "4. Roer alles goed door en laat minstens 15-30 minuten staan, zodat de smaken goed kunnen intrekken. Voor een intensere smaak kun je het langer laten staan, bij voorkeur in de koelkast.",
+                "5. Serveer koud als een fris en smaakvol bijgerecht dat elke maaltijd opfrist."
+            ]
+        },
+        {
+            "id": "11",
+            "naam": "Babi Pangang",
+            "afbeelding": "images/2f9bbcfa-04c5-4e54-b6bd-e19e111a84a1_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "450 g hamlappen",
+                "400 g taugé",
+                "300 g atjar tjampoer",
+                "100 ml sweet chilisaus",
+                "3 eetlepel(s) ketjap manis",
+                "3 teentje(s) knoflook",
+                "2 theelepel(s) sambal manis",
+                "1,5 groentebouillonblokje(s)",
+                "1 middelgrote ui(en)",
+                "1 eetlepel(s) tomatenpuree",
+                "1 eetlepel(s) bruine basterdsuiker",
+                "0,5 eetlepel(s) gemberpoeder",
+                "0,5 theelepel(s) citroensap (flesje)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de hamlappen in reepjes. Pers de knoflook uit, rasp de gember en snipper de ui fijn.",
+                "2. Doe de taugé, ui, knoflook en geraspte gember in de slowcooker. Verdeel de reepjes hamlappen erop en verdeel de tomatenpuree, sweet chilisaus, ketjap en sambal erover.",
+                "3. Voeg het citroensap, de bruine basterdsuiker, 100 ml water en één groentebouillonblokje toe. Stel de slowcooker in op 5 uur op low.",
+                "4. Voeg een half uur voor het einde de atjar tjampoer toe en laat dit nog 30 minuten meekoken.",
+                "5. Kook de mie nestjes volgens de aanwijzingen op de verpakking en voeg het halve bouillonblokje toe aan het kookwater.",
+                "6. Serveer de gewenste hoeveelheid babi pangang met de gekookte mie.",
+                "7. Verdeel de rest in drie gelijke porties en vries deze in. De volgende keer hoef je alleen wat mie nestjes toe te voegen."
+            ]
+        },
+        {
+            "id": "12",
+            "naam": "Bami *",
+            "afbeelding": "images/e9d8fab1-46f7-451d-95b3-3aea42535cb9_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "250 g hamblokjes of -reepjes",
+                "8 mie nestje(s)",
+                "4 middelgrote ei(eren)",
+                "2 dunne prei(en)",
+                "2 teentje(s) knoflook",
+                "2 eetlepel(s) zonnebloemolie",
+                "2 kippenbouillonblokje(s)",
+                "1 middelgrote ui(en)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Klop de eieren los in een kom. Halveer de preien in de lengte en snijd ze in dunne sliertjes. Was de sliertjes grondig en laat ze uitlekken. Pers de knoflook fijn en zet opzij.",
+                "2. Breng een ruime pan water aan de kook met de kippenbouillonblokjes. Breek de mie in kleinere stukken, zoals vermicelli, en kook deze volgens de aanwijzingen op de verpakking. Spoel de gekookte mie af onder koud water, laat goed uitlekken en zet apart.",
+                "3. Verhit de zonnebloemolie in een hete wok en fruit de geperste knoflook kort aan tot het geurt. Voeg de gesnipperde ui toe en bak dit 3 minuten mee op middelhoog vuur.",
+                "4. Voeg de gesneden prei toe aan de wok en bak dit tot de prei zacht en glanzend is. Roer regelmatig om aanbakken te voorkomen.",
+                "5. Doe de hamblokjes of -reepjes in de wok en bak ze 2 minuten mee totdat ze licht beginnen te kleuren.",
+                "6. Verhit ondertussen een aparte pan en bak de losgeklopte eieren tot ze stevige scrambled eggs vormen. Voeg de eieren toe aan het prei- en hammengsel in de wok.",
+                "7. Roer de gekookte mie door het mengsel in de wok en zorg ervoor dat alles goed wordt gemengd.",
+                "8. Breng de bami op smaak met zout en peper.",
+                "9. Verdeel de bami in drie gelijke porties. Serveer één portie direct en vries de andere twee porties in voor later gebruik."
+            ]
+        },
+        {
+            "id": "13",
+            "naam": "Bami shoarma *",
+            "afbeelding": "images/a38604df-db6a-4897-9dde-60c279b951c2_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "500 g kipfilet(s)",
+                "450 g bami groenten",
+                "250 ml kippenbouillon",
+                "50 g gebakken uitjes",
+                "8 mie nestje(s)",
+                "7 pufjes spray-olijfoliie",
+                "2 teentje(s) knoflook",
+                "1 eetlepel(s) Chinese vijfkruidenmix",
+                "1 eetlepel(s) bbq-saus",
+                "1 eetlepel(s) tomatenketchup",
+                "1 eetlepel(s) teriyakisaus",
+                "1 eetlepel(s) sriracha"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet(s) in dunne reepjes en meng deze met 4 pufje(s) spray-olijfolie, de uitgeperste teentje(s) knoflook en de vijf Chinese kruidenmix. Laat de kipfilet(s) minstens 1 uur marineren in de koelkast zodat de smaken goed kunnen intrekken.",
+                "2. Verhit 3 pufjes spray-olijfolie in een koekenpan op middelhoog vuur. Bak de gemarineerde kipfiletreepjes kort aan, ongeveer 2-3 minuten per kant, tot ze lichtbruin zijn. Haal de kipfilet uit de pan zodra deze net gaar is.",
+                "3. Voeg de bami groenten, gebakken uitjes, bbq-saus, tomatenketchup, teriyakisaus, sriracha en 100 ml kippenbouillon toe aan de slowcooker. Roer goed door.",
+                "4. Voeg de voorgebakken kipfilet(s) toe aan de slowcooker. Zet de slowcooker 3 uur op LOW, zodat de smaken goed kunnen mengen.",
+                "5. Voeg 60 minuten voor het einde de gebroken (zoals je zou doen met vermicelli) mie nestje(s) toe en roer voorzichtig door, zodat de mie de saus en kruiden goed opneemt.",
+                "6. Controleer aan het einde of de mie gaar is en pas indien nodig de smaak aan met zout en peper.",
+                "7. Serveer het gerecht warm met eventueel een garnering van verse kruiden zoals koriander of lente-ui."
+            ]
+        },
+        {
+            "id": "14",
+            "naam": "Biefstuk kruidenmix",
+            "afbeelding": "images/a09bfea7-1924-499e-a6aa-dcbeb48ffb1c_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "1 theelepel paprikapoeder",
+                "0,5 theelepel komijnpoeder",
+                "0,5 theelepel korianderpoeder",
+                "0,25 theelepel chilivlokken",
+                "0,25 theelepel knoflookpoeder",
+                "0,25 theelepel uienpoeder",
+                "0,5 theelepel gedroogde oregano"
+            ],
+            "bereiding": [
+                "Meng alle kruiden en specerijen goed door elkaar in een kleine kom of luchtdicht potje. Bewaar de mix op een koele, donkere plek. Deze mix is perfect om biefstuk te kruiden en een heerlijke diepte van smaak toe te voegen."
+            ]
+        },
+        {
+            "id": "15",
+            "naam": "Biefstuk, gegrilde met asperges en gebakken krieltjes",
+            "afbeelding": "images/70d5270d-bf94-4444-bc54-ea1f1d586ae9_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 g krieltjes",
+                "150 g biefstuk",
+                "1 bosje(s) groene asperges",
+                "6 pufje(s) spray-olijfolie",
+                "1 theelepel(s) gedroogde tijm (optioneel)",
+                "1 theelepel(s) gedroogde rozemarijn (optioneel)",
+                "1 theelepel(s) biefstuk kruidenmix",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Haal de biefstuk uit de koelkast en laat hem op kamertemperatuur komen.",
+                "2. Was de krieltjes grondig en snijd de grotere exemplaren doormidden, zodat alle krieltjes ongeveer dezelfde grootte hebben. Meng ze in een kom met 3 pufjes spray-olijfolie, zout, peper en eventueel de tijm en rozemarijn.",
+                "3. Verwarm de airfryer voor op 180°C. Plaats de krieltjes in een enkele laag in het mandje en bak ze gedurende 15-20 minuten. Schud het mandje halverwege om de krieltjes gelijkmatig te bakken. Ze zijn klaar wanneer ze goudbruin en knapperig zijn.",
+                "4. Snijd de houtachtige uiteinden van de asperges af. Bestrijk de asperges licht met 2 pufjes spray-olijfolie en breng op smaak met zout en peper. Open na 10 minuten de airfryer en voeg de asperges naast de krieltjes toe. Bak ze nog ongeveer 10 minuten tot ze gaar en lichtbruin zijn.",
+                "5. Verhit een contactgrill, grillpan of gewone pan op hoog vuur. Bestrijk de biefstuk licht met 1 pufje spray-olijfolie en breng op smaak met biefstukkruiden, zodat de smaken mooi intrekken. Leg de biefstuk in de contactgrill en grill deze in ongeveer 2,5 minuten voor een perfecte medium-rare bereiding. Gebruik je een grillpan of koekenpan, grill de biefstuk 2-3 minuten aan elke kant, afhankelijk van je voorkeur.",
+                "6. Laat de biefstuk na het grillen rusten onder aluminiumfolie gedurende ongeveer 5 minuten, zodat de sappen zich goed verdelen."
+            ]
+        },
+        {
+            "id": "16",
+            "naam": "Broodje Indische pulled chicken",
+            "afbeelding": "images/7674b872-351c-42d7-a2e0-08015c52360c_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "115 g kipfilet(s)",
+                "25 g atjar ketimoen",
+                "1 eetlepel(s) ketjap manis",
+                "1 Surinaams(e) broodje(s)",
+                "1 eetlepel(s) tomatenketchup",
+                "1 eetlepel(s) gembersiroop",
+                "1 citroen(en)",
+                "1 snufje(s) nootmuskaat",
+                "1 eetlepel(s) citroensap (flesje)",
+                "0,5 teentje(s) knoflook",
+                "0,5 sjalot(ten)",
+                "3 pufje(s) spray-olijfolie",
+                "0,25 eetlepel(s) bruine basterdsuiker",
+                "0,25 kippenbouillonblokje(s)",
+                "0,1 rode peper(s)"
+            ],
+            "bereiding": [
+                "1. Snijd per broodje een dun plakje citroen. Kook de kipfilet(s) in een ruime hoeveelheid water gedurende 15-20 minuten. Voeg het bouillonblokje toe voor extra smaak.",
+                "2. Mix ondertussen de sjalot(ten), knoflook, rode peper(s), nootmuskaat en 3 pufje(s) spray-olijfolie fijn in een hakmolen.",
+                "3. Fruit de gemaakte 'boemboe' 2 minuten in een pan. Voeg de ketjap manis, tomatenketchup, water, citroensap, bruine suiker en gembersiroop toe. Laat het mengsel op laag vuur indikken. Voeg indien nodig extra ketjap of water toe om de gewenste consistentie te bereiken.",
+                "4. Haal de kip uit de pan en pluk deze met twee vorken tot 'pulled chicken'. Voeg de kip toe aan de saus en meng goed. Verwarm het geheel nog kort en pas de smaak aan met eventueel extra ketjap of ketchup.",
+                "5. Snijd het Surinaams(e) broodje(s) open en beleg het met de kip in saus. Voeg desgewenst de atjar ketimoen toe voor een frisse tegenhanger."
+            ]
+        },
+        {
+            "id": "17",
+            "naam": "Broodje pittige kip met rucola",
+            "afbeelding": "images/d9493713-6419-493f-8cec-1b8a6f1d3d4a_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "75 g kippendijfilet(s) of kipfilet(s)",
+                "10 g rucola",
+                "2 eetlepels satésaus",
+                "1 pistolet(s)",
+                "1 eetlepel(s) ketjap manis",
+                "1 snufje(s) komijnpoeder",
+                "1 snufje(s) nootmuskaat",
+                "1 theelepel(s) limoensap (flesje)",
+                "0,5 eetlepel(s) olijfolie",
+                "0,5 teentje(s) knoflook",
+                "0,25 theelepel(s) sambal manis",
+                "0,25 theelepel(s) gemberpoeder",
+                "0,25 rode peper(s)"
+            ],
+            "bereiding": [
+                "1. Snijd de kippendij of kipfilet in blokjes, pers de knoflook uit en snijd de rode peper in dunne ringen.",
+                "2. Doe de kip in een grote schaal en meng met olijfolie, ketjap manis en limoensap.",
+                "3. Hak de rode peper fijn naar smaak en voeg samen met de sambal, knoflook, gemberpoeder, komijn en nootmuskaat toe aan de kip. Meng alles grondig door elkaar. Laat de kip minstens 30 minuten marineren, of langer voor een intensere smaak.",
+                "4. Verhit een koekenpan op middelhoog vuur (extra olie is niet nodig). Bak de kip rondom aan en laat deze in 5 minuten gaar worden. Schep regelmatig om.",
+                "5. Snijd het pistolet open en vul met de pittige kip.",
+                "6. Serveer het broodje met rucola en besprenkel met satésaus voor een heerlijke finishing touch."
+            ]
+        },
+        {
+            "id": "18",
+            "naam": "Broodje Surinaamse kip (van de Hema)",
+            "afbeelding": "images/73cdd3dc-fd3a-438a-bbc1-be528ef5ca91_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "100 g kipfilet(s)",
+                "10 g rucola",
+                "1,5 eetlepel(s) light mayonaise",
+                "1 theelepel(s) kerriepoeder",
+                "1 zoetzure augurk(en)",
+                "1 Surinaams(e) broodje(s)",
+                "1 middelgrote ei(eren)",
+                "1 snufje(s) cajunkruiden",
+                "0,5 kippenbouillonblokje(s)",
+                "0,5 theelepel(s) gembersiroop",
+                "0,5 theelepel(s) mosterd",
+                "0,25 theelepel(s) kurkuma",
+                "0,25 theelepel(s) sambal manis",
+                "4 pufje(s) spray-olijfolie",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Kook het ei(eren) hard, pel ze en snijd in plakjes. Snijd de augurk(en) in smalle reepjes.",
+                "2. Meng de mayonaise, mosterd, kerriepoeder, kurkuma, gembersiroop en sambal manis in een kom tot een sausje.",
+                "3. Breng een pan met water en het kippenbouillonblokje(s) aan de kook. Leg de kipfilet(s) in het water, zet het vuur uit en doe de deksel op de pan. Laat de kipfilet(s) ongeveer 15 tot 25 minuten garen in het hete water. Haal de kipfilet(s) eruit en dep ze droog.",
+                "4. Verhit een grillpan en laat deze heet worden. Gebruik 4 pufjes spray-olijfolie om de kipfilet(s) licht in te smeren en bestrooi met zout, peper of cajunkruiden. Gril de kipfilet(s) aan beide kanten tot er mooie grillstrepen zichtbaar zijn. Laat de kipfilet(s) daarna even rusten op een snijplank.",
+                "5. Snijd het broodje open en besmeer beide helften met het sausje.",
+                "6. Snijd de kipfilet(s) in dunne plakken. Beleg de onderkant van het broodje(s) met rucola, gevolgd door de plakjes kipfilet, ei(eren) en augurk(en).",
+                "7. Sluit het broodje af met de bovenste helft en geniet van deze heerlijke, goedgevulde broodjes."
+            ]
+        },
+        {
+            "id": "19",
+            "naam": "Broodje warm vlees",
+            "afbeelding": "images/989f1e25-a946-4f19-bb3b-7200a46687ac_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "100 g plakje(s) fricandeau",
+                "50 g champignons",
+                "2 eetlepel(s) satésaus",
+                "1 pistolet(s)",
+                "0,25 kleine ui(en)"
+            ],
+            "bereiding": [
+                "1. Snipper de ui(en) fijn. Snijd de champignon(s) in vieren en de plakje(s) fricandeau in reepjes.",
+                "2. Verhit een pan en fruit de ui(en) tot ze glazig zijn. Voeg de champignon(s) en fricandeau toe en bak tot de champignon(s) gaar zijn.",
+                "3. Voeg de satésaus toe aan de pan en laat het geheel goed doorwarmen, zodat de smaken zich vermengen.",
+                "4. Serveer het warme mengsel op een pistolet(s) of een zacht broodje en geniet van dit hartige en snelle gerecht."
+            ]
+        },
+        {
+            "id": "20",
+            "naam": "Chili Con Carne kruidenmix",
+            "afbeelding": "images/6d3bd154-b5be-4c4d-ad01-a8ed2f0f9f09_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "3 eetlepel(s) paprikapoeder",
+                "2 theelepel(s) komijnpoeder",
+                "1 theelepel(s) uienpoeder",
+                "1 theelepel(s) knoflookpoeder",
+                "1 theelepel(s) gemalen zwarte peper",
+                "1 theelepel(s) zout",
+                "1 theelepel(s) cayennepeper",
+                "1 theelepel(s) majoraan"
+            ],
+            "bereiding": [
+                "1. Neem een granieten vijzel (bij voorkeur) en vul deze met alle kruiden.",
+                "2. Meng de kruiden eerst goed door elkaar. Stamp en wrijf vervolgens de kruiden fijn om een homogene kruidenmix te creëren.",
+                "3. Bewaar de kruidenmix in een afgesloten pot om de smaak en versheid te behouden."
+            ]
+        },
+        {
+            "id": "21",
+            "naam": "Choco/kokoscake",
+            "afbeelding": "images/31d84acd-0b45-43d8-8959-9d6de71fe8d9_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 g bloem",
+                "180 g kristalsuiker",
+                "150 ml kokosmelk",
+                "100 g chocoladechips",
+                "100 ml zonnebloemolie",
+                "50 g cacaopoeder (ongezoet)",
+                "2 middelgrote ei(eren)",
+                "1 theelepel(s) bakpoeder",
+                "zout (naar smaak toevoegen)"
+            ],
+            "bereiding": [
+                "1. Vet een bakvorm in en bekleed de bodem eventueel met bakpapier. Zo haal je de cake er straks moeiteloos uit!",
+                "2. Zeef de bloem, cacaopoeder, bakpoeder en het zout in een kom. Meng dit goed door elkaar, terwijl je geniet van de heerlijke chocoladearoma's die al vrijkomen.",
+                "3. Klop in een aparte kom de eieren en kristalsuiker luchtig tot het mengsel lichter van kleur en heerlijk schuimig is. Voeg de plantaardige olie en kokosmelk toe en meng alles grondig.",
+                "4. Voeg de droge ingrediënten beetje bij beetje toe aan het natte mengsel en meng rustig tot een glad beslag zonder klontjes. Dit is hét moment om optioneel die verrukkelijke chocoladechips toe te voegen.",
+                "5. Giet het beslag in de voorbereide bakvorm. Stel je multicooker in op 160°C en bak de cake 25-30 minuten. Prik een satéprikker in het midden van de cake; komt deze er schoon uit, dan heb je succes geboekt.",
+                "6. Laat de cake een paar minuten afkoelen in de vorm en haal hem er daarna voorzichtig uit. Laat hem verder afkoelen op een rooster, terwijl je jezelf alvast voorbereid op het eerste hapje.",
+                "### Serveren",
+                "Presenteer deze chocoladecake op een elegante schaal en geef hem een finishing touch met een lichte bestuiving van poedersuiker of een beetje geraspte kokos. Perfect als dessert na een gezellige maaltijd of als decadente verwennerij bij een kopje koffie."
+            ]
+        },
+        {
+            "id": "22",
+            "naam": "Curry Madras kruidenmix",
+            "afbeelding": "images/8b1f5fe9-eac5-48c6-97e8-6c559f52dfed_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "2 theelepel(s) kurkuma",
+                "2 theelepel(s) komijnpoeder",
+                "2 theelepel(s) korianderpoeder",
+                "1,5 theelepel(s) anijszaad (fijn gemalen)",
+                "1,5 theelepel(s) paprikapoeder",
+                "1 theelepel(s) kaneelpoeder",
+                "1 theelepel(s) gemberpoeder",
+                "0,5 theelepel(s) chilipoeder",
+                "0,5 theelepel(s) kardemompoeder",
+                "0,5 theelepel(s) mosterdzaad (fijn gemalen)",
+                "0,5 theelepel zwarte peper (gemalen)"
+            ],
+            "bereiding": [
+                "1. Meng alle kruiden goed door elkaar in een kom, zodat de smaken evenwichtig worden verdeeld.",
+                "2. Maal de mix indien gewenst fijner in een vijzel of blender om een gladde textuur te verkrijgen.",
+                "3. Bewaar de kruidenmix in een luchtdichte pot op een droge, donkere plek om de aroma's optimaal te behouden."
+            ]
+        },
+        {
+            "id": "23",
+            "naam": "Drumsticks in Ketjap-Tomatensaus",
+            "afbeelding": "images/3cec2ec4-b3c2-4cdb-b0d3-43428425c3f6_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "600 g drumsticks",
+                "400 g witte rijst",
+                "8 eetlepel(s) ui(en)",
+                "6 eetlepel(s) ketjap manis",
+                "5 pufjes spray-olijfolie",
+                "4 teentje(s) knoflook",
+                "2,5 eetlepel(s) oestersaus",
+                "2 theelepel(s) gemberpoeder",
+                "2 runderbouillonblokje(s)",
+                "1,5 eetlepel(s) bruine basterdsuiker",
+                "1,5 eetlepel(s) azijn",
+                "1 theelepel(s) citroengraspoeder",
+                "1 theelepel(s) paprikapoeder",
+                "1 theelepel(s) Chinese vijfkruidenmix",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Kook 100 g rijst per portie volgens de beschrijving op de verpakking.",
+                "2. Meng de ketjap manis, oestersaus, bruine suiker, azijn, gemberpoeder, citroengraspoeder, paprikapoeder, vijfkruidenpoeder, de runderbouillonblokje(s) (verkruimeld) en een paar draaien met de pepermolen tot een gladde saus.",
+                "3. Snipper de ui(en) en hak de teentje(s) knoflook fijn.",
+                "4. Verhit een beetje olie in een koekenpan en fruit de gesnipperde ui(en) en fijngehakte teentje(s) knoflook totdat ze geurig en glazig zijn.",
+                "5. Plaats de ui(en) en knoflook in de slowcooker en leg de drumsticks erbovenop.",
+                "6. Giet de saus over de drumsticks en roer voorzichtig zodat alles goed bedekt is.",
+                "7. Voeg het blikje(s) tomatenblokjes toe en meng kort door.",
+                "8. Zet de slowcooker op de lage stand (\"low\") en laat het gerecht 4 uur zachtjes garen. Zorg ervoor dat de drumsticks volledig gaar zijn en de saus goed is ingedikt.",
+                "9. Serveer 1 portie drumsticks warm met de rijst. Garneer optioneel met fijngesneden lente-ui(en) of een beetje sesamzaad.",
+                "Vries de andere 3 porties in voor een snelle maaltijd."
+            ]
+        },
+        {
+            "id": "24",
+            "naam": "Erwtensoep",
+            "afbeelding": "images/fc040dc9-14ed-41b9-8cd7-59e7ccc67d33_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "900 g knolselderij",
+                "500 g spliterwten",
+                "500 g schouderkarbonade",
+                "2 grote wortel(s)",
+                "2 theelepel(s) gedroogde tijm",
+                "2 speklapje(s)",
+                "2 L water",
+                "2 middelgrote ui(en)",
+                "1 rookworst(en)",
+                "1 dikke prei(en)",
+                "1 laurierblaadje(s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Breng de spliterwten samen met de schouderkarbonades, de speklapjes en het water aan de kook in een grote soeppan.",
+                "2. Laat de soep 30 minuten zachtjes koken op laag vuur. Schep regelmatig het schuim van de soep en roer goed door om aanbranden te voorkomen. Schraap af en toe over de bodem van de pan.",
+                "3. Snipper ondertussen de uien. Was de prei grondig en snijd in dunne ringen. Schil de knolselderij en snijd deze in blokjes van 1 cm. Schil de wortels, halveer ze in de lengte, en snijd in blokjes van 1 cm. Ris de blaadjes van de tijmtakjes.",
+                "4. Voeg de ui, prei, knolselderij, wortel, laurierblad en tijm toe aan de pan. Laat de soep nog eens 30 minuten zachtjes koken met het deksel op de pan. Breng op smaak met peper en eventueel wat zout.",
+                "5. Haal de schouderkarbonades en de speklapjes uit de pan. Snijd het vlees in kleine blokjes en voeg dit terug in de soep.",
+                "6. Snijd de rookworst in plakjes en roer deze samen met het gesneden vlees door de soep. Laat de soep nog 15 minuten zachtjes koken, zodat alle smaken goed samenkomen."
+            ]
+        },
+        {
+            "id": "25",
+            "naam": "Foolproof kokoscake",
+            "afbeelding": "images/ce20ef9d-4b38-4f33-b43f-701e84efd8a0_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 g zelfrijzend bakmeel",
+                "180 g kristalsuiker",
+                "150 ml kokosmelk",
+                "100 ml zonnebloemolie",
+                "50 g geraspte kokos",
+                "3 middelgrote ei(eren)",
+                "1 theelepel(s) puur vanille-extract",
+                "Zout (naar smaak toevoegen)"
+            ],
+            "bereiding": [
+                "1. Vet een kleine bakvorm in die in de multicooker past, en bekleed de bodem met bakpapier. Dit zorgt ervoor dat de cake moeiteloos uit de vorm glijdt.",
+                "2. Klop de eieren en kristalsuiker luchtig in een kom totdat het mengsel licht en schuimig is. Dit is de basis voor die heerlijke luchtige textuur. Voeg de plantaardige olie, kokosmelk en vanille-extract toe, en meng het geheel goed.",
+                "3. Zeef het zelfrijzend bakmeel en het zout boven het natte mengsel. Spatel alles rustig door totdat je een glad beslag krijgt zonder klontjes. Geniet van de subtiele geur die al vrijkomt!",
+                "4. Roer, als je wilt, de geraspte kokos voorzichtig door het beslag voor die extra kokostwist die je naar de tropen transporteert.",
+                "5. Giet het beslag in de voorbereide bakvorm. Stel je Satisfryer in op 160°C en bak de cake 25-30 minuten. Gebruik een satéprikker om te controleren of hij gaar is; deze moet er schoon uitkomen.",
+                "6. Laat de cake een paar minuten in de vorm afkoelen en haal hem er dan voorzichtig uit. Laat de cake verder afkoelen op een rooster. Dit is het moment om even trots te zijn—je hebt een meesterwerk gecreëerd.",
+                "7. Serveer de kokosmelkcake op een mooie schaal en garneer eventueel met een vleugje poedersuiker of een beetje extra geraspte kokos. Perfect als afsluiter van een gezellige middag of als zoete traktatie bij een kopje koffie."
+            ]
+        },
+        {
+            "id": "26",
+            "naam": "Frites met vissticks en broccoli",
+            "afbeelding": "images/2b98fed8-4772-4453-aa11-55b3a5bbb0fe_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "165 g ovenfrites",
+                "100 g broccoli",
+                "125 g cherrytomaatjes",
+                "125 g champignons",
+                "30 g magere kwark",
+                "4 pufje(s) spray-olijfolie",
+                "3 kleine visstick(s)",
+                "1 theelepel(s) citroensap (flesje)",
+                "0,5 theelepel(s) mosterd",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Verwarm de oven of airfryer voor en bak de frites volgens de instructies op de verpakking. Zorg dat ze goudbruin en knapperig worden voor die perfecte bite.",
+                "2. Gebruik 2 pufjes spray-olijfolie om de vissticks in te bakken in een koekenpan, of gebruik de oven of airfryer voor een gezondere optie. Volg de instructies op de verpakking; meestal duurt dit 8-10 minuten.",
+                "3. Breng een pan water aan de kook en voeg de broccoli toe. Kook de broccoli 5-7 minuten tot ze beetgaar is. Voeg desgewenst een snufje zout toe aan het kookwater voor extra smaak.",
+                "4. Meng in een klein kommetje de magere kwark, mosterd, citroensap, zout en peper tot een frisse, romige saus die perfect bij de vissticks en groenten past.",
+                "5. Serveer de frites, broccoli en vissticks samen op een bord. Garneer met de saus voor een eenvoudige, maar smaakvolle maaltijd."
+            ]
+        },
+        {
+            "id": "27",
+            "naam": "Garnalen met krieltjes, champignons en kerstomaatjes *",
+            "afbeelding": "images/b53c2173-ce12-44a4-80d9-e25e38d79a06_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "175 g krieltjes",
+                "125 g cocktailgarnalen (schoongemaakt)",
+                "125 g cherrytomaatjes",
+                "125 g champignons",
+                "15 g geraspte Parmezaanse kaas",
+                "1 eetlepel(s) groene pesto",
+                "8 pufje(s) spray-olijfolie",
+                "1 teentje(s) knoflook",
+                "1 theelepel(s) gedroogde basilicum",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Pers de knoflook en halveer de krieltjes en cherrytomaatjes. Snijd de champignons in plakjes.",
+                "2. Gebruik 5 pufjes spray-olijfolie om de krieltjes in een pan te bakken tot ze goudbruin en knapperig zijn. Schud halverwege even om voor een gelijkmatige bereiding.",
+                "3. Verhit 3 pufjes spray-olijfolie in een grote koekenpan op middelhoog vuur. Voeg de knoflook toe en bak 1-2 minuten tot het geurig is.",
+                "4. Doe de champignons in de pan en bak deze gedurende 5 minuten tot ze zacht en licht goudbruin zijn.",
+                "5. Voeg de cherrytomaatjes toe en bak nog eens 2-3 minuten, zodat ze hun frisse smaak behouden maar zacht worden.",
+                "6. Doe de cocktailgarnalen erbij en bak ze 3-4 minuten tot ze goed doorgewarmd zijn.",
+                "7. Haal de pan van het vuur en roer de pesto erdoor, zodat alle ingrediënten mooi bedekt zijn.",
+                "8. Breng het geheel op smaak met zout en peper.",
+                "9. Schep de gebakken krieltjes en het garnalenmengsel op een bord.",
+                "10. Garneer het gerecht met de gedroogde basilicum en de Parmezaanse kaas."
+            ]
+        },
+        {
+            "id": "28",
+            "naam": "Garnalenroerbak met groenten en bruine rijst *",
+            "afbeelding": "images/9d536325-3490-4f41-b89e-b51ffda10f42_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g cocktailgarnalen (schoongemaakt)",
+                "125 g champignons",
+                "90 g zilvervlies rijst",
+                "2 teentje(s) knoflook",
+                "1 rode paprika('s)",
+                "1 gele paprika('s)",
+                "1 rode ui(en)",
+                "6 pufje(s) spray-olijfolie",
+                "0,75 eetlepel(s) sojasaus",
+                "0,75 eetlepel(s) oestersaus",
+                "0,25 theelepel(s) korianderpoeder (optioneel)",
+                "0,25 limoen(en) (optioneel)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de paprika's in reepjes, de champignons in plakjes, en de rode ui in dunne ringen. Pers de knoflook. Snijd eventueel de limoen in partjes.",
+                "2. Kook de bruine rijst volgens de instructies op de verpakking en zet apart.",
+                "3. Gebruik 3 pufjes spray-olijfolie en verhit dit in een grote koekenpan of wok op middelhoog vuur. Voeg de knoflook en ui toe en roerbak tot ze geurig en lichtbruin zijn.",
+                "4. Doe de garnalen in de pan en bak ze tot ze roze en gaar zijn. Haal ze uit de pan en zet apart.",
+                "5. Gebruik de resterende 3 pufjes spray-olijfolie en voeg de paprika's en champignons toe aan de pan. Roerbak ze tot ze knapperig maar gaar zijn.",
+                "6. Doe de garnalen terug in de pan en voeg de sojasaus en oestersaus toe. Roer alles goed door elkaar, zodat de smaken zich vermengen.",
+                "7. Serveer de roerbak bovenop de gekookte bruine rijst."
+            ]
+        },
+        {
+            "id": "29",
+            "naam": "Gebakken krieltjes met Rode kool met appeltjes en rookworst",
+            "afbeelding": "images/f0fde7ce-07a6-4eef-abbb-f0c0c4425e3f_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 g krieltjes",
+                "10 g boter (light)",
+                "1 blikje(s) rode kool met appel (inh. 200 g)",
+                "1 theelepel(s) olijfolie",
+                "0,5 rookworst(en)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Bak de krieltjes in een pan met olijfolie gedurende 15-20 minuten tot ze goudbruin en knapperig zijn.",
+                "2. Bereid de rookworst volgens de instructies op de verpakking. Snijd de rookworst in plakjes of laat hem heel, afhankelijk van je voorkeur.",
+                "3. Doe de rode kool met appel in een pannetje en verwarm op laag vuur gedurende 5-10 minuten. Roer 1 theelepel boter (5 g) erdoor voor een rijkere smaak. Voeg eventueel een snufje kaneel of nootmuskaat toe voor extra diepgang.",
+                "4. Schep de gebakken krieltjes op een bord, leg de rookworst erbij en voeg de warme rode kool met appel ernaast."
+            ]
+        },
+        {
+            "id": "30",
+            "naam": "Gevuld stokbrood",
+            "afbeelding": "images/0daea628-7d25-4321-8e43-a87ee3ab2320_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "75 g mager rundergehakt",
+                "5 plakje(s) ontbijtspek",
+                "2 theelepel(s) gehaktkruiden",
+                "1 klein(e) stokbrood(jes)",
+                "0,25 kleine ui(en)",
+                "0,25 rode paprika('s)"
+            ],
+            "bereiding": [
+                "1. Verwarm de oven voor op 200°C.",
+                "2. Meng het mager rundergehakt, gehaktkruiden, ui(en) en rode paprika('s) in een kom tot een homogeen mengsel.",
+                "3. Snijd het stokbrood voorzichtig open, maar niet volledig doorsnijden, zodat het als een \"vullinghouder\" werkt.",
+                "4. Vul het stokbrood met het gehaktmengsel. Rol de plakje(s) ontbijtspek rondom het stokbrood zodat het goed bedekt is.",
+                "5. Wikkel het geheel strak in aluminiumfolie om de smaken vast te houden tijdens het bakken.",
+                "6. Plaats het stokbrood in de oven en bak het 12-15 minuten op 200°C tot het spek knapperig is en het gehakt gaar."
+            ]
+        },
+        {
+            "id": "31",
+            "naam": "Gevulde gehaktbroodjes",
+            "afbeelding": "images/0e625ef8-1bae-4767-ade6-27d3b9ae0098_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "75 g mager rundergehakt",
+                "1 theelepel(s) gehaktkruiden",
+                "2 plakje(s) ontbijtspek",
+                "1 pistolet(s)",
+                "1 plakje(s) magere kaas"
+            ],
+            "bereiding": [
+                "1. Meng de gehaktkruiden grondig door het mager rundergehakt.",
+                "2. Maak een diepe gleuf in het pistolet(s) en vul deze royaal met het gehakt. Druk het goed aan zodat het stevig blijft.",
+                "3. Leg de plakje(s) ontbijtspek over het gehakt, gevolgd door de plakje(s) magere kaas om het geheel af te maken.",
+                "4. Plaats het broodje(s) in de airfryer en stel deze in op 150°C. Bak het voor 15 minuten totdat het spek knapperig is en de kaas mooi gesmolten."
+            ]
+        },
+        {
+            "id": "32",
+            "naam": "Gevulde paprika met gehakt en witte rijst",
+            "afbeelding": "images/65e1067b-51e9-4531-9b9e-30691290ad56_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "120 g mager rundergehakt",
+                "60 g witte rijst per portie",
+                "1 rode paprika('s)",
+                "1 kleine ui(en)",
+                "1 teentje(s) knoflook",
+                "1 theelepel(s) paprikapoeder",
+                "4 pufje(s) spray-olijfolie",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Verwarm de oven voor op 180°C.",
+                "2. Kook de witte rijst volgens de aanwijzingen op de verpakking.",
+                "3. Snijd de bovenkant van de paprika af en verwijder de zaadlijsten.",
+                "4. Gebruik 2 pufjes spray-olijfolie in een pan en fruit de ui en knoflook tot ze geurig zijn. Voeg het gehakt toe en bak het rul.",
+                "5. Voeg zout, peper en paprikapoeder toe naar smaak. Meng het gehakt met de gekookte rijst.",
+                "6. Vul de paprika met het gehakt-rijstmengsel. Gebruik de resterende 2 pufjes spray-olijfolie om de buitenkant van de paprika licht in te sprayen voor een mooi geroosterde afwerking. Plaats de gevulde paprika op een bakplaat of in een ovenschaal.",
+                "7. Bak de gevulde paprika in de oven gedurende 25-30 minuten, tot de paprika zacht is en licht geroosterd aan de buitenkant."
+            ]
+        },
+        {
+            "id": "33",
+            "naam": "Griekse gehaktballetjes in avgolemono-saus met bulgur rijst",
+            "afbeelding": "images/5486b5e5-18dd-4edc-bd03-644b36b2b419_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "175 g mager rundergehakt",
+                "105 ml kippenbouillon",
+                "84 g pilavlik bulgur",
+                "1 kleine ui(en)",
+                "1 middelgrote ei(eren)",
+                "2 teentje(s) knoflook",
+                "3 pufjes spray-olijfolie",
+                "1 eetlepel(s) citroensap",
+                "1 eetlepel(s) gedroogde peterselie",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snipper de ui(en) en pers de knoflook uit. Kook de bulgur volgens de aanwijzingen op de verpakking totdat het luchtig en gaar is.",
+                "2. Meng het mager rundergehakt met de fijngesnipperde ui(en), knoflook, gedroogde peterselie, zout en peper. Kneed het mengsel goed door en vorm er kleine, gelijkmatige gehaktballetjes van.",
+                "3. Verhit 3 pufjes spray-olijfolie in een pan op middelhoog vuur. Bak de gehaktballetjes tot ze goudbruin zijn. Haal ze uit de pan en zet ze apart.",
+                "4. Voeg de kippenbouillon toe aan dezelfde pan en breng zachtjes aan de kook.",
+                "5. Klop de ei(eren) los met de citroensap. Voeg langzaam een beetje warme bouillon toe aan het eimengsel terwijl je blijft roeren om schiften te voorkomen.",
+                "6. Roer dit mengsel voorzichtig door de bouillon en laat op laag vuur indikken tot een romige consistentie.  Doe de gehaktballetjes terug in de bouillon en laat ze ongeveer 15 minuten sudderen.",
+                "7. Serveer de gehaktballetjes samen met de romige saus over de bulgur"
+            ]
+        },
+        {
+            "id": "34",
+            "naam": "Griekse gehaktballetjes met tomatensaus en bulgur rijst  *",
+            "afbeelding": "images/50f7e828-6665-4369-9ac2-b4fdc1d67efe_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "100 g mager rundergehakt",
+                "70 g pilavlik bulgur",
+                "5 pufje(s) spray-olijfolie",
+                "2 teentje(s) knoflook",
+                "1 gedroogde peterselie",
+                "1 kleine ui(en)",
+                "0,75 theelepel(s) gedroogde oregano",
+                "0,5 theelepel(s) kaneel",
+                "0,5 blikje(s) tomatenblokjes (inh. 400 g)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de ui(en) fijn en pers de knoflookteentje(s) uit. Kook de bulgur volgens de aanwijzingen op de verpakking totdat deze heerlijk luchtig is en vol van smaak.",
+                "2. Meng het mager rundergehakt met de fijngehakte ui(en), knoflook, gedroogde oregano, gedroogde peterselie, zout en peper. Vorm kleine gehaktballetjes die gelijkmatig zijn.",
+                "3. Verhit 5 pufjes spray-olijfolie in een pan op middelhoog vuur. Bak de gehaktballetjes rondom goudbruin en haal ze uit de pan. Zet ze apart.",
+                "4. Voeg in dezelfde pan de tomatenblokjes, kaneel en eventueel extra kruiden toe. Laat het geheel sudderen zodat de smaken goed samenkomen.",
+                "5. Doe de gehaktballetjes terug in de pan en laat ze ongeveer 15 minuten in de saus koken, zodat ze heerlijk sappig en smaakvol worden.",
+                "6. Serveer de gehaktballetjes samen met de tomatensaus over de bulgur."
+            ]
+        },
+        {
+            "id": "35",
+            "naam": "Griekse kip met citroen en oregano",
+            "afbeelding": "",
+            "calorieën": 0,
+            "ingrediënten": [],
+            "bereiding": [
+                ":",
+                "### Ingrediënten (voor 1 persoon, ongeveer 600 calorieën):",
+                "- 200 g kipfilet",
+                "- 1 el olijfolie",
+                "- Sap van 1/2 citroen",
+                "- 1 tl citroenrasp",
+                "- 1 tl gedroogde oregano",
+                "- 1 teentje knoflook (fijngehakt)",
+                "- 150 g krieltjes",
+                "- 100 g gemengde sla (bijvoorbeeld rucola, spinazie en veldsla)",
+                "- Peper en zout naar smaak",
+                "### Bereiding:",
+                "1. Marineren: Meng de olijfolie, citroensap, citroenrasp, oregano, knoflook, peper en zout in een kom. Leg de kipfilet erin en laat minstens 30 minuten marineren (langer is beter, bijvoorbeeld een paar uur in de koelkast).",
+                "2. Aardappelen bereiden: bak de krieltje in een pan met een beetje olijfolie tot ze goudbruin en knapperig zijn.",
+                "3. Kip bakken: Verhit een grillpan of gewone pan op middelhoog vuur. Bak de gemarineerde kipfilet aan beide kanten tot hij gaar is en een mooie kleur heeft (ongeveer 4-5 minuten per kant, afhankelijk van de dikte).",
+                "4. Serveren: Leg de kipfilet op een bord, voeg de krieltjes toe en serveer met een frisse salade. Besprenkel de salade eventueel met een beetje extra citroensap en olijfolie."
+            ]
+        },
+        {
+            "id": "36",
+            "naam": "Griekse kip souvlaki met tzatziki en groente *",
+            "afbeelding": "images/08267c2a-e1a5-4d22-894a-96d16965d54f_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g kipfilet(s)",
+                "75 g cherrytomaatjes",
+                "75 g magere kwark",
+                "30 g feta kaas",
+                "2 teentje(s) knoflook",
+                "1 eetlepel(s) citroensap (flesje)",
+                "5 pufje(s) spray-olijfolie",
+                "1 klein(e) flatbread(s) (50 g)",
+                "1 eetlepel(s) gedroogde peterselie",
+                "1 rode ui(en)",
+                "1 rode paprika('s)",
+                "0,5 theelepel(s) gedroogde oregano",
+                "0,5 komkommer(s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet(s) in dunne reepjes. Meng 3 pufjes spray-olijfolie, 1 eetlepel citroensap, 1 teentje geperste knoflook, oregano, zout en peper in een kom. Marineer de kipfilet(s) minimaal 15 minuten in dit mengsel om de malsheid te bevorderen.",
+                "2. Snijd de cherrytomaatjes doormidden. Snijd de paprika in grove stukken, de rode ui in dunne ringen en de komkommer in blokjes van ongeveer een centimeter. Verkruimel de feta kaas en hak de gedroogde peterselie fijn.",
+                "3. Verhit een grillpan of koekenpan op middelhoog vuur en gebruik 2 pufjes spray-olijfolie. Bak de gemarineerde kipfilet(s) 6-8 minuten tot ze gaar en goudbruin zijn, maar zorg dat ze niet te lang bakken om uitdrogen te voorkomen.",
+                "4. Meng de magere kwark met het overgebleven teentje knoflook (fijngehakt), 1 eetlepel citroensap, zout en peper. Roer goed door tot een romige, frisse saus.",
+                "5. Verwarm het flatbread kort in een droge koekenpan of in de oven, zodat het licht krokant wordt.",
+                "6. Beleg het flatbread met de gebakken kipfilet, cherrytomaatjes, rode ui, paprika, komkommer en de verkruimelde feta kaas.",
+                "7. Voeg een royale lepel van de frisse kwarksaus toe en strooi de gedroogde peterselie eroverheen voor een smaakvolle finishing touch."
+            ]
+        },
+        {
+            "id": "37",
+            "naam": "Griekse Kip Stifado (Stoofpot)",
+            "afbeelding": "",
+            "calorieën": 0,
+            "ingrediënten": [],
+            "bereiding": [
+                "Ingrediënten:",
+                "- 200 g kipfilet",
+                "- 1 ui (in halve ringen)",
+                "- 3 sjalotjes (gehalveerd)",
+                "- 1 kaneelstokje",
+                "- 1 laurierblad",
+                "- 0.25 tl piment",
+                "- 0.25 tl komijnpoeder",
+                "- 1 tl oregano",
+                "- 100 ml zoete rode wijn",
+                "- 4 tomaten (ontveld en in blokjes)",
+                "- 10 g peterselie (grof gehakt)",
+                "- Olijfolie, peper en zout naar smaak",
+                "Bereiding:",
+                "1. Bestrooi de kipfilet met peper en zout. Verhit een scheutje olijfolie in een pan en bak de kipfilet rondom bruin. Haal uit de pan en zet apart.",
+                "2. Bak de ui, knoflook en sjalotjes in dezelfde pan tot ze glazig zijn. Voeg het kaneelstokje, laurierblad, piment, komijn en oregano toe.",
+                "3. Blus af met de rode wijn en voeg de tomatenblokjes toe. Doe de kip terug in de pan.",
+                "4. Laat het geheel 30 minuten zachtjes pruttelen met de deksel op de pan. Roer af en toe.",
+                "5. Garneer met peterselie en serveer met volkoren pasta of geroosterde groenten."
+            ]
+        },
+        {
+            "id": "38",
+            "naam": "Griekse rijstschotel met gehakt en feta",
+            "afbeelding": "images/c02cdc71-acd6-4291-a712-57cac2615533_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "250 g mager rundergehakt",
+                "120 g pilavlik bulgur",
+                "80 g feta kaas",
+                "2 teentje(s) knoflook",
+                "1 kleine ui(en)",
+                "1 blikje(s) tomatenblokjes (inh. 400 g)",
+                "6 pufje(s) spray-olijfolie",
+                "0,75 theelepel(s) gedroogde oregano",
+                "0,5 theelepel(s) paprikapoeder",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Verkruimel de feta kaas. Snipper de ui en pers de knoflookteentjes uit. Kook de bulgur volgens de aanwijzingen op de verpakking totdat deze heerlijk luchtig is.",
+                "2. Verhit 6 pufjes spray-olijfolie in een pan op middelhoog vuur en bak het mager rundergehakt samen met de fijngehakte ui en knoflook tot het gehakt gaar en mooi rul is. Voeg de paprikapoeder, gedroogde oregano, zout en peper toe en roer goed door.",
+                "3. Voeg de tomatenblokjes toe aan het gehaktmengsel en laat het geheel op laag vuur sudderen zodat de smaken goed samenkomen.",
+                "4. Meng de gekookte bulgur door het gehaktmengsel en schep alles gelijkmatig in een ovenschaal.",
+                "5. Verdeel de verkruimelde feta kaas over de ovenschaal en bak deze 10 minuten in een voorverwarmde oven op 200°C, zodat de feta licht begint te smelten.",
+                "6. Serveer het gerecht warm en, indien gewenst, gegarneerd met wat verse oregano voor een extra vleugje frisheid."
+            ]
+        },
+        {
+            "id": "39",
+            "naam": "Groentecurry met Zoete Aardappel",
+            "afbeelding": "images/ade195dc-1515-4749-9535-3c121f550df3_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "300 g zoete aardappel",
+                "200 ml kokosmelk",
+                "120 g verse spinazie",
+                "150 g witte rijst",
+                "40 g currypasta",
+                "6 pufje(s) spray-olijfolie",
+                "3,5 theelepel(s) gemberpoeder",
+                "2 teentje(s) knoflook",
+                "1 blikje(s) kikkererwten (inh. 200 g)",
+                "1 middelgrote ui(en)"
+            ],
+            "bereiding": [
+                "1. Kook de witte rijst volgens de aanwijzingen op de verpakking totdat deze perfect gaar is.",
+                "2. Verhit 6 pufjes spray-olijfolie in een pan op middelhoog vuur en bak de fijngehakte ui(en), uitgeperste teentje(s) knoflook en gemberpoeder tot de ui zacht en geurig is.",
+                "3. Voeg de currypasta en de zoete aardappel toe. Bak dit kort, zodat de smaken zich goed kunnen mengen.",
+                "4. Voeg de kokosmelk en kikkererwten toe en laat het geheel sudderen tot de zoete aardappel zacht is en de saus iets ingedikt is.",
+                "5. Voeg als laatste de verse spinazie toe en roer door tot de spinazie is geslonken.",
+                "6. Serveer de curry warm samen met de witte rijst voor een heerlijke, voedzame maaltijd."
+            ]
+        },
+        {
+            "id": "40",
+            "naam": "Honing soja kip *",
+            "afbeelding": "images/2efe35d8-aeed-48e5-8da0-9d642e3ab340_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "500g kipfilet(s)",
+                "8 mie nestje(s)",
+                "8 pufje(s) spray-olijfolie",
+                "6 eetlepel(s) honing",
+                "4 1/2 eetlepel(s) gezeefde tomaten",
+                "4 eetlepel(s) sojasaus",
+                "4 eetlepel(s) water",
+                "4 teentje(s) knoflook",
+                "2 eetlepel(s) maïzena",
+                "2 rode ui(en)",
+                "2 eetlepel(s) citroensap (flesje)",
+                "2 snufje(s) gemalen zwarte peper",
+                "1 groentebouillonblokje(s)",
+                "1 theelepel(s) mosterd",
+                "1/2 theelepel(s) chilivlokken"
+            ],
+            "bereiding": [
+                "1. Snijd de rode ui in halve maantjes en leg deze op de bodem van de slowcooker.",
+                "2. Leg de stukken kip in hun geheel op de gesneden ui.",
+                "3. Maak een saus van de overige ingrediënten (behalve de maïzena en de mie nestjes). Roer goed door en proef om te zorgen dat de smaken perfect in balans zijn.",
+                "4. Giet de saus over de kip, verkruimel het bouillonblokje erboven en plaats de deksel op de slowcooker.",
+                "5. Laat de slowcooker zijn magie doen: 3,5 tot 4 uur op stand low, of 2,5 tot 3 uur op stand high.",
+                "6. Maak een maïzenapapje als de kooktijd verstreken is en de kip heerlijk gaar is. Meng 1,5 eetlepel maïzena met 3 eetlepels water tot een glad mengsel.",
+                "7. Voeg een deel van het maïzenapapje toe aan de honing-sojakip. Roer goed door en controleer of de saus de gewenste dikte heeft. Herhaal indien nodig.",
+                "8. Laat de slowcooker nog even aanstaan om de smaken goed in te laten trekken.",
+                "9. Kook de mie nestjes volgens de beschrijving op de verpakking, zodat ze precies beetgaar zijn.",
+                "10. Serveer het gerecht: 1 portie bestaat uit 120 g kip, 1,5 mie nestje, en een deel van de saus. Garneer eventueel met een snufje chilivlokken voor extra pit."
+            ]
+        },
+        {
+            "id": "41",
+            "naam": "Indisch Stoofpotje *",
+            "afbeelding": "images/2eab48b1-2a6d-4c70-85ac-71d7a722b57c_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "450 g runder riblappen",
+                "400 g tauge",
+                "300 g atjar tjampoer",
+                "100 ml sweet chilisaus",
+                "100 ml water",
+                "3 eetlepel(s) saitaku tamari soja saus",
+                "3 teentje(s) knoflook",
+                "2 theelepel(s) sambal brandal",
+                "1 blikje(s) tomatenpuree (70g)",
+                "1 theelepel(s) bruine basterdsuiker",
+                "1 middelgrote ui(en)",
+                "0,5 eetlepel(s) gemberpoeder",
+                "0,5 theelepel(s) citroensap (flesje)",
+                "1,5 groentebouillonblokje(s)",
+                "8 mie nestjes",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de runderlappen in dunne reepjes om ze sneller te laten garen en de smaken goed op te nemen. Pers de knoflook, rasp de gember fijn en snipper de ui zodat alle ingrediënten zich gelijkmatig mengen.",
+                "2. Bedek de bodem van de slowcooker met de taugé, ui, knoflook en geraspte gember. Leg de reepjes hamlap daarbovenop en verdeel de tomatenpuree, sweet chilisaus, ketjap manis en sambal manis gelijkmatig over het vlees.",
+                "3. Voeg het citroensap toe voor een subtiele frisheid, samen met de bruine basterdsuiker die een lichte zoetigheid geeft. Giet 100 ml water erbij en verkruimel één groentebouillonblokje over het geheel. Breng op smaak met zout en peper.",
+                "4. Stel de slowcooker in op 5 uur op low, zodat het vlees mals wordt en de smaken intensiveren. Geniet ondertussen van de heerlijke geuren die je keuken vullen.",
+                "5. Voeg 45 minuten voor het einde de mie nestjes mee. Breek die zoals vermicelli en roer ze door de pan.",
+                "6. Voeg een half uur voor het einde de atjar tjampoer toe aan de slowcooker en roer het lichtjes door. Dit geeft het gerecht een aangename frisheid en een knapperige textuur.",
+                "7. Serveer een portie Indisch Stoofpotje op een bord. Geniet van deze hartige en licht pittige Indonesische klassieker.",
+                "8. Verdeel het overgebleven stoofpotje in drie gelijke porties en vries deze in. Wanneer je het weer wilt serveren, hoef je alleen de mie nestjes erbij te koken."
+            ]
+        },
+        {
+            "id": "42",
+            "naam": "Kaiserbroodje met bacon en gebakken ei",
+            "afbeelding": "images/480fd6a7-7722-49d1-8e44-631e70210dff_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "10 g rucola",
+                "3 plakje(s) crispy bacon",
+                "1 Kaiser broodje(s)",
+                "1 middelgrote ei(eren)",
+                "1 theelepel(s) gedroogde peterselie",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd het Kaiser broodje(s) open en beleg de onderkant met rucola.",
+                "2. Leg de plakje(s) crispy bacon bovenop de rucola voor een knapperige en hartige laag.",
+                "3. Bak het ei(eren) in een pan en leg het op de crispy bacon. Breng op smaak met zout en peper.",
+                "4. Garneer het broodje(s) met de theelepel(s) gedroogde of verse peterselie voor een extra smaakvolle finishing touch.",
+                "5. Sluit het broodje(s) af met de bovenkant en geniet van deze eenvoudige, maar heerlijke combinatie."
+            ]
+        },
+        {
+            "id": "43",
+            "naam": "Kapsalon light",
+            "afbeelding": "images/71d0a3da-5ce2-4fc5-9b67-16b9fda8e8e7_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g ovenfrites",
+                "100 g kipfilet(s)",
+                "50 g ijsbergsla",
+                "50 g magere kwark",
+                "20 g magere geraspte kaas",
+                "4 pufje(s) spray-olijfolie",
+                "2 teentje(s) knoflook",
+                "1,5 eetlepel(s) sriracha",
+                "1 eetlepel(s) water",
+                "1 theelepel(s) citroensap (flesje)",
+                "1 middelgrote toma(a)t(en)",
+                "1 theelepel(s) gedroogde peterselie",
+                "1 snufje(s) cayennepeper",
+                "0,5 rode paprika('s)",
+                "0,5 groene paprika('s)",
+                "0,5 theelepel(s) paprikapoeder",
+                "0,25 theelepel(s) komijnpoeder",
+                "0,25 theelepel(s) korianderpoeder",
+                "0,25 rode ui(en)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Pers de knoflookteentjes uit en snijd de kipfilet in smalle reepjes. Snijd de tomaat, paprika’s en ui in kleine stukjes. Was en droog de ijsbergsla. Meng de srirachasaus met het water tot een gladde saus.",
+                "2. Maak de knoflooksaus door de magere kwark te mengen met één geperste knoflook, citroensap, een snufje zout en peper. Zet in de koelkast zodat de smaken goed kunnen intrekken.",
+                "3. Marineer de kipfilet met 4 pufjes spray-olijfolie, geperste knoflook, paprikapoeder, komijnpoeder, korianderpoeder, cayennepeper, zout en peper. Bak de gemarineerde kip gaar in een pan zonder extra olie, aangezien de marinade al olie bevat.",
+                "4. Bereid de ovenfrites in de airfryer totdat ze goudbruin en knapperig zijn.",
+                "5. Leg de frites op de bodem van een ovenschaal en verdeel de gebakken kip eroverheen. Strooi de geraspte kaas gelijkmatig over de kip en laat de kaas smelten in een voorverwarmde oven op 200°C, of onder de grill.",
+                "6. Voeg de sla, tomaat, paprika en ui toe over de gesmolten kaas. Maak het gerecht af met de knoflooksaus, srirachasaus en gedroogde peterselie voor een frisse finishing touch."
+            ]
+        },
+        {
+            "id": "44",
+            "naam": "Kip kebab met tomatensalade (Grieks)",
+            "afbeelding": "images/4df72bd5-a5d2-4639-8dbc-29eb81a591bb_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "125 g kipfilet(s)",
+                "75 ml kippenbouillon",
+                "40 g pilavlik bulgur",
+                "15 g feta kaas",
+                "4 pufje(s) spray-olijfolie",
+                "1,5 middelgrote toma(a)t(en)",
+                "1 theelepel(s) paprikapoeder",
+                "1 eetlepel(s) citroensap (flesje)",
+                "1 eetlepel(s) gedroogde peterselie",
+                "0,5 theelepel(s) komijnpoeder",
+                "0,5 theelepel(s) gedroogde oregano",
+                "0,5 komkommer(s)",
+                "0,5 eetlepel(s) tomatenpuree",
+                "0,25 rode ui(en)",
+                "0,25 middelgrote ui(en)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de kip in blokjes.",
+                "2. Meng de olijfolie, paprikapoeder, komijn, oregano, zout en peper in een kom. Voeg de kipblokjes toe en roer goed, zodat de kip gelijkmatig bedekt is met de marinade. Laat dit minstens 15 minuten marineren.",
+                "3. Snijd de tomaat en komkommer in blokjes.",
+                "4. Snipper de rode ui fijn.",
+                "5. Verkruimel de fetakaas.",
+                "6. Verhit een koekenpan op middelhoog vuur. Voeg de gemarineerde kip toe en bak deze 8-10 minuten, of tot de kip gaar is en een mooie goudbruine kleur heeft.",
+                "7. Verhit spray-olijfolie in een kleine pan en fruit hierin een kwart middelgrote ui en een halve tomaat zachtjes aan.",
+                "8. Voeg de tomatenpuree toe en roer kort.",
+                "9. Voeg de bulgur toe en meng goed. Giet de kippenbouillon erbij en laat het geheel op laag vuur sudderen tot de bulgur gaar is en het vocht is opgenomen (ongeveer 10-12 minuten).",
+                "10. Meng in een kom de tomaat, komkommer, rode ui, citroensap en peterselie. Voeg zout en peper naar smaak toe.",
+                "11. Voeg desgewenst de verkruimelde fetakaas toe.",
+                "12. Serveer de kip kebab samen met de bulgur en tomatensalade op een bord."
+            ]
+        },
+        {
+            "id": "45",
+            "naam": "Kip met krieltjes, groente en tzatziki *",
+            "afbeelding": "",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 g krieltjes",
+                "150 g kipfilet",
+                "60 g magere kwark",
+                "35 g komkommer",
+                "25 g witte kaas",
+                "5 pufjes spray-olijfolie",
+                "1 paprika",
+                "1 rode ui",
+                "1 theelepel(s) oregano",
+                "1 theelepel(s) tijm",
+                "1 theelepel(s) gedroogde peterselie",
+                "1 theelepel(s) gedroogde munt",
+                "1 theelepel(s) gedroogde dille",
+                "1 teentje(s) knoflook",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet in blokjes. Verkruimel de witte kaas. Snijd de paprika in reepjes, de rode ui in halve ringen en halveer de krieltjes. Rasp de komkommer en pers het teentje(s) knoflook.",
+                "2. Meng de geraspte komkommer met de magere kwark, gedroogde peterselie, gedroogde munt, gedroogde dille, en het geperste teentje(s) knoflook. Voeg een snufje zout toe en zet dit mengsel in de koelkast om op smaak te komen.",
+                "3. Verhit een pan met 2 pufjes spray-olijfolie en bak de krieltjes goudbruin. Voeg de paprika en ui toe, samen met oregano en tijm, en bak tot de groenten gaar zijn.",
+                "4. Verhit een andere pan met 3 pufjes spray-olijfolie en bak de blokjes kipfilet tot ze mooi bruin en gaar zijn.",
+                "5. Serveer de kipfilet, krieltjes, groenten en de zelfgemaakte tzatziki op een bord. Garneer met de verkruimelde witte kaas voor een extra smaakvolle touch."
+            ]
+        },
+        {
+            "id": "46",
+            "naam": "Kip şiş Kebab met Bulgur Pilav en Tzatziki",
+            "afbeelding": "images/abf80932-7255-4988-b379-ead4be6ece06_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "125 g kipfilet(s)",
+                "120 g magere kwark",
+                "75 ml kippenbouillon",
+                "45 g pilavlik bulgur",
+                "7 pufje(s) spray-olijfolie",
+                "1 middelgrote toma(a)t(en)",
+                "1 theelepel(s) paprikapoeder",
+                "1 teentje(s) knoflook",
+                "1 eetlepel(s) citroensap",
+                "0,5 komkommer(s)",
+                "0,5 eetlepel(s) tomatenpuree",
+                "0,5 theelepel(s) komijnpoeder",
+                "0,5 theelepel(s) gedroogde oregano",
+                "0,5 theelepel(s) gedroogde dille",
+                "0,25 rode ui(en)",
+                "0,25 middelgrote ui(en)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Meng 4 pufjes spray-olijfolie, paprikapoeder, komijn, oregano, uitgeperste knoflook, zout en peper in een kom. Voeg de blokjes kipfilet toe en laat minimaal 30 minuten rusten voor malsheid en smaak.",
+                "2. Verhit een koekenpan op middelhoog vuur en bak de blokjes kipfilet 6-8 minuten tot ze gaar en lichtbruin zijn. Haal de kip direct van het vuur om uitdrogen te voorkomen.",
+                "3. Snipper de ui(en) en snijd de toma(a)t(en) in kleine stukjes. Verhit 3 pufjes spray-olijfolie in een kleine pan en fruit de ui(en) en tomaat zachtjes. Voeg de tomatenpuree toe en roer kort. Voeg de bulgur toe, meng goed en giet de kippenbouillon erbij. Laat het geheel op laag vuur sudderen tot de bulgur gaar is en het vocht is opgenomen (ongeveer 10-12 minuten).",
+                "4. Meng de magere kwark met de geraspte en goed uitgelekte komkommer(s), uitgeperste knoflook, gedroogde dille, citroensap, zout en peper. Zet de saus koel weg tot het serveren.",
+                "5. Plaats de bulgur op een bord, leg de kipfilet(s) ernaast en schep een royale lepel van de frisse kwarksaus erbij. Garneer eventueel met een snufje zwarte peper of verse kruiden zoals peterselie."
+            ]
+        },
+        {
+            "id": "47",
+            "naam": "Kip teriyaki met noedels",
+            "afbeelding": "images/a7bd3b5d-d083-4a47-a70e-1126a12f4084_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "100 g kipfilet(s)",
+                "100 g sugarsnaps",
+                "100 g champignons",
+                "80 g volkoren noedels",
+                "1 eetlepel(s) sojasaus",
+                "1 eetlepel(s) honing",
+                "1 teentje(s) knoflook",
+                "1 eetlepel(s) sesamolie",
+                "1 bosuitje(s)",
+                "0,5 theelepel(s) sesamzaad (optioneel)",
+                "0,25 theelepel(s) gemberpoeder"
+            ],
+            "bereiding": [
+                "1. Kook de volkoren noedels volgens de aanwijzingen op de verpakking. Giet af en zet apart.",
+                "2. Snijd de kipfilet(s) in reepjes.",
+                "3. Snijd het bosuitje(s) in dunne ringetjes en pers het teentje(s) knoflook.",
+                "4. Snijd de champignons in plakjes.",
+                "5. Verhit de sesamolie in een grote koekenpan of wok op middelhoog vuur.",
+                "6. Voeg de knoflook en gemberpoeder toe aan de pan en roerbak tot ze geurig zijn.",
+                "7. Voeg de kipfilet(s) toe en bak tot deze gaar is.",
+                "8. Voeg de champignons toe en bak deze mee gedurende 7-8 minuten.",
+                "9. Voeg de sugarsnaps toe en roerbak nog 2-3 minuten totdat ze knapperig maar gaar zijn.",
+                "10. Meng de sojasaus en honing in een klein kommetje en voeg dit mengsel toe aan de pan. Roer goed door.",
+                "11. Voeg de gekookte noedels toe en meng alles goed, zodat de saus gelijkmatig verdeeld is.",
+                "12. Serveer op een bord en garneer met bosuitje(s) en eventueel sesamzaadjes."
+            ]
+        },
+        {
+            "id": "48",
+            "naam": "Kipfilet met  champignons en airfryer frites",
+            "afbeelding": "images/a7663d8f-a14b-474a-a680-4911bb06d72f_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g ovenfrites",
+                "125 g kipfilet(s)",
+                "100 g champignons",
+                "50 g magere kwark",
+                "2 teentje(s) knoflook",
+                "1 pufje(s) spray-olijfolie",
+                "1 theelepel(s) gedroogde peterselie",
+                "0,5 rode paprika('s)",
+                "0,5 groene paprika('s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet(s) en paprika in blokjes. Snijd de champignons in plakjes en pers de knoflook.",
+                "2. Meng de magere kwark met één uitgeperste knoflookteen, gedroogde peterselie en een snufje zout en peper naar smaak. Zet het kwarkmengsel minstens 15 minuten in de koelkast zodat de smaken goed kunnen intrekken.",
+                "3. Bak de ovenfrites in de airfryer op 180°C gedurende 17 minuten, tot ze krokant zijn.",
+                "4. Verhit een grote pan met een pufje spray-olijfolie en bak de kipfilet(s) totdat ze gaar zijn.",
+                "5. Voeg de blokjes paprika, één knoflookteen en de champignons toe aan de pan en bak dit mee tot alles goed gaar is.",
+                "6. Breng het kip-groentemengsel op smaak met zout, peper en eventueel kipkruiden.",
+                "7. Serveer de krokante ovenfrites samen met het kip-groentemengsel en de knoflooksaus op één bord."
+            ]
+        },
+        {
+            "id": "49",
+            "naam": "Kipfilet met Airfryer Frites en Broccoli",
+            "afbeelding": "images/375b2337-f2f7-49d3-8c49-5d674dff8664_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g ovenfrites",
+                "125 g kipfilet(s)",
+                "125 g broccoli",
+                "80 g champignons",
+                "1 theelepel(s) paprikapoeder",
+                "1 pufje(s) spray-olijfolie",
+                "0,5 rode paprika('s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet(s) in blokjes, de broccoli in kleine roosjes, de paprika('s) in blokjes en de champignons in plakjes.",
+                "2. Bak de ovenfrites in de airfryer op 180°C gedurende 15 minuten tot ze goudbruin en knapperig zijn.",
+                "3. Bestrooi de kipfiletblokjes met paprikapoeder, zout en peper naar smaak.",
+                "4. Verhit een pufje spray-olijfolie in een grote pan. Bak de kipfilet(s) totdat deze goudbruin en gaar is.",
+                "5. Voeg de broccoli, paprika en champignons toe aan de pan en bak alles mee tot de groenten zacht zijn, maar nog wat bite hebben.",
+                "6. Serveer de krokante ovenfrites op een bord en leg het kip-groentemengsel ernaast."
+            ]
+        },
+        {
+            "id": "50",
+            "naam": "Kipfilet met Groene Pesto, cherrytomaten, spinazie en gebakken krieltjes *",
+            "afbeelding": "images/ca366345-ba3f-4117-b3a9-a72ad3947c2d_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 g verse spinazie",
+                "150 g kipfilet(s)",
+                "150 g krieltjes",
+                "125 g cherrytomaatjes",
+                "5 pufje(s) spray-olijfolie",
+                "1,5 eetlepel(s) groene pesto",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Halveer de cherrytomaatjes zodat dit  alvast klaarstaat.",
+                "2. Verhit een pufje spray-olijfolie in een koekenpan. Voeg de krieltjes toe en bak ze gedurende 15-20 minuten tot ze goudbruin en knapperig zijn. Roer regelmatig en breng op smaak met zout en peper.",
+                "3. Bestrooi de kipfilet(s) royaal met zout en peper. Verhit opnieuw een pufje spray-olijfolie in een tweede koekenpan op middelhoog vuur en bak de kipfilet(s) 5-7 minuten per kant, tot ze goudbruin en volledig gaar zijn.",
+                "4. Roer de groene pesto door de pan met kipfilet(s), zodat de kip volledig bedekt is. Laat de smaken enkele minuten intrekken terwijl de kip zachtjes suddert.",
+                "5. Voeg de gehalveerde cherrytomaatjes toe aan de pan en schep ze voorzichtig om. Laat ze 2-3 minuten bakken, totdat ze zacht en sappig worden.",
+                "6. Voeg de verse spinazie toe aan de pan en roerbak kort, ongeveer 1-2 minuten, tot de bladeren beginnen te slinken maar hun heldere groene kleur behouden.",
+                "7. Leg de kipfilet(s) op een bord en schep de pesto met de cherrytomaatjes en spinazie er sierlijk overheen.",
+                "8. Serveer de knapperige krieltjes ernaast en geniet van deze smaakvolle en evenwichtige maaltijd."
+            ]
+        },
+        {
+            "id": "51",
+            "naam": "Kipfilet met Turkse Kruidenkorst",
+            "afbeelding": "",
+            "calorieën": 0,
+            "ingrediënten": [],
+            "bereiding": [
+                "Ingrediënten:",
+                "- 200 g kipfilet",
+                "- 1 tl paprikapoeder",
+                "- 0.5 tl sumak",
+                "- 1 tl oregano",
+                "- 1 el olijfolie",
+                "- 1 wortel (geroosterd)",
+                "- 1 paprika (geroosterd)",
+                "- Peper en zout naar smaak",
+                "Bereiding:",
+                "1. Meng de kruiden met olijfolie en bestrijk de kipfilet ermee. Laat 30 minuten marineren.",
+                "2. Bak de kipfilet in een pan tot hij gaar is en een knapperig laagje heeft.",
+                "3. Serveer met geroosterde wortel en paprika."
+            ]
+        },
+        {
+            "id": "52",
+            "naam": "Knoflooksaus",
+            "afbeelding": "images/6d23e901-1d33-4453-af30-cf28f661b9fa_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g magere kwark",
+                "2 teentje(s) knoflook",
+                "1 theelepel(s) citroensap (flesje)",
+                "0,5 theelepel(s) gedroogde dille",
+                "0,5 theelepel(s) gedroogde peterselie",
+                "peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Meng de magere kwark in een kom met de geperste teentje(s) knoflook, citroensap, dille, peterselie en zout en peper naar smaak. Roer tot een gladde saus en laat deze 10-15 minuten in de koelkast staan, zodat de smaken goed kunnen intrekken."
+            ]
+        },
+        {
+            "id": "53",
+            "naam": "Köfte met volkoren pita, airfryer frites en salade",
+            "afbeelding": "images/e7f0aed8-8ebd-4766-95ac-c4f24c85b8e3_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g ovenfrites",
+                "100 g mager rundergehakt",
+                "75 g magere kwark",
+                "50 g rucola gemengde melange",
+                "4 pufje(s) spray-olijfolie",
+                "2 teentje(s) knoflook",
+                "1 kleine volkoren pita('s)",
+                "1 theelepel(s) gedroogde peterselie",
+                "1 snufje(s) komijnpoeder",
+                "0,5 middelgrote ui(en)",
+                "0,5 middelgrote toma(a)t(en)",
+                "0,5 theelepel(s) paprikapoeder",
+                "0,5 theelepel(s) citroensap (flesje)",
+                "0,25 rode ui(en)",
+                "0,25 theelepel(s) chilivlokken",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de tomaat in plakjes, de rode ui in dunne ringen en pers de knoflook uit. Snipper vervolgens de ui, zodat alles voorbereid is voor de bereiding.",
+                "2. Meng in een kom het rundergehakt met de gesnipperde ui, uitgeperste knoflook, paprikapoeder, komijnpoeder, chilivlokken, peterselie en zout en peper. Kneed het mengsel goed door.",
+                "3. Verhit een grillpan of koekenpan en gebruik 4 pufjes spray-olijfolie. Bak de köfte op middelhoog vuur tot het volledig gaar en goudbruin is. Dit duurt zo'n 8-10 minuten.",
+                "4. Meng in een kom de rucola melange, tomatenplakjes en ringen van rode ui tot een frisse salade. Besprenkel met citroensap en voeg zout en peper toe om de smaak compleet te maken.",
+                "5. Maak een eenvoudige maar smaakvolle kwarksaus door de magere kwark te mengen met een snufje zout. Voeg desgewenst wat uitgeperste knoflook toe voor een extra smaakdimensie.",
+                "6. Verwarm de volkoren pita kort in de oven of in een broodrooster tot deze licht krokant is.",
+                "7. Vul de pita met de frisse salade, de sappige köfte en een royale lepel van de romige kwarksaus.",
+                "8. Serveer dit gerecht warm met de frites en geniet van de perfecte balans tussen kruidigheid, frisheid en romigheid."
+            ]
+        },
+        {
+            "id": "54",
+            "naam": "Krentenbrood",
+            "afbeelding": "images/b9f62952-2da0-491c-af46-50977bce2550_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "tarwebloem (patent) 300g",
+                "melk (halfvol) 150ml",
+                "rozijnen 150g",
+                "roomboter 50g",
+                "suiker 30g",
+                "gist 7g",
+                "zout 1 theelepel",
+                "ei, middel 1",
+                "kaneel 1 theelepel",
+                "spray olijfolie"
+            ],
+            "bereiding": [
+                "Benodigdheden:",
+                "Keukenmachine met deeghaak",
+                "Silicone bakvorm (27x13x7 cm)",
+                "Satisfryer",
+                "Vershoudfolie of een vochtige doek",
+                "Voorbereiding:",
+                "Ei loskloppen",
+                "Doe de rozijnen in een kom met lauwwarm water en laat ze 30 minuten wellen. Giet ze daarna goed af en dep droog met keukenpapier.",
+                "Haal de boter uit de koelkast en laat deze op kamertemperatuur komen.",
+                "Bereiding:",
+                "Doe de bloem, gist, suiker en zout in de kom van de keukenmachine. Meng kort met de deeghaak op lage snelheid zodat de droge ingrediënten zich verdelen.",
+                "Verwarm de melk tot zo'n 35° C. Voeg de melk, het losgeklopte ei en de zachte boter toe. Kneed op middelhoge snelheid (stand 2-3) gedurende 8-10 minuten tot je een soepel, elastisch deeg hebt. Het deeg mag licht plakkerig zijn, maar niet te nat. Als het te droog lijkt, voeg 1-2 theelepels melk toe; als het te nat is, een klein beetje bloem.",
+                "Voeg de uitgelekte rozijnen en kaneel toe en kneed nog 1-2 minuten op lage snelheid tot ze gelijkmatig verdeeld zijn.",
+                "Vorm het deeg tot een bal en leg het in een licht ingevette kom. Dek af met vershoudfolie of een vochtige doek.",
+                "Laat het deeg 1 uur rijzen op een warme, tochtvrije plek (ca. 25-28°C) tot het in volume is verdubbeld. Dit kan bijvoorbeeld naast een verwarming of in een uitgeschakelde oven met een bakje warm water ernaast.",
+                "Vet je bakvorm (27x13x7 cm) licht in met boter of bakspray.",
+                "Druk het gerezen deeg voorzichtig plat op een licht bebloemd werkblad om de lucht eruit te halen. Vorm het tot een rechthoek die past in je bakvorm (ongeveer 25x11 cm, iets kleiner dan de vorm, want het rijst nog).",
+                "Leg het deeg met de naad naar beneden in de bakvorm en druk het licht aan zodat het gelijkmatig verdeeld is.",
+                "Dek de bakvorm losjes af met vershoudfolie of een doek en laat het deeg nog 30-40 minuten rijzen tot het bijna de rand van de vorm bereikt.",
+                "Verwarm de Satisfryer voor op 160°C",
+                "Plaats de bakvorm in het midden van de Satisfryer.",
+                "Bak het rozijnenbrood 20-25 minuten op 160°C. Controleer na 20 minuten: het brood moet goudbruin zijn en hol klinken als je erop klopt. De kerntemperatuur moet idealiter 95°C zijn.",
+                "Tip: als de bovenkant te snel bruin wordt, leg er na 15 minuten een stukje aluminiumfolie losjes overheen.",
+                "Haal het brood direct uit de vorm en laat het afkoelen op een rooster. Bestrijk de bovenkant eventueel met een beetje gesmolten boter voor een zachte, glanzende korst.",
+                "Tips voor succes",
+                "Begin met 20 minuten en verleng indien nodig met stappen van 3-5 minuten.",
+                "Vul de vorm niet meer dan 2/3, want het deeg rijst nog in de Satisfryer. Dit recept is afgestemd op de Satisfryer.",
+                "8-10 minuten kneden is echt nodig voor een luchtig resultaat, zelfs met een machine. Stop niet te vroeg!",
+                "Rozijnen gelijk verdelen: Als ze na het kneden niet goed verdeeld zijn, kneed je ze er met de hand nog even door."
+            ]
+        },
+        {
+            "id": "55",
+            "naam": "Krentenbrood (multicooker)",
+            "afbeelding": "images/5286c02c-c1be-4854-9b6d-95f6cc8e800c_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "tarwebloem (patent) 400g",
+                "melk (halfvol) 250ml",
+                "rozijnen 150g",
+                "suiker 50g",
+                "roomboter 50g",
+                "zout 2 theelepel",
+                "gist 7g",
+                "kaneel 1 theelepel"
+            ],
+            "bereiding": [
+                "Doe de krenten in een kom met warm water en laat ze ongeveer 10 minuten weken. Giet ze daarna af en dep ze droog met keukenpapier. Dit zorgt ervoor dat de krenten sappig blijven en niet uitdrogen tijdens het bakken.",
+                "Meng in een kom de bloem, gist, zout, suiker en eventueel kaneel of vanillesuiker. Voeg lauwwarme (35°C) melk en zachte boter toe. Meng alles tot een samenhangend deeg.",
+                "Kneed het deeg 8-10 minuten tot het soepel en elastisch is. Dit kan met de hand of een keukenmachine. Voeg daarna de geweekte krenten toe en kneed nog even door totdat ze goed verdeeld zijn in het deeg.",
+                "Doe het deeg in een licht ingevette kom, dek het af met een vochtige doek en laat het op een warme plek rijzen tot het in volume is verdubbeld. Dit duurt ongeveer 1 tot 1,5 uur.",
+                "Kneed het deeg kort door om de lucht eruit te drukken en vorm het tot een rol die in de siliconenvorm past. Leg het deeg in de vorm en laat het opnieuw rijzen, ongeveer 30-45 minuten.",
+                "Zet de Russell en Hobbs multicooker op de \"Bake\"-stand (180° C) en laat hem voorverwarmen, indien nodig.",
+                "Plaats de siliconen vorm met het deeg in de multicooker. Stel de baktijd in op ongeveer 40-50 minuten.",
+                "Haal het brood voorzichtig uit de multicooker en laat het volledig afkoelen op een rooster voordat je het aansnijdt.",
+                "Tip:",
+                "Controleer aan het einde met een satéprikker of het brood gaar is. Als de prikker er schoon uitkomt, is het brood klaar."
+            ]
+        },
+        {
+            "id": "56",
+            "naam": "Lahmacun (Turkse Pizza)",
+            "afbeelding": "images/9db3dbfc-acc5-408e-80ba-f9bd6f5bb19c_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200g mager rundergehakt",
+                "50g magere kwark",
+                "2 teentje(s) knoflook",
+                "2 tortilla('s)",
+                "2 eetlepel(s) tomatenpuree",
+                "4 theelepel(s) gedroogde peterselie",
+                "1 middelgrote toma(a)t(en)",
+                "1 citroen(en) (optioneel)",
+                "1/2 middelgrote ui(en)"
+            ],
+            "bereiding": [
+                "1. Snijd de halve tomaat in kleine blokjes en snipper de kwart ui.",
+                "2. Meng het rundergehakt met de tomatenblokjes, gesnipperde ui, tomatenpuree en geperste knoflook. Zorg dat alles goed gemengd is voor een heerlijke vulling.",
+                "3. Besmeer de tortilla met het gehaktmengsel in een gelijkmatige laag.",
+                "4. Bak de tortilla in een voorverwarmde oven gedurende 10 minuten op 200°C of, als je een airfryer gebruikt, 8 minuten op 180°C. Hierdoor krijgt de wrap een knapperige bite.",
+                "5. Serveer de tortilla met een royale hoeveelheid gedroogde peterselie eroverheen gestrooid en voeg optioneel een paar partjes citroen toe voor extra frisheid."
+            ]
+        },
+        {
+            "id": "57",
+            "naam": "Maaltijdsalade tonijn",
+            "afbeelding": "images/bad529b2-bbba-4ca3-b8e6-6df29bd43260_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "100 g rucola gemengde melange",
+                "75 g farfalle",
+                "60 g cherrytomaatjes",
+                "1 blikje(s) tonijn op waterbasis (inh. 150 g)",
+                "1 rode ui(en)",
+                "1 eetlepel(s) olijfolie",
+                "1 eetlepel(s) citroensap (flesje)",
+                "0,25 komkommer(s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Kook de farfalle volgens de aanwijzingen op de verpakking. Giet af en laat afkoelen.",
+                "2. Snijd de komkommer in dunne plakjes, halveer de cherrytomaatjes en snijd de ui in dunne ringen. Laat de tonijn uitlekken en doe deze in een kom. Verdeel de tonijn in kleinere stukjes met een vork.",
+                "3. Meng in een klein kommetje de olijfolie en het citroensap tot een frisse dressing. Breng op smaak met zout en peper.",
+                "4. Voeg in een grote kom de rucola melange, komkommer, ui en cherrytomaatjes samen en giet de dressing erover. Meng grondig, zodat alle ingrediënten goed bedekt zijn.",
+                "5. Voeg de tonijn en de afgekoelde farfalle toe aan de salade. Meng voorzichtig, zodat de tonijn gelijkmatig verdeeld wordt zonder dat deze te veel uit elkaar valt.",
+                "6. Serveer de tonijnsalade direct en garneer naar wens met extra citroensap of een paar schijfjes citroen voor een frisse afwerking."
+            ]
+        },
+        {
+            "id": "58",
+            "naam": "Macaroni",
+            "afbeelding": "images/3ec7de2e-4275-415b-b37e-b9dc0c4b8a6e_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "125 g kipfilet(s)",
+                "75 g volkoren macaroni",
+                "20 g geraspte Parmezaanse kaas",
+                "1 kleine toma(a)t(en)",
+                "1 teentje(s) knoflook",
+                "1 pufje(s) spray-olijfolie",
+                "1 theelepel(s) Italiaanse kruiden",
+                "0,5 rode paprika('s)",
+                "0,25 middelgrote ui(en)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Kook de volkoren macaroni volgens de instructies op de verpakking. Giet af en zet opzij.",
+                "2. Snijd de kipfilet(s) in blokjes, de tomaat in kleine stukjes en de paprika('s) in blokjes. Snipper de ui(en) en pers de knoflook, zodat alles klaarstaat.",
+                "3. Verhit een pufje spray-olijfolie in een koekenpan op middelhoog vuur. Voeg de knoflook en ui(en) toe en bak tot ze glazig zijn.",
+                "4. Voeg de blokjes kipfilet toe aan de pan en bak ze goudbruin en gaar.",
+                "5. Voeg de tomaat en paprika toe en bak deze nog een paar minuten mee, totdat de groenten zacht zijn en de smaken mooi samenkomen.",
+                "6. Voeg de gekookte macaroni toe aan de pan en meng goed door elkaar. Breng op smaak met zout, peper en Italiaanse kruiden.",
+                "7. Serveer de macaroni op een bord en strooi de geraspte Parmezaanse kaas eroverheen."
+            ]
+        },
+        {
+            "id": "59",
+            "naam": "Miehoen Singapore",
+            "afbeelding": "images/a2ea3156-b397-4580-bd00-358aa86fe97f_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "125 g kipfilet(s)",
+                "60 g ramen noedels",
+                "40 g taugé",
+                "1 eetlepel(s) sojasaus",
+                "1 eetlepel(s) oestersaus",
+                "1 bosuitje(s)",
+                "1 teentje(s) knoflook",
+                "1 pufje(s) spray-zonnebloemolie",
+                "0,5 eetlepel(s) curry tandoori poeder",
+                "0,25 gele paprika('s)",
+                "0,25 rode paprika('s)",
+                "0,25 kleine wortel(s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet(s) in dunne reepjes en meng deze met de helft van de sojasaus en een snufje peper. Laat dit minstens 10 minuten marineren zodat de smaken goed intrekken.",
+                "2. Bereid de ramen noedels volgens de instructies op de verpakking. Giet af en zet apart.",
+                "3. Snijd de gele en rode paprika in reepjes, de wortel in dunne julienne-reepjes en de bosuitje(s) in kleine stukjes. Pers de knoflook.",
+                "4. Verhit een pufje spray-zonnebloemolie in een grote koekenpan of wok op middelhoog vuur. Voeg de knoflook toe en bak kort tot deze geur afgeeft.",
+                "5. Voeg de gemarineerde kipreepjes toe en roerbak ze tot ze gaar en goudbruin zijn.",
+                "6. Voeg de paprika, wortel en bosuitje(s) toe aan de pan en roerbak enkele minuten. Zorg dat de groenten gaar worden maar nog een knapperige bite behouden.",
+                "7. Voeg de ramen noedels toe en meng alles goed door elkaar. Voeg de resterende sojasaus, oestersaus en curry tandoori poeder toe. Roer tot alles gelijkmatig bedekt is met de saus.",
+                "8. Voeg de taugé toe en roerbak kort, totdat deze begint te slinken maar nog fris en knapperig blijft.",
+                "9. Breng het gerecht op smaak met zout en peper. Serveer direct en geniet van een gerecht dat barst van smaak en textuur."
+            ]
+        },
+        {
+            "id": "60",
+            "naam": "Nasi *",
+            "afbeelding": "images/42a9e06d-a704-4ff6-9f6a-dc46336eefb9_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g kipfilet(s)",
+                "100 g basmatirijst",
+                "50 g diepvrieserwten",
+                "1 eetlepel(s) sojasaus",
+                "1 eetlepel(s) ketjap manis",
+                "1 eetlepel zonnebloemolie",
+                "1 bosuitje(s)",
+                "1 teentje(s) knoflook",
+                "0,5 theelepel(s) kerriepoeder",
+                "0,5 theelepel(s) korianderpoeder",
+                "0,25 kleine wortel(s)",
+                "0,25 middelgrote ui(en)",
+                "0,25 theelepel(s) chilivlokken (optioneel)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Kook de basmatirijst volgens de instructies op de verpakking. Laat uitlekken en zet apart.",
+                "2. Snijd de kipfilet(s) in blokjes, snipper de ui(en), pers de knoflook en snijd de wortel in kleine blokjes. Snijd het bosuitje(s) in dunne ringetjes.",
+                "3. Verhit een pufje spray-zonnebloemolie in een koekenpan of wok op middelhoog vuur. Voeg de ui(en) en knoflook toe en bak totdat ze zacht en geurig zijn.",
+                "4. Voeg de blokjes kipfilet toe en bak deze goudbruin en gaar. Roer regelmatig om de kip gelijkmatig te bakken.",
+                "5. Voeg de wortelblokjes en diepvrieserwten toe en roerbak enkele minuten tot de groenten zacht zijn, maar nog een lichte bite hebben.",
+                "6. Voeg de gekookte basmatirijst toe en meng alles goed door elkaar. Voeg de sojasaus, ketjap manis, kerriepoeder, korianderpoeder en eventueel chilivlokken toe. Roer tot de rijst en groenten gelijkmatig bedekt zijn met de saus en kruiden.",
+                "7. Breng het gerecht op smaak met zout en peper. Blijf mengen tot alle ingrediënten harmonieus gecombineerd zijn.",
+                "8. Serveer de nasi op een bord en garneer met de fijngehakte bosui voor een frisse en kleurrijke afwerking."
+            ]
+        },
+        {
+            "id": "61",
+            "naam": "Noedelsoep met kip",
+            "afbeelding": "images/1436d8e3-1d07-4148-b768-5252341268cd_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "600 g kipfilet(s)",
+                "4 mie nestje(s)",
+                "3 theelepel(s) gedroogde tijm",
+                "3 theelepel(s) gedroogde rozemarijn",
+                "3 teentje(s) knoflook",
+                "4 kleine wortel(s)",
+                "2 stengel(s) bleekselderij",
+                "1,5 L kippenbouillon",
+                "1 middelgrote ui(en)",
+                "1 laurierblaadje(s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de wortel(s), bleekselderij en ui(en) in grove stukken. Leg deze samen met de kipfilet(s) in de slowcooker.",
+                "2. Voeg de warme kippenbouillon toe, maar zorg dat deze niet te heet is om barsten van de keramische pot te voorkomen.",
+                "3. Leg de tijm, rozemarijn en het laurierblaadje bovenop. Breng op smaak met zout en peper.",
+                "4. Stel de slowcooker in op LOW en laat het gerecht 6,5-7 uur zachtjes garen. Controleer halverwege of de kip nog mooi mals is; indien nodig kun je het eerder uit de bouillon halen om te voorkomen dat het droog wordt.",
+                "5. Haal de kipfilet(s) en het laurierblaadje uit de slowcooker. Gooi het laurierblaadje weg. Trek de kipfilet(s) met twee vorken uit elkaar tot kleine stukjes.",
+                "6. Voeg de gescheurde kip weer toe aan de slowcooker. Breek de mie nestje(s) in grove stukken en voeg deze toe aan de soep. Laat het geheel nog 20-25 minuten op LOW staan totdat de mie gaar is.",
+                "7. Verdeel de soep in  porties en serveer direct. Bewaar of vries de overige 3 porties in voor een later moment."
+            ]
+        },
+        {
+            "id": "62",
+            "naam": "Paella",
+            "afbeelding": "images/e149586b-ee62-4964-a36c-7d486f988009_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "160 g paellarijst",
+                "160 g cocktailgarnalen (schoongemaakt)",
+                "120 g kipfilet(s)",
+                "120 g diepvrieserwten",
+                "60 g chorizo",
+                "6 pufje(s) spray-olijfolie",
+                "1 kleine ui(en)",
+                "1 teentje(s) knoflook",
+                "1,25 theelepel(s) paprikapoeder",
+                "0,75 eetlepel(s) paellakruiden",
+                "0,75 kippenbouillonblokje(s)",
+                "0,5 blikje(s) tomatenblokjes (inh. 400g)",
+                "0,4 rode paprika('s)",
+                "0,4 eetlepel(s) citroensap"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet en chorizo in blokjes. Snipper de ui grof en pers de knoflook. Bereid alle ingrediënten voor de slowcooker.",
+                "2. Gebruik 6 pufjes spray-olijfolie en voeg de kip, chorizo, ui, knoflook, paprikapoeder en paellakruiden toe aan de slowcooker. Giet de lauwe kippenbouillon over het geheel en voeg de tomatenblokjes en citroensap toe. Roer alles goed door.",
+                "3. Stel de slowcooker in op HIGH en laat het gerecht 3 uur rustig garen.",
+                "4. Roer na 3 uur het mengsel door en voeg de paellarijst toe. Laat het geheel nog 20 minuten verder garen.",
+                "5. Voeg de rode paprika in blokjes, garnalen en diepvrieserwten toe aan de slowcooker. Laat het gerecht nogmaals 20 minuten garen op HIGH, totdat de garnalen doorgewarmd zijn en de groenten gaar maar knapperig blijven.",
+                "6. Verdeel de paella in vier porties van 600 calorieën en serveer. Geniet direct van de rijke smaken en bewaar eventuele overgebleven porties in de koelkast of vries deze in voor later gebruik."
+            ]
+        },
+        {
+            "id": "63",
+            "naam": "Paella (Spaans) *",
+            "afbeelding": "images/feb0c2a5-f5b7-4f1c-9d9a-82dc6915865c_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "225 ml kippenbouillon",
+                "75 g paellarijst",
+                "60 g cocktailgarnalen (schoongemaakt)",
+                "60 g kipfilet(s)",
+                "20 g diepvrieserwten",
+                "20 g chorizo",
+                "10 saffraandraadjes",
+                "1,5 theelepel(s) paellakruiden",
+                "1 teentje(s) knoflook",
+                "1 pufje(s) spray-olijfolie",
+                "1 theelepel(s) gedroogde peterselie",
+                "1 kleine toma(a)t(en)",
+                "0,25 rode paprika('s)",
+                "0,25 groene paprika('s)",
+                "0,25 middelgrote ui(en)",
+                "0,25 citroen(en) (optioneel)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Week de saffraandraadjes in een klein beetje warme kippenbouillon. Snijd de kipfilet en chorizo in blokjes. Snijd de paprika’s in dunne reepjes, de tomaat in blokjes en snipper de ui. Pers de knoflook uit en optioneel: snijd de citroen in partjes.",
+                "2. Verhit 1 pufje spray-olijfolie in een kleine paellapan of koekenpan op middelhoog vuur. Voeg de stukjes kip toe en bak ze tot ze goudbruin zijn. Haal de kip uit de pan en zet apart.",
+                "3. Voeg de ui en knoflook toe aan dezelfde pan en bak tot ze zacht en geurig zijn.",
+                "4. Voeg de paprika’s en de tomatenblokjes toe en roerbak enkele minuten tot de groenten zacht worden.",
+                "5. Doe de paellarijst en diepvrieserwten in de pan. Roer goed door, zodat de rijst bedekt wordt met de olie en de sappen van de groenten.",
+                "6. Giet 250 ml kippenbouillon met de geweekte saffraan erbij en breng aan de kook. Voeg de paellakruiden, zout en peper naar smaak toe.",
+                "7. Leg de gebakken kipstukjes, chorizo en garnalen bovenop de rijst. Zet het vuur laag en laat de paella zonder deksel zachtjes sudderen tot de rijst gaar is en de bouillon bijna volledig is opgenomen. Dit duurt ongeveer 20 minuten.",
+                "8. Haal de pan van het vuur en laat de paella een paar minuten rusten. Roer daarna voorzichtig door.",
+                "9. Garneer de paella met gedroogde peterselie en, indien gewenst, met partjes citroen voor een frisse finishing touch."
+            ]
+        },
+        {
+            "id": "64",
+            "naam": "Paella kruidenmix",
+            "afbeelding": "images/656919e0-f52b-456a-8b5e-76e1546ac635_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "1 eetlepel(s) gerookte paprikapoeder",
+                "1 theelepel(s) kurkuma",
+                "1 theelepel(s) knoflookpoeder",
+                "1 theelepel(s) uienpoeder",
+                "1 theelepel(s) gedroogde tijm",
+                "1 theelepel(s) gedroogde oregano",
+                "1 theelepel(s) gedroogde rozemarijn",
+                "0,5 theelepel(s) gemalen zwarte peper",
+                "0,5 theelepel(s) cayennepeper",
+                "0,5 theelepel(s) saffraan",
+                "0,5 theelepel(s) zout"
+            ],
+            "bereiding": [
+                "1. Meng alle kruiden en specerijen in een kom tot ze goed gemengd zijn.",
+                "2. Bewaar de kruidenmix in een luchtdichte container op een koele, droge plaats om de smaak en versheid te behouden."
+            ]
+        },
+        {
+            "id": "65",
+            "naam": "Pasta met Broccoli en Kaassaus",
+            "afbeelding": "images/9ff864c2-5ba1-4a11-aeb5-99084a92f56c_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 g broccoli",
+                "150 ml halfvolle melk",
+                "100 g volkoren pasta",
+                "50 g magere kaas, geraspt",
+                "10 g tarwebloem (patent)",
+                "10 g light boter"
+            ],
+            "bereiding": [
+                "1. Kook de volkoren pasta volgens de aanwijzingen op de verpakking en stoom of kook de broccoli apart totdat deze zacht maar nog een beetje knapperig is.",
+                "2. Smelt de light boter in een pan op laag vuur. Voeg de tarwebloem toe en roer goed door om een gladde roux te maken. Schenk de halfvolle melk er geleidelijk bij, terwijl je blijft roeren om klontjes te voorkomen.",
+                "3. Blijf roeren totdat de saus dik begint te worden. Voeg de geraspte magere kaas toe en laat smelten, zodat je een romige kaassaus krijgt.",
+                "4. Meng de gekookte volkoren pasta en broccoli met de kaassaus. Zorg ervoor dat alles goed bedekt is met de saus.",
+                "5. Serveer warm en geniet van deze eenvoudige, voedzame maaltijd."
+            ]
+        },
+        {
+            "id": "66",
+            "naam": "Pasta met kipfilet en rode pesto",
+            "afbeelding": "images/5266531c-f225-4479-9f93-1adb6f706616_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "125 g kipfilet(s)",
+                "65 g pasta",
+                "2 eetlepel(s) rode pesto",
+                "1 teentje(s) knoflook",
+                "1 pufje(s) spray-olijfolie",
+                "0,5 rode paprika('s)",
+                "0,25 theelepel(s) chilivlokken",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet in blokjes, de paprika in stukjes en pers de knoflook. Zorg dat alles goed voorbereid is.",
+                "2. Kook de pasta volgens de instructies op de verpakking. Giet af en zet opzij.",
+                "3. Verhit 1 pufje spray-olijfolie in een koekenpan op middelhoog vuur. Voeg de blokjes kipfilet toe en bak deze rondom goudbruin en gaar.",
+                "4. Voeg de knoflook, paprika en chilivlokken toe aan de pan en bak nog ongeveer 3 minuten, zodat de groenten zacht worden en de smaken samenkomen.",
+                "5. Roer de rode pesto door het gerecht en zorg ervoor dat de kip en groenten goed bedekt zijn.",
+                "6. Meng de gekookte pasta met de saus en roer door tot alles gelijkmatig verdeeld is. Breng op smaak met zout en peper naar eigen voorkeur.",
+                "7. Serveer deze smakelijke pastamaaltijd direct en geniet van een eenvoudige maar heerlijke avondmaaltijd."
+            ]
+        },
+        {
+            "id": "67",
+            "naam": "Pindakip (slowcooker)",
+            "afbeelding": "images/643b3c1d-6402-486f-90ce-5b3d4061f06c_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "450 g kipfilet(s)",
+                "40 ml kookroom",
+                "6 mie nestje(s)",
+                "2,5 eetlepel(s) pindakaas",
+                "2,5 eetlepel(s) ketjap manis",
+                "2,5 eetlepel(s) sweet chilisaus",
+                "2 teentje(s) knoflook",
+                "1,5 kleine ui(en)",
+                "1 eetlepel(s) allesbinder",
+                "1 bosuitje(s)",
+                "0,75 theelepel(s) sambal manis",
+                "0,75 theelepel(s) uienpoeder",
+                "0,5 theelepel(s) sesamolie",
+                "0,5 theelepel(s) gemberpoeder",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet in grote blokjes. Snipper de ui(en) grof, snijd de bosuitje(s) in grove ringen en pers de knoflook. Bereid alle ingrediënten voor gebruik.",
+                "2. Voeg alle ingrediënten, behalve de mie nestje(s), toe aan de slowcooker. Roer alles voorzichtig door, zodat de smaken goed mengen. Stel de slowcooker in op LOW en laat het gerecht 3 uur zachtjes garen.",
+                "3. Voeg na 2,5 uur de mie nestje(s) toe aan de slowcooker. Laat het geheel nog 60 minuten verder garen op LOW, totdat de mie volledig gaar is.",
+                "4. Haal de deksel van de slowcooker en roer het gerecht goed door. Als de saus te dik is, voeg een beetje water toe. Is de saus te dun, gebruik dan de allesbinder om het gerecht iets meer te laten binden.",
+                "5. Verdeel het gerecht in 4 porties van ongeveer ???. Serveer direct en bewaar of vries de overige porties in voor later gebruik."
+            ]
+        },
+        {
+            "id": "68",
+            "naam": "Pittige noedels met kipfilet *",
+            "afbeelding": "images/9ff3b279-1d4c-4f63-848f-1bf0ca690d73_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "175 g kipfilet(s)",
+                "90 g volkoren noedels",
+                "200 g broccoli",
+                "2 kleine wortel(s)",
+                "1 pufje(s) spray-olijfolie",
+                "1 bosuitje(s)",
+                "1 teentje(s) knoflook",
+                "1 eetlepel(s) sojasaus",
+                "1 eetlepel(s) sriracha",
+                "0,5 eetlepel(s) sesamolie",
+                "0,5 rode paprika('s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Kook de volkoren noedels volgens de instructies op de verpakking. Giet af en zet apart.",
+                "2. Snijd de kipfilet in reepjes, de paprika in dunne reepjes, de wortel in plakjes en de broccoli in kleine roosjes. Snijd de bosui in dunne ringetjes en pers de knoflook.",
+                "3. Verhit 1 pufje spray-olijfolie in een pan op middelhoog vuur. Bak de kipfiletreepjes tot ze goudbruin en gaar zijn. Breng op smaak met zout en peper en haal de kip uit de pan. Zet apart.",
+                "4. Voeg de knoflook toe aan dezelfde pan en bak deze kort tot de geur vrijkomt. Voeg de paprika, wortel en broccoli toe en roerbak tot de groenten gaar zijn, maar nog knapperig blijven.",
+                "5. Voeg de gekookte noedels toe aan de pan met de groenten. Voeg de sojasaus, sriracha en sesamolie toe en meng alles goed door elkaar, zodat de noedels en groenten de sauzen volledig opnemen.",
+                "6. Voeg de kipfilet weer toe aan de pan en meng het geheel door elkaar. Verwarm nog een paar minuten tot alles goed heet is.",
+                "7. Serveer het gerecht direct en garneer met ringetjes bosui voor een frisse, kleurrijke touch."
+            ]
+        },
+        {
+            "id": "69",
+            "naam": "Roti Kruidenmix",
+            "afbeelding": "images/9ff82e6d-fb6d-4f8f-b5fb-0f072bc8bc1b_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "2 eetlepel(s) kerrie massala",
+                "2 theelepel(s) komijnzaad (djintan)",
+                "1 theelepel(s) paprikapoeder",
+                "1 theelepel(s) knoflookpoeder",
+                "1 theelepel(s) peper",
+                "1 theelepel(s) zout"
+            ],
+            "bereiding": [
+                "1. Meng alle kruiden zorgvuldig in een kom, zodat ze goed met elkaar vermengd zijn."
+            ]
+        },
+        {
+            "id": "70",
+            "naam": "Rozijnenbrood poging 2",
+            "afbeelding": "",
+            "calorieën": 0,
+            "ingrediënten": [
+                "250 g patentbloem",
+                "150 ml melk (lauwwarm)",
+                "50 g suiker",
+                "7 g droge gist",
+                "50 g ongezouten boter (zacht)",
+                "1 middelgroot ei",
+                "100 g rozijnen (geweekt in warm water en goed uitgelekt)",
+                "Snufje zout"
+            ],
+            "bereiding": [
+                "### Voorbereiding:",
+                "1. Week de rozijnen: Laat ze 10 minuten weken in warm water en dep ze goed droog.",
+                "2. Activeer de gist: Meng de gist met een eetlepel suiker en de lauwwarme melk. Laat 10 minuten staan tot het mengsel gaat schuimen.",
+                "3. Maak het deeg: Doe de bloem, resterende suiker, snufje zout, zachte boter en ei in de keukenmachine. Voeg het gistmengsel toe en laat het deeg 10 minuten kneden tot een soepel en elastisch deeg ontstaat.",
+                "4. Rozijnen toevoegen: Kneed de rozijnen met de hand door het deeg, zodat ze gelijkmatig verdeeld zijn.",
+                "### Rijzen:",
+                "- Plaats het deeg in een licht ingevette kom, dek af met een vochtige doek of plastic folie, en laat ongeveer 1 uur rijzen op een warme plek tot het verdubbeld is in omvang.",
+                "### Bereiding in de Satisfryer:",
+                "1. Vorm en tweede rijzing: Kneed het deeg kort, vorm het tot een brood en plaats het in jouw ingevette cakeblik (18,5 cm x 8 x 9,5 cm). Laat opnieuw 30 minuten rijzen.",
+                "2. Bakken: Plaats het cakeblik in de Satisfryer. Stel de temperatuur in op 160°C en bak het brood gedurende 25-30 minuten, afhankelijk van je Satisfryer. Check tussendoor: het brood is klaar als het goudbruin is en hol klinkt bij tikken op de onderkant.",
+                "### Tips om het vers en zacht te houden:",
+                "1. Bewaar het brood: Zodra het brood volledig is afgekoeld, wikkel het in vershoudfolie of bewaar het in een luchtdichte bak.",
+                "2. Zacht houden: Voeg tijdens het kneden een klein scheutje plantaardige olie toe aan het deeg—dit helpt de textuur te behouden.",
+                "3. Bevriezen: Wil je het langer bewaren? Snijd het brood in plakken, verpak deze luchtdicht en vries ze in. Ontdooi de plakken langzaam op kamertemperatuur. in plakken, verpak deze luchtdicht en vries ze in. Ontdooi de plakken langzaam op kamertemperatuur."
+            ]
+        },
+        {
+            "id": "71",
+            "naam": "Rundgehakt stoofpot met bulgur rijst",
+            "afbeelding": "images/e81c742d-10dc-4891-a7e2-2393c7225d3c_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "240 g mager rundergehakt",
+                "160 ml runderbouillon",
+                "120 g pilavlik bulgur",
+                "5 pufje(s) spray-olijfolie",
+                "1,5 teentje(s) knoflook",
+                "1 blikje(s) tomatenblokjes (inh. 400g)",
+                "0,8 middelgrote ui(en)",
+                "0,75 laurierblaadje(s)",
+                "0,75 theelepel(s) gedroogde tijm",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snipper de ui(en) en pers de knoflookteentjes uit. Kook de bulgur volgens de aanwijzingen op de verpakking totdat deze perfect luchtig is.",
+                "2. Gebruik 5 pufjes spray-olijfolie en bak het rundergehakt samen met de fijngehakte ui(en) en knoflook tot het gehakt bruin is en de ui zacht is geworden.",
+                "3. Voeg de tomatenblokjes, runderbouillon, laurierblaadjes, gedroogde tijm, zout en peper toe aan de pan. Breng het geheel aan de kook, zet het vuur laag en laat het 30 minuten zachtjes sudderen zodat de smaken goed samenkomen.",
+                "4. Verwijder de laurierblaadjes uit de stoofpot en controleer de smaak. Voeg indien nodig extra zout en peper toe.",
+                "5. Serveer de stoofpot met de bulgur en geniet van dit heerlijke gerecht!"
+            ]
+        },
+        {
+            "id": "72",
+            "naam": "Shoarma Salade",
+            "afbeelding": "",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 gram kipshoarma",
+                "2 eetlepel(s) magere yoghurt",
+                "1 middelgrote tomaat",
+                "1 handje ijsbergsla",
+                "1 theelepel citroensap (flesje)",
+                "1 teentje(s) knoflook",
+                "1 theelepel(s) gedroogde munt",
+                "0,5 paprika",
+                "0,25 komkommer"
+            ],
+            "bereiding": [
+                "1. Verhit een pan op middelhoog vuur en bak de kipshoarma tot deze goudbruin en heerlijk geurig is.",
+                "2. Snijd de paprika in flinterdunne reepjes, de komkommer in frisse plakjes en de tomaat in smaakvolle stukjes. Hak de munt fijn voor een aromatische touch, indien gewenst.",
+                "3. Maak de dressing door de magere yoghurt te mengen met de geperste knoflook, citroensap en eventueel munt. Laat de smaken subtiel samensmelten tot een zachte frisheid.",
+                "4. Verdeel de knapperige ijsbergsla, plakjes komkommer, kleurrijke paprika en tomatenstukjes op een bord. Zorg voor een mooie presentatie die de eetlust opwekt.",
+                "5. Leg de warme, sappige kipshoarma als kroon op de salade en besprenkel met de verfijnde yoghurt-dressing.",
+                "6. Serveer direct en geniet van dit lichte gerecht, perfect in balans en vol rijke smaken.",
+                "---",
+                "Voedingswaarden (per portie volgens het Voedingscentrum):",
+                "- Calorieën: 260 kcal",
+                "- Totaal vet: 4.5 g",
+                "- Verzadigd vet: 1.5 g",
+                "- Cholesterol: 55 mg",
+                "- Natrium: 0.4 g",
+                "- Koolhydraten: 10 g",
+                "- Voedingsvezels: 2 g",
+                "- Suikers: 5 g",
+                "- Eiwitten: 30 g"
+            ]
+        },
+        {
+            "id": "73",
+            "naam": "Spaanse kip",
+            "afbeelding": "images/4a787146-b408-4693-baaf-c117a26cf933_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "600 g kipfilet(s)",
+                "200 ml kookroom",
+                "200 g champignons",
+                "6 eetlepel(s) ketjap manis",
+                "6 pufje(s) spray-olijfolie",
+                "3 eetlepel(s) bruine basterdsuiker",
+                "1,5 middelgrote ui(en)",
+                "1,5 teentje(s) knoflook",
+                "1,5 eetlepel(s) paprikapoeder",
+                "1 blikje(s) tomatenpuree (inh. 140g)",
+                "0,75 kippenbouillonblokje(s)",
+                "0,25 chorizo worst (optioneel)",
+                "0,25 theelepel(s) chilivlokken",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet in stukjes.",
+                "2. Snipper de ui(en), hak de knoflook fijn en maak de champignons schoon. Snijd deze in plakjes.",
+                "3. Snijd de chorizo worst in stukjes, als je ervoor kiest deze te gebruiken.",
+                "4. Doe de kipfilet, champignons, ui(en), knoflook en chorizo in de slowcooker.",
+                "5. Meng de ketjap manis, paprikapoeder, tomatenpuree, bruine basterdsuiker, kippenbouillonblokje, kookroom en 6 pufjes spray-olijfolie. Giet dit mengsel over de ingrediënten in de slowcooker.",
+                "6. Strooi chilivlokken over het geheel en breng op smaak met zout en peper.",
+                "7. Stel de slowcooker in op low en laat het gerecht 4 uur garen.",
+                "8. Controleer de dikte van de saus en pas de smaak aan indien nodig.",
+                "9. Serveer met witte rijst en eventueel een frisse groene salade. Garneren met wat gehakte peterselie is optioneel."
+            ]
+        },
+        {
+            "id": "74",
+            "naam": "Spareribs",
+            "afbeelding": "images/ac7af1ae-a885-421a-9886-183017ae234e_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "1 kg sparerib(s)",
+                "100 ml water",
+                "10 eetlepel(s) bbq-saus",
+                "3 eetlepel(s) bruine basterdsuiker",
+                "2 teentje(s) knoflook",
+                "1 eetlepel(s) ketjap manis",
+                "1 eetlepel(s) honing",
+                "1 theelepel(s) gerookte paprikapoeder"
+            ],
+            "bereiding": [
+                "1. Meng alle ingrediënten, behalve de sparerib(s), grondig in een kom om een rijke marinade te maken.",
+                "2. Leg de sparerib(s) in de marinade en zorg ervoor dat ze volledig bedekt zijn. Laat ze een nacht in de koelkast marineren zodat de smaken diep in het vlees trekken.",
+                "3. Plaats de gemarineerde sparerib(s) in de slowcooker en stel deze in op de lage stand (low) voor 8 uur. Probeer de deksel zo min mogelijk te openen om de warmte en vocht vast te houden.",
+                "4. Haal de sparerib(s) na 8 uur uit de slowcooker en geniet van zachte, smaakvolle ribs die bijna van het bot afglijden."
+            ]
+        },
+        {
+            "id": "75",
+            "naam": "Spareribs",
+            "afbeelding": "images/cbe5a62f-6db1-4598-8468-6ab118312d56_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "1 kg sparerib(s)",
+                "14 eetlepel(s) tomatenketchup",
+                "3 eetlepel(s) sojasaus",
+                "3,5 eetlepel(s) honing",
+                "2 eetlepel(s) ketjap manis",
+                "2 eetlepel(s) bruine basterdsuiker",
+                "2 eetlepel(s) bbq-saus",
+                "2 theelepel(s) uienpoeder",
+                "2 teentje(s) knoflook",
+                "1 theelepel(s) gerookte paprikapoeder",
+                "1 eetlepel(s) citroensap (flesje)"
+            ],
+            "bereiding": [
+                "1. Meng alle ingrediënten bij elkaar tot een rijke, smaakvolle marinade.",
+                "2. Snijd de sparerib(s) in kleinere stukken zodat ze gemakkelijk in de slowcooker passen.",
+                "3. Voeg de marinade toe aan de sparerib(s) en zorg dat het vlees volledig bedekt is. Laat de sparerib(s) een nachtje in de koelkast staan zodat de smaken goed kunnen intrekken.",
+                "4. Plaats de gemarineerde sparerib(s) de volgende dag in de slowcooker en stel deze in op 8,5 uur op de lage stand (low). Houd de deksel zoveel mogelijk gesloten om de warmte vast te houden.",
+                "5. Haal de sparerib(s) uit de slowcooker na de kooktijd en geniet van perfect gegaarde, malse ribs met een diepe smaak."
+            ]
+        },
+        {
+            "id": "76",
+            "naam": "Spinazieomelet met tomaat, ui en gebakken krieltjes",
+            "afbeelding": "images/b361d829-adea-43a8-a935-9e7bc6c48895_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 g krieltjes",
+                "200 g verse spinazie",
+                "4 pufje(s) spray-olijfolie",
+                "3 middelgrote ei(eren)",
+                "1 kleine toma(a)t(en)",
+                "0,25 middelgrote ui(en)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de tomaat in blokjes en snipper de ui fijn, zodat alles klaarstaat voor de bereiding.",
+                "2. Verhit 2 pufjes spray-olijfolie in een pan op middelhoog vuur en bak hierin de krieltjes tot ze goudbruin en knapperig zijn. Zet apart.",
+                "3. Verhit de overige 2 pufjes spray-olijfolie in een andere pan op middelhoog vuur. Voeg de gesnipperde ui toe en bak tot deze glazig is, waarbij de geur heerlijk vrijkomt.",
+                "4. Voeg de spinazie toe aan de pan en bak tot deze volledig geslonken is.",
+                "5. Klop de eieren los in een kom en voeg ze toe aan de pan met de spinazie en ui. Laat het ei langzaam stollen voor een zachte, gelijkmatige omelet.",
+                "6. Voeg de tomaatblokjes toe aan de pan en breng het geheel op smaak met zout en peper naar wens.",
+                "7. Bak de omelet verder tot de eieren volledig gaar zijn. Serveer de omelet samen met de knapperige krieltjes en geniet van dit eenvoudige maar voedzame gerecht."
+            ]
+        },
+        {
+            "id": "77",
+            "naam": "Stokbrood gehakt",
+            "afbeelding": "images/9efe15e3-2ce9-40e8-ba01-93cbe8b6bd14_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "100 g mager rundergehakt",
+                "30 g geraspte Parmezaanse kaas",
+                "1 afbakstokbroodje(s)",
+                "1 kleine ui(en)",
+                "1 teentje(s) knoflook",
+                "1 eetlepel(s) olijfolie",
+                "1 theelepel(s) paprikapoeder",
+                "0,5 rode paprika('s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Verwarm de oven voor op 200 graden Celsius. Snijd de rode paprika in blokjes, snipper de ui en pers de knoflook. Snijd het stokbrood in de lengte door en hol het midden iets uit om ruimte te maken voor de vulling. Leg de stokbroodhelften op een bakplaat.",
+                "2. Verhit de olijfolie in een koekenpan op middelhoog vuur. Voeg de gesnipperde ui en knoflook toe en bak tot ze glazig en geurig zijn.",
+                "3. Voeg het rundergehakt toe aan de pan en bak het rul. Voeg vervolgens de blokjes paprika toe en bak nog 5-7 minuten tot de paprika zacht is en de smaken zich mooi vermengen.",
+                "4. Breng het gehaktmengsel op smaak met paprikapoeder, zout en peper. Roer alles goed door elkaar zodat de kruiden en groenten zich gelijkmatig verdelen.",
+                "5. Vul de uitgeholde stokbroodhelften met het gehakt- en paprikamengsel. Strooi de geraspte Parmezaanse kaas over de vulling voor een extra hartige topping.",
+                "6. Bak de gevulde stokbroodhelften in de voorverwarmde oven gedurende 10-12 minuten, tot het brood knapperig is en de kaas licht goudbruin smelt."
+            ]
+        },
+        {
+            "id": "78",
+            "naam": "Stokbrood kip",
+            "afbeelding": "images/9dd3b4df-3e1a-4479-849b-b2168a38165e_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "100 g mager rundergehakt",
+                "30 g geraspte Parmezaanse kaas",
+                "1 afbakstokbroodje(s)",
+                "1 kleine ui(en)",
+                "1 teentje(s) knoflook",
+                "1 eetlepel(s) olijfolie",
+                "1 theelepel(s) paprikapoeder",
+                "0,5 rode paprika('s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Verwarm de oven voor op 200 graden Celsius. Snijd de rode paprika in blokjes, snipper de ui en pers de knoflook. Snijd het stokbrood in de lengte door en hol het midden iets uit om ruimte te maken voor de vulling. Leg de stokbroodhelften op een bakplaat.",
+                "2. Verhit de olijfolie in een koekenpan op middelhoog vuur. Voeg de gesnipperde ui en knoflook toe en bak tot ze glazig en geurig zijn.",
+                "3. Voeg het rundergehakt toe aan de pan en bak het rul. Voeg vervolgens de blokjes paprika toe en bak nog 5-7 minuten tot de paprika zacht is en de smaken zich mooi vermengen.",
+                "4. Breng het gehaktmengsel op smaak met paprikapoeder, zout en peper. Roer alles goed door elkaar zodat de kruiden en groenten zich gelijkmatig verdelen.",
+                "5. Vul de uitgeholde stokbroodhelften met het gehakt- en paprikamengsel. Strooi de geraspte Parmezaanse kaas over de vulling voor een extra hartige topping.",
+                "6. Bak de gevulde stokbroodhelften in de voorverwarmde oven gedurende 10-12 minuten, tot het brood knapperig is en de kaas licht goudbruin smelt."
+            ]
+        },
+        {
+            "id": "79",
+            "naam": "Stokbroodje kip",
+            "afbeelding": "images/4bc20e78-33d8-4f2f-adb9-21add5b80630_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 ml magere yoghurt",
+                "100 g kipfilet(s)",
+                "6 eetlepel(s) light mayonaise",
+                "2 theelepel(s) kipkruiden",
+                "2 pufjes(s) olijf-spray",
+                "1 klein(e) afbakstokbro(o)d(en)",
+                "1 eetlepel(s) gedroogde dille",
+                "0,25 komkommer(s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Meng de dille, yoghurt en mayonaise grondig door elkaar in een kom. Breng op smaak met zout en peper.",
+                "2. Snijd de komkommer(s) in dunne plakjes en zet apart.",
+                "3. Kruid de kipfilet(s) met de kipkruiden en bak deze gaar met 2 pufjes spray-olijfoliie in een pan.",
+                "4. Bak het afbakstokbrood in de oven volgens de gebruiksaanwijzing op de verpakking.",
+                "5. Snijd de kipfilet(s) in dunne plakjes zodra deze gaar zijn.",
+                "6. Snijd het stokbrood open, maar niet volledig door. Smeer beide helften royaal in met de yoghurtsaus.",
+                "7. Beleg het stokbrood met de plakjes kipfilet en de komkommer. Vouw het stokbrood weer dicht."
+            ]
+        },
+        {
+            "id": "80",
+            "naam": "Stoofpeertjes in glühwein",
+            "afbeelding": "images/a9f0d936-73d2-47f6-8f5d-4ceb85d7825a_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "500 g Gieser Wildeman stoofpeertjes",
+                "1 fles glühwein",
+                "10 g suiker",
+                "1 kaneelstokje",
+                "1 citroen(en)"
+            ],
+            "bereiding": [
+                "1. Schil de stoofpeertjes met een dunschiller, maar laat het steeltje eraan.",
+                "2. Zet de peertjes in een pan met de glühwein, kaneelstokje en suiker. Snijd een paar dunne schilletjes van de citroen en voeg een kneepje citroensap toe.",
+                "3. Plaats alles in de slowcooker en stel deze in op 6 uur op de lage stand (low) met de deksel goed gesloten, zodat het vocht niet verdampt. Draai de peertjes af en toe voorzichtig om met een houten lepel, zodat ze overal even gaar en rood worden zonder te breken.",
+                "4. Serveer het gestoofde fruit lauwwarm of op kamertemperatuur voor een heerlijke, verwarmende traktatie.",
+                "Tips:",
+                "- Het overgebleven vocht kun je inkoken tot een siroop die perfect is over ijs of door vla.",
+                "- Wil je liever geen alcohol? Vervang de glühwein door 250 ml Betuwe bessensap, voeg 250 ml water en eventueel extra suiker toe voor een milder alternatief."
+            ]
+        },
+        {
+            "id": "81",
+            "naam": "Stoofvlees met frites (slowcooker)",
+            "afbeelding": "images/7ad4f9d3-d2b0-47cb-b260-82d5925faa25_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "450 g magere sukadelappen of riblappen",
+                "260 ml zoutarme runderbouillon",
+                "175 g ovenfrites",
+                "5 pufje(s) spray-olijfolie",
+                "2,25 kruidnagel(s)",
+                "1,5 kleine ui(en)",
+                "1,5 laurierblaadje(s)",
+                "1,5 teentje(s) knoflook",
+                "0,75 eetlepel(s) allesbinder",
+                "0,4 eetlepel(s) appelstroop",
+                "0,4 eetlepel(s) balsamicoazijn",
+                "0,4 theelepel(s) gedroogde tijm",
+                "0,4 eetlepel(s) paprikapoeder",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snipper de uien en pers de knoflook uit. Snijd het rundvlees in blokjes van ongeveer 3 cm en verwijder overtollig vet. Vul een \"theezakje\" met de kruidnagels en laurierblaadjes, zodat deze later makkelijk verwijderd kunnen worden. Bereid de bouillon door 0,75 zoutarm runderbouillonblokje op te lossen in 350 ml warm water.",
+                "2. Verhit een anti-aanbakpan en braad het rundvlees kort aan zonder extra olie. Plaats het vlees vervolgens in de slowcooker.",
+                "3. Fruit in dezelfde pan de uien en knoflook tot ze glazig zijn. Voeg deze toe aan de slowcooker.",
+                "4. Giet de lauwe runderbouillon in de slowcooker. Voeg de appelstroop, balsamicoazijn, het \"theezakje\", tijm en naar smaak zout en peper toe. Roer alles goed door.",
+                "Let op! Gebruik geen hete vloeistof om te voorkomen dat de keramische pan van de slowcooker barst.",
+                "5. Stel de slowcooker in op LOW en laat het stoofgerecht 8 uur sudderen, totdat het vlees mals is en gemakkelijk uit elkaar valt.",
+                "6. Verwijder na het sudderen het \"theezakje\" met de laurierblaadjes en kruidnagels. Roer de allesbinder door het stoofvlees om de saus in te dikken. Laat het geheel nog 10 minuten indikken in de slowcooker.",
+                "7. Bereid ondertussen de ovenfrites. Verwarm de airfryer voor volgens de instructies op de verpakking. Verdeel 175 g frites over de airfryerbodem. Besprenkel met 1 eetlepel olijfolie en bestrooi met zout en paprikapoeder naar smaak. Bak de frites volgens de aangegeven tijd.",
+                "8. Serveer 225 g stoofvlees met de frites op een bord. Verdeel de resterende stoofvleesporties van elk 225 g en vries ze in voor later gebruik.",
+                "Optioneel: Voeg een kleine lepel light mayonaise toe of serveer met een frisse salade zonder dressing."
+            ]
+        },
+        {
+            "id": "82",
+            "naam": "Surinaams stoofvlees (slowcooker)",
+            "afbeelding": "images/a68e5e2a-5358-4fa8-b989-df63473a2107_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "600g sukadelappen",
+                "4,5 eetlepel(s) ketjap manis",
+                "4 roti pla(a)t(en)",
+                "3 teentje(s) knoflook",
+                "1,5 eetlepel(s) oestersaus",
+                "1,5 theelepel(s) gemberpoeder",
+                "1 kleine toma(a)t(en)",
+                "1 middelgrote ui(en)",
+                "1 eetlepel(s) bruine basterdsuiker",
+                "0,75 eetlepel(s) witte azijn",
+                "0,75 theelepel(s) chilivlokken",
+                "0,75 theelepel(s) citroengraspoeder",
+                "0,75 theelepel(s) paprikapoeder",
+                "0,75 theelepel(s) Chinese vijfkruidenmix",
+                "0,75 runderbouillonblokje(s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd het vlees in blokjes van ongeveer 3x3 cm, de tomaat in blokjes, de ui grof en pers de knoflook.",
+                "2. Verhit olie in een pan en fruit de ui en knoflook tot deze geurig zijn.",
+                "3. Voeg de vleesblokjes toe en schroei deze dicht tot ze goudbruin zijn.",
+                "4. Meng in een kom de ketjap, oestersaus, bruine suiker, gemberpoeder, chilivlokken, citroengraspoeder, paprikapoeder, azijn, vijfkruidenpoeder, tomatenblokjes en een fijngewreven runderbouillonblokje. Breng op smaak met zout en peper.",
+                "5. Leg het vlees, de gefruite ui en knoflook in de slowcooker. Giet het sausmengsel eroverheen en stel de slowcooker in op 8 uur op de stand low.",
+                "6. Serveer een roti plaat met 375g vulling. Verdeel de rest in drie porties van 375g en vries deze in."
+            ]
+        },
+        {
+            "id": "83",
+            "naam": "Surinaamse roti (slowcooker)",
+            "afbeelding": "images/53b7c0ed-a480-45ca-9c28-b04c4695ec02_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "500 g vastkokende aardappelen",
+                "450 g kipfilet(s)",
+                "100 ml kippenbouillon",
+                "3 roti pla(a)t(en)",
+                "2,5 eetlepel(s) kerrie massala",
+                "2 teentje(s) knoflook",
+                "1,5 theelepel(s) kurkuma",
+                "1,5 kleine ui(en",
+                "1 pot sperziebonen (inh. 200g, uitgelekt)",
+                "1 pufje(s) spray-olijfolie",
+                "0,75 theelepel(s) chilivlokken",
+                "0,75 theelepel(s) korianderpoeder"
+            ],
+            "bereiding": [
+                "1. Snijd de kip in blokjes, schil de aardappelen en snijd deze in blokjes van ongeveer 0,5 cm. Snijd de uien grof.",
+                "2. Meng alle ingrediënten samen in een grote kom en verdeel dit mengsel in de slowcooker.",
+                "3. Stel de slowcooker in op de stand low en laat het gerecht 8 uur rustig garen.",
+                "4. Verwarm de roti platen zoals aangegeven op de verpakking.",
+                "5. Serveer een roti plaat met 450g vulling. Verdeel de rest in drie porties van 450g en vries deze in voor later gebruik."
+            ]
+        },
+        {
+            "id": "84",
+            "naam": "Tavuk Döner Wrap",
+            "afbeelding": "",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g kipfilet, in dunne reepjes",
+                "2 eetlepels magere yoghurt",
+                "1 volkoren wrap",
+                "1 handje sla, fijngesneden",
+                "1 tomaat, in plakjes",
+                "1 teentje(s) knoflook, geperst",
+                "1 theelepel(s) citroensap",
+                "0,5 theelepel(s) paprikapoeder",
+                "0,5 theelepel(s) komijn",
+                "0,25 komkommer, in plakjes",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Marineer de kip met paprikapoeder, komijn, zout en peper, zodat de kruiden zich goed in het vlees kunnen nestelen. Laat dit 15 minuten rusten voor de beste smaak.",
+                "2. Bak de gemarineerde kipreepjes in een pan met een beetje olijfolie tot ze goudbruin en heerlijk krokant zijn.",
+                "3. Maak een frisse knoflooksaus door de yoghurt te mengen met de geperste knoflook en het citroensap. Laat de saus even staan zodat de smaken goed kunnen intrekken.",
+                "4. Verwarm de wrap kort in een droge pan, zodat hij soepel wordt en gemakkelijk oprolt.",
+                "5. Bouw je wrap op met een laagje sla, de plakjes tomaat en komkommer, en de geurige, warme kipreepjes. Lepel de knoflooksaus erover voor een perfecte finishing touch.",
+                "6. Rol de wrap strak op en serveer hem direct. Geniet van een smaakvolle, zelfgemaakte Tavuk Döner die het water in de mond doet lopen.",
+                "Calorieën: 350 kcal",
+                "Totaal vet: 8 g",
+                "Verzadigd vet: 2 g",
+                "Cholesterol: 60 mg",
+                "Natrium: 0,7 g",
+                "Koolhydraten: 35 g",
+                "Voedingsvezels: 6 g",
+                "Suikers: 5 g",
+                "Eiwitten: 30 g"
+            ]
+        },
+        {
+            "id": "85",
+            "naam": "Tortilla met kipfilet",
+            "afbeelding": "images/fa8da05d-9690-4bbc-aac4-618c70b24ba4_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "100 g kipfilet(s)",
+                "75 g champignons",
+                "1 rode paprika('s)",
+                "1 tortilla('s)",
+                "1 pufje(s) spray-olijfolie",
+                "1 eetlepel(s) tomatenpuree",
+                "1 eetlepel(s) taco kruidenmix",
+                "1 eetlepel(s) limoensap (flesje)",
+                "0,5 rode ui(en)",
+                "0,5 blikje(s) maïs (inh. 150 g)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de kipfilet in reepjes, de paprika in repen en de rode ui in dunne ringen.",
+                "2. Verhit 1 pufje spray-olijfolie in een pan op middelhoog vuur. Bak de kipreepjes tot ze gaar en licht goudbruin zijn.",
+                "3. Voeg de paprika, champignons en rode ui toe aan de pan en roerbak deze tot ze zacht zijn.",
+                "4. Roer de maïs, tomatenpuree en taco kruidenmix door het mengsel en meng alles goed, zodat de smaken samenkomen.",
+                "5. Maak het gerecht af met limoensap, zout en peper naar smaak.",
+                "6. Vul een tortilla met het kipmengsel, rol deze op en serveer direct."
+            ]
+        },
+        {
+            "id": "86",
+            "naam": "Tortilla met rundergehakt, pesto en champignons *",
+            "afbeelding": "images/c49c0b4e-59d1-4e4f-9572-fa800e3b2d0f_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "125 g champignons",
+                "100 g magere kwark",
+                "80 g mager rundergehakt",
+                "2 teentje(s) knoflook",
+                "1 tortilla('s)",
+                "1 kleine toma(a)t(en)",
+                "1 theelepel(s) citroensap (flesje)",
+                "0,75 eetlepel(s) groene pesto",
+                "0,5 theelepel(s) gedroogde dille",
+                "0,5 theelepel(s) gedroogde peterselie",
+                "0,25 middelgrote ui(en)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Meng de magere kwark in een kom met de geperste teentje(s) knoflook, citroensap, dille, peterselie en zout en peper naar smaak. Roer tot een gladde saus en laat deze 10-15 minuten in de koelkast staan, zodat de smaken goed kunnen intrekken.",
+                "2. Snijd de champignons in plakjes, de tomaat in blokjes en snipper de ui fijn.",
+                "3. Verhit 1 pufjes spray-olijfolie in een koekenpan op middelhoog vuur. Fruit de ui tot deze glazig is.",
+                "4. Voeg het rundergehakt toe en bak het rul. Breng op smaak met zout en peper.",
+                "5. Voeg de champignons toe en bak mee tot ze zacht en gaar zijn.",
+                "6. Verwarm de tortilla lichtjes in een droge koekenpan of magnetron.",
+                "7. Besmeer de tortilla met de groene pesto en verdeel het gehaktmengsel erover. Voeg de blokjes tomaat toe. Rol de tortilla strak op en snijd hem eventueel doormidden.",
+                "8. Serveer het gerecht samen met de kwarksaus voor een frisse touch."
+            ]
+        },
+        {
+            "id": "87",
+            "naam": "Tortilla met rundergehakt, rode paprika en ui",
+            "afbeelding": "images/dff4b401-b12c-4ec9-b53a-cbd6ed1e997a_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "80 g mager rundergehakt",
+                "3 pufje(s) spray-olijfolie",
+                "1 tortilla('s)",
+                "1 eetlepel(s) tomatenpuree",
+                "1 eetlepel(s) taco kruidenmix",
+                "1 eetlepel(s) limoensap (flesje)",
+                "0,75 rode paprika('s)",
+                "0,4 rode ui(en)",
+                "0,4 blikje(s) maïs (inh. 150g)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de paprika in repen en de rode ui in dunne ringen.",
+                "2. Verhit 3 pufjes spray-olijfolie in een pan op middelhoog vuur. Voeg het gehakt toe en bak tot het rul en gaar is.",
+                "3. Voeg de paprika en ui toe en roerbak tot ze zacht zijn.",
+                "4. Roer de maïs, tomatenpuree en taco kruidenmix erdoor tot alles goed gemengd is.",
+                "5. Breng het geheel op smaak met limoensap, zout en peper.",
+                "6. Leg de tortilla op een bord en schep het gehaktmengsel in het midden. Rol de tortilla strak op en serveer direct."
+            ]
+        },
+        {
+            "id": "88",
+            "naam": "Turkse Kip met Bulgur",
+            "afbeelding": "",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 ml kippenbouillon",
+                "150 g kipfilet",
+                "100 g bulgur",
+                "1 theelepel(s) gedroogde peterselie",
+                "1 eetlepel(s) olijfolie",
+                "1 teentje(s) knoflook",
+                "1 theelepel(s) paprikapoeder",
+                "0,5 theelepel(s) komijn",
+                "0,5 paprika",
+                "0,5 tomaat",
+                "0,25 ui"
+            ],
+            "bereiding": [
+                "2.",
+                "1. Verhit de olijfolie in een pan en bak de kip tot deze goudbruin en heerlijk geurig is. Haal de kip uit de pan en zet apart.",
+                "2. Fruit de ui en knoflook in dezelfde pan tot ze zacht en aromatisch zijn. Voeg de paprika en tomaat toe en bak kort mee, zodat de smaken goed vrijkomen.",
+                "3. Voeg de bulgur, paprikapoeder en komijn toe. Roer alles goed door zodat de kruiden zich gelijkmatig verdelen.",
+                "4. Giet de kippenbouillon erbij en breng het geheel aan de kook. Zet het vuur laag en laat de bulgur 10-15 minuten zachtjes koken tot het vocht volledig is opgenomen en de bulgur mooi gaar is.",
+                "5. Voeg de kip weer toe en meng alles goed door elkaar. Garneer met verse peterselie voor een frisse en kleurrijke touch.",
+                "6. Serveer direct en geniet van dit hartige, smaakvolle gerecht dat perfect in balans is.",
+                "---",
+                "Voedingswaarden (per portie volgens het Voedingscentrum)",
+                "Calorieën: 400 kcal",
+                "Totaal vet: 10 g",
+                "Verzadigd vet: 2 g",
+                "Cholesterol: 70 mg",
+                "Natrium: 0,8 g",
+                "Koolhydraten: 45 g",
+                "Voedingsvezels: 7 g",
+                "Suikers: 6 g",
+                "Eiwitten: 30 g"
+            ]
+        },
+        {
+            "id": "89",
+            "naam": "Tzatziki",
+            "afbeelding": "images/f8a86108-1917-4baa-872f-bb8f031d7ccd_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "75 g magere kwark",
+                "1 teentje(s) knoflook",
+                "0,5 theelepel(s) olijfolie",
+                "0,5 theelepel(s) witte azijn",
+                "0,5 theelepel(s) gedroogde dille",
+                "0,5 theelepel(s) gedroogde munt",
+                "0,125 komkommer(s)",
+                "Zout (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Rasp de komkommer(s) en knijp het overtollige vocht eruit.",
+                "2. Meng de magere kwark, komkommer(s), uitgeperste teentje(s) knoflook, olijfolie, witte azijn, gedroogde dille, gedroogde munt en zout (naar smaak) samen in een kom tot een gladde tzatziki.",
+                "3. Laat de tzatziki minstens 30 minuten in de koelkast staan, zodat de smaken goed kunnen intrekken.",
+                "4. Serveer koud als een heerlijk fris bijgerecht."
+            ]
+        },
+        {
+            "id": "90",
+            "naam": "Varkenshaasje met aardappelpuree en spinazie",
+            "afbeelding": "images/85f8212e-4b1f-4b46-a99d-a54e5cb82a50_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "250 ml water",
+                "200 ml halfvolle melk",
+                "150 g varkenshaas",
+                "100 g verse spinazie",
+                "50 g gemengde sla",
+                "40 g cherrytomaatjes",
+                "5 g light boter",
+                "3 pufje(s) spray-olijfolie",
+                "1 pakje(s) aardappelpuree (inh. 200g)",
+                "1 theelepel(s) citroensap (flesje)",
+                "1 teentje(s) knoflook",
+                "0,25 komkommer(s)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Pers de knoflook uit, halveer de cherrytomaatjes en snijd de komkommer in dunne plakjes.",
+                "2. Kruid de varkenshaas met zout en peper. Verhit een koekenpan met 3 pufjes spray-olijfolie en bak het vlees rondom bruin (circa 3-4 minuten per kant). Laat het daarna 5 minuten rusten onder aluminiumfolie.",
+                "3. Verhit opnieuw een pan, voeg de knoflook toe en bak deze kort. Voeg de spinazie toe en roerbak tot deze geslonken is. Breng op smaak met zout en peper.",
+                "4. Meng de gemengde sla met de cherrytomaatjes en komkommer. Maak een dressing van citroensap, zout en peper en giet deze over de salade.",
+                "5. Breng water en melk met een snufje zout aan de kook. Neem de pan van het vuur en roer met een garde het aardappelpureepoeder erdoor. Voeg een klontje light boter toe voor extra romigheid.",
+                "6. Serveer de varkenshaas met de aardappelpuree, de geroerbakte spinazie en de frisse salade."
+            ]
+        },
+        {
+            "id": "91",
+            "naam": "Varkenshaasje met gebakken krieltjes en sperziebonen",
+            "afbeelding": "images/a6a5bd72-ea90-42d0-b01b-9814b3e5b203_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "120 g varkenshaas",
+                "120 g krieltjes",
+                "4 pufje(s) spray-olijfolie",
+                "1 blikje(s) sperziebonen (inh. 200g)",
+                "0,75 teentje(s) knoflook",
+                "0,75 theelepel(s) paprikapoeder",
+                "0,4 theelepel(s) gedroogde tijm",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Bak de krieltjes in 2 pufjes spray-olijfolie en breng op smaak met zout, peper en gedroogde tijm.",
+                "2. Kruid het varkenshaasje met paprikapoeder, zout en peper. Verhit 2 pufjes spray-olijfolie in een pan op middelhoog vuur en bak het varkenshaasje rondom bruin gedurende 8-10 minuten. Draai regelmatig om en zorg dat de kerntemperatuur 70°C bereikt. Laat het vlees 5 minuten rusten onder aluminiumfolie.",
+                "3. Giet de sperziebonen af en hak de knoflook fijn. Bak de knoflook kort in de pan van het varkenshaasje, gebruik het resterende vet in de pan voor extra smaak. Voeg de sperziebonen toe en verwarm ze 2-3 minuten.",
+                "4. Snijd het varkenshaasje in plakken en serveer met de krieltjes en de sperziebonen."
+            ]
+        },
+        {
+            "id": "92",
+            "naam": "Varkenshaasje met groene twist *",
+            "afbeelding": "images/6950ec88-ab93-401c-8bb0-c3e2c535407d_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "175 g ovenfrites",
+                "125 g varkenshaasje",
+                "1 blik(jes) sperziebonen (inh. 200g)",
+                "1 eetlepel(s) rode pesto",
+                "1 theelepel(s) olijfolie",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Verwarm de oven of airfryer en bereid de ovenairfrites volgens de aanwijzingen op de verpakking. Dit duurt meestal 15-20 minuten.",
+                "2. Verhit de olijfolie in een koekenpan op middelhoog vuur. Bak het varkenshaasje aan beide kanten goudbruin, ongeveer 3-4 minuten per kant. Verlaag het vuur en laat het haasje nog enkele minuten zachtjes doorgaren, afhankelijk van de dikte. Haal het uit de pan en laat het kort rusten.",
+                "3. Doe de sperziebonen in een pannetje en verwarm ze langzaam, of gebruik de magnetron als je tijd wilt besparen. Voeg geen extra zout toe om de smaak puur te houden.",
+                "4. Leg het varkenshaasje op een bord en bestrijk het lichtjes met de rode pesto. Serveer samen met de warme sperziebonen en de knapperige frites."
+            ]
+        },
+        {
+            "id": "93",
+            "naam": "Vegetarische Burger met Zoete Aardappel",
+            "afbeelding": "images/563ea44c-a31d-412b-95aa-e24135726604_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "250 g zoete aardappel",
+                "50 g ijsbergsla",
+                "30 g augurk",
+                "1 kleine toma(a)t(en)",
+                "1 eetlepel(s) light mayonaise",
+                "1 vegetarische burger"
+            ],
+            "bereiding": [
+                "1. Snijd de zoete aardappel in frietvorm en bak ze in de oven op 200°C tot ze goudbruin en knapperig zijn.",
+                "2. Bak de vegetarische burger volgens de instructies op de verpakking tot deze mooi gaar en sappig is.",
+                "3. Maak een frisse salade door de ijsbergsla te combineren met de tomaat en augurk, beide in stukjes gesneden. Voeg de light mayonaise toe en meng alles goed door.",
+                "4. Serveer de burger op een bedje van salade en leg de zoete aardappelfrietjes ernaast."
+            ]
+        },
+        {
+            "id": "94",
+            "naam": "Vegetarische chilli",
+            "afbeelding": "images/8b545ccd-44bf-4819-b641-cc1d916f9bf2_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 g cherrytomaatjes",
+                "100 g witte rijst (per portie)",
+                "2 teentje(s) knoflook",
+                "1 blikje(s) maïs (inh. 150g)",
+                "1 middelgrote ui(en)",
+                "1 eetlepel(s) olijfolie",
+                "1 theelepel(s) korianderpoeder",
+                "0,75 theelepel(s) chilivlokken",
+                "0,5 blikje(s) zwarte bonen (inh. 400g)",
+                "0,5 theelepel(s) paprikapoeder",
+                "0,5 blikje(s) tomatenblokjes (inh. 400 g)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Kook de witte rijst volgens de aanwijzingen op de verpakking totdat deze perfect gaar is.",
+                "2. Verhit de olijfolie in een pan op middelhoog vuur. Bak de fijngesneden middelgroot(e) ui(en) en uitgeperste teentje(s) knoflook tot ze zacht en geurig zijn.",
+                "3. Strooi het korianderpoeder, chilivlokken en paprikapoeder over de ui en knoflook. Bak dit kort mee, zodat de specerijen hun aroma vrijgeven.",
+                "4. Voeg de tomatenblokjes, zwarte bonen, maïs en cherrytomaatjes toe aan de pan. Roer goed door en laat het geheel ongeveer 15 minuten zachtjes sudderen, zodat de smaken goed kunnen intrekken.",
+                "5. Serveer de saus met de witte rijst. Garneer met gedroogde of verse koriander voor een frisse finishing touch."
+            ]
+        },
+        {
+            "id": "95",
+            "naam": "Vegetarische Pad Thai",
+            "afbeelding": "images/16baa847-0148-41d4-83a4-34c2059a23e9_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g tofu",
+                "100 g taugé",
+                "100 g rijstnoedels",
+                "20 g ongezouten pinda’s",
+                "2 eetlepel(s) sojasaus",
+                "1 klein(e) wortel(s)",
+                "1 middelgrote ei(eren)",
+                "1 teentje(s) knoflook",
+                "0,5 eetlepel(s) limoensap (flesje)"
+            ],
+            "bereiding": [
+                "1. Kook de rijstnoedels volgens de aanwijzingen op de verpakking totdat ze zacht maar stevig zijn.",
+                "2. Snijd de tofu in blokjes en bak ze goudbruin in een pan op middelhoog vuur.",
+                "3. Voeg de fijngesneden wortel, taugé, uitgeperste teentje(s) knoflook en het losgeklopte ei toe aan de pan. Roerbak totdat de groenten knapperig zijn en het ei volledig gaar is.",
+                "4. Meng de gekookte rijstnoedels met de sojasaus en limoensap, zodat ze goed bedekt zijn met de smaakvolle saus.",
+                "5. Garneer het gerecht met gehakte ongezouten pinda’s voor een knapperige finishing touch.  ."
+            ]
+        },
+        {
+            "id": "96",
+            "naam": "Vegetarische Pasta met Romige Spinaziesaus",
+            "afbeelding": "images/d94f441b-ef03-404d-9612-119ee75c01b3_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 g verse spinazie",
+                "100 g ricotta",
+                "100 g volkoren pasta",
+                "30 g geraspte parmezaanse kaas",
+                "1 eetlepel(s) olijfolie",
+                "1 teentje(s) knoflook",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Kook de volkoren pasta volgens de aanwijzingen op de verpakking totdat deze al dente is.",
+                "2. Verhit de olijfolie in een pan op middelhoog vuur en bak het uitgeperste teentje(s) knoflook kort tot het geurig is, maar niet bruin.",
+                "3. Voeg de verse spinazie toe aan de pan en roerbak tot de blaadjes geslonken zijn en hun smaak hebben vrijgegeven.",
+                "4. Roer de ricotta door de spinazie totdat je een romige saus krijgt. Voeg naar smaak zout en peper toe om de smaken te balanceren.",
+                "5. Meng de gekookte volkoren pasta door de saus, zodat alles goed bedekt is.",
+                "6. Bestrooi het gerecht met geraspte parmezaanse kaas voor een hartige finishing touch en serveer warm."
+            ]
+        },
+        {
+            "id": "97",
+            "naam": "Vegetarische Pizza Margherita",
+            "afbeelding": "images/8b48f023-60ce-472f-99d3-d0dd8c8af77a_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "100 g tomatensaus",
+                "100 g mozzarella",
+                "2 eetlepel(s) gedroogde basilicum",
+                "1 volkoren pizzabodem",
+                "0,5 eetlepel(s) olijfolie"
+            ],
+            "bereiding": [
+                "1. Besmeer de volkoren pizzabodem gelijkmatig met tomatensaus.",
+                "2. Verdeel de mozzarella royaal over de saus, zodat de bodem mooi bedekt is.",
+                "3. Bak de pizza in een voorverwarmde oven op 200°C gedurende 10-15 minuten, totdat de mozzarella gesmolten is en de korst licht krokant.",
+                "4. Garneer de pizza met gedroogde basilicum en besprenkel deze met een scheutje olijfolie voor een authentieke finishing touch."
+            ]
+        },
+        {
+            "id": "98",
+            "naam": "Vegetarische Ratatouille met Couscous",
+            "afbeelding": "images/78b97d7f-f494-40bc-ada7-abf06d6091ca_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g courgette",
+                "150 g aubergine",
+                "100 g couscous",
+                "10 g kruiden naar keuze",
+                "1 middelgrote ui(en)",
+                "1 teentje(s) knoflook",
+                "1 eetlepel(s) olijfolie",
+                "0,5 blikje(s) tomatenblokjes (inh. 400 g)"
+            ],
+            "bereiding": [
+                "1. Kook de couscous volgens de aanwijzingen op de verpakking tot deze licht en luchtig is.",
+                "2. Verhit de olijfolie in een pan en bak de fijngesneden middelgroot(e) ui(en) en uitgeperste teentje(s) knoflook tot ze zacht en geurig zijn.",
+                "3. Voeg de courgette, aubergine, tomatenblokjes en de kruiden naar keuze toe aan de pan. Laat het geheel sudderen op laag vuur totdat de groenten zacht zijn en de smaken goed samenkomen.",
+                "4. Serveer de ratatouille met de couscous en geniet van deze eenvoudige, gezonde en smaakvolle maaltijd."
+            ]
+        },
+        {
+            "id": "99",
+            "naam": "Vegetarische Rösti Bowl",
+            "afbeelding": "images/87af9341-eae4-4a74-a732-8281c804b737_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "300 g vastkokende aardappelen",
+                "50 g avocado",
+                "50 ml magere yoghurt",
+                "50 g verse spinazie",
+                "1 kleine wortel(s)",
+                "1 middelgrote ei(eren)"
+            ],
+            "bereiding": [
+                "1. Rasp de vastkokende aardappelen fijn en vorm kleine hoopjes in een pan. Bak ze op middelhoog vuur goudbruin en knapperig als rösti.",
+                "2. Breng een pan met water tot net onder het kookpunt (ongeveer 80-90°C) en voeg een scheutje azijn toe. Breek het ei voorzichtig in een kopje. Maak met een lepel een draaikolk in het water en laat het ei voorzichtig in het midden van de draaikolk glijden. Laat het 3-4 minuten pocheren, zodat het eiwit stevig wordt en de dooier zacht blijft. Haal het ei uit het water met een schuimspaan en laat uitlekken.",
+                "3. Serveer de rösti met het gepocheerde ei, plakjes avocado en de verse groenten (spinazie en geraspte wortel).",
+                "4. Voeg een lepeltje magere yoghurt toe als dressing voor een frisse finishing touch."
+            ]
+        },
+        {
+            "id": "100",
+            "naam": "Vegetarische Turkse pizza",
+            "afbeelding": "images/cfe8f848-a0b5-46e1-a0ee-bb2dc514151f_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "100 g vega-gehakt",
+                "25 g magere kwark",
+                "2 theelepel(s) gedroogde peterselie",
+                "1 teentje(s) knoflook",
+                "1 volkoren tortilla('s)",
+                "1 eetlepel(s) tomatenpuree",
+                "0,5 middelgrote toma(a)t(en)",
+                "0,5 citroen(en) (optioneel)",
+                "0,5 kleine ui(en)"
+            ],
+            "bereiding": [
+                "1. Snijd de halve tomaat in kleine blokjes en snipper de kwart ui.",
+                "Optioneel: snijd de citroen in 4 partjes voor het serveren.",
+                "2. Meng de magere kwark met 1 theelepel gedroogde peterselie en de uitgeperste teentje(s) knoflook. Zet dit mengsel even in de koelkast om de smaken te laten intrekken.",
+                "3. Combineer het vega-gehakt met de tomatenblokjes, fijngesnipperde ui en tomatenpuree.",
+                "4. Besmeer de volkoren tortilla gelijkmatig met het vega-gehaktmengsel. Bak de tortilla 10 minuten in een voorverwarmde oven op 200°C, of 8 minuten in een airfryer op 180°C, totdat deze knapperig is.",
+                "5. Serveer de tortilla met de magere kwark-knoflooksaus, strooi de resterende theelepel gedroogde peterselie erover, en voeg eventueel de partjes citroen toe voor extra frisheid."
+            ]
+        },
+        {
+            "id": "101",
+            "naam": "Vegetarische Wraps met Gegrilde Groenten en Hummus",
+            "afbeelding": "images/50ab289c-285e-46b8-9145-cc884e6fbfaa_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g courgette",
+                "150 g aubergine",
+                "100 g hummus",
+                "2 tortilla('s)",
+                "1 rode paprika('s)",
+                "1 eetlepel(s) olijfolie",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Snijd de rode paprika, courgette en aubergine in plakken. Bestrijk ze met olijfolie en gril ze in een grillpan of onder de grill tot ze zacht zijn en mooie grillstrepen hebben. Breng op smaak met zout en peper.",
+                "2. Besmeer de tortilla's met een royale laag hummus en vul ze met de gegrilde groenten.",
+                "3. Rol de wraps stevig op en serveer ze warm."
+            ]
+        },
+        {
+            "id": "102",
+            "naam": "Vissticks met gebakken krieltjes en spinazie *",
+            "afbeelding": "images/c13be948-e06a-4b40-98f0-12d983f3306a_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "125 g krieltjes",
+                "200 g verse spinazie",
+                "3 kleine visstick(s)",
+                "3 pufje(s) spray-olijfolie",
+                "0,75 teentje(s) knoflook",
+                "0,25 citroen(en) (optioneel)",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Verhit 2 pufjes spray-olijfolie in een koekenpan op middelhoog vuur. Voeg de krieltjes toe en bak deze 15-20 minuten tot ze goudbruin en knapperig zijn. Roer regelmatig om aanbranden te voorkomen. Voeg zout en peper naar smaak toe.",
+                "2. Bereid de vissticks volgens de instructies op de verpakking in de oven, airfryer of koekenpan. Zorg dat ze krokant en goudbruin zijn.",
+                "3. Verhit 1 pufje spray-olijfolie in een andere koekenpan. Voeg de uitgeperste knoflook toe en bak kort tot deze geurig is. Voeg de spinazie toe en roerbak ongeveer 3-4 minuten tot deze geslonken is. Breng op smaak met zout en peper.",
+                "4. Serveer de gebakken krieltjes, vissticks en spinazie samen op een bord.",
+                "5. Optioneel: Garneer met een schijfje citroen voor een frisse touch."
+            ]
+        },
+        {
+            "id": "103",
+            "naam": "Wit brood (multicooker)",
+            "afbeelding": "images/17a20ef0-6db5-4e28-bf05-e7571eaccff0_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "tarwebloem (patent) 375 g",
+                "water 225 ml",
+                "suiker 10g",
+                "gist 5 g",
+                "zout 1 theelepel",
+                "zonnebloemolie 2 eetlepel",
+                "Poging 2:",
+                "tarwebloem (patent) 450 g",
+                "water 290 ml",
+                "gist 6 g",
+                "zout 2 theelepel",
+                "suiker 12 g",
+                "zonnebloemolie 2 eetlepel"
+            ],
+            "bereiding": [
+                "Meng de bloem, gist, zout en suiker in een kom. Zorg ervoor dat het zout niet direct op de gist komt, om de werking van de gist niet te belemmeren.",
+                "Maak een kuiltje in het midden en giet het lauw warme water en de olie erbij. Meng tot er een deeg ontstaat.",
+                "Kneed het deeg 8-10 minuten tot het soepel en elastisch is. Dit kan met de hand of een keukenmachine.",
+                "Laat het deeg in een licht ingevette kom rijzen, afgedekt met een vochtige doek, gedurende ongeveer 1 uur totdat het in volume verdubbeld is.",
+                "Kneed het gerezen deeg kort door om de lucht eruit te drukken.",
+                "Vorm een rol van 22 cm zodat het brood in de silicone vorm past.",
+                "Plaats de silicone vorm in je multicooker op de bakstand of een vergelijkbare instelling. Laat het nogmaals 30 minuten rijzen in de multicooker.",
+                "Poging 2:",
+                "Samenvattend schema:",
+                "Deeg maken: Meng de ingrediënten (450 g bloem, 290-300 ml water, 6 g gist, 9 g zout, 10g suiker), kneed 8-10 minuten tot het elastisch is.",
+                "Eerste rijs: Laat 1,5-2 uur rijzen tot het verdubbeld is.",
+                "Vormen: Druk de lucht eruit, vorm het brood, plaats in de bakvorm (27 x 13 x 7 cm).",
+                "Tweede rijs: Laat 45-60 minuten rijzen tot het deeg bijna de rand van de vorm bereikt.",
+                "Bakken: 180°C, 45-50 minuten in de Satisfryer, gevolgd door 3-5 minuten grill voor de korst.",
+                "Afkoelen: Laat het brood op een rooster afkoelen.",
+                "Stel de multicooker in op 'bake' en 180° C. Stel de baktijd in op ongeveer 40-50 minuten en controleer tussendoor of het brood goudbruin en gaar is.",
+                "Haal het brood na het bakken voorzichtig uit de multicooker en laat het volledig afkoelen op een rooster voordat je het aansnijdt."
+            ]
+        },
+        {
+            "id": "104",
+            "naam": "Witlof harmonie *",
+            "afbeelding": "",
+            "calorieën": 0,
+            "ingrediënten": [
+                "200 g witlof",
+                "150 g kipfilet",
+                "150 g ovenfrites",
+                "75 g verse spinazie",
+                "5 pufjes spray-olijfoliie",
+                "5 g geraspte Parmezaanse kaas",
+                "1,5 theelepel(s) kipkruiden",
+                "1 eetlepel(s) rode pesto",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Verwarm de airfryer en bereid de ovenfrites volgens de instructies op de verpakking. Schep halverwege om voor een perfect krokant resultaat.",
+                "2. Breng de kipfilet op smaak met peper, zout en kruiden naar keuze. Spray 2 pufjes olijfolie in een koekenpan en bak de kipfilet goudbruin en sappig, ongeveer 5-6 minuten per kant. Laat de kipfilet enkele minuten rusten voor het aansnijden.",
+                "3. Snijd het witlof in grove stukken en verwijder de kern. Spray 2 pufjes olijfolie in een pan en bak het witlof tot het zacht is en licht gekaramelliseerd, ongeveer 5 minuten. Optioneel kun je een klein snufje suiker toevoegen voor een vleugje zoetheid.",
+                "4. Spray 1 pufje olijfolie in dezelfde pan en voeg de spinazie toe. Roerbak kort, tot de blaadjes net geslonken zijn en hun frisse kleur behouden.",
+                "5. Leg de kipfilet op een bord en bestrijk lichtjes met rode pesto. Schik de gekarameliseerde witlof en spinazie ernaast, en garneer met de geraspte Parmezaanse kaas. Serveer met de knapperige ovenfrites voor een compleet en smaakvol gerecht."
+            ]
+        },
+        {
+            "id": "105",
+            "naam": "Zalm Aspergesoep Deluxe *",
+            "afbeelding": "images/d9335726-a9d3-4c08-92c8-583cbde6a462_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "500 g asperges",
+                "50 g gemengde sla",
+                "50 g gerookte zalm",
+                "10 g cherrytomaten",
+                "10 pufjes spray-olijfolie",
+                "5 eetlepel(s)kookroom (20% vet)",
+                "2 sneetj(s) geroosterd Goudkorn-brood",
+                "1 groentebouillonblokje (10 gram)",
+                "1 theelepel(s) kerriepoeder",
+                "1 theelepel(s) balsamicoazijn",
+                "1 liter water",
+                "Zout en peper (naar smaak)"
+            ],
+            "bereiding": [
+                "1. Schil de asperges met een dunschiller en snijd of breek de houtachtige onderkant af. Doe de asperges, het bouillonblokje, het water, de kerriepoeder en 5 pufjes olijfolie in de slowcooker. Zet deze op laag (6-7 uur) of hoog (3-4 uur) tot de asperges zacht zijn. Pureer de soep met een staafmixer tot een glad geheel. Roer de kookroom erdoor en breng op smaak met peper en zout.",
+                "2. Meng de gemengde sla, cherrytomaten en ringetjes rode ui in een kom. Besprenkel met 5 pufjes spray-olijfolie en balsamicoazijn. Breng op smaak met peper en zout.",
+                "3. Rooster een snee Goudkorn-brood in de broodrooster. Besmeer het brood licht met margarine, indien gewenst.",
+                "4. Schep de soep in een grote kom en voeg de gerookte zalm toe als garnering.",
+                "Optioneel kun je dille of citroenrasp toevoegen voor een frisse toets. Serveer samen met de salade en het geroosterde brood.",
+                "Was en schil de asperges met een dunschiller. Snijd minimaal 1 cm van de onderkant van de asperges en snijd de rest in stukken van 2 cm. Bewaar de schillen en de onderste stukken voor de bouillon. Pel en snipper de sjalotten. Schil de aardappel en snijd in kleine blokjes. Hak de peterselie fijn. Verhit 2 eetlepels (olijf)olie in een soeppan en fruit de sjalotten met een theelepel kerriepoeder voor circa 2 minuten op lage temperatuur. Voeg de aspergeschillen, de onderste stukken van de asperges, 2 groentebouillonblokjes en 1 liter water toe en breng aan de kook. Laat de bouillon afgedekt 30 minuten zachtjes koken. Schenk de bouillon door een zeef in een schone pan. Druk met een lepel of soeplepel zoveel mogelijk vocht uit de schillen. Voeg de stukjes asperge en aardappel toe en laat de soep afgedekt 15 minuten zachtjes koken. Pureer de soep met een staafmixer, voeg vervolgens 50 ml kookroom toe en breng de soep kort aan de kook. Breng op smaak met peper. Garneer met peterselie."
+            ]
+        },
+        {
+            "id": "106",
+            "naam": "Zalm met gebakken krieltjes",
+            "afbeelding": "images/a1ef0286-3e95-4fa1-9791-7d12e37b198b_0.jpg",
+            "calorieën": 0,
+            "ingrediënten": [
+                "150 g gemengde groenten (bijvoorbeeld broccoli, paprika en sugarsnaps)",
+                "120 g zalmfilet",
+                "80 g krieltjes",
+                "3 pufje(s) spray-olijfolie",
+                "1 theelepel(s) citroensap (flesje) (optioneel)",
+                "0,75 teentje(s) knoflook",
+                "0,75 theelepel(s) gedroogde dille (optioneel)",
+                "0,75 theelepel(s) gedroogde rozemarijn (optioneel)",
+                "Zout en peper (naar smaak"
+            ],
+            "bereiding": [
+                "1. Pers de knoflook fijn.",
+                "2. Meng de krieltjes met 1,5 pufjes spray-olijfolie, zout, peper en, indien gewenst, de rozemarijn. Bak de krieltjes in een koekenpan tot ze goudbruin en knapperig zijn.",
+                "3. Verhit 1 pufje spray-olijfolie in een andere grote koekenpan op middelhoog vuur. Voeg de knoflook toe en bak 1-2 minuten tot het begint te geuren. Voeg de gemengde groenten toe en bak deze 5-7 minuten tot ze gaar, maar nog knapperig zijn. Breng op smaak met zout en peper.",
+                "4. Verhit 0,5 pufje spray-olijfolie in een andere koekenpan. Kruid de zalmfilet met zout, peper en eventueel wat citroensap. Bak de zalm 4-5 minuten aan elke kant tot deze gaar is en gemakkelijk uit elkaar valt met een vork.",
+                "5. Serveer de krokante krieltjes, de zalmfilet en de groenten samen op een bord. Garneer eventueel met een vleugje dille voor extra smaak."
             ]
         }
     ]
