@@ -48,7 +48,7 @@ header {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 1 1 150px; /* Minimaal 150px breed, groeit om ruimte te vullen */
-    max-width: calc(100% / 3 - 8px); /* Max 3 tiles op kleine schermen, aanpasbaar */
+    max-width: calc(100% / 3 - 8px); /* Max 3 tiles op kleine schermen */
     margin: 2px;
     padding: 5px;
     box-sizing: border-box;
@@ -56,26 +56,17 @@ header {
     display: flex;
     flex-direction: column;
     height: 180px; /* Verlaagde hoogte voor compactheid */
-}
-
-/* Container voor afbeelding om landscape te forceren */
-#recipe-grid .recipe-tile .image-container {
-    width: 100%;
-    height: 100px; /* Vaste hoogte voor afbeelding */
-    overflow: hidden;
-    position: relative;
-    border-radius: 5px 5px 0 0;
+    overflow: hidden; /* Voorkomt dat inhoud buiten tile valt */
 }
 
 #recipe-grid .recipe-tile img {
     width: 100%;
-    height: 100%;
+    height: 100px; /* Vaste hoogte voor afbeelding */
     object-fit: cover; /* Bijsnijden om te passen */
     object-position: center; /* Centreren */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Zorgt dat portretfoto's correct worden bijgesneden */
+    border-radius: 5px 5px 0 0; /* Alleen bovenste hoeken afgerond */
+    display: block;
+    max-width: 100%; /* Voorkomt dat afbeelding breder wordt dan tile */
 }
 
 /* Tekststyling */
@@ -95,6 +86,12 @@ header {
     flex: 1; /* Laat tekst de resterende ruimte vullen */
 }
 
+#recipe-grid .recipe-tile h3 .title-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 /* Desktop-specifieke stijlen */
 @media screen and (min-width: 769px) {
     #recipe-grid {
@@ -109,15 +106,12 @@ header {
         height: 180px; /* Compacte hoogte */
     }
 
-    #recipe-grid .recipe-tile .image-container {
-        height: 100px; /* Vaste hoogte voor afbeelding */
-    }
-
     #recipe-grid .recipe-tile img {
-        height: 100%;
+        height: 100px; /* Vaste hoogte voor afbeelding */
         width: 100%;
         object-fit: cover;
         object-position: center;
+        max-width: 100%; /* Extra beveiliging tegen te grote afbeeldingen */
     }
 
     #recipe-grid .recipe-tile h3 {
@@ -367,7 +361,7 @@ main {
         display: flex;
         flex-direction: column;
         gap: 12px;
-        padding: 10px;
+        padding: #: 10px;
         margin-top: 60px !important;
         overflow-y: auto;
         overflow-x: hidden !important;
