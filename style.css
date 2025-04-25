@@ -353,7 +353,7 @@ main {
 
     #recipe-grid .recipe-tile img {
         width: 100%;
-        height: 60px;
+        height: 90px; /* Verhoogd voor grotere afbeeldingen */
         object-fit: cover;
         border-radius: 5px;
     }
@@ -362,24 +362,24 @@ main {
         margin: 2px 0 0 0 !important;
         padding: 0 !important;
         width: 100%;
-        height: 90px !important;
+        height: 66px !important; /* Verlaagd om witte ruimte te verminderen */
         text-align: center !important;
     }
 
     #recipe-grid .recipe-tile h3 .title-text {
-        font-size: 11px !important; /* Iets groter voor betere leesbaarheid */
-        line-height: 22px !important; /* 90px / 4 = 22.5px, afgerond naar 22px */
-        height: 90px !important;
+        font-size: 11px !important;
+        line-height: 33px !important; /* 66px / 2 = 33px voor twee regels */
+        height: 66px !important;
         overflow: hidden !important;
         text-overflow: ellipsis !important;
         word-wrap: break-word !important;
         white-space: normal !important;
-        color: blue !important; /* Tijdelijke kleur om te debuggen */
-        background-color: #ffeeee !important; /* Tijdelijke achtergrondkleur */
-        border: 1px solid #ff0000 !important; /* Tijdelijke rand */
-        display: flex !important; /* Gebruik flex om de tekst te verdelen */
+        color: blue !important;
+        background-color: #ffeeee !important;
+        border: 1px solid #ff0000 !important;
+        display: flex !important;
         flex-direction: column !important;
-        justify-content: space-between !important; /* Verdeel de tekst over de hoogte */
+        justify-content: center !important; /* Centreer de tekst verticaal */
         width: 100%;
         box-sizing: border-box;
         padding: 2px;
@@ -532,31 +532,31 @@ main {
     }
 
     #recipe-grid .recipe-tile img {
-        height: 55px;
+        height: 80px; /* Verhoogd voor grotere afbeeldingen */
     }
 
     #recipe-grid .recipe-tile h3 {
         margin: 2px 0 0 0 !important;
         padding: 0 !important;
         width: 100%;
-        height: 84px !important;
+        height: 60px !important; /* Verlaagd om witte ruimte te verminderen */
         text-align: center !important;
     }
 
     #recipe-grid .recipe-tile h3 .title-text {
-        font-size: 10px !important; /* Verhoogd voor betere leesbaarheid */
-        line-height: 21px !important; /* 84px / 4 = 21px */
-        height: 84px !important;
+        font-size: 10px !important; /* Ongewijzigd */
+        line-height: 30px !important; /* 60px / 2 = 30px voor twee regels */
+        height: 60px !important;
         overflow: hidden !important;
         text-overflow: ellipsis !important;
         word-wrap: break-word !important;
         white-space: normal !important;
-        color: blue !important; /* Tijdelijke kleur om te debuggen */
-        background-color: #ffdddd !important; /* Tijdelijke achtergrondkleur */
-        border: 1px solid #ff0000 !important; /* Tijdelijke rand */
-        display: flex !important; /* Gebruik flex om de tekst te verdelen */
+        color: blue !important;
+        background-color: #ffdddd !important;
+        border: 1px solid #ff0000 !important;
+        display: flex !important;
         flex-direction: column !important;
-        justify-content: space-between !important; /* Verdeel de tekst over de hoogte */
+        justify-content: center !important; /* Centreer de tekst verticaal */
         width: 100%;
         box-sizing: border-box;
         padding: 2px;
