@@ -2,7 +2,7 @@
 html, body {
     width: 100% !important;
     max-width: 100vw !important;
-    height: 100vh !important;
+    height: 100% !important; /* Veranderd van 100vh naar 100% om scrollbar te vermijden */
     overflow-y: auto !important;
     overflow-x: hidden !important;
     font-family: Arial, sans-serif;
@@ -34,12 +34,12 @@ header {
 #recipe-grid {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px !important;
+    margin-top: 60px !important; /* Aangepast om header-hoogte te compenseren */
     padding: 0 10px;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    overflow-y: auto;
+    overflow-y: visible; /* Voorkomt onnodige scrollbar */
     gap: 8px; /* Kleinere gap voor meer tiles */
 }
 
@@ -47,15 +47,15 @@ header {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex: 1 1 150px; /* Minimaal 150px breed, groeit om ruimte te vullen */
-    max-width: calc(100% / 3 - 8px); /* Max 3 tiles op kleine schermen */
+    flex: 1 1 140px; /* Verlaagde minimale breedte voor meer tiles */
+    max-width: calc(100% / 8 - 8px); /* Max 8 tiles op brede schermen */
     margin: 2px;
     padding: 5px;
     box-sizing: border-box;
     transition: transform 0.2s, box-shadow 0.2s;
     display: flex;
     flex-direction: column;
-    height: 180px; /* Verlaagde hoogte voor compactheid */
+    height: 180px; /* Compacte hoogte */
     overflow: hidden; /* Voorkomt dat inhoud buiten tile valt */
 }
 
@@ -96,13 +96,13 @@ header {
 @media screen and (min-width: 769px) {
     #recipe-grid {
         gap: 10px;
-        margin-top: 40px !important;
+        margin-top: 60px !important; /* Compenseert header */
         padding: 0 20px;
     }
 
     #recipe-grid .recipe-tile {
-        flex: 1 1 150px; /* Minimaal 150px breed */
-        max-width: calc(100% / 6 - 10px); /* Max 6 tiles op bredere schermen */
+        flex: 1 1 140px; /* Verlaagde minimale breedte */
+        max-width: calc(100% / 8 - 10px); /* Max 8 tiles, aanpasbaar */
         height: 180px; /* Compacte hoogte */
     }
 
@@ -361,7 +361,7 @@ main {
         display: flex;
         flex-direction: column;
         gap: 12px;
-        padding: #: 10px;
+        padding: 10px;
         margin-top: 60px !important;
         overflow-y: auto;
         overflow-x: hidden !important;
