@@ -331,38 +331,39 @@ main {
         margin: 0 auto;
         margin-top: 60px !important;
         overflow-y: auto;
-        background-color: #f0f0ff; /* Tijdelijke achtergrondkleur om te debuggen */
+        /* Achtergrondkleur verwijderd */
     }
 
     #recipe-grid .recipe-tile {
         width: calc(47% - 4px); /* Twee tegels naast elkaar */
-        height: 180px;
+        height: 155px; /* Verlaagd om meer tegels op het scherm te passen */
         background-color: white;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start; /* Bovenaan uitlijnen */
         overflow: hidden;
         text-align: center;
-        padding: 3px;
+        padding: 0; /* Padding verwijderd om witte ruimte te minimaliseren */
         box-sizing: border-box;
         margin: 2px; /* Verminderde marge om breedte te optimaliseren */
     }
 
     #recipe-grid .recipe-tile img {
         width: 100%;
-        height: 90px; /* Verhoogd voor grotere afbeeldingen */
+        height: 90px;
         object-fit: cover;
-        border-radius: 5px;
+        border-radius: 5px 5px 0 0; /* Alleen bovenste hoeken afgerond */
+        margin: 0; /* Geen marge */
     }
 
     #recipe-grid .recipe-tile h3 {
-        margin: 2px 0 0 0 !important;
+        margin: 0 !important; /* Geen marge om witte ruimte te minimaliseren */
         padding: 0 !important;
         width: 100%;
-        height: 66px !important; /* Verlaagd om witte ruimte te verminderen */
+        height: 66px !important;
         text-align: center !important;
     }
 
@@ -374,12 +375,10 @@ main {
         text-overflow: ellipsis !important;
         word-wrap: break-word !important;
         white-space: normal !important;
-        color: blue !important;
-        background-color: #ffeeee !important;
-        border: 1px solid #ff0000 !important;
+        color: #333 !important; /* Terug naar zwart */
         display: flex !important;
         flex-direction: column !important;
-        justify-content: center !important; /* Centreer de tekst verticaal */
+        justify-content: center !important;
         width: 100%;
         box-sizing: border-box;
         padding: 2px;
@@ -521,42 +520,42 @@ main {
     #recipe-grid {
         gap: 6px;
         padding: 0 6px;
-        background-color: #e0e0ff; /* Tijdelijke achtergrondkleur om te debuggen */
+        /* Achtergrondkleur verwijderd */
     }
 
     #recipe-grid .recipe-tile {
         width: calc(47% - 3px); /* Twee tegels naast elkaar */
-        height: 175px;
-        padding: 2px;
+        height: 150px; /* Verlaagd om meer tegels op het scherm te passen */
+        padding: 0; /* Padding verwijderd */
         margin: 1.5px; /* Verminderde marge */
     }
 
     #recipe-grid .recipe-tile img {
-        height: 80px; /* Verhoogd voor grotere afbeeldingen */
+        height: 80px;
+        border-radius: 5px 5px 0 0; /* Alleen bovenste hoeken afgerond */
+        margin: 0; /* Geen marge */
     }
 
     #recipe-grid .recipe-tile h3 {
-        margin: 2px 0 0 0 !important;
+        margin: 0 !important; /* Geen marge */
         padding: 0 !important;
         width: 100%;
-        height: 60px !important; /* Verlaagd om witte ruimte te verminderen */
+        height: 60px !important;
         text-align: center !important;
     }
 
     #recipe-grid .recipe-tile h3 .title-text {
-        font-size: 10px !important; /* Ongewijzigd */
+        font-size: 10px !important;
         line-height: 30px !important; /* 60px / 2 = 30px voor twee regels */
         height: 60px !important;
         overflow: hidden !important;
         text-overflow: ellipsis !important;
         word-wrap: break-word !important;
         white-space: normal !important;
-        color: blue !important;
-        background-color: #ffdddd !important;
-        border: 1px solid #ff0000 !important;
+        color: #333 !important; /* Terug naar zwart */
         display: flex !important;
         flex-direction: column !important;
-        justify-content: center !important; /* Centreer de tekst verticaal */
+        justify-content: center !important;
         width: 100%;
         box-sizing: border-box;
         padding: 2px;
