@@ -142,7 +142,6 @@ main {
         white-space: normal;
     }
 
-    /* Nieuwe stijl voor de wrapper */
     #recipe-grid .recipe-tile h3 .title-text {
         display: block;
         width: 100%;
@@ -363,12 +362,12 @@ main {
         margin: 2px 0 0 0 !important;
         padding: 0 !important;
         width: 100%;
-        height: 90px !important; /* Behoud de hoogte */
+        height: 90px !important;
         text-align: center !important;
     }
 
     #recipe-grid .recipe-tile h3 .title-text {
-        font-size: 10px !important; /* Iets groter voor betere leesbaarheid */
+        font-size: 11px !important; /* Iets groter voor betere leesbaarheid */
         line-height: 22px !important; /* 90px / 4 = 22.5px, afgerond naar 22px */
         height: 90px !important;
         overflow: hidden !important;
@@ -378,7 +377,9 @@ main {
         color: blue !important; /* Tijdelijke kleur om te debuggen */
         background-color: #ffeeee !important; /* Tijdelijke achtergrondkleur */
         border: 1px solid #ff0000 !important; /* Tijdelijke rand */
-        display: block;
+        display: flex !important; /* Gebruik flex om de tekst te verdelen */
+        flex-direction: column !important;
+        justify-content: space-between !important; /* Verdeel de tekst over de hoogte */
         width: 100%;
         box-sizing: border-box;
         padding: 2px;
@@ -538,12 +539,12 @@ main {
         margin: 2px 0 0 0 !important;
         padding: 0 !important;
         width: 100%;
-        height: 84px !important; /* Behoud de hoogte */
+        height: 84px !important;
         text-align: center !important;
     }
 
     #recipe-grid .recipe-tile h3 .title-text {
-        font-size: 9px !important; /* Verhoogd voor betere leesbaarheid */
+        font-size: 10px !important; /* Verhoogd voor betere leesbaarheid */
         line-height: 21px !important; /* 84px / 4 = 21px */
         height: 84px !important;
         overflow: hidden !important;
@@ -553,7 +554,9 @@ main {
         color: blue !important; /* Tijdelijke kleur om te debuggen */
         background-color: #ffdddd !important; /* Tijdelijke achtergrondkleur */
         border: 1px solid #ff0000 !important; /* Tijdelijke rand */
-        display: block;
+        display: flex !important; /* Gebruik flex om de tekst te verdelen */
+        flex-direction: column !important;
+        justify-content: space-between !important; /* Verdeel de tekst over de hoogte */
         width: 100%;
         box-sizing: border-box;
         padding: 2px;
