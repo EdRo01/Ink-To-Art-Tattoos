@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tile.classList.add("recipe-tile");
                 tile.innerHTML = `
                     <img src="${recipe.afbeelding}" alt="${recipe.naam}">
-                    <h3>${recipe.naam}</h3>
+                    <h3><div class="title-text">${recipe.naam}</div></h3>
                 `;
                 tile.addEventListener("click", function () {
                     window.location.href = `recept.html?id=${recipe.id}`;
