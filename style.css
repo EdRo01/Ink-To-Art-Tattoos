@@ -356,33 +356,20 @@ main {
     #recipe-grid .recipe-tile h3 {
         /* Reset alle mogelijke conflicterende stijlen */
         font-size: 8px !important;
-        max-height: 80px !important;
         line-height: 1.15 !important;
         padding: 0 2px !important;
         margin: 2px 0 0 0 !important;
         text-align: center !important;
         max-width: 100% !important;
+        /* Gebruik height in plaats van -webkit-line-clamp */
+        height: 80px !important; /* Ruimte voor 4 regels: 8px * 1.15 * 4 + padding */
         overflow: hidden !important;
         text-overflow: ellipsis !important;
-        display: -webkit-box !important;
-        -webkit-line-clamp: 4 !important;
-        -webkit-box-orient: vertical !important;
         word-wrap: break-word !important;
         white-space: normal !important;
-        color: #333 !important;
-        background-color: #ffeeee !important; /* Tijdelijke achtergrondkleur om te debuggen */
-        border: 1px solid #ff0000 !important; /* Tijdelijke rand om max-height te controleren */
-    }
-
-    /* Fallback voor browsers die -webkit-line-clamp niet ondersteunen */
-    @supports not (-webkit-line-clamp: 4) {
-        #recipe-grid .recipe-tile h3 {
-            display: block !important;
-            height: 80px !important;
-            overflow: hidden !important;
-            text-overflow: ellipsis !important;
-            white-space: normal !important;
-        }
+        color: blue !important; /* Tijdelijke kleur om te debuggen */
+        background-color: #ffeeee !important; /* Tijdelijke achtergrondkleur */
+        border: 1px solid #ff0000 !important; /* Tijdelijke rand */
     }
 
     main {
@@ -538,28 +525,16 @@ main {
     #recipe-grid .recipe-tile h3 {
         /* Reset alle mogelijke conflicterende stijlen */
         font-size: 7px !important;
-        max-height: 74px !important;
         line-height: 1.1 !important;
-        -webkit-line-clamp: 4 !important;
-        display: -webkit-box !important;
-        -webkit-box-orient: vertical !important;
+        /* Gebruik height in plaats van -webkit-line-clamp */
+        height: 74px !important; /* Ruimte voor 4 regels: 7px * 1.1 * 4 + padding */
         overflow: hidden !important;
         text-overflow: ellipsis !important;
         word-wrap: break-word !important;
         white-space: normal !important;
-        background-color: #ffdddd !important; /* Tijdelijke achtergrondkleur om te debuggen */
-        border: 1px solid #ff0000 !important; /* Tijdelijke rand om max-height te controleren */
-    }
-
-    /* Fallback voor browsers die -webkit-line-clamp niet ondersteunen */
-    @supports not (-webkit-line-clamp: 4) {
-        #recipe-grid .recipe-tile h3 {
-            display: block !important;
-            height: 74px !important;
-            overflow: hidden !important;
-            text-overflow: ellipsis !important;
-            white-space: normal !important;
-        }
+        color: blue !important; /* Tijdelijke kleur om te debuggen */
+        background-color: #ffdddd !important; /* Tijdelijke achtergrondkleur */
+        border: 1px solid #ff0000 !important; /* Tijdelijke rand */
     }
 
     main {
