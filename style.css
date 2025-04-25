@@ -62,7 +62,7 @@ header {
     }
 
     #recipe-grid .recipe-tile {
-        width: calc(16.666% - 10px); /* Voor 6 tiles naast elkaar */
+        width: calc(14.5% - 10px); /* Voor 6 tiles naast elkaar */
         height: 200px; /* Optioneel: verlaag naar 180px als de tiles te hoog lijken */
     }
 
