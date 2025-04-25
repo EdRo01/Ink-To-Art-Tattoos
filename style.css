@@ -38,81 +38,41 @@ header {
 }
 
 /* Indexpagina */
-/* Algemene styling voor recipe-grid */
+/* Algemene styling voor recipe-grid (minimaal om mobiel te beschermen) */
 #recipe-grid {
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px !important;
-    padding: 0 5px; /* Minimale padding */
-    width: 100% !important; /* Volledige breedte */
-    max-width: 100vw !important; /* Geen breedtebeperking */
+    padding: 0 5px;
+    width: 100% !important;
+    max-width: 100vw !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     overflow-y: visible;
-    gap: 4px; /* Nog kleinere gap */
-}
-
-#recipe-grid .recipe-tile {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    flex: 1 1 110px; /* Nog kleinere minimale breedte */
-    max-width: calc(100% / 12 - 4px); /* Max 12 tiles */
-    margin: 1px; /* Minimale marge */
-    padding: 4px;
-    box-sizing: border-box;
-    transition: transform 0.2s, box-shadow 0.2s;
-    display: flex;
-    flex-direction: column;
-    height: 180px;
-    overflow: hidden;
-}
-
-#recipe-grid .recipe-tile img {
-    width: 100%;
-    height: 100px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 5px 5px 0 0;
-    display: block;
-    max-width: 100%;
-}
-
-/* Tekststyling */
-#recipe-grid .recipe-tile h3 {
-    font-size: 11px; /* Iets kleiner voor smallere tiles */
-    line-height: 1.2;
-    max-height: 48px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    text-align: center;
-    margin: 4px 0 0;
-    padding: 0 4px;
-    color: #333;
-    flex: 1;
-}
-
-#recipe-grid .recipe-tile h3 .title-text {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 /* Desktop-specifieke stijlen */
 @media screen and (min-width: 769px) {
     #recipe-grid {
-        gap: 6px; /* Kleine gap voor desktop */
+        gap: 6px;
         margin-top: 60px !important;
-        padding: 0 5px; /* Minimale padding */
+        padding: 0 5px;
     }
 
     #recipe-grid .recipe-tile {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         flex: 1 1 110px;
-        max-width: calc(100% / 12 - 6px); /* Max 12 tiles */
+        max-width: calc(100% / 12 - 6px);
+        margin: 1px;
+        padding: 4px;
+        box-sizing: border-box;
+        transition: transform 0.2s, box-shadow 0.2s;
+        display: flex;
+        flex-direction: column;
         height: 180px;
+        overflow: hidden;
     }
 
     #recipe-grid .recipe-tile img {
@@ -120,168 +80,32 @@ header {
         width: 100%;
         object-fit: cover;
         object-position: center;
+        border-radius: 5px 5px 0 0;
+        display: block;
         max-width: 100%;
     }
 
     #recipe-grid .recipe-tile h3 {
         font-size: 11px;
         max-height: 48px;
+        line-height: 1.2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
         -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-align: center;
+        margin: 4px 0 0;
+        padding: 0 4px;
+        color: #333;
+        flex: 1;
     }
-}
 
-/* Receptpagina */
-main {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    padding: 20px 0;
-    margin-top: 80px !important;
-    margin-left: 20px;
-    margin-right: 20px;
-    max-width: 1200px;
-    height: calc(100vh - 80px);
-}
-
-.left {
-    width: 250px;
-    overflow-y: overlay;
-    padding: 10px;
-    box-sizing: border-box;
-    scrollbar-width: none;
-}
-
-.left::-webkit-scrollbar {
-    display: none;
-}
-
-.center {
-    flex: 1;
-    overflow-y: overlay;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-right: 270px;
-    scrollbar-width: none;
-}
-
-.center::-webkit-scrollbar {
-    display: none;
-}
-
-.right {
-    width: 250px;
-    position: fixed;
-    top: 80px;
-    right: 20px;
-    height: fit-content;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.left img {
-    width: 100%;
-    height: 173px;
-    border-radius: 5px;
-    object-fit: cover;
-    object-position: center;
-    margin: 20px 0 0 0;
-    display: block;
-}
-
-.left h2 {
-    font-size: 20px;
-    margin: 15px 0;
-    text-align: left;
-    color: #333;
-    word-wrap: break-word;
-}
-
-.left h3 {
-    font-size: 16px;
-    margin: 15px 0 10px 0;
-    text-align: left;
-    color: #333;
-}
-
-.center h3 {
-    font-size: 16px;
-    margin: 20px 0 10px 0;
-    text-align: left;
-    color: #333;
-}
-
-.left ul, .center ol {
-    margin: 0 0 15px 15px;
-    padding: 0;
-    list-style-position: outside;
-    max-width: calc(100% - 15px);
-    word-wrap: break-word;
-    white-space: normal;
-    height: auto;
-}
-
-.left li, .center li {
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-    color: #555;
-    word-wrap: break-word;
-    max-width: 100%;
-}
-
-.center li {
-    margin-bottom: 14px;
-}
-
-.right #portion-section {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
-    margin: 20px 0 15px 0;
-    max-width: 100%;
-}
-
-.right label {
-    font-size: 14px;
-    color: #333;
-}
-
-.right input {
-    width: 80px;
-    padding: 6px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-.right #update-portion {
-    background-color: #228B22;
-    color: white;
-    padding: 6px 12px;
-    font-size: 14px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.right #update-portion:hover {
-    background-color: #1A6F1A;
-}
-
-.right #calories {
-    font-size: 14px;
-    color: #555;
-    margin: 20px 0;
-    width: 100%;
-    word-wrap: break-word;
-}
-
-.back-button {
-    padding: 10px 15px;
-    font-size:  breedtebeperking */
-    margin: 25px auto;
-    width: fit-content;
+    #recipe-grid .recipe-tile h3 .title-text {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
 
 /* Mobiele lay-out */
@@ -306,190 +130,66 @@ main {
     #recipe-grid {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between; /* Gelijkmatige verdeling */
         gap: 8px;
         padding: 0 8px;
         max-width: 100%;
         margin: 0 auto;
         margin-top: 60px !important;
         overflow-y: auto;
-        /* Achtergrondkleur verwijderd */
     }
 
     #recipe-grid .recipe-tile {
-        width: calc(47% - 4px); /* Twee tegels naast elkaar */
-        height: 155px; /* Verlaagd om meer tegels op het scherm te passen */
+        width: calc(33.33% - 6px); /* 3 tiles per rij */
+        height: 160px; /* Iets verhoogd voor betere tekstweergave */
         background-color: white;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start; /* Bovenaan uitlijnen */
+        justify-content: flex-start;
         overflow: hidden;
         text-align: center;
-        padding: 0; /* Padding verwijderd om witte ruimte te minimaliseren */
+        padding: 0;
         box-sizing: border-box;
-        margin: 2px; /* Verminderde marge om breedte te optimaliseren */
+        margin: 2px;
     }
 
     #recipe-grid .recipe-tile img {
         width: 100%;
-        height: 90px;
-        object-fit: cover;
-        border-radius: 5px 5px 0 0; /* Alleen bovenste hoeken afgerond */
-        margin: 0; /* Geen marge */
-    }
-
-    #recipe-grid .recipe-tile h3 {
-        margin: 0 !important; /* Geen marge om witte ruimte te minimaliseren */
-        padding: 0 !important;
-        width: 100%;
-        height: 66px !important;
-        text-align: center !important;
-    }
-
-    #recipe-grid .recipe-tile h3 .title-text {
-        font-size: 11px !important;
-        line-height: 33px !important; /* 66px / 2 = 33px voor twee regels */
-        height: 66px !important;
-        overflow: hidden !important;
-        text-overflow: ellipsis !important;
-        word-wrap: break-word !important;
-        white-space: normal !important;
-        color: #333 !important; /* Terug naar zwart */
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center !important;
-        width: 100%;
-        box-sizing: border-box;
-        padding: 2px;
-    }
-
-    main {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        padding: 10px;
-        margin-top: 60px !important;
-        overflow-y: auto;
-        overflow-x: hidden !important;
-        box-sizing: border-box;
-        max-width: 100%;
-        height: auto !important;
-        min-height: calc(100vh - 60px);
-    }
-
-    .left, .center, .right {
-        width: 100%;
-        max-width: 100%;
-        overflow-x: hidden !important;
-        height: auto;
-    }
-
-    .left img {
-        width: 100%;
-        height: 200px;
-        border-radius: 5px;
-        object-fit: cover;
+        height: 90px; /* Vaste hoogte voor landscape */
+        object-fit: cover; /* Altijd landscape, ongeacht input */
         object-position: center;
+        border-radius: 5px 5px 0 0;
         margin: 0;
         display: block;
     }
 
-    .left h2 {
-        font-size: 16px;
-        margin: 10px 0 10px 10px;
-        text-align: left;
-        color: #333;
-        word-wrap: break-word;
-    }
-
-    .left h3, .center h3 {
-        font-size: 14px;
-        margin: 10px 0 5px 10px;
-        text-align: left;
-        color: #333;
-    }
-
-    .left ul, .center ol {
-        margin: 0 0 10px 20px;
-        padding: 0;
-        list-style-position: outside;
-        max-width: calc(100% - 20px);
-        word-wrap: break-word;
-        white-space: normal;
-        height: auto;
-    }
-
-    .left li, .center li {
-        font-size: 12px;
-        line-height: 1.4;
-        margin-bottom: 8px;
-        color: #555;
-        word-wrap: break-word;
-        max-width: 100%;
-    }
-
-    .center li {
-        margin-bottom: 12px;
-    }
-
-    .right #portion-section {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 8px;
-        margin: 10px 0 10px 10px;
-        max-width: 100%;
-    }
-
-    .right label {
-        font-size: 12px;
-        color: #333;
-    }
-
-    .right input {
-        width: 60px;
-        padding: 5px;
-        font-size: 12px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-    }
-
-    .right #update-portion {
-        background-color: #228B22;
-        color: white;
-        padding: 5px 10px;
-        font-size: 12px;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-    }
-
-    .right #update-portion:hover {
-        background-color: #1A6F1A;
-    }
-
-    .right #calories {
-        font-size: 12px;
-        color: #555;
-        margin: 5px 0 0 0;
+    #recipe-grid .recipe-tile h3 {
+        margin: 0 !important;
+        padding: 4px !important;
         width: 100%;
-        word-wrap: break-word;
+        flex: 1; /* Laat tekst de resterende ruimte vullen */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .back-button {
-        padding: 8px 12px;
-        font-size: 14px;
-        margin: 10px auto;
-        width: fit-content;
-    }
-
-    .copyright {
-        font-size: 10px;
-        bottom: 5px;
-        right: 5px;
+    #recipe-grid .recipe-tile h3 .title-text {
+        font-size: 12px !important; /* Groter voor leesbaarheid */
+        line-height: 1.4 !important; /* Natuurlijke regelafstand */
+        max-height: 56px !important; /* Ruimte voor 2 regels */
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        display: -webkit-box !important;
+        -webkit-line-clamp: 2 !important;
+        -webkit-box-orient: vertical !important;
+        color: #333 !important;
+        text-align: center !important;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 2px;
     }
 }
 
@@ -502,44 +202,32 @@ main {
     #recipe-grid {
         gap: 6px;
         padding: 0 6px;
-        /* Achtergrondkleur verwijderd */
     }
 
     #recipe-grid .recipe-tile {
-        width: calc(47% - 3px); /* Twee tegels naast elkaar */
-        height: 150px; /* Verlaagd om meer tegels op het scherm te passen */
-        padding: 0; /* Padding verwijderd */
-        margin: 1.5px; /* Verminderde marge */
+        width: calc(33.33% - 5px); /* 3 tiles behouden */
+        height: 150px; /* Iets compacter */
+        margin: 1.5px;
     }
 
     #recipe-grid .recipe-tile img {
-        height: 80px;
-        border-radius: 5px 5px 0 0; /* Alleen bovenste hoeken afgerond */
-        margin: 0; /* Geen marge */
+        height: 80px; /* Iets kleiner voor kleine schermen */
+        border-radius: 5px 5px 0 0;
+        margin: 0;
     }
 
     #recipe-grid .recipe-tile h3 {
-        margin: 0 !important; /* Geen marge */
-        padding: 0 !important;
+        margin: 0 !important;
+        padding: 3px !important;
         width: 100%;
-        height: 60px !important;
-        text-align: center !important;
+        flex: 1;
     }
 
     #recipe-grid .recipe-tile h3 .title-text {
-        font-size: 10px !important;
-        line-height: 30px !important; /* 60px / 2 = 30px voor twee regels */
-        height: 60px !important;
-        overflow: hidden !important;
-        text-overflow: ellipsis !important;
-        word-wrap: break-word !important;
-        white-space: normal !important;
-        color: #333 !important; /* Terug naar zwart */
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center !important;
-        width: 100%;
-        box-sizing: border-box;
+        font-size: 11px !important; /* Iets kleiner voor zeer kleine schermen */
+        line-height: 1.4 !important;
+        max-height: 48px !important;
+        -webkit-line-clamp: 2 !important;
         padding: 2px;
     }
 
@@ -558,4 +246,211 @@ main {
     }
 
     .left h3, .center h3 {
-        font-size: 12px
+        font-size: 12px;
+        margin: 8px 0 4px 8px;
+    }
+
+    .left ul, .center ol {
+        margin: 0 0 8px 16px;
+        max-width: calc(100% - 16px);
+    }
+
+    .left li, .center li {
+        font-size: 11px;
+        margin-bottom: 6px;
+    }
+
+    .center li {
+        margin-bottom: 10px;
+    }
+
+    .right #portion-section {
+        gap: 6px;
+        margin: 8px 0 8px 8px;
+    }
+
+    .right label {
+        font-size: 11px;
+    }
+
+    .right input {
+        width: 50px;
+        padding: 4px;
+        font-size: 11px;
+    }
+
+    .right #update-portion {
+        padding: 4px 8px;
+        font-size: 11px;
+    }
+
+    .right #calories {
+        font-size: 11px;
+    }
+
+    .back-button {
+        padding: 6px 10px;
+        font-size: 12px;
+        margin: 8px auto;
+    }
+
+    .copyright {
+        font-size: 9px;
+    }
+}
+
+/* Receptpagina (ongewijzigd, alleen voor volledigheid) */
+@media screen and (min-width: 769px) {
+    main {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 20px;
+        padding: 20px 0;
+        margin-top: 80px !important;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 1200px;
+        height: calc(100vh - 80px);
+    }
+
+    .left {
+        width: 250px;
+        overflow-y: overlay;
+        padding: 10px;
+        box-sizing: border-box;
+        scrollbar-width: none;
+    }
+
+    .left::-webkit-scrollbar {
+        display: none;
+    }
+
+    .center {
+        flex: 1;
+        overflow-y: overlay;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-right: 270px;
+        scrollbar-width: none;
+    }
+
+    .center::-webkit-scrollbar {
+        display: none;
+    }
+
+    .right {
+        width: 250px;
+        position: fixed;
+        top: 80px;
+        right: 20px;
+        height: fit-content;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .left img {
+        width: 100%;
+        height: 173px;
+        border-radius: 5px;
+        object-fit: cover;
+        object-position: center;
+        margin: 20px 0 0 0;
+        display: block;
+    }
+
+    .left h2 {
+        font-size: 20px;
+        margin: 15px 0;
+        text-align: left;
+        color: #333;
+        word-wrap: break-word;
+    }
+
+    .left h3 {
+        font-size: 16px;
+        margin: 15px 0 10px 0;
+        text-align: left;
+        color: #333;
+    }
+
+    .center h3 {
+        font-size: 16px;
+        margin: 20px 0 10px 0;
+        text-align: left;
+        color: #333;
+    }
+
+    .left ul, .center ol {
+        margin: 0 0 15px 15px;
+        padding: 0;
+        list-style-position: outside;
+        max-width: calc(100% - 15px);
+        word-wrap: break-word;
+        white-space: normal;
+        height: auto;
+    }
+
+    .left li, .center li {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        color: #555;
+        word-wrap: break-word;
+        max-width: 100%;
+    }
+
+    .center li {
+        margin-bottom: 14px;
+    }
+
+    .right #portion-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        margin: 20px 0 15px 0;
+        max-width: 100%;
+    }
+
+    .right label {
+        font-size: 14px;
+        color: #333;
+    }
+
+    .right input {
+        width: 80px;
+        padding: 6px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    .right #update-portion {
+        background-color: #228B22;
+        color: white;
+        padding: 6px 12px;
+        font-size: 14px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .right #update-portion:hover {
+        background-color: #1A6F1A;
+    }
+
+    .right #calories {
+        font-size: 14px;
+        color: #555;
+        margin: 20px 0;
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+    .back-button {
+        padding: 10px 15px;
+        font-size: 16px;
+        margin: 25px auto;
+        width: fit-content;
+    }
+}
