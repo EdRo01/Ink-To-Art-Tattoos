@@ -40,7 +40,13 @@ function getRecipeDetails() {
             const recipe = data.recepten.find(r => r.id === recipeId);
 
             if (recipe) {
+                // Vul beide afbeeldingen met dezelfde URL
                 document.getElementById("recipe-image").src = recipe.afbeelding;
+                const largeImage = document.getElementById("large-recipe-image");
+                if (largeImage) {
+                    largeImage.src = recipe.afbeelding;
+                }
+
                 document.getElementById("recipe-title").textContent = recipe.naam;
 
                 const ingredientsList = document.getElementById("ingredients-list");
@@ -71,24 +77,17 @@ if (window.location.pathname.includes("recept.html")) {
 
 // Hulpfunctie om hoeveelheden af te ronden naar werkbare eenheden
 function roundToWorkableUnit(amount, unit) {
-    // Eenheden die in stappen van 0,25 moeten worden afgerond (kleine hoeveelheden)
     const smallUnits = ["theelepel", "theelepels", "eetlepel", "eetlepels", "snufje", "mespunt"];
-    // Eenheden die in stappen van 0,5 moeten worden afgerond (telling)
     const countUnits = ["stuks", "stengels", "tenen", "plakken", "schijven"];
-    // Eenheden die in stappen van 0,25 moeten worden afgerond (gewicht/volume)
     const weightVolumeUnits = ["gram", "ml", "milliliter", "liter", "kilo", "kg"];
 
     if (smallUnits.some(smallUnit => unit.toLowerCase().includes(smallUnit))) {
-        // Rond af naar de dichtstbijzijnde 0,25 (bijv. 1,875 → 1,75)
         return Math.round(amount * 4) / 4;
     } else if (countUnits.some(countUnit => unit.toLowerCase().includes(countUnit))) {
-        // Rond af naar de dichtstbijzijnde 0,5 (bijv. 1,3 → 1,5)
         return Math.round(amount * 2) / 2;
     } else if (weightVolumeUnits.some(weightUnit => unit.toLowerCase().includes(weightUnit))) {
-        // Rond af naar de dichtstbijzijnde 0,25 (bijv. 0,24 → 0,25)
         return Math.round(amount * 4) / 4;
     } else {
-        // Voor andere eenheden: rond af naar 2 decimalen
         return parseFloat(amount.toFixed(2));
     }
 }
@@ -103,7 +102,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     updateButton.addEventListener("click", function () {
-        // Haal de portiegrootte op en vervang komma door punt voor parseFloat
         let portionSizeInput = document.getElementById("portion-size").value;
         portionSizeInput = portionSizeInput.replace(",", ".");
         const portionSize = parseFloat(portionSizeInput) || 1;
@@ -126,19 +124,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         const amount = parseFloat(firstPart.replace(",", "."));
 
                         if (!isNaN(amount)) {
-                            // Ingrediënt met numerieke hoeveelheid: schaal de hoeveelheid
                             const scaledAmount = amount * portionSize;
-                            // Haal de eenheid op (alles na het eerste getal)
                             const restOfIngredient = parts.slice(1).join(" ");
-                            // Extraheer de eenheid (eerste woord van restOfIngredient)
                             const unit = restOfIngredient.split(" ")[0] || "";
-                            // Rond af naar een werkbare eenheid
                             const roundedAmount = roundToWorkableUnit(scaledAmount, unit);
-                            // Formatteer met een komma
                             const formattedAmount = roundedAmount.toString().replace(".", ",");
                             li.textContent = `${formattedAmount} ${restOfIngredient}`;
                         } else {
-                            // Ingrediënt zonder numerieke hoeveelheid: toon ongewijzigd
                             li.textContent = ingredient;
                         }
 
@@ -146,7 +138,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     });
 
                     const calorieElement = document.getElementById("calories");
-                    // Rond calorieën af naar een heel getal
                     const scaledCalories = Math.round(recipe.calorieën * portionSize);
                     calorieElement.textContent = `Calorieën: ${scaledCalories}`;
                 }
