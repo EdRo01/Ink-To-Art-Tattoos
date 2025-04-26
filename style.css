@@ -1,70 +1,13 @@
-/* Algemene styling */
-html, body {
-    width: 100%;
-    max-width: 100vw;
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-}
-
-/* Zorg dat main geen breedtebeperking heeft */
-main {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.center ul#instructions-list {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-/* Header */
-header {
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    background-color: #228B22;
-    padding: 8px;
-    color: white;
-    font-size: 20px;
-    z-index: 9999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 60px;
-    box-sizing: border-box;
-}
-
-/* Indexpagina: Basisstyling */
-#recipe-grid {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 60px;
-    width: 100%;
-    max-width: 100vw;
-    margin-left: 0;
-    margin-right: 0;
-    overflow-y: visible;
-}
-
-/* Desktop-specifieke stijlen */
 @media screen and (min-width: 769px) {
     #recipe-grid {
         display: flex;
         flex-wrap: wrap;
-        gap: 6px; /* Gelijke gap tussen tiles */
-        padding: 0; /* Geen extra padding */
+        gap: 6px;
+        padding: 0;
         margin: 0;
         width: 100%;
         max-width: 100%;
-        margin-top: 60px; /* Ruimte voor de header */
+        margin-top: 60px;
         box-sizing: border-box;
     }
 
@@ -72,20 +15,20 @@ header {
         background-color: white;
         border-radius: 10px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        flex: 1 1 calc(100% / 10 - 6px); /* Zorgt voor 10 tiles naast elkaar */
-        max-width: calc(100% / 10 - 6px); /* Altijd 10 tiles, gap van 6px */
-        margin: 0; /* Geen extra marge */
-        padding: 4px;
+        flex: 1 1 calc(100% / 10 - 6px);
+        max-width: calc(100% / 10 - 6px);
+        margin: 0;
+        padding: 2px; /* Verminder padding om witruimte te minimaliseren */
         box-sizing: border-box;
         transition: transform 0.2s, box-shadow 0.2s;
         display: flex;
         flex-direction: column;
-        height: 180px;
+        height: 160px; /* Verlaag de hoogte */
         overflow: hidden;
     }
 
     #recipe-grid .recipe-tile img {
-        height: 100px;
+        height: 90px; /* Verlaag de hoogte van de afbeelding */
         width: 100%;
         object-fit: cover;
         object-position: center;
@@ -96,7 +39,7 @@ header {
 
     #recipe-grid .recipe-tile h3 {
         font-size: 11px;
-        max-height: 48px;
+        max-height: 40px; /* Verlaag de max-height van de titel */
         line-height: 1.2;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -104,8 +47,8 @@ header {
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         text-align: center;
-        margin: 4px 0 0;
-        padding: 0 4px;
+        margin: 2px 0 0; /* Verminder margin om witruimte te minimaliseren */
+        padding: 0 2px; /* Verminder padding om witruimte te minimaliseren */
         color: #333;
         flex: 1;
     }
@@ -115,6 +58,24 @@ header {
         width: 100%;
         box-sizing: border-box;
     }
+
+    header {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        background-color: #228B22;
+        padding: 8px;
+        color: white;
+        font-size: 20px;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 60px;
+        box-sizing: border-box;
+    }
+}
 
     /* Zorg dat de header goed blijft */
     header {
