@@ -81,8 +81,8 @@ document.addEventListener("DOMContentLoaded", function () {
     updateButton.addEventListener("click", function () {
         // Haal de portiegrootte op en vervang komma door punt voor parseFloat
         let portionSizeInput = document.getElementById("portion-size").value;
-        portionSizeInput = portionSizeInput.replace(",", "."); // Accepteer zowel 1,5 als 1.5
-        const portionSize = parseFloat(portionSizeInput) || 1; // Fallback naar 1 als ongeldig
+        portionSizeInput = portionSizeInput.replace(",", ".");
+        const portionSize = parseFloat(portionSizeInput) || 1;
 
         fetch("recepten.json")
             .then(response => response.json())
@@ -98,18 +98,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     recipe.ingrediënten.forEach(ingredient => {
                         const li = document.createElement("li");
                         const firstPart = ingredient.split(" ")[0];
-                        const amount = parseFloat(firstPart.replace(",", ".")); // Ondersteun komma's in ingrediënten
+                        const amount = parseFloat(firstPart.replace(",", "."));
 
-                        // Controleer of de hoeveelheid een geldig getal is
                         if (!isNaN(amount)) {
-                            // Ingrediënt met numerieke hoeveelheid: schaal de hoeveelheid
                             const scaledAmount = amount * portionSize;
                             const restOfIngredient = ingredient.split(" ").slice(1).join(" ");
-                            // Toon het resultaat met een komma in plaats van een punt
                             const formattedAmount = scaledAmount.toString().replace(".", ",");
                             li.textContent = `${formattedAmount} ${restOfIngredient}`;
                         } else {
-                            // Ingrediënt zonder numerieke hoeveelheid: toon ongewijzigd
                             li.textContent = ingredient;
                         }
 
@@ -117,7 +113,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     });
 
                     const calorieElement = document.getElementById("calories");
-                    // Toon calorieën met een komma
                     const scaledCalories = (recipe.calorieën * portionSize).toString().replace(".", ",");
                     calorieElement.textContent = `Calorieën: ${scaledCalories}`;
                 }
