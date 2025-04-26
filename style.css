@@ -57,17 +57,24 @@ header {
 /* Desktop-specifieke stijlen */
 @media screen and (min-width: 769px) {
     #recipe-grid {
-        gap: 6px;
-        padding: 0 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px; /* Gelijke gap tussen tiles */
+        padding: 0; /* Geen extra padding */
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 60px; /* Ruimte voor de header */
+        box-sizing: border-box;
     }
 
     #recipe-grid .recipe-tile {
         background-color: white;
         border-radius: 10px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        flex: 1 1 110px;
-        max-width: calc(100% / 12 - 6px);
-        margin: 1px;
+        flex: 1 1 calc(100% / 10 - 6px); /* Zorgt voor 10 tiles naast elkaar */
+        max-width: calc(100% / 10 - 6px); /* Altijd 10 tiles, gap van 6px */
+        margin: 0; /* Geen extra marge */
         padding: 4px;
         box-sizing: border-box;
         transition: transform 0.2s, box-shadow 0.2s;
@@ -106,6 +113,24 @@ header {
     #recipe-grid .recipe-tile h3 .title-text {
         display: block;
         width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Zorg dat de header goed blijft */
+    header {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        background-color: #228B22;
+        padding: 8px;
+        color: white;
+        font-size: 20px;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 60px;
         box-sizing: border-box;
     }
 }
