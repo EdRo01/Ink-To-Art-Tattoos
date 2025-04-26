@@ -146,9 +146,10 @@ header {
         padding: 0 !important;
         box-sizing: border-box !important;
         scrollbar-width: none !important;
-    }
-        background-color: darkblue; /* Testkleur */
+        background-color: green; /* Testkleur */
 
+    }
+        
     body::-webkit-scrollbar {
         display: none !important;
     }
