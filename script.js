@@ -65,8 +65,16 @@ function getRecipeDetails() {
                     instructionsList.appendChild(li);
                 });
 
-                const calorieElement = document.getElementById("calories");
-                calorieElement.textContent = `Calorieën: ${recipe.calorieën}`;
+                // Toon de voedingswaarden
+                document.getElementById("calories").textContent = `Calorieën: ${recipe.calorieën}`;
+                document.getElementById("total-fat").textContent = `Totaal vet: ${recipe.totaal_vet}`;
+                document.getElementById("saturated-fat").textContent = `Verzadigd vet: ${recipe.verzadigd_vet}`;
+                document.getElementById("cholesterol").textContent = `Cholesterol: ${recipe.cholesterol}`;
+                document.getElementById("sodium").textContent = `Natrium: ${recipe.natrium}`;
+                document.getElementById("total-carbohydrate").textContent = `Totaal Koolhydraten: ${recipe.totaal_koolhydraten}`;
+                document.getElementById("dietary-fiber").textContent = `Voedingsvezels: ${recipe.voedingsvezels}`;
+                document.getElementById("sugars").textContent = `Suikers: ${recipe.suikers}`;
+                document.getElementById("protein").textContent = `Eiwit: ${recipe.eiwit}`;
             }
         }).catch(error => console.error("Fout bij laden recept details:", error));
 }
@@ -92,6 +100,26 @@ function roundToWorkableUnit(amount, unit) {
     }
 }
 
+// Hulpfunctie om een voedingswaarde te schalen (inclusief eenheid)
+function scaleNutritionValue(value, portionSize) {
+    if (value === "-") {
+        return "-"; // Als de waarde "-" is, blijft deze ongewijzigd
+    }
+
+    // Extraheer het getal en de eenheid (bijv. "335g" -> ["335", "g"])
+    const match = value.match(/^(\d+\.?\d*)(g|mg)?$/);
+    if (!match) {
+        return value; // Als de waarde geen getal is (bijv. "-"), retourneer de originele waarde
+    }
+
+    const number = parseFloat(match[1]);
+    const unit = match[2] || ""; // Eenheid kan leeg zijn (voor calorieën)
+
+    // Schaal het getal
+    const scaledNumber = Math.round(number * portionSize);
+    return `${scaledNumber}${unit}`;
+}
+
 // Portiegrootte aanpassen
 document.addEventListener("DOMContentLoaded", function () {
     const updateButton = document.getElementById("update-portion");
@@ -114,9 +142,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 const recipe = data.recepten.find(r => r.id === recipeId);
 
                 if (recipe) {
+                    // Schaal de ingrediënten
                     const ingredientsList = document.getElementById("ingredients-list");
                     ingredientsList.innerHTML = "";
-
                     recipe.ingrediënten.forEach(ingredient => {
                         const li = document.createElement("li");
                         const parts = ingredient.split(" ");
@@ -137,9 +165,16 @@ document.addEventListener("DOMContentLoaded", function () {
                         ingredientsList.appendChild(li);
                     });
 
-                    const calorieElement = document.getElementById("calories");
-                    const scaledCalories = Math.round(recipe.calorieën * portionSize);
-                    calorieElement.textContent = `Calorieën: ${scaledCalories}`;
+                    // Schaal de voedingswaarden
+                    document.getElementById("calories").textContent = `Calorieën: ${scaleNutritionValue(recipe.calorieën, portionSize)}`;
+                    document.getElementById("total-fat").textContent = `Totaal vet: ${scaleNutritionValue(recipe.totaal_vet, portionSize)}`;
+                    document.getElementById("saturated-fat").textContent = `Verzadigd vet: ${scaleNutritionValue(recipe.verzadigd_vet, portionSize)}`;
+                    document.getElementById("cholesterol").textContent = `Cholesterol: ${scaleNutritionValue(recipe.cholesterol, portionSize)}`;
+                    document.getElementById("sodium").textContent = `Natrium: ${scaleNutritionValue(recipe.natrium, portionSize)}`;
+                    document.getElementById("total-carbohydrate").textContent = `Totaal Koolhydraten: ${scaleNutritionValue(recipe.totaal_koolhydraten, portionSize)}`;
+                    document.getElementById("dietary-fiber").textContent = `Voedingsvezels: ${scaleNutritionValue(recipe.voedingsvezels, portionSize)}`;
+                    document.getElementById("sugars").textContent = `Suikers: ${scaleNutritionValue(recipe.suikers, portionSize)}`;
+                    document.getElementById("protein").textContent = `Eiwit: ${scaleNutritionValue(recipe.eiwit, portionSize)}`;
                 }
             }).catch(error => console.error("Fout bij portieberekening:", error));
     });
