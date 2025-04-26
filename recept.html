@@ -4,39 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bereiding</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=7">
     <script src="script.js" defer></script>
 </head>
 <body>
-
-<header>Recept Details</header>
-
-<main>
-    <section class="left">
-        <img id="recipe-image" src="" alt="Recept afbeelding">
-        <h2 id="recipe-title"></h2>
-        <h3>Ingrediënten</h3>
-        <ul id="ingredients-list"></ul>
-    </section>
-
-    <section class="center">
-        <h3>Bereiding</h3>
-        <ul id="instructions-list"></ul>
-    </section>
-
-    <section class="right">
-        <div id="portion-section">
-            <label for="portion-size">Portiegrootte:</label>
-            <input type="number" id="portion-size" value="1" min="0.5" step="0.5">
-            <button id="update-portion">Update</button>
-            <p id="calories"></p>
-        </div>
-
-        <button class="back-button" onclick="window.location.href='index.html'">Terug naar index</button>
-    </section>
-</main>
-
-<p class="copyright">© 2025 RijstwijzerPro.nl</p>
-
+    <header>Bereiding</header>
+    <main>
+        <section class="left">
+            <img id="recipe-image" src="" alt="Recept afbeelding">
+            <h2 id="recipe-title"></h2>
+            <h3>Ingrediënten</h3>
+            <ul id="ingredients-list"></ul>
+        </section>
+        <section class="center">
+            <h3>Bereiding</h3>
+            <ul id="instructions-list"></ul>
+        </section>
+        <section class="right">
+            <div id="portion-section">
+                <label for="portion-size">Portiegrootte:</label>
+                <input type="number" id="portion-size" value="1" min="0.5" step="0.5">
+                <button id="update-portion">Update</button>
+                <p id="calories"></p>
+            </div>
+            <button class="back-button" onclick="window.location.href='index.html'">Terug naar index</button>
+        </section>
+    </main>
+    <p class="copyright">© 2025 RijstwijzerPro.nl</p>
 </body>
 </html>
