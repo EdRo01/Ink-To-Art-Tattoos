@@ -145,7 +145,7 @@ header {
     }
 
     .left {
-        flex: 0 0 22%;
+        flex: 0 0 20%; /* Verlaagd van 22% naar 20% */
         padding: 10px;
         box-sizing: border-box;
         height: calc(100vh - 60px);
@@ -191,7 +191,7 @@ header {
     }
 
     .center {
-        flex: 0 0 48%;
+        flex: 0 0 45%; /* Verlaagd van 48% naar 45% */
         padding: 10px;
         box-sizing: border-box;
         height: calc(100vh - 60px);
@@ -233,7 +233,7 @@ header {
     }
 
     .right {
-        flex: 0 0 30%;
+        flex: 0 0 35%; /* Verhoogd van 30% naar 35% */
         position: fixed;
         right: 0;
         top: 60px;
@@ -285,7 +285,7 @@ header {
     .right #nutrition-info p {
         font-size: 12px;
         margin: 5px 0;
-        text-align: left; /* Voedingswaarden links uitlijnen */
+        text-align: left;
     }
 
     .right .back-button {
@@ -504,7 +504,7 @@ header {
     .right #nutrition-info p {
         font-size: 11px;
         margin: 5px 0;
-        text-align: left; /* Voedingswaarden links uitlijnen */
+        text-align: left;
     }
 
     .back-button {
@@ -655,7 +655,7 @@ header {
     .right #nutrition-info p {
         font-size: 11px;
         margin: 5px 0;
-        text-align: left; /* Voedingswaarden links uitlijnen */
+        text-align: left;
     }
 
     .back-button {
