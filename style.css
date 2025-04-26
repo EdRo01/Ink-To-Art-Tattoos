@@ -90,6 +90,8 @@
         flex: 0 0 25%;
         padding: 10px;
         box-sizing: border-box;
+        height: calc(100vh - 60px); /* Hoogte: viewport minus header */
+        overflow-y: auto; /* Onafhankelijk scrollen */
     }
 
     .left img#recipe-image {
@@ -128,6 +130,8 @@
         flex: 0 0 50%;
         padding: 10px;
         box-sizing: border-box;
+        height: calc(100vh - 60px); /* Hoogte: viewport minus header */
+        overflow-y: auto; /* Onafhankelijk scrollen */
     }
 
     .center img#large-recipe-image {
@@ -143,7 +147,7 @@
     }
 
     .center h3 {
-        font-size: 16px; /* Verhoogd van 14px naar 16px */
+        font-size: 18px; /* Verhoogd van 16px naar 18px */
         margin: 10px 0 5px;
     }
 
@@ -154,7 +158,7 @@
     }
 
     .center li {
-        font-size: 14px; /* Verhoogd van 12px naar 14px */
+        font-size: 16px; /* Verhoogd van 14px naar 16px */
         margin-bottom: 10px;
     }
 
