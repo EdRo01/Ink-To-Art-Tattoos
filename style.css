@@ -145,7 +145,7 @@ header {
     }
 
     .left {
-        flex: 0 0 25%;
+        flex: 0 0 22%; /* Verkleind van 25% naar 22% */
         padding: 10px;
         box-sizing: border-box;
         height: calc(100vh - 60px);
@@ -191,7 +191,7 @@ header {
     }
 
     .center {
-        flex: 0 0 50%;
+        flex: 0 0 48%; /* Verkleind van 50% naar 48% */
         padding: 10px;
         box-sizing: border-box;
         height: calc(100vh - 60px);
@@ -233,7 +233,7 @@ header {
     }
 
     .right {
-        flex: 0 0 25%;
+        flex: 0 0 30%; /* Verhoogd van 25% naar 30% */
         position: fixed;
         right: 0;
         top: 60px;
@@ -285,6 +285,7 @@ header {
     .right #nutrition-info p {
         font-size: 12px;
         margin: 5px 0;
+        text-align: right; /* Voedingswaarden rechts uitlijnen */
     }
 
     .right .back-button {
@@ -425,8 +426,8 @@ header {
 
     /* Receptpagina */
     .left, .center, .right {
-        margin-left: 8px;
-        margin-right: 8px;
+        margin-left: 4px; /* Verkleind van 8px naar 4px */
+        margin-right: 4px; /* Verkleind van 8px naar 4px */
     }
 
     .left img {
@@ -494,6 +495,16 @@ header {
 
     .right #calories {
         font-size: 11px;
+    }
+
+    .right #nutrition-info {
+        width: 100%;
+    }
+
+    .right #nutrition-info p {
+        font-size: 11px;
+        margin: 5px 0;
+        text-align: right; /* Voedingswaarden rechts uitlijnen */
     }
 
     .back-button {
@@ -574,8 +585,8 @@ header {
 
     /* Receptpagina */
     .left, .center, .right {
-        margin-left: 8px;
-        margin-right: 8px;
+        margin-left: 4px; /* Verkleind van 8px naar 4px */
+        margin-right: 4px; /* Verkleind van 8px naar 4px */
     }
 
     .left img {
@@ -639,6 +650,12 @@ header {
 
     .right #calories {
         font-size: 11px;
+    }
+
+    .right #nutrition-info p {
+        font-size: 11px;
+        margin: 5px 0;
+        text-align: right; /* Voedingswaarden rechts uitlijnen */
     }
 
     .back-button {
