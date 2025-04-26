@@ -85,4 +85,71 @@ function roundToWorkableUnit(amount, unit) {
         // Rond af naar de dichtstbijzijnde 0,5 (bijv. 1,3 → 1,5)
         return Math.round(amount * 2) / 2;
     } else if (weightVolumeUnits.some(weightUnit => unit.toLowerCase().includes(weightUnit))) {
-        // Rond af naar de dichtstbijzijnde 0,25 (bij
+        // Rond af naar de dichtstbijzijnde 0,25 (bijv. 0,24 → 0,25)
+        return Math.round(amount * 4) / 4;
+    } else {
+        // Voor andere eenheden: rond af naar 2 decimalen
+        return parseFloat(amount.toFixed(2));
+    }
+}
+
+// Portiegrootte aanpassen
+document.addEventListener("DOMContentLoaded", function () {
+    const updateButton = document.getElementById("update-portion");
+
+    if (!updateButton) {
+        console.warn("Element #update-portion niet gevonden! Dit is normaal op de indexpagina.");
+        return;
+    }
+
+    updateButton.addEventListener("click", function () {
+        // Haal de portiegrootte op en vervang komma door punt voor parseFloat
+        let portionSizeInput = document.getElementById("portion-size").value;
+        portionSizeInput = portionSizeInput.replace(",", ".");
+        const portionSize = parseFloat(portionSizeInput) || 1;
+
+        fetch("recepten.json")
+            .then(response => response.json())
+            .then(data => {
+                const urlParams = new URLSearchParams(window.location.search);
+                const recipeId = urlParams.get("id");
+                const recipe = data.recepten.find(r => r.id === recipeId);
+
+                if (recipe) {
+                    const ingredientsList = document.getElementById("ingredients-list");
+                    ingredientsList.innerHTML = "";
+
+                    recipe.ingrediënten.forEach(ingredient => {
+                        const li = document.createElement("li");
+                        const parts = ingredient.split(" ");
+                        const firstPart = parts[0];
+                        const amount = parseFloat(firstPart.replace(",", "."));
+
+                        if (!isNaN(amount)) {
+                            // Ingrediënt met numerieke hoeveelheid: schaal de hoeveelheid
+                            const scaledAmount = amount * portionSize;
+                            // Haal de eenheid op (alles na het eerste getal)
+                            const restOfIngredient = parts.slice(1).join(" ");
+                            // Extraheer de eenheid (eerste woord van restOfIngredient)
+                            const unit = restOfIngredient.split(" ")[0] || "";
+                            // Rond af naar een werkbare eenheid
+                            const roundedAmount = roundToWorkableUnit(scaledAmount, unit);
+                            // Formatteer met een komma
+                            const formattedAmount = roundedAmount.toString().replace(".", ",");
+                            li.textContent = `${formattedAmount} ${restOfIngredient}`;
+                        } else {
+                            // Ingrediënt zonder numerieke hoeveelheid: toon ongewijzigd
+                            li.textContent = ingredient;
+                        }
+
+                        ingredientsList.appendChild(li);
+                    });
+
+                    const calorieElement = document.getElementById("calories");
+                    // Rond calorieën af naar een heel getal
+                    const scaledCalories = Math.round(recipe.calorieën * portionSize);
+                    calorieElement.textContent = `Calorieën: ${scaledCalories}`;
+                }
+            }).catch(error => console.error("Fout bij portieberekening:", error));
+    });
+});
