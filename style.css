@@ -233,7 +233,7 @@ header {
     }
 
     .right {
-        flex: 0 0 35%; /* Verhoogd van 30% naar 35% */
+        flex: 0 0 40%; /* Verhoogd van 30% naar 35% */
         position: fixed;
         right: 0;
         top: 60px;
