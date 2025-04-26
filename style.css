@@ -224,9 +224,12 @@ header {
 
     .left img {
         width: 100% !important;
-        height: 120px !important;
+        max-width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 4/3 !important;
+        max-height: 200px !important;
         border-radius: 5px;
-        object-fit: cover !important;
+        object-fit: contain !important;
         object-position: center !important;
         margin: 0 !important;
         display: block !important;
@@ -354,13 +357,16 @@ header {
 
     .left img {
         width: 100% !important;
-        height: 120px !important;
+        max-width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 4/3 !important;
+        max-height: 200px !important;
         border-radius: 5px;
-        object-fit: cover !important;
+        object-fit: contain !important;
         object-position: center !important;
         margin: 0 !important;
         display: block !important;
-    }
+}
 
     .left h2 {
         font-size: 14px;
