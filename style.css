@@ -147,7 +147,7 @@ header {
         box-sizing: border-box !important;
         scrollbar-width: none !important;
     }
-        background-color: lightblue; /* Testkleur */
+        background-color: darkblue; /* Testkleur */
 
     body::-webkit-scrollbar {
         display: none !important;
