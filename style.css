@@ -1,5 +1,5 @@
 @media screen and (min-width: 769px) {
-    /* Bestaande stijlen voor index.html */
+    /* Stijlen voor index.html */
     #recipe-grid {
         display: flex;
         flex-wrap: wrap;
@@ -77,17 +77,17 @@
         box-sizing: border-box;
     }
 
-    /* Nieuwe stijlen voor recept.html */
+    /* Stijlen voor recept.html */
     main {
         display: flex;
         flex-wrap: nowrap;
-        margin-top: 60px; /* Ruimte voor de header */
+        margin-top: 60px;
         width: 100%;
         box-sizing: border-box;
     }
 
     .left {
-        flex: 0 0 25%; /* Linkerkolom: 25% van de breedte */
+        flex: 0 0 25%;
         padding: 10px;
         box-sizing: border-box;
     }
@@ -125,7 +125,7 @@
     }
 
     .center {
-        flex: 0 0 50%; /* Middenkolom: 50% van de breedte */
+        flex: 0 0 50%;
         padding: 10px;
         box-sizing: border-box;
     }
@@ -143,7 +143,7 @@
     }
 
     .center h3 {
-        font-size: 14px;
+        font-size: 16px; /* Verhoogd van 14px naar 16px */
         margin: 10px 0 5px;
     }
 
@@ -154,16 +154,16 @@
     }
 
     .center li {
-        font-size: 12px;
+        font-size: 14px; /* Verhoogd van 12px naar 14px */
         margin-bottom: 10px;
     }
 
     .right {
-        flex: 0 0 25%; /* Rechterkolom: 25% van de breedte */
+        flex: 0 0 25%;
         position: fixed;
         right: 0;
-        top: 60px; /* Onder de header */
-        height: calc(100vh - 60px); /* Volledige hoogte minus de header */
+        top: 60px;
+        height: calc(100vh - 60px);
         padding: 10px;
         box-sizing: border-box;
         background-color: #f8f8f8;
@@ -225,9 +225,10 @@
     }
 
     .right .back-button:hover {
-        background-color: #1e7b1e; /* Iets donkerder groen bij hover */
+        background-color: #1e7b1e;
     }
 }
+
 /* Mobiele lay-out (optie 2: 2 bredere tiles, aangepast) */
 @media screen and (max-width: 768px) {
     body {
