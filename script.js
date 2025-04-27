@@ -1,7 +1,12 @@
 // Indexpagina: Recepten tonen
 document.addEventListener("DOMContentLoaded", function () {
     fetch("recepten.json")
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Kan recepten.json niet laden: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        })
         .then(data => {
             const recipeCategories = document.getElementById("recipe-categories");
             const weeklyRecipe = document.getElementById("weekly-recipe");
@@ -13,19 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 return;
             }
 
-            // Sorteer recepten alfabetisch
-// Indexpagina: Recepten tonen
-document.addEventListener("DOMContentLoaded", function () {
-    fetch("recepten.json")
-        .then(response => response.json())
-        .then(data => {
-            const recipeCategories = document.getElementById("recipe-categories");
-            const weeklyRecipe = document.getElementById("weekly-recipe");
-            const searchInput = document.getElementById("search-input");
-            const categorySelect = document.getElementById("category-select");
-
-            if (!recipeCategories || !weeklyRecipe || !categorySelect) {
-                console.error("Elementen niet gevonden!");
+            // Controleer of data.recepten bestaat
+            if (!data.recepten || !Array.isArray(data.recepten)) {
+                console.error("Geen geldige recepten in recepten.json:", data);
                 return;
             }
 
@@ -35,6 +30,9 @@ document.addEventListener("DOMContentLoaded", function () {
             // Debug: Log subcategorieën
             const subcategories = [...new Set(data.recepten.map(recipe => recipe.subcategorie))];
             console.log("Gevonden subcategorieën:", subcategories);
+            if (subcategories.length === 0) {
+                console.warn("Geen subcategorieën gevonden in recepten.json!");
+            }
 
             // Vul dropdown-menu
             subcategories.forEach(subcategory => {
@@ -52,6 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     const section = document.getElementById(`category-${selectedCategory}`);
                     if (section) {
                         section.scrollIntoView({ behavior: "smooth" });
+                    } else {
+                        console.warn(`Sectie category-${selectedCategory} niet gevonden!`);
                     }
                 }
             });
@@ -142,7 +142,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 });
             });
-        }).catch(error => console.error("Fout bij laden recepten:", error));
+        }).catch(error => {
+            console.error("Fout bij laden recepten:", error);
+            const recipeCategories = document.getElementById("recipe-categories");
+            if (recipeCategories) {
+                recipeCategories.innerHTML = `<p>Sorry, recepten konden niet worden geladen. Controleer of recepten.json aanwezig is.</p>`;
+            }
+        });
 });
 
 // Recept details ophalen
@@ -151,7 +157,12 @@ function getRecipeDetails() {
     const recipeId = urlParams.get("id");
 
     fetch("recepten.json")
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Kan recepten.json niet laden: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        })
         .then(data => {
             const recipe = data.recepten.find(r => r.id === recipeId);
             if (recipe) {
@@ -209,7 +220,12 @@ document.addEventListener("DOMContentLoaded", function () {
         const portionSize = parseFloat(portionSizeInput) || 1;
 
         fetch("recepten.json")
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Kan recepten.json niet laden: ${response.status} ${response.statusText}`);
+                }
+                return response.json();
+            })
             .then(data => {
                 const urlParams = new URLSearchParams(window.location.search);
                 const recipeId = urlParams.get("id");
@@ -239,7 +255,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     document.getElementById("calories").textContent = `Calorieën: ${scaleNutritionValue(recipe.calorieën)}`;
                     document.getElementById("total-fat").textContent = `Totaal vet: ${scaleNutritionValue(recipe.totaal_vet)}`;
-                    document.getElementById("saturated-fat").textContent = `Verzadigd vet: ${scaleNutritionValue(recipe.totaal_vet)}`;
+                    document.getElementById("saturated-fat").textContent = `Verzadigd vet: ${scaleNutritionValue(recipe.verzadigd_vet)}`;
                     document.getElementById("cholesterol").textContent = `Cholesterol: ${scaleNutritionValue(recipe.cholesterol)}`;
                     document.getElementById("sodium").textContent = `Natrium: ${scaleNutritionValue(recipe.natrium)}`;
                     document.getElementById("total-carbohydrate").textContent = `Totaal Koolhydraten: ${scaleNutritionValue(recipe.totaal_koolhydraten)}`;
