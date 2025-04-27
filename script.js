@@ -14,6 +14,22 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             // Sorteer recepten alfabetisch
+// Indexpagina: Recepten tonen
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("recepten.json")
+        .then(response => response.json())
+        .then(data => {
+            const recipeCategories = document.getElementById("recipe-categories");
+            const weeklyRecipe = document.getElementById("weekly-recipe");
+            const searchInput = document.getElementById("search-input");
+            const categorySelect = document.getElementById("category-select");
+
+            if (!recipeCategories || !weeklyRecipe || !categorySelect) {
+                console.error("Elementen niet gevonden!");
+                return;
+            }
+
+            // Sorteer recepten alfabetisch
             data.recepten.sort((a, b) => a.naam.localeCompare(b.naam));
 
             // Debug: Log subcategorieën
@@ -140,8 +156,7 @@ function getRecipeDetails() {
             const recipe = data.recepten.find(r => r.id === recipeId);
             if (recipe) {
                 document.getElementById("recipe-image").src = recipe.afbeelding;
-                document.getElementById("recipe-title").textContent = recipe.naam;
-
+                document.getElementById("recipe-title").textContent = recipe.naam; // Alleen naam, geen nummer
                 const ingredientsList = document.getElementById("ingredients-list");
                 ingredientsList.innerHTML = "";
                 recipe.ingrediënten.forEach(ing => {
@@ -168,10 +183,12 @@ function getRecipeDetails() {
                 document.getElementById("sugars").textContent = `Suikers: ${recipe.suikers}`;
                 document.getElementById("protein").textContent = `Eiwit: ${recipe.eiwit}`;
 
-                // Rijstinfo
+                // Rijstinfo (algemener gemaakt)
                 const riceInfo = document.getElementById("rice-type");
                 if (riceInfo && recipe.rijstsoort) {
                     riceInfo.textContent = `Gebruik: ${recipe.rijstsoort}. Check onze app voor de perfecte bereiding!`;
+                } else if (riceInfo) {
+                    riceInfo.textContent = `Check onze app voor de perfecte bereiding!`;
                 }
             }
         }).catch(error => console.error("Fout bij laden recept details:", error));
@@ -222,7 +239,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     document.getElementById("calories").textContent = `Calorieën: ${scaleNutritionValue(recipe.calorieën)}`;
                     document.getElementById("total-fat").textContent = `Totaal vet: ${scaleNutritionValue(recipe.totaal_vet)}`;
-                    document.getElementById("saturated-fat").textContent = `Verzadigd vet: ${scaleNutritionValue(recipe.verzadigd_vet)}`;
+                    document.getElementById("saturated-fat").textContent = `Verzadigd vet: ${scaleNutritionValue(recipe.totaal_vet)}`;
                     document.getElementById("cholesterol").textContent = `Cholesterol: ${scaleNutritionValue(recipe.cholesterol)}`;
                     document.getElementById("sodium").textContent = `Natrium: ${scaleNutritionValue(recipe.natrium)}`;
                     document.getElementById("total-carbohydrate").textContent = `Totaal Koolhydraten: ${scaleNutritionValue(recipe.totaal_koolhydraten)}`;
