@@ -6,8 +6,9 @@ document.addEventListener("DOMContentLoaded", function () {
             const recipeCategories = document.getElementById("recipe-categories");
             const weeklyRecipe = document.getElementById("weekly-recipe");
             const searchInput = document.getElementById("search-input");
+            const categorySelect = document.getElementById("category-select");
 
-            if (!recipeCategories || !weeklyRecipe) {
+            if (!recipeCategories || !weeklyRecipe || !categorySelect) {
                 console.error("Elementen niet gevonden!");
                 return;
             }
@@ -18,6 +19,26 @@ document.addEventListener("DOMContentLoaded", function () {
             // Debug: Log subcategorieën
             const subcategories = [...new Set(data.recepten.map(recipe => recipe.subcategorie))];
             console.log("Gevonden subcategorieën:", subcategories);
+
+            // Vul dropdown-menu
+            subcategories.forEach(subcategory => {
+                const option = document.createElement("option");
+                const displaySubcategory = subcategory === "Overig" ? "Algemene Gerechten" : subcategory;
+                option.value = subcategory.toLowerCase().replace(/\s+/g, '-');
+                option.textContent = displaySubcategory;
+                categorySelect.appendChild(option);
+            });
+
+            // Scroll naar subcategorie bij selectie
+            categorySelect.addEventListener("change", function () {
+                const selectedCategory = this.value;
+                if (selectedCategory) {
+                    const section = document.getElementById(`category-${selectedCategory}`);
+                    if (section) {
+                        section.scrollIntoView({ behavior: "smooth" });
+                    }
+                }
+            });
 
             // Gerecht van de Week
             const weekNumber = Math.floor(Date.now() / (1000 * 60 * 60 * 24 * 7));
@@ -37,26 +58,30 @@ document.addEventListener("DOMContentLoaded", function () {
             subcategories.forEach(subcategory => {
                 const categorySection = document.createElement("section");
                 categorySection.classList.add("category-section");
-                // Gebruik vriendelijke naam voor "Overig"
+                categorySection.id = `category-${subcategory.toLowerCase().replace(/\s+/g, '-')}`;
                 const displaySubcategory = subcategory === "Overig" ? "Algemene Gerechten" : subcategory;
                 categorySection.innerHTML = `<h2>${displaySubcategory}</h2>`;
                 const tileGrid = document.createElement("div");
                 tileGrid.classList.add("recipe-grid");
 
                 const subcategoryRecipes = data.recepten.filter(recipe => recipe.subcategorie === subcategory);
-                subcategoryRecipes.forEach(recipe => {
-                    const tile = document.createElement("div");
-                    tile.classList.add("recipe-tile");
-                    tile.innerHTML = `
-                        <img src="${recipe.afbeelding}" alt="${recipe.naam}">
-                        <h3>${recipe.naam}</h3>
-                        ${recipe.rijstsoort ? `<p class="rijstsoort">${recipe.rijstsoort}</p>` : ""}
-                    `;
-                    tile.addEventListener("click", () => {
-                        window.location.href = `recept.html?id=${recipe.id}`;
+                if (subcategoryRecipes.length === 0) {
+                    tileGrid.innerHTML = `<p>Geen recepten in deze categorie.</p>`;
+                } else {
+                    subcategoryRecipes.forEach(recipe => {
+                        const tile = document.createElement("div");
+                        tile.classList.add("recipe-tile");
+                        tile.innerHTML = `
+                            <img src="${recipe.afbeelding}" alt="${recipe.naam}">
+                            <h3>${recipe.naam}</h3>
+                            ${recipe.rijstsoort ? `<p class="rijstsoort">${recipe.rijstsoort}</p>` : ""}
+                        `;
+                        tile.addEventListener("click", () => {
+                            window.location.href = `recept.html?id=${recipe.id}`;
+                        });
+                        tileGrid.appendChild(tile);
                     });
-                    tileGrid.appendChild(tile);
-                });
+                }
 
                 categorySection.appendChild(tileGrid);
                 recipeCategories.appendChild(categorySection);
@@ -78,6 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     if (filteredRecipes.length > 0) {
                         const categorySection = document.createElement("section");
                         categorySection.classList.add("category-section");
+                        categorySection.id = `category-${subcategory.toLowerCase().replace(/\s+/g, '-')}`;
                         const displaySubcategory = subcategory === "Overig" ? "Algemene Gerechten" : subcategory;
                         categorySection.innerHTML = `<h2>${displaySubcategory}</h2>`;
                         const tileGrid = document.createElement("div");

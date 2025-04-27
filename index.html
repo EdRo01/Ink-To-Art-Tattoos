@@ -2,37 +2,42 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RijstWijzer Pro</title>
     <link rel="stylesheet" href="style.css?v=1">
     <script src="script.js" defer></script>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
+        <img src="images/logo.png" alt="RijstWijzer Pro Logo" class="logo">
         <h1>RijstWijzer Pro</h1>
-        <p>Ontdek onze 106+ rijst-, bulgur- en noedelrecepten!</p>
-        <div class="search-bar">
-            <input type="text" id="search-input" placeholder="Zoek recept of rijstsoort...">
-        </div>
+        <p>Jouw rijst-, bulgur- en noedelrecepten</p>
     </header>
     <main>
-        <section id="recipe-of-the-week" class="recipe-week">
+        <section class="search-bar">
+            <input type="text" id="search-input" placeholder="Zoek een recept...">
+        </section>
+        <section class="recipe-week">
             <h2>Gerecht van de Week</h2>
             <div id="weekly-recipe"></div>
         </section>
-        <section id="recipe-categories"></section>
-        <aside id="sidebar" class="sidebar">
-            <h3>Ontdek Meer</h3>
+        <section class="category-nav">
+            <label for="category-select">Spring naar categorie:</label>
+            <select id="category-select">
+                <option value="">Kies een categorie</option>
+            </select>
+        </section>
+        <div id="recipe-categories"></div>
+        <aside class="sidebar">
+            <h3>Download onze app</h3>
             <div class="app-promo">
-                <p>Perfecte rijst? Download onze app!</p>
-                <a href="https://rijstwijzerpro.app" class="app-button">Naar de App</a>
+                <p>Ontvang exclusieve recepten en tips!</p>
+                <a href="https://rijstwijzerpro.app" class="app-button">Download nu</a>
             </div>
         </aside>
     </main>
     <footer>
-        <p class="copyright">© 2025 RijstWijzerPro.nl</p>
-        <p><a href="https://rijstwijzerpro.app">RijstWijzer Pro App</a></p>
+        <p>&copy; 2025 RijstwijzerPro.nl | <a href="mailto:info@rijstwijzerpro.nl">Contact</a></p>
     </footer>
 </body>
 </html>
