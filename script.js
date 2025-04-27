@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
             // Sorteer recepten alfabetisch
             data.recepten.sort((a, b) => a.naam.localeCompare(b.naam));
 
-            // Debug: Log categorieën
-            const categories = [...new Set(data.recepten.map(recipe => recipe.categorie))];
-            console.log("Gevonden categorieën:", categories);
+            // Debug: Log subcategorieën
+            const subcategories = [...new Set(data.recepten.map(recipe => recipe.subcategorie))];
+            console.log("Gevonden subcategorieën:", subcategories);
 
             // Gerecht van de Week
             const weekNumber = Math.floor(Date.now() / (1000 * 60 * 60 * 24 * 7));
@@ -33,18 +33,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
             `;
 
-            // Categorieweergave
-            categories.forEach(category => {
+            // Subcategorieweergave
+            subcategories.forEach(subcategory => {
                 const categorySection = document.createElement("section");
                 categorySection.classList.add("category-section");
-                // Gebruik subcategorie als fallback voor "Overig"
-                const displayCategory = category === "Overig" ? "Algemeen" : category;
-                categorySection.innerHTML = `<h2>${displayCategory}</h2>`;
+                // Gebruik vriendelijke naam voor "Overig"
+                const displaySubcategory = subcategory === "Overig" ? "Algemene Gerechten" : subcategory;
+                categorySection.innerHTML = `<h2>${displaySubcategory}</h2>`;
                 const tileGrid = document.createElement("div");
                 tileGrid.classList.add("recipe-grid");
 
-                const categoryRecipes = data.recepten.filter(recipe => recipe.categorie === category);
-                categoryRecipes.forEach(recipe => {
+                const subcategoryRecipes = data.recepten.filter(recipe => recipe.subcategorie === subcategory);
+                subcategoryRecipes.forEach(recipe => {
                     const tile = document.createElement("div");
                     tile.classList.add("recipe-tile");
                     tile.innerHTML = `
@@ -66,20 +66,20 @@ document.addEventListener("DOMContentLoaded", function () {
             searchInput.addEventListener("input", () => {
                 const query = searchInput.value.toLowerCase();
                 recipeCategories.innerHTML = "";
-                categories.forEach(category => {
+                subcategories.forEach(subcategory => {
                     const filteredRecipes = data.recepten.filter(r =>
-                        r.categorie === category && (
+                        r.subcategorie === subcategory && (
                             r.naam.toLowerCase().includes(query) ||
                             r.rijstsoort.toLowerCase().includes(query) ||
-                            r.categorie.toLowerCase().includes(query) ||
-                            r.subcategorie.toLowerCase().includes(query)
+                            r.subcategorie.toLowerCase().includes(query) ||
+                            r.categorie.toLowerCase().includes(query)
                         )
                     );
                     if (filteredRecipes.length > 0) {
                         const categorySection = document.createElement("section");
                         categorySection.classList.add("category-section");
-                        const displayCategory = category === "Overig" ? "Algemeen" : category;
-                        categorySection.innerHTML = `<h2>${displayCategory}</h2>`;
+                        const displaySubcategory = subcategory === "Overig" ? "Algemene Gerechten" : subcategory;
+                        categorySection.innerHTML = `<h2>${displaySubcategory}</h2>`;
                         const tileGrid = document.createElement("div");
                         tileGrid.classList.add("recipe-grid");
                         filteredRecipes.forEach(recipe => {

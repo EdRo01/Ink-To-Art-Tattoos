@@ -3,7 +3,7 @@
         {
             "id": "1",
             "naam": "1 - Bami shoarma",
-            "categorie": "Overig",
+            "categorie": "Vissen België",
             "subcategorie": "Slowcooker hoofdmaaltijd",
             "afbeelding": "images/ad67adc6-8a8b-4c4f-8583-542973546e92_0.jpg",
             "ingrediënten": [
@@ -93,7 +93,7 @@
         {
             "id": "2",
             "naam": "2 - Spaghetti",
-            "categorie": "Overig",
+            "categorie": "Vissen België",
             "subcategorie": "Slowcooker hoofdmaaltijd",
             "afbeelding": "images/569160cd-eb4d-4172-9fd9-60941380b163_0.jpg",
             "ingrediënten": [
@@ -252,7 +252,7 @@
         {
             "id": "3",
             "naam": "3 - Surinaamse kip",
-            "categorie": "Overig",
+            "categorie": "Vissen België",
             "subcategorie": "Slowcooker hoofdmaaltijd",
             "afbeelding": "images/99482969-da05-41ef-8f16-9b7368ca07f4_0.jpg",
             "ingrediënten": [
@@ -366,7 +366,7 @@
         {
             "id": "4",
             "naam": "4 - Gehaktballetjes honing-mosterdsaus & brood",
-            "categorie": "Overig",
+            "categorie": "Vissen België",
             "subcategorie": "Slowcooker hoofdmaaltijd",
             "afbeelding": "images/95bc91e7-7862-407e-98c5-de80a15e8a62_0.jpg",
             "ingrediënten": [
@@ -546,7 +546,7 @@
         {
             "id": "5",
             "naam": "5 - Pindakip",
-            "categorie": "Overig",
+            "categorie": "Vissen België",
             "subcategorie": "Slowcooker hoofdmaaltijd",
             "afbeelding": "images/48a04e8a-f996-4e56-803e-f6a7acd33861_0.jpg",
             "ingrediënten": [
@@ -647,7 +647,7 @@
         {
             "id": "6",
             "naam": "6 - Babi pangang",
-            "categorie": "Overig",
+            "categorie": "Vissen België",
             "subcategorie": "Slowcooker hoofdmaaltijd",
             "afbeelding": "images/8e1a3e94-8da7-4d3d-ba07-7b3fa56f9dbe_0.jpg",
             "ingrediënten": [
@@ -842,7 +842,7 @@
         {
             "id": "8",
             "naam": "Ajam pangang (slowcooker)",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/cbe7212b-ac3c-454d-87eb-175ebf638dc1_0.jpg",
             "ingrediënten": [
@@ -947,7 +947,7 @@
         {
             "id": "9",
             "naam": "Asperges Athena *",
-            "categorie": "Overig",
+            "categorie": "Grieks",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/331af1a8-9157-4454-87da-91196c7e9b03_0.jpg",
             "ingrediënten": [
@@ -1032,7 +1032,7 @@
         {
             "id": "10",
             "naam": "Atjar Ketimoen",
-            "categorie": "Overig",
+            "categorie": "Pittig",
             "subcategorie": "Bijgerechten",
             "afbeelding": "images/1f14e504-89ef-4840-9057-1c00a9a705e6_0.jpg",
             "ingrediënten": [
@@ -1095,7 +1095,7 @@
         {
             "id": "11",
             "naam": "Babi Pangang",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/2f9bbcfa-04c5-4e54-b6bd-e19e111a84a1_0.jpg",
             "ingrediënten": [
@@ -1195,7 +1195,7 @@
         {
             "id": "12",
             "naam": "Bami *",
-            "categorie": "Overig",
+            "categorie": "Wokgerecht",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/e9d8fab1-46f7-451d-95b3-3aea42535cb9_0.jpg",
             "ingrediënten": [
@@ -1272,7 +1272,7 @@
         {
             "id": "13",
             "naam": "Bami shoarma *",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/a38604df-db6a-4897-9dde-60c279b951c2_0.jpg",
             "ingrediënten": [
@@ -1362,7 +1362,7 @@
         {
             "id": "14",
             "naam": "Biefstuk kruidenmix",
-            "categorie": "Overig",
+            "categorie": "Kruiden",
             "subcategorie": "Kruidenmix",
             "afbeelding": "images/a09bfea7-1924-499e-a6aa-dcbeb48ffb1c_0.jpg",
             "ingrediënten": [
@@ -1421,7 +1421,7 @@
         {
             "id": "15",
             "naam": "Biefstuk, gegrilde met asperges en gebakken krieltjes",
-            "categorie": "Overig",
+            "categorie": "Grill",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/70d5270d-bf94-4444-bc54-ea1f1d586ae9_0.jpg",
             "ingrediënten": [
@@ -1490,7 +1490,7 @@
         {
             "id": "16",
             "naam": "Broodje Indische pulled chicken",
-            "categorie": "Overig",
+            "categorie": "Surinaams",
             "subcategorie": "Belegde broodjes",
             "afbeelding": "images/7674b872-351c-42d7-a2e0-08015c52360c_0.jpg",
             "ingrediënten": [
@@ -1593,7 +1593,7 @@
         {
             "id": "17",
             "naam": "Broodje pittige kip met rucola",
-            "categorie": "Overig",
+            "categorie": "Pittig",
             "subcategorie": "Belegde broodjes",
             "afbeelding": "images/d9493713-6419-493f-8cec-1b8a6f1d3d4a_0.jpg",
             "ingrediënten": [
@@ -1687,7 +1687,7 @@
         {
             "id": "18",
             "naam": "Broodje Surinaamse kip (van de Hema)",
-            "categorie": "Overig",
+            "categorie": "Broodmaaltijd",
             "subcategorie": "Belegde broodjes",
             "afbeelding": "images/73cdd3dc-fd3a-438a-bbc1-be528ef5ca91_0.jpg",
             "ingrediënten": [
@@ -1792,7 +1792,7 @@
         {
             "id": "19",
             "naam": "Broodje warm vlees",
-            "categorie": "Overig",
+            "categorie": "Broodmaaltijd",
             "subcategorie": "Belegde broodjes",
             "afbeelding": "images/989f1e25-a946-4f19-bb3b-7200a46687ac_0.jpg",
             "ingrediënten": [
@@ -1844,7 +1844,7 @@
         {
             "id": "20",
             "naam": "Chili Con Carne kruidenmix",
-            "categorie": "Overig",
+            "categorie": "Kruiden",
             "subcategorie": "Kruidenmix",
             "afbeelding": "images/6d3bd154-b5be-4c4d-ad01-a8ed2f0f9f09_0.jpg",
             "ingrediënten": [
@@ -1910,7 +1910,7 @@
         {
             "id": "21",
             "naam": "Choco/kokoscake",
-            "categorie": "Overig",
+            "categorie": "Cake",
             "subcategorie": "Gebak & Deserts",
             "afbeelding": "images/31d84acd-0b45-43d8-8959-9d6de71fe8d9_0.jpg",
             "ingrediënten": [
@@ -1986,7 +1986,7 @@
         {
             "id": "22",
             "naam": "Curry Madras kruidenmix",
-            "categorie": "Overig",
+            "categorie": "Kruiden",
             "subcategorie": "Kruidenmix",
             "afbeelding": "images/8b1f5fe9-eac5-48c6-97e8-6c559f52dfed_0.jpg",
             "ingrediënten": [
@@ -2067,7 +2067,7 @@
         {
             "id": "23",
             "naam": "Drumsticks in Ketjap-Tomatensaus",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/3cec2ec4-b3c2-4cdb-b0d3-43428425c3f6_0.jpg",
             "ingrediënten": [
@@ -2175,7 +2175,7 @@
         {
             "id": "24",
             "naam": "Erwtensoep",
-            "categorie": "Overig",
+            "categorie": "Soep",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/fc040dc9-14ed-41b9-8cd7-59e7ccc67d33_0.jpg",
             "ingrediënten": [
@@ -2264,7 +2264,7 @@
         {
             "id": "25",
             "naam": "Foolproof kokoscake",
-            "categorie": "Overig",
+            "categorie": "Cake",
             "subcategorie": "Gebak & Deserts",
             "afbeelding": "images/ce20ef9d-4b38-4f33-b43f-701e84efd8a0_0.jpg",
             "ingrediënten": [
@@ -2334,7 +2334,7 @@
         {
             "id": "26",
             "naam": "Frites met vissticks en broccoli",
-            "categorie": "Overig",
+            "categorie": "Vis",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/2b98fed8-4772-4453-aa11-55b3a5bbb0fe_0.jpg",
             "ingrediënten": [
@@ -2412,7 +2412,7 @@
         {
             "id": "27",
             "naam": "Garnalen met krieltjes, champignons en kerstomaatjes *",
-            "categorie": "Overig",
+            "categorie": "Vis",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/b53c2173-ce12-44a4-80d9-e25e38d79a06_0.jpg",
             "ingrediënten": [
@@ -2495,7 +2495,7 @@
         {
             "id": "28",
             "naam": "Garnalenroerbak met groenten en bruine rijst *",
-            "categorie": "Overig",
+            "categorie": "Spaans",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/9d536325-3490-4f41-b89e-b51ffda10f42_0.jpg",
             "ingrediënten": [
@@ -2590,7 +2590,7 @@
         {
             "id": "29",
             "naam": "Gebakken krieltjes met Rode kool met appeltjes en rookworst",
-            "categorie": "Overig",
+            "categorie": "Hollandse pot",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/f0fde7ce-07a6-4eef-abbb-f0c0c4425e3f_0.jpg",
             "ingrediënten": [
@@ -2647,7 +2647,7 @@
         {
             "id": "30",
             "naam": "Gevuld stokbrood",
-            "categorie": "Overig",
+            "categorie": "Broodmaaltijd",
             "subcategorie": "Belegde broodjes",
             "afbeelding": "images/0daea628-7d25-4321-8e43-a87ee3ab2320_0.jpg",
             "ingrediënten": [
@@ -2706,7 +2706,7 @@
         {
             "id": "31",
             "naam": "Gevulde gehaktbroodjes",
-            "categorie": "Overig",
+            "categorie": "Broodmaaltijd",
             "subcategorie": "Belegde broodjes",
             "afbeelding": "images/0e625ef8-1bae-4767-ade6-27d3b9ae0098_0.jpg",
             "ingrediënten": [
@@ -2758,7 +2758,7 @@
         {
             "id": "32",
             "naam": "Gevulde paprika met gehakt en witte rijst",
-            "categorie": "Overig",
+            "categorie": "Groentegerecht",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/65e1067b-51e9-4531-9b9e-30691290ad56_0.jpg",
             "ingrediënten": [
@@ -2828,7 +2828,7 @@
         {
             "id": "33",
             "naam": "Griekse gehaktballetjes in avgolemono-saus met bulgur rijst",
-            "categorie": "Overig",
+            "categorie": "Grieks",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/5486b5e5-18dd-4edc-bd03-644b36b2b419_0.jpg",
             "ingrediënten": [
@@ -2908,7 +2908,7 @@
         {
             "id": "34",
             "naam": "Griekse gehaktballetjes met tomatensaus en bulgur rijst  *",
-            "categorie": "Overig",
+            "categorie": "Grieks",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/50f7e828-6665-4369-9ac2-b4fdc1d67efe_0.jpg",
             "ingrediënten": [
@@ -2988,7 +2988,7 @@
             "id": "35",
             "naam": "Griekse kip met citroen en oregano",
             "categorie": "Overig",
-            "subcategorie": "",
+            "subcategorie": "Overig",
             "afbeelding": "",
             "ingrediënten": [],
             "bereiding": [
@@ -3025,7 +3025,7 @@
         {
             "id": "36",
             "naam": "Griekse kip souvlaki met tzatziki en groente *",
-            "categorie": "Overig",
+            "categorie": "Grieks",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/08267c2a-e1a5-4d22-894a-96d16965d54f_0.jpg",
             "ingrediënten": [
@@ -3126,7 +3126,7 @@
             "id": "37",
             "naam": "Griekse Kip Stifado (Stoofpot)",
             "categorie": "Overig",
-            "subcategorie": "",
+            "subcategorie": "Overig",
             "afbeelding": "",
             "ingrediënten": [],
             "bereiding": [
@@ -3166,7 +3166,7 @@
         {
             "id": "38",
             "naam": "Griekse rijstschotel met gehakt en feta",
-            "categorie": "Overig",
+            "categorie": "Grieks",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/c02cdc71-acd6-4291-a712-57cac2615533_0.jpg",
             "ingrediënten": [
@@ -3245,7 +3245,7 @@
         {
             "id": "39",
             "naam": "Groentecurry met Zoete Aardappel",
-            "categorie": "Overig",
+            "categorie": "Thais",
             "subcategorie": "Vegetarisch",
             "afbeelding": "images/ade195dc-1515-4749-9535-3c121f550df3_0.jpg",
             "ingrediënten": [
@@ -3324,7 +3324,7 @@
         {
             "id": "40",
             "naam": "Honing soja kip *",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/2efe35d8-aeed-48e5-8da0-9d642e3ab340_0.jpg",
             "ingrediënten": [
@@ -3432,7 +3432,7 @@
         {
             "id": "41",
             "naam": "Indisch Stoofpotje *",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/2eab48b1-2a6d-4c70-85ac-71d7a722b57c_0.jpg",
             "ingrediënten": [
@@ -3543,7 +3543,7 @@
         {
             "id": "42",
             "naam": "Kaiserbroodje met bacon en gebakken ei",
-            "categorie": "Overig",
+            "categorie": "Broodmaaltijd",
             "subcategorie": "Belegde broodjes",
             "afbeelding": "images/480fd6a7-7722-49d1-8e44-631e70210dff_0.jpg",
             "ingrediënten": [
@@ -3601,7 +3601,7 @@
         {
             "id": "43",
             "naam": "Kapsalon light",
-            "categorie": "Overig",
+            "categorie": "Tex-Mex",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/71d0a3da-5ce2-4fc5-9b67-16b9fda8e8e7_0.jpg",
             "ingrediënten": [
@@ -3730,7 +3730,7 @@
         {
             "id": "44",
             "naam": "Kip kebab met tomatensalade (Grieks)",
-            "categorie": "Overig",
+            "categorie": "Grieks",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/4df72bd5-a5d2-4639-8dbc-29eb81a591bb_0.jpg",
             "ingrediënten": [
@@ -3846,7 +3846,7 @@
             "id": "45",
             "naam": "Kip met krieltjes, groente en tzatziki *",
             "categorie": "Overig",
-            "subcategorie": "",
+            "subcategorie": "Overig",
             "afbeelding": "",
             "ingrediënten": [
                 {
@@ -3948,7 +3948,7 @@
         {
             "id": "46",
             "naam": "Kip şiş Kebab met Bulgur Pilav en Tzatziki",
-            "categorie": "Overig",
+            "categorie": "Turks",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/abf80932-7255-4988-b379-ead4be6ece06_0.jpg",
             "ingrediënten": [
@@ -4061,7 +4061,7 @@
         {
             "id": "47",
             "naam": "Kip teriyaki met noedels",
-            "categorie": "Overig",
+            "categorie": "Japans",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/a7bd3b5d-d083-4a47-a70e-1126a12f4084_0.jpg",
             "ingrediënten": [
@@ -4151,7 +4151,7 @@
         {
             "id": "48",
             "naam": "Kipfilet met  champignons en airfryer frites",
-            "categorie": "Overig",
+            "categorie": "Airfryergerecht",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/a7663d8f-a14b-474a-a680-4911bb06d72f_0.jpg",
             "ingrediënten": [
@@ -4231,7 +4231,7 @@
         {
             "id": "49",
             "naam": "Kipfilet met Airfryer Frites en Broccoli",
-            "categorie": "Overig",
+            "categorie": "Airfryergerecht",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/375b2337-f2f7-49d3-8c49-5d674dff8664_0.jpg",
             "ingrediënten": [
@@ -4300,7 +4300,7 @@
         {
             "id": "50",
             "naam": "Kipfilet met Groene Pesto, cherrytomaten, spinazie en gebakken krieltjes *",
-            "categorie": "Overig",
+            "categorie": "Italiaans",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/ca366345-ba3f-4117-b3a9-a72ad3947c2d_0.jpg",
             "ingrediënten": [
@@ -4367,7 +4367,7 @@
             "id": "51",
             "naam": "Kipfilet met Turkse Kruidenkorst",
             "categorie": "Overig",
-            "subcategorie": "",
+            "subcategorie": "Overig",
             "afbeelding": "",
             "ingrediënten": [],
             "bereiding": [
@@ -4401,7 +4401,7 @@
         {
             "id": "52",
             "naam": "Knoflooksaus",
-            "categorie": "Overig",
+            "categorie": "Saus",
             "subcategorie": "Saus",
             "afbeelding": "images/6d23e901-1d33-4453-af30-cf28f661b9fa_0.jpg",
             "ingrediënten": [
@@ -4455,7 +4455,7 @@
         {
             "id": "53",
             "naam": "Köfte met volkoren pita, airfryer frites en salade",
-            "categorie": "Overig",
+            "categorie": "Turks",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/e7f0aed8-8ebd-4766-95ac-c4f24c85b8e3_0.jpg",
             "ingrediënten": [
@@ -4741,7 +4741,7 @@
         {
             "id": "56",
             "naam": "Lahmacun (Turkse Pizza)",
-            "categorie": "Overig",
+            "categorie": "Turks",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/9db3dbfc-acc5-408e-80ba-f9bd6f5bb19c_0.jpg",
             "ingrediënten": [
@@ -4814,7 +4814,7 @@
         {
             "id": "57",
             "naam": "Maaltijdsalade tonijn",
-            "categorie": "Overig",
+            "categorie": "Salade",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/bad529b2-bbba-4ca3-b8e6-6df29bd43260_0.jpg",
             "ingrediënten": [
@@ -4888,7 +4888,7 @@
         {
             "id": "58",
             "naam": "Macaroni",
-            "categorie": "Overig",
+            "categorie": "Italiaans",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/3ec7de2e-4275-415b-b37e-b9dc0c4b8a6e_0.jpg",
             "ingrediënten": [
@@ -4968,7 +4968,7 @@
         {
             "id": "59",
             "naam": "Miehoen Singapore",
-            "categorie": "Overig",
+            "categorie": "Wokgerecht",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/a2ea3156-b397-4580-bd00-358aa86fe97f_0.jpg",
             "ingrediënten": [
@@ -5065,7 +5065,7 @@
         {
             "id": "60",
             "naam": "Nasi *",
-            "categorie": "Overig",
+            "categorie": "Wokgerecht",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/42a9e06d-a704-4ff6-9f6a-dc46336eefb9_0.jpg",
             "ingrediënten": [
@@ -5166,7 +5166,7 @@
         {
             "id": "61",
             "naam": "Noedelsoep met kip",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/1436d8e3-1d07-4148-b768-5252341268cd_0.jpg",
             "ingrediënten": [
@@ -5251,7 +5251,7 @@
         {
             "id": "62",
             "naam": "Paella",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/e149586b-ee62-4964-a36c-7d486f988009_0.jpg",
             "ingrediënten": [
@@ -5350,7 +5350,7 @@
         {
             "id": "63",
             "naam": "Paella (Spaans) *",
-            "categorie": "Overig",
+            "categorie": "Spaans",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/feb0c2a5-f5b7-4f1c-9d9a-82dc6915865c_0.jpg",
             "ingrediënten": [
@@ -5467,7 +5467,7 @@
         {
             "id": "64",
             "naam": "Paella kruidenmix",
-            "categorie": "Overig",
+            "categorie": "Kruiden",
             "subcategorie": "Kruidenmix",
             "afbeelding": "images/656919e0-f52b-456a-8b5e-76e1546ac635_0.jpg",
             "ingrediënten": [
@@ -5547,7 +5547,7 @@
         {
             "id": "65",
             "naam": "Pasta met Broccoli en Kaassaus",
-            "categorie": "Overig",
+            "categorie": "Italiaans",
             "subcategorie": "Vegetarisch",
             "afbeelding": "images/9ff864c2-5ba1-4a11-aeb5-99084a92f56c_0.jpg",
             "ingrediënten": [
@@ -5605,7 +5605,7 @@
         {
             "id": "66",
             "naam": "Pasta met kipfilet en rode pesto",
-            "categorie": "Overig",
+            "categorie": "Italiaans",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/5266531c-f225-4479-9f93-1adb6f706616_0.jpg",
             "ingrediënten": [
@@ -5675,7 +5675,7 @@
         {
             "id": "67",
             "naam": "Pindakip (slowcooker)",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/643b3c1d-6402-486f-90ce-5b3d4061f06c_0.jpg",
             "ingrediënten": [
@@ -5778,7 +5778,7 @@
         {
             "id": "68",
             "naam": "Pittige noedels met kipfilet *",
-            "categorie": "Overig",
+            "categorie": "Japans",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/9ff3b279-1d4c-4f63-848f-1bf0ca690d73_0.jpg",
             "ingrediënten": [
@@ -5868,7 +5868,7 @@
         {
             "id": "69",
             "naam": "Roti Kruidenmix",
-            "categorie": "Overig",
+            "categorie": "Kruiden",
             "subcategorie": "Kruidenmix",
             "afbeelding": "images/9ff82e6d-fb6d-4f8f-b5fb-0f072bc8bc1b_0.jpg",
             "ingrediënten": [
@@ -5922,7 +5922,7 @@
         {
             "id": "70",
             "naam": "Rozijnenbrood poging 2",
-            "categorie": "Overig",
+            "categorie": "Broodmaaltijd",
             "subcategorie": "Brood",
             "afbeelding": "",
             "ingrediënten": [
@@ -5999,7 +5999,7 @@
         {
             "id": "71",
             "naam": "Rundgehakt stoofpot met bulgur rijst",
-            "categorie": "Overig",
+            "categorie": "Grieks",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/e81c742d-10dc-4891-a7e2-2393c7225d3c_0.jpg",
             "ingrediënten": [
@@ -6078,7 +6078,7 @@
             "id": "72",
             "naam": "Shoarma Salade",
             "categorie": "Overig",
-            "subcategorie": "",
+            "subcategorie": "Overig",
             "afbeelding": "",
             "ingrediënten": [
                 {
@@ -6162,7 +6162,7 @@
         {
             "id": "73",
             "naam": "Spaanse kip",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/4a787146-b408-4693-baaf-c117a26cf933_0.jpg",
             "ingrediënten": [
@@ -6264,7 +6264,7 @@
         {
             "id": "74",
             "naam": "Spareribs",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/ac7af1ae-a885-421a-9886-183017ae234e_0.jpg",
             "ingrediënten": [
@@ -6331,7 +6331,7 @@
         {
             "id": "75",
             "naam": "Spareribs",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/cbe5a62f-6db1-4598-8468-6ab118312d56_0.jpg",
             "ingrediënten": [
@@ -6414,7 +6414,7 @@
         {
             "id": "76",
             "naam": "Spinazieomelet met tomaat, ui en gebakken krieltjes",
-            "categorie": "Overig",
+            "categorie": "Vega",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/b361d829-adea-43a8-a935-9e7bc6c48895_0.jpg",
             "ingrediënten": [
@@ -6479,7 +6479,7 @@
         {
             "id": "77",
             "naam": "Stokbrood gehakt",
-            "categorie": "Overig",
+            "categorie": "Broodmaaltijd",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/9efe15e3-2ce9-40e8-ba01-93cbe8b6bd14_0.jpg",
             "ingrediënten": [
@@ -6553,7 +6553,7 @@
         {
             "id": "78",
             "naam": "Stokbrood kip",
-            "categorie": "Overig",
+            "categorie": "Broodmaaltijd",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/9dd3b4df-3e1a-4479-849b-b2168a38165e_0.jpg",
             "ingrediënten": [
@@ -6627,7 +6627,7 @@
         {
             "id": "79",
             "naam": "Stokbroodje kip",
-            "categorie": "Overig",
+            "categorie": "Broodmaaltijd",
             "subcategorie": "Belegde broodjes",
             "afbeelding": "images/4bc20e78-33d8-4f2f-adb9-21add5b80630_0.jpg",
             "ingrediënten": [
@@ -6702,7 +6702,7 @@
         {
             "id": "80",
             "naam": "Stoofpeertjes in glühwein",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Bijgerechten",
             "afbeelding": "images/a9f0d936-73d2-47f6-8f5d-4ceb85d7825a_0.jpg",
             "ingrediënten": [
@@ -6757,7 +6757,7 @@
         {
             "id": "81",
             "naam": "Stoofvlees met frites (slowcooker)",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/7ad4f9d3-d2b0-47cb-b260-82d5925faa25_0.jpg",
             "ingrediënten": [
@@ -6860,7 +6860,7 @@
         {
             "id": "82",
             "naam": "Surinaams stoofvlees (slowcooker)",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/a68e5e2a-5358-4fa8-b989-df63473a2107_0.jpg",
             "ingrediënten": [
@@ -6969,7 +6969,7 @@
         {
             "id": "83",
             "naam": "Surinaamse roti (slowcooker)",
-            "categorie": "Overig",
+            "categorie": "Slowcooker",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/53b7c0ed-a480-45ca-9c28-b04c4695ec02_0.jpg",
             "ingrediënten": [
@@ -7058,7 +7058,7 @@
             "id": "84",
             "naam": "Tavuk Döner Wrap",
             "categorie": "Overig",
-            "subcategorie": "",
+            "subcategorie": "Overig",
             "afbeelding": "",
             "ingrediënten": [
                 {
@@ -7150,7 +7150,7 @@
         {
             "id": "85",
             "naam": "Tortilla met kipfilet",
-            "categorie": "Overig",
+            "categorie": "Tex-Mex",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/fa8da05d-9690-4bbc-aac4-618c70b24ba4_0.jpg",
             "ingrediënten": [
@@ -7234,7 +7234,7 @@
         {
             "id": "86",
             "naam": "Tortilla met rundergehakt, pesto en champignons *",
-            "categorie": "Overig",
+            "categorie": "Tex-Mex",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/c49c0b4e-59d1-4e4f-9572-fa800e3b2d0f_0.jpg",
             "ingrediënten": [
@@ -7325,7 +7325,7 @@
         {
             "id": "87",
             "naam": "Tortilla met rundergehakt, rode paprika en ui",
-            "categorie": "Overig",
+            "categorie": "Tex-Mex",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/dff4b401-b12c-4ec9-b53a-cbd6ed1e997a_0.jpg",
             "ingrediënten": [
@@ -7405,7 +7405,7 @@
             "id": "88",
             "naam": "Turkse Kip met Bulgur",
             "categorie": "Overig",
-            "subcategorie": "",
+            "subcategorie": "Overig",
             "afbeelding": "",
             "ingrediënten": [
                 {
@@ -7500,7 +7500,7 @@
         {
             "id": "89",
             "naam": "Tzatziki",
-            "categorie": "Overig",
+            "categorie": "Grieks",
             "subcategorie": "Bijgerechten",
             "afbeelding": "images/f8a86108-1917-4baa-872f-bb8f031d7ccd_0.jpg",
             "ingrediënten": [
@@ -7567,7 +7567,7 @@
         {
             "id": "90",
             "naam": "Varkenshaasje met aardappelpuree en spinazie",
-            "categorie": "Overig",
+            "categorie": "Hollandse pot",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/85f8212e-4b1f-4b46-a99d-a54e5cb82a50_0.jpg",
             "ingrediënten": [
@@ -7661,7 +7661,7 @@
         {
             "id": "91",
             "naam": "Varkenshaasje met gebakken krieltjes en sperziebonen",
-            "categorie": "Overig",
+            "categorie": "Hollandse pot",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/a6a5bd72-ea90-42d0-b01b-9814b3e5b203_0.jpg",
             "ingrediënten": [
@@ -7729,7 +7729,7 @@
             "id": "92",
             "naam": "Varkenshaasje met groene twist *",
             "categorie": "Overig",
-            "subcategorie": "",
+            "subcategorie": "Overig",
             "afbeelding": "images/6950ec88-ab93-401c-8bb0-c3e2c535407d_0.jpg",
             "ingrediënten": [
                 {
@@ -7785,7 +7785,7 @@
         {
             "id": "93",
             "naam": "Vegetarische Burger met Zoete Aardappel",
-            "categorie": "Overig",
+            "categorie": "Vega",
             "subcategorie": "Vegetarisch",
             "afbeelding": "images/563ea44c-a31d-412b-95aa-e24135726604_0.jpg",
             "ingrediënten": [
@@ -7842,7 +7842,7 @@
         {
             "id": "94",
             "naam": "Vegetarische chilli",
-            "categorie": "Overig",
+            "categorie": "Tex-Mex",
             "subcategorie": "Vegetarisch",
             "afbeelding": "images/8b545ccd-44bf-4819-b641-cc1d916f9bf2_0.jpg",
             "ingrediënten": [
@@ -7930,7 +7930,7 @@
         {
             "id": "95",
             "naam": "Vegetarische Pad Thai",
-            "categorie": "Overig",
+            "categorie": "Aziatisch",
             "subcategorie": "Vegetarisch",
             "afbeelding": "images/16baa847-0148-41d4-83a4-34c2059a23e9_0.jpg",
             "ingrediënten": [
@@ -8003,7 +8003,7 @@
         {
             "id": "96",
             "naam": "Vegetarische Pasta met Romige Spinaziesaus",
-            "categorie": "Overig",
+            "categorie": "Italiaans",
             "subcategorie": "Vegetarisch",
             "afbeelding": "images/d94f441b-ef03-404d-9612-119ee75c01b3_0.jpg",
             "ingrediënten": [
@@ -8067,7 +8067,7 @@
         {
             "id": "97",
             "naam": "Vegetarische Pizza Margherita",
-            "categorie": "Overig",
+            "categorie": "Italiaans",
             "subcategorie": "Vegetarisch",
             "afbeelding": "images/8b48f023-60ce-472f-99d3-d0dd8c8af77a_0.jpg",
             "ingrediënten": [
@@ -8119,7 +8119,7 @@
         {
             "id": "98",
             "naam": "Vegetarische Ratatouille met Couscous",
-            "categorie": "Overig",
+            "categorie": "Mediterrane",
             "subcategorie": "Vegetarisch",
             "afbeelding": "images/78b97d7f-f494-40bc-ada7-abf06d6091ca_0.jpg",
             "ingrediënten": [
@@ -8186,7 +8186,7 @@
         {
             "id": "99",
             "naam": "Vegetarische Rösti Bowl",
-            "categorie": "Overig",
+            "categorie": "Groentegerecht",
             "subcategorie": "Vegetarisch",
             "afbeelding": "images/87af9341-eae4-4a74-a732-8281c804b737_0.jpg",
             "ingrediënten": [
@@ -8243,7 +8243,7 @@
         {
             "id": "100",
             "naam": "Vegetarische Turkse pizza",
-            "categorie": "Overig",
+            "categorie": "Turks",
             "subcategorie": "Vegetarisch",
             "afbeelding": "images/cfe8f848-a0b5-46e1-a0ee-bb2dc514151f_0.jpg",
             "ingrediënten": [
@@ -8317,7 +8317,7 @@
         {
             "id": "101",
             "naam": "Vegetarische Wraps met Gegrilde Groenten en Hummus",
-            "categorie": "Overig",
+            "categorie": "Mediterrane",
             "subcategorie": "Vegetarisch",
             "afbeelding": "images/50ab289c-285e-46b8-9145-cc884e6fbfaa_0.jpg",
             "ingrediënten": [
@@ -8378,7 +8378,7 @@
         {
             "id": "102",
             "naam": "Vissticks met gebakken krieltjes en spinazie *",
-            "categorie": "Overig",
+            "categorie": "Vis",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/c13be948-e06a-4b40-98f0-12d983f3306a_0.jpg",
             "ingrediënten": [
@@ -8547,7 +8547,7 @@
             "id": "104",
             "naam": "Witlof harmonie *",
             "categorie": "Overig",
-            "subcategorie": "",
+            "subcategorie": "Overig",
             "afbeelding": "",
             "ingrediënten": [
                 {
@@ -8619,7 +8619,7 @@
         {
             "id": "105",
             "naam": "Zalm Aspergesoep Deluxe *",
-            "categorie": "Overig",
+            "categorie": "Soep",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/d9335726-a9d3-4c08-92c8-583cbde6a462_0.jpg",
             "ingrediënten": [
@@ -8708,7 +8708,7 @@
         {
             "id": "106",
             "naam": "Zalm met gebakken krieltjes",
-            "categorie": "Overig",
+            "categorie": "Vis",
             "subcategorie": "Hoofdmaaltijd",
             "afbeelding": "images/a1ef0286-3e95-4fa1-9791-7d12e37b198b_0.jpg",
             "ingrediënten": [
