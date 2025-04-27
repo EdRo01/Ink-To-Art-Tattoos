@@ -15,6 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
             // Sorteer recepten alfabetisch
             data.recepten.sort((a, b) => a.naam.localeCompare(b.naam));
 
+            // Debug: Log categorieën
+            const categories = [...new Set(data.recepten.map(recipe => recipe.categorie))];
+            console.log("Gevonden categorieën:", categories);
+
             // Gerecht van de Week
             const weekNumber = Math.floor(Date.now() / (1000 * 60 * 60 * 24 * 7));
             const randomIndex = weekNumber % data.recepten.length;
@@ -30,11 +34,12 @@ document.addEventListener("DOMContentLoaded", function () {
             `;
 
             // Categorieweergave
-            const categories = [...new Set(data.recepten.map(recipe => recipe.categorie))];
             categories.forEach(category => {
                 const categorySection = document.createElement("section");
                 categorySection.classList.add("category-section");
-                categorySection.innerHTML = `<h2>${category}</h2>`;
+                // Gebruik subcategorie als fallback voor "Overig"
+                const displayCategory = category === "Overig" ? "Algemeen" : category;
+                categorySection.innerHTML = `<h2>${displayCategory}</h2>`;
                 const tileGrid = document.createElement("div");
                 tileGrid.classList.add("recipe-grid");
 
@@ -66,13 +71,15 @@ document.addEventListener("DOMContentLoaded", function () {
                         r.categorie === category && (
                             r.naam.toLowerCase().includes(query) ||
                             r.rijstsoort.toLowerCase().includes(query) ||
-                            r.categorie.toLowerCase().includes(query)
+                            r.categorie.toLowerCase().includes(query) ||
+                            r.subcategorie.toLowerCase().includes(query)
                         )
                     );
                     if (filteredRecipes.length > 0) {
                         const categorySection = document.createElement("section");
                         categorySection.classList.add("category-section");
-                        categorySection.innerHTML = `<h2>${category}</h2>`;
+                        const displayCategory = category === "Overig" ? "Algemeen" : category;
+                        categorySection.innerHTML = `<h2>${displayCategory}</h2>`;
                         const tileGrid = document.createElement("div");
                         tileGrid.classList.add("recipe-grid");
                         filteredRecipes.forEach(recipe => {
@@ -96,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }).catch(error => console.error("Fout bij laden recepten:", error));
 });
 
-// Recept details ophalen (aangepast voor gestructureerde ingrediënten)
+// Recept details ophalen
 function getRecipeDetails() {
     const urlParams = new URLSearchParams(window.location.search);
     const recipeId = urlParams.get("id");
@@ -107,7 +114,6 @@ function getRecipeDetails() {
             const recipe = data.recepten.find(r => r.id === recipeId);
             if (recipe) {
                 document.getElementById("recipe-image").src = recipe.afbeelding;
-                document.getElementById("large-recipe-image").src = recipe.afbeelding;
                 document.getElementById("recipe-title").textContent = recipe.naam;
 
                 const ingredientsList = document.getElementById("ingredients-list");
@@ -136,7 +142,7 @@ function getRecipeDetails() {
                 document.getElementById("sugars").textContent = `Suikers: ${recipe.suikers}`;
                 document.getElementById("protein").textContent = `Eiwit: ${recipe.eiwit}`;
 
-                // Rijstinfo (optioneel)
+                // Rijstinfo
                 const riceInfo = document.getElementById("rice-type");
                 if (riceInfo && recipe.rijstsoort) {
                     riceInfo.textContent = `Gebruik: ${recipe.rijstsoort}. Check onze app voor de perfecte bereiding!`;
