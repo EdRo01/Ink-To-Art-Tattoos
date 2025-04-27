@@ -203,14 +203,15 @@ footer a:hover {
 }
 
 /* Receptpagina */
-.left, .center, .right {
+.left, .right {
     padding: 1rem;
 }
 
-#recipe-image, #large-recipe-image {
+#recipe-image {
     width: 100%;
-    max-width: 250px;
-    height: auto;
+    max-width: 400px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
     border-radius: 5px;
 }
 
@@ -220,7 +221,7 @@ footer a:hover {
     margin: 0.5rem 0;
 }
 
-.left h3, .center h3 {
+.left h3 {
     font-size: 1.4rem;
     color: #3A5F0B;
 }
@@ -325,7 +326,7 @@ footer a:hover {
 
     /* Receptpagina */
     main {
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 2fr 1fr;
     }
 
     .copyright-mobile {
