@@ -4,19 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     <title>RijstWijzer Pro</title>
-    <link rel="stylesheet" href="style.css?v=7">
+    <link rel="stylesheet" href="style.css?v=1">
     <script src="script.js" defer></script>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
-
-<header><h1>RijstWijzer Pro</h1></header>
-
-<main>
-    <div id="recipe-grid"></div>
-</main>
-
-<p class="copyright">© 2025 RijstwijzerPro.nl</p>
-
+    <header>
+        <h1>RijstWijzer Pro</h1>
+        <p>Ontdek onze 106+ rijst-, bulgur- en noedelrecepten!</p>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Zoek recept of rijstsoort...">
+        </div>
+    </header>
+    <main>
+        <section id="recipe-of-the-week" class="recipe-week">
+            <h2>Gerecht van de Week</h2>
+            <div id="weekly-recipe"></div>
+        </section>
+        <section id="recipe-categories"></section>
+        <aside id="sidebar" class="sidebar">
+            <h3>Ontdek Meer</h3>
+            <div class="app-promo">
+                <p>Perfecte rijst? Download onze app!</p>
+                <a href="https://rijstwijzerpro.app" class="app-button">Naar de App</a>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p class="copyright">© 2025 RijstWijzerPro.nl</p>
+        <p><a href="https://rijstwijzerpro.app">RijstWijzer Pro App</a></p>
+    </footer>
 </body>
 </html>
