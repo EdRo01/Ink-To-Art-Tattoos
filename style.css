@@ -14,10 +14,16 @@ body {
 
 /* Header */
 header {
-    background: #F4E4BC url('images/ricepaper.png') repeat; /* Royaltyvrije rijstpapier-textuur */
+    background: #F4E4BC url('images/ricepaper.png') repeat;
+    background-blend-mode: overlay;
     padding: 1.5rem;
     text-align: center;
     border-bottom: 2px solid #A6192E;
+}
+
+header .logo {
+    max-width: 100px;
+    margin-bottom: 0.5rem;
 }
 
 header h1 {
@@ -52,12 +58,22 @@ header p {
     margin: 1rem;
     border-radius: 8px;
     text-align: center;
+    position: relative;
 }
 
 .recipe-week h2 {
     font-size: 1.5rem;
     color: #A6192E;
     margin-bottom: 0.5rem;
+}
+
+.recipe-week h2::before {
+    content: url('images/ricebowl-icon.png');
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
 }
 
 .weekly-tile {
@@ -95,6 +111,7 @@ header p {
     border-bottom: 1px solid #A6192E;
     padding-bottom: 0.3rem;
     margin-bottom: 0.5rem;
+    background: url('images/bamboo-line.png') bottom repeat-x;
 }
 
 .recipe-grid {
@@ -134,14 +151,42 @@ header p {
     margin-bottom: 0.5rem;
 }
 
-/* Sidebar (verborgen op mobiel) */
+/* Sidebar */
 .sidebar {
     display: none;
+    background: #F4E4BC url('images/ricepaper.png') repeat;
+    background-blend-mode: overlay;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.sidebar h3 {
+    font-size: 1.4rem;
+    color: #A6192E;
+    margin-bottom: 0.5rem;
+}
+
+.app-promo {
+    margin: 1rem 0;
+}
+
+.app-button {
+    display: inline-block;
+    background: #3A5F0B;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.app-button:hover {
+    background: #A6192E;
 }
 
 /* Footer */
 footer {
-    background: #A6192E;
+    background: #A6192E url('images/ricepaper.png') repeat;
+    background-blend-mode: multiply;
     color: #FFFFFF;
     text-align: center;
     padding: 1rem;
@@ -155,6 +200,100 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Receptpagina */
+.left, .center, .right {
+    padding: 1rem;
+}
+
+#recipe-image, #large-recipe-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#recipe-title {
+    font-size: 1.8rem;
+    color: #A6192E;
+    margin: 0.5rem 0;
+}
+
+.left h3, .center h3 {
+    font-size: 1.4rem;
+    color: #3A5F0B;
+}
+
+#ingredients-list, #instructions-list {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+
+#ingredients-list li, #instructions-list li {
+    margin: 0.3rem 0;
+}
+
+#rice-info {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: #F4E4BC;
+    border-radius: 5px;
+}
+
+#rice-info h3 {
+    font-size: 1.2rem;
+    color: #A6192E;
+}
+
+#rice-info p {
+    font-size: 0.9rem;
+    color: #3A5F0B;
+}
+
+#portion-section {
+    margin: 1rem 0;
+}
+
+#portion-size {
+    width: 80px;
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+#update-portion {
+    background: #3A5F0B;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#update-portion:hover {
+    background: #A6192E;
+}
+
+#nutrition-info p {
+    font-size: 0.9rem;
+    margin: 0.2rem 0;
+}
+
+.back-button {
+    background: #A6192E;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background: #3A5F0B;
+}
+
+.copyright-desktop {
+    display: none;
 }
 
 /* Desktop-styling */
@@ -182,31 +321,18 @@ footer a:hover {
 
     .sidebar {
         display: block;
-        background: #F4E4BC;
-        padding: 1rem;
-        border-radius: 8px;
     }
 
-    .sidebar h3 {
-        font-size: 1.4rem;
-        color: #A6192E;
-        margin-bottom: 0.5rem;
+    /* Receptpagina */
+    main {
+        grid-template-columns: 1fr 2fr 1fr;
     }
 
-    .app-promo {
-        margin: 1rem 0;
+    .copyright-mobile {
+        display: none;
     }
 
-    .app-button {
-        display: inline-block;
-        background: #3A5F0B;
-        color: #FFFFFF;
-        padding: 0.5rem 1rem;
-        border-radius: 5px;
-        text-decoration: none;
-    }
-
-    .app-button:hover {
-        background: #A6192E;
+    .copyright-desktop {
+        display: block;
     }
 }
