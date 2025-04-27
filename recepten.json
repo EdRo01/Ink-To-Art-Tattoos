@@ -3,7 +3,7 @@
         {
             "id": "1",
             "naam": "1 - Bami shoarma",
-            "categorie": "Overig",
+            "categorie": "Aziatisch",
             "subcategorie": "Slowcooker hoofdmaaltijd",
             "afbeelding": "images/ad67adc6-8a8b-4c4f-8583-542973546e92_0.jpg",
             "ingrediënten": [
@@ -93,7 +93,7 @@
         {
             "id": "2",
             "naam": "2 - Spaghetti",
-            "categorie": "Overig",
+            "categorie": "Italiaans",
             "subcategorie": "Slowcooker hoofdmaaltijd",
             "afbeelding": "images/569160cd-eb4d-4172-9fd9-60941380b163_0.jpg",
             "ingrediënten": [
@@ -252,7 +252,7 @@
         {
             "id": "3",
             "naam": "3 - Surinaamse kip",
-            "categorie": "Overig",
+            "categorie": "Surinaams",
             "subcategorie": "Slowcooker hoofdmaaltijd",
             "afbeelding": "images/99482969-da05-41ef-8f16-9b7368ca07f4_0.jpg",
             "ingrediënten": [
@@ -366,7 +366,7 @@
         {
             "id": "4",
             "naam": "4 - Gehaktballetjes honing-mosterdsaus & brood",
-            "categorie": "Overig",
+            "categorie": "Hollands",
             "subcategorie": "Slowcooker hoofdmaaltijd",
             "afbeelding": "images/95bc91e7-7862-407e-98c5-de80a15e8a62_0.jpg",
             "ingrediënten": [
