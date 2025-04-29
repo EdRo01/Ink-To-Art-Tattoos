@@ -3,40 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RijstWijzer Pro</title>
-    <link rel="stylesheet" href="style.css?v=2">
-    <script src="script.js?v=2" defer></script>
+    <title>Rijstwijzer - Home</title>
+    <link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="RijstWijzer Pro Logo" class="logo">
-        <h1>RijstWijzer Pro</h1>
-        <p>Jouw rijst-, bulgur- en andere recepten</p>
+        <h1>Rijstwijzer</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <!-- Tijdelijk uitgeschakeld totdat deze pagina's bestaan -->
+            <!-- <a href="recept.html">Recepten</a> -->
+            <!-- <a href="rijstsoorten.html">Rijstsoorten</a> -->
+            <!-- <a href="contact.html">Contact</a> -->
+        </nav>
     </header>
     <main>
-        <section class="search-bar">
-            <input type="text" id="search-input" placeholder="Zoek een recept...">
+        <section id="hero">
+            <h2>Ontdek de wereld van rijst!</h2>
+            <p>Vind heerlijke recepten en leer meer over verschillende rijstsoorten.</p>
         </section>
-        <section class="recipe-week">
+        <section id="weekly-recipe">
             <h2>Gerecht van de Week</h2>
-            <div id="weekly-recipe"></div>
+            <!-- Dynamisch ingevuld door script.js -->
         </section>
-        <section class="category-nav">
-            <select id="category-select" aria-label="Kies een categorie">
+        <section id="search-bar">
+            <input type="text" id="search-input" placeholder="Zoek een recept...">
+            <select id="category-select">
                 <option value="">Kies een categorie</option>
+                <!-- Opties dynamisch ingevuld door script.js -->
             </select>
         </section>
-        <div id="recipe-categories"></div>
-        <aside class="sidebar">
-            <h3>Download onze app</h3>
-            <div class="app-promo">
-                <p>Ontvang exclusieve recepten en tips!</p>
-                <a href="https://rijstwijzerpro.app" class="app-button">Download nu</a>
-            </div>
-        </aside>
+        <section id="recipe-categories">
+            <!-- Dynamisch ingevuld door script.js -->
+        </section>
     </main>
     <footer>
-        <p>© 2025 RijstwijzerPro.nl | <a href="mailto:support@rijstwijzerpro.nl">Contact</a></p>
+        <p>© 2025 Rijstwijzer. Alle rechten voorbehouden.</p>
     </footer>
+    <script src="script.js?v=7" defer></script>
 </body>
 </html>
