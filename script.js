@@ -15,7 +15,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Controleer recept.html (optioneel, voor debugging)
     fetch("recept.html", { method: "HEAD" })
-        .catch(() => console.warn("Waarschuwing: recept.html mogelijk niet toegankelijk"));
+        .then(response => {
+            if (!response.ok) {
+                console.warn("Waarschuwing: recept.html mogelijk niet toegankelijk, status:", response.status);
+            } else {
+                console.log("recept.html is toegankelijk");
+            }
+        })
+        .catch(error => console.warn("Fout bij controleren recept.html:", error));
 
     fetch("recepten.json")
         .then(response => {
@@ -83,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <h3>${weekly.naam}</h3>
                     ${weekly.rijstsoort ? `<p class="rijstsoort">${weekly.rijstsoort}</p>` : ""}
                     <p>Calorieën: ${weekly.calorieën}</p>
-                    <a href="/recept.html?id=${weekly.id}" class="weekly-button">Bekijk recept</a>
+                    <a href="recept.html?id=${weekly.id}" class="weekly-button">Bekijk recept</a>
                 </div>
             `;
 
@@ -139,7 +146,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         ${firstRecipe.rijstsoort ? `<p class="rijstsoort">${firstRecipe.rijstsoort}</p>` : ""}
                     `;
                     tile.addEventListener("click", () => {
-                        window.location.assign(`/recept.html?id=${firstRecipe.id}`);
+                        if (firstRecipe.id) {
+                            console.log(`Navigeren naar: recept.html?id=${firstRecipe.id}`);
+                            window.location.assign(`recept.html?id=${firstRecipe.id}`);
+                        } else {
+                            console.error(`Geen geldige ID voor recept: ${firstRecipe.naam}`);
+                            alert("Sorry, dit recept kan niet worden geladen. Probeer een ander recept.");
+                        }
                     });
                     tileGridFirst.appendChild(tile);
                     categorySection.appendChild(tileGridFirst);
@@ -159,7 +172,13 @@ document.addEventListener("DOMContentLoaded", function () {
                                 ${recipe.rijstsoort ? `<p class="rijstsoort">${recipe.rijstsoort}</p>` : ""}
                             `;
                             tile.addEventListener("click", () => {
-                                window.location.assign(`/recept.html?id=${recipe.id}`);
+                                if (recipe.id) {
+                                    console.log(`Navigeren naar: recept.html?id=${recipe.id}`);
+                                    window.location.assign(`recept.html?id=${recipe.id}`);
+                                } else {
+                                    console.error(`Geen geldige ID voor recept: ${recipe.naam}`);
+                                    alert("Sorry, dit recept kan niet worden geladen. Probeer een ander recept.");
+                                }
                             });
                             tileGridRest.appendChild(tile);
                         });
