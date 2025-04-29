@@ -61,8 +61,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     if (section) {
                         section.scrollIntoView({ behavior: "smooth" });
                         // Open de categorie automatisch
-                        const tileGrid = section.querySelector(".recipe-grid");
-                        tileGrid.style.display = "grid";
+                        const tileGridRest = section.querySelector(".recipe-grid-rest");
+                        if (tileGridRest) tileGridRest.style.display = "grid";
                     } else {
                         console.warn(`Sectie category-${selectedCategory} niet gevonden!`);
                     }
@@ -95,21 +95,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 categoryHeader.textContent = displaySubcategory;
                 categoryHeader.style.cursor = "pointer";
                 categoryHeader.addEventListener("click", () => {
-                    const tileGrid = categorySection.querySelector(".recipe-grid");
-                    tileGrid.style.display = tileGrid.style.display === "none" ? "grid" : "none";
+                    const tileGridRest = categorySection.querySelector(".recipe-grid-rest");
+                    if (tileGridRest) {
+                        tileGridRest.style.display = tileGridRest.style.display === "none" ? "grid" : "none";
+                    }
                 });
 
                 categorySection.appendChild(categoryHeader);
 
-                const tileGrid = document.createElement("div");
-                tileGrid.classList.add("recipe-grid");
-                tileGrid.style.display = "grid"; // Toon eerste recept standaard
-
                 const subcategoryRecipes = recipes.filter(recipe => recipe.subcategorie === subcategory);
                 if (subcategoryRecipes.length === 0) {
+                    const tileGrid = document.createElement("div");
+                    tileGrid.classList.add("recipe-grid");
                     tileGrid.innerHTML = `<p>Geen recepten beschikbaar in ${displaySubcategory}.</p>`;
+                    categorySection.appendChild(tileGrid);
                 } else {
-                    // Toon alleen het eerste recept standaard
+                    // Container voor het eerste recept (altijd zichtbaar)
+                    const tileGridFirst = document.createElement("div");
+                    tileGridFirst.classList.add("recipe-grid-first");
                     const firstRecipe = subcategoryRecipes[0];
                     const tile = document.createElement("div");
                     tile.classList.add("recipe-tile");
@@ -122,26 +125,32 @@ document.addEventListener("DOMContentLoaded", function () {
                     tile.addEventListener("click", () => {
                         window.location.assign(`/recept.html?id=${firstRecipe.id}`);
                     });
-                    tileGrid.appendChild(tile);
+                    tileGridFirst.appendChild(tile);
+                    categorySection.appendChild(tileGridFirst);
 
-                    // Voeg overige recepten toe (verborgen tot geklikt)
-                    subcategoryRecipes.slice(1).forEach(recipe => {
-                        const tile = document.createElement("div");
-                        tile.classList.add("recipe-tile");
-                        const imgSrc = recipe.afbeelding && recipe.afbeelding !== "" ? recipe.afbeelding : "images/placeholder.jpg";
-                        tile.innerHTML = `
-                            <img src="${imgSrc}" alt="${recipe.naam}" loading="lazy">
-                            <h3>${recipe.naam}</h3>
-                            ${recipe.rijstsoort ? `<p class="rijstsoort">${recipe.rijstsoort}</p>` : ""}
-                        `;
-                        tile.addEventListener("click", () => {
-                            window.location.assign(`/recept.html?id=${recipe.id}`);
+                    // Container voor overige recepten (standaard verborgen)
+                    if (subcategoryRecipes.length > 1) {
+                        const tileGridRest = document.createElement("div");
+                        tileGridRest.classList.add("recipe-grid-rest");
+                        tileGridRest.style.display = "none"; // Standaard verborgen
+                        subcategoryRecipes.slice(1).forEach(recipe => {
+                            const tile = document.createElement("div");
+                            tile.classList.add("recipe-tile");
+                            const imgSrc = recipe.afbeelding && recipe.afbeelding !== "" ? recipe.afbeelding : "images/placeholder.jpg";
+                            tile.innerHTML = `
+                                <img src="${imgSrc}" alt="${recipe.naam}" loading="lazy">
+                                <h3>${recipe.naam}</h3>
+                                ${recipe.rijstsoort ? `<p class="rijstsoort">${recipe.rijstsoort}</p>` : ""}
+                            `;
+                            tile.addEventListener("click", () => {
+                                window.location.assign(`/recept.html?id=${recipe.id}`);
+                            });
+                            tileGridRest.appendChild(tile);
                         });
-                        tileGrid.appendChild(tile);
-                    });
+                        categorySection.appendChild(tileGridRest);
+                    }
                 }
 
-                categorySection.appendChild(tileGrid);
                 recipeCategories.appendChild(categorySection);
             });
 
@@ -150,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
             showAllButton.textContent = "Toon alle recepten";
             showAllButton.className = "show-all-button";
             showAllButton.addEventListener("click", () => {
-                document.querySelectorAll(".recipe-grid").forEach(grid => {
+                document.querySelectorAll(".recipe-grid-rest").forEach(grid => {
                     grid.style.display = "grid";
                 });
             });
@@ -170,8 +179,10 @@ document.addEventListener("DOMContentLoaded", function () {
                         tile.style.display = isVisible ? "block" : "none";
                         if (isVisible) hasVisibleTiles = true;
                     });
-                    const tileGrid = section.querySelector(".recipe-grid");
-                    tileGrid.style.display = hasVisibleTiles ? "grid" : "none";
+                    const tileGridRest = section.querySelector(".recipe-grid-rest");
+                    if (tileGridRest) {
+                        tileGridRest.style.display = hasVisibleTiles ? "grid" : "none";
+                    }
                     section.style.display = hasVisibleTiles ? "block" : "none";
                 });
             });
