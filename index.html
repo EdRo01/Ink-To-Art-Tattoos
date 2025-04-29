@@ -8,37 +8,39 @@
 </head>
 <body>
     <header>
+        <img src="images/logo.png" alt="Rijstwijzer Logo" class="logo">
         <h1>Rijstwijzer</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <!-- Tijdelijk uitgeschakeld totdat deze pagina's bestaan -->
-            <!-- <a href="recept.html">Recepten</a> -->
-            <!-- <a href="rijstsoorten.html">Rijstsoorten</a> -->
-            <!-- <a href="contact.html">Contact</a> -->
-        </nav>
+        <p>Ontdek de wereld van rijst!</p>
     </header>
     <main>
-        <section id="hero">
-            <h2>Ontdek de wereld van rijst!</h2>
-            <p>Vind heerlijke recepten en leer meer over verschillende rijstsoorten.</p>
-        </section>
-        <section id="weekly-recipe">
-            <h2>Gerecht van de Week</h2>
-            <!-- Dynamisch ingevuld door script.js -->
-        </section>
-        <section id="search-bar">
+        <section class="search-bar">
             <input type="text" id="search-input" placeholder="Zoek een recept...">
+        </section>
+        <section class="category-nav">
             <select id="category-select">
                 <option value="">Kies een categorie</option>
                 <!-- Opties dynamisch ingevuld door script.js -->
             </select>
         </section>
+        <section class="recipe-week">
+            <h2>Gerecht van de Week</h2>
+            <div class="weekly-tile">
+                <!-- Dynamisch ingevuld door script.js -->
+            </div>
+        </section>
         <section id="recipe-categories">
             <!-- Dynamisch ingevuld door script.js -->
         </section>
+        <aside class="sidebar">
+            <h3>Download onze app</h3>
+            <div class="app-promo">
+                <a href="#" class="app-button">Download nu</a>
+            </div>
+        </aside>
     </main>
     <footer>
-        <p>© 2025 Rijstwijzer. Alle rechten voorbehouden.</p>
+        <p class="copyright-mobile">© 2025 Rijstwijzer. Alle rechten voorbehouden.</p>
+        <p class="copyright-desktop">© 2025 Rijstwijzer. Alle rechten voorbehouden.</p>
     </footer>
     <script src="script.js?v=7" defer></script>
 </body>
