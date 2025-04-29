@@ -60,7 +60,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     const section = document.getElementById(`category-${selectedCategory}`);
                     if (section) {
                         section.scrollIntoView({ behavior: "smooth" });
-                        // Open de categorie automatisch
+                        // Sluit alle andere categorieën
+                        document.querySelectorAll(".recipe-grid-rest").forEach(grid => {
+                            grid.style.display = "none";
+                        });
+                        // Open de geselecteerde categorie
                         const tileGridRest = section.querySelector(".recipe-grid-rest");
                         if (tileGridRest) tileGridRest.style.display = "grid";
                     } else {
@@ -97,6 +101,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 categoryHeader.addEventListener("click", () => {
                     const tileGridRest = categorySection.querySelector(".recipe-grid-rest");
                     if (tileGridRest) {
+                        // Sluit alle andere categorieën
+                        document.querySelectorAll(".recipe-grid-rest").forEach(grid => {
+                            if (grid !== tileGridRest) {
+                                grid.style.display = "none";
+                            }
+                        });
+                        // Toggle de huidige categorie
                         tileGridRest.style.display = tileGridRest.style.display === "none" ? "grid" : "none";
                     }
                 });
