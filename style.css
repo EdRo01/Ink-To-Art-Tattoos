@@ -41,6 +41,8 @@ header p {
 .search-bar {
     margin: 1rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #search-input {
@@ -57,6 +59,8 @@ header p {
 .category-nav {
     margin: 1.5rem 1rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #category-select {
@@ -99,6 +103,8 @@ header p {
     background: #FFFFFF;
     border-radius: 5px;
     padding: 0.5rem;
+    margin: 0 auto;
+    max-width: 400px; /* Beperk breedte voor consistentie */
 }
 
 .weekly-tile img {
