@@ -1,3 +1,160 @@
+/* Algemene stijlen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50; /* Groene achtergrond */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Hero sectie */
+#hero {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#hero h2 {
+    margin-bottom: 10px;
+}
+
+/* Gerecht van de Week */
+#weekly-recipe {
+    margin-bottom: 20px;
+}
+
+.weekly-tile {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.weekly-tile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.weekly-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d32f2f; /* Rode knop */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.weekly-button:hover {
+    background-color: #b71c1c;
+}
+
+/* Zoekbalk */
+#search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+#search-input, #category-select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Recept categorieën */
+.category-section {
+    margin-bottom: 20px;
+}
+
+.category-section h2 {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.recipe-grid-first, .recipe-grid-rest {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.recipe-tile {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+}
+
+.recipe-tile img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe-tile h3 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.recipe-tile p.rijstsoort {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.show-all-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Groene knop */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.show-all-button:hover {
+    background-color: #45a049;
+}
+
 /* Receptpagina: marges en witruimte */
 #recipe-details {
     max-width: 800px; /* Beperk breedte voor leesbaarheid */
@@ -5,16 +162,23 @@
     padding: 20px; /* Marges aan zijkanten */
 }
 
-/* Witruimte tussen ingrediënten en bereidingswijze */
-#ingredients-list {
-    margin-bottom: 30px; /* Extra ruimte onder ingrediënten */
+#recipe-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
-#instructions-list {
-    margin-bottom: 30px; /* Extra ruimte onder bereidingswijze */
+#recipe-title {
+    margin-bottom: 10px;
 }
 
-/* Portie-invoer en knop netjes uitlijnen */
+#rice-type {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Portie-invoer en knop */
 label[for="portion-size"] {
     display: block;
     margin-bottom: 10px;
@@ -24,21 +188,32 @@ label[for="portion-size"] {
 #portion-size {
     margin-bottom: 10px;
     padding: 5px;
+    width: 100px;
 }
 
 #update-portion {
     padding: 8px 16px;
-    background-color: #4CAF50; /* Groene knop, passend bij website */
+    background-color: #4CAF50; /* Groene knop */
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 #update-portion:hover {
     background-color: #45a049;
 }
 
-/* Voedingswaarden overzichtelijker */
+/* Ingrediënten en bereidingswijze */
+#ingredients-list {
+    margin-bottom: 30px; /* Extra ruimte onder ingrediënten */
+}
+
+#instructions-list {
+    margin-bottom: 30px; /* Extra ruimte onder bereidingswijze */
+}
+
+/* Voedingswaarden */
 #recipe-details ul {
     margin-bottom: 20px;
     padding-left: 20px;
@@ -55,7 +230,7 @@ label[for="portion-size"] {
     width: fit-content;
     margin: 30px auto; /* Gecentreerd */
     padding: 10px 20px;
-    background-color: #4CAF50; /* Groene stijl, zoals "Toon alle recepten" */
+    background-color: #4CAF50; /* Groene stijl */
     color: white;
     text-decoration: none;
     text-align: center;
@@ -65,4 +240,42 @@ label[for="portion-size"] {
 
 .back-to-index:hover {
     background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Mobiele optimalisatie */
+@media (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    #search-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #search-input, #category-select {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .recipe-grid-first, .recipe-grid-rest {
+        grid-template-columns: 1fr;
+    }
+
+    #recipe-details {
+        padding: 10px; /* Minder padding op mobiel */
+    }
 }
