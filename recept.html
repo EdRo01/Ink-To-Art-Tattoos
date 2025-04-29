@@ -3,47 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bereiding - RijstWijzer Pro</title>
-    <link rel="stylesheet" href="style.css?v=1">
-    <script src="script.js" defer></script>
+    <title>Rijstwijzer - Recept</title>
+    <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="RijstWijzer Pro Logo" class="logo">
-        <h1>Bereiding</h1>
+        <h1>Rijstwijzer</h1>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/recept.html">Recepten</a>
+            <a href="/rijstsoorten.html">Rijstsoorten</a>
+            <a href="/contact.html">Contact</a>
+        </nav>
     </header>
     <main>
-        <section class="left">
-            <img id="recipe-image" src="" alt="Recept afbeelding">
-            <h2 id="recipe-title"></h2>
+        <section id="recipe-details">
+            <img id="recipe-image" src="images/placeholder.jpg" alt="Recept afbeelding" loading="lazy">
+            <h2 id="recipe-title">Recept Naam</h2>
+            <p id="rice-type">Gebruik: Onbekende rijstsoort</p>
+            <label for="portion-size">Portiegrootte:</label>
+            <input type="number" id="portion-size" min="1" value="1" step="0.25">
+            <button id="update-portion">Update</button>
             <h3>Ingrediënten</h3>
             <ul id="ingredients-list"></ul>
-            <div id="rice-info">
-                <p id="rice-type"></p>
-            </div>
-            <ul id="instructions-list"></ul>
+            <h3>Bereidingswijze</h3>
+            <ol id="instructions-list"></ol>
+            <h3>Voedingswaarden</h3>
+            <ul>
+                <li id="calories">Calorieën: -</li>
+                <li id="total-fat">Totaal vet: -</li>
+                <li id="saturated-fat">Verzadigd vet: -</li>
+                <li id="cholesterol">Cholesterol: -</li>
+                <li id="sodium">Natrium: -</li>
+                <li id="total-carbohydrate">Totaal Koolhydraten: -</li>
+                <li id="dietary-fiber">Voedingsvezels: -</li>
+                <li id="sugars">Suikers: -</li>
+                <li id="protein">Eiwit: -</li>
+            </ul>
         </section>
-        <section class="right">
-            <div id="portion-section">
-                <label for="portion-size">Portiegrootte:</label>
-                <input type="number" id="portion-size" value="1" min="0.5" step="0.5">
-                <button id="update-portion">Update</button>
-                <div id="nutrition-info">
-                    <p id="calories"></p>
-                    <p id="total-fat"></p>
-                    <p id="saturated-fat"></p>
-                    <p id="cholesterol"></p>
-                    <p id="sodium"></p>
-                    <p id="total-carbohydrate"></p>
-                    <p id="dietary-fiber"></p>
-                    <p id="sugars"></p>
-                    <p id="protein"></p>
-                </div>
-            </div>
-        </section>
-        <button class="back-button" onclick="window.location.href='index.html'">Terug naar index</button>
     </main>
-    <p class="copyright copyright-mobile">© 2025 RijstwijzerPro.nl</p>
-    <p class="copyright copyright-desktop">© 2025 RijstwijzerPro.nl</p>
+    <footer>
+        <p>&copy; 2025 Rijstwijzer. Alle rechten voorbehouden.</p>
+    </footer>
+    <script src="script.js?v=6" defer></script>
 </body>
 </html>
