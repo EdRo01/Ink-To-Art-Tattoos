@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (selectedCategory) {
                     const section = document.getElementById(`category-${selectedCategory}`);
                     if (section) {
-                        section.scrollIntoView({ behavior: "smooth" });
+                        section.scrollIntoView({ behavior: "smooth", block: "start" });
                         // Sluit alle andere categorieën
                         document.querySelectorAll(".recipe-grid-rest").forEach(grid => {
                             grid.style.display = "none";
@@ -108,7 +108,12 @@ document.addEventListener("DOMContentLoaded", function () {
                             }
                         });
                         // Toggle de huidige categorie
-                        tileGridRest.style.display = tileGridRest.style.display === "none" ? "grid" : "none";
+                        const isOpening = tileGridRest.style.display === "none";
+                        tileGridRest.style.display = isOpening ? "grid" : "none";
+                        // Scroll naar bovenkant van de categorie bij openen
+                        if (isOpening) {
+                            categorySection.scrollIntoView({ behavior: "smooth", block: "start" });
+                        }
                     }
                 });
 
