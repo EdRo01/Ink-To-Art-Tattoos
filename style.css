@@ -38,3 +38,23 @@ body {
     display: flex;
   }
 }
+
+/* Aanpassingen voor Gallery-pagina */
+.gallery-title {
+  line-height: 0.75; /* Halveert de ruimte tussen de regels */
+}
+
+/* Swiper-styling */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #4B5563; /* Grijze kleur van de footer-border */
+}
+
+.swiper-pagination-bullet {
+  background: #4B5563; /* Grijze kleur voor de stippen */
+}
+
+.swiper-pagination-bullet-active {
+  background: #4B5563; /* Actieve stip blijft dezelfde kleur */
+  opacity: 1;
+}
