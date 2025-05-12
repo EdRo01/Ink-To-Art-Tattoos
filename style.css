@@ -1,0 +1,40 @@
+/* style.css */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000000; /* Zwart */
+  color: #FFFFFF; /* Wit */
+}
+
+/* Gele kleur matchen met het logo */
+.gold-text {
+  color: #FFC107; /* Exacte geel van het logo */
+  /* Neon-effect */
+  text-shadow: 0 0 5px #FFC107, 0 0 10px #FFC107, 0 0 20px #FFC107, 0 0 40px #FFC107;
+  /* Metallic-effect: subtiele gradient en schaduw */
+  background: linear-gradient(45deg, #FFC107, #FFD54F, #FFC107);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+/* Hamburger-menu styling */
+.hamburger-menu {
+  display: block;
+}
+
+.nav-links {
+  display: none;
+}
+
+.nav-links.active {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .hamburger-menu {
+    display: none;
+  }
+  .nav-links {
+    display: flex;
+  }
+}
