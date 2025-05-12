@@ -1,47 +1,34 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rijstwijzer - Home</title>
-    <link rel="stylesheet" href="style.css?v=7">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ink To Art Tattoos</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <img src="images/logo.png" alt="Rijstwijzer Logo" class="logo">
-        <h1>Rijstwijzer</h1>
-        <p>Ontdek de wereld van rijst!</p>
-    </header>
-    <main>
-        <section class="search-bar">
-            <input type="text" id="search-input" placeholder="Zoek een recept...">
-        </section>
-        <section class="category-nav">
-            <select id="category-select">
-                <option value="">Kies een categorie</option>
-                <!-- Opties dynamisch ingevuld door script.js -->
-            </select>
-        </section>
-        <section class="recipe-week">
-            <h2>Gerecht van de Week</h2>
-            <div class="weekly-tile">
-                <!-- Dynamisch ingevuld door script.js -->
-            </div>
-        </section>
-        <section id="recipe-categories">
-            <!-- Dynamisch ingevuld door script.js -->
-        </section>
-        <aside class="sidebar">
-            <h3>Download onze app</h3>
-            <div class="app-promo">
-                <a href="#" class="app-button">Download nu</a>
-            </div>
-        </aside>
-    </main>
-    <footer>
-        <p class="copyright-mobile">© 2025 Rijstwijzer. Alle rechten voorbehouden.</p>
-        <p class="copyright-desktop">© 2025 Rijstwijzer. Alle rechten voorbehouden.</p>
-    </footer>
-    <script src="script.js?v=7" defer></script>
+<body class="bg-gray-900 text-white">
+  <!-- Header -->
+  <header class="sticky top-0 bg-black p-4 flex justify-center items-center">
+    <img src="logo.png" alt="Ink To Art Logo" class="h-20 md:h-32">
+    <nav class="absolute right-4 md:flex space-x-4 hidden">
+      <a href="index.html" class="hover:text-blue-400">Home</a>
+      <a href="gallery.html" class="hover:text-blue-400">Galerij</a>
+      <a href="afspraken.html" class="hover:text-blue-400">Afspraken</a>
+      <a href="contact.html" class="hover:text-blue-400">Contact</a>
+      <a href="over.html" class="hover:text-blue-400">Over</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto p-4">
+    <img src="jasper.jpg" alt="Jasper Rosman" class="w-full h-64 object-cover rounded-lg">
+    <h1 class="text-3xl font-bold mt-4">Welkom bij Ink To Art Tattoos</h1>
+    <p class="mt-2">Jasper Rosman, oprichter van Ink To Art Tattoos, combineert passie voor kunst met precisie in tatoeages...</p>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black p-4 text-center">
+    <p>© 2025 Ink To Art Tattoos. Alle rechten voorbehouden.</p>
+  </footer>
 </body>
 </html>
