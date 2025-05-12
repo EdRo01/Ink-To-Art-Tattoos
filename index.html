@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ink To Art Tattoos - Home</title>
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Google Fonts (Montserrat) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #000000; /* Zwart */
+      color: #FFFFFF; /* Wit */
+    }
+    .gold-text {
+      color: #D4A017; /* Goudgeel */
+    }
+    .hamburger-menu {
+      display: block;
+    }
+    .nav-links {
+      display: none;
+    }
+    .nav-links.active {
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .hamburger-menu {
+        display: none;
+      }
+      .nav-links {
+        display: flex;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="sticky top-0 bg-black p-4 flex justify-between items-center z-10">
+    <!-- Logo -->
+    <div class="flex justify-center w-full">
+      <img src="/images/logo.png" alt="Ink To Art Tattoos Logo" class="h-16 sm:h-20 md:h-24">
+    </div>
+    <!-- Hamburger Menu (Mobiel) -->
+    <button class="hamburger-menu text-white md:hidden" onclick="toggleMenu()">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+      </svg>
+    </button>
+    <!-- Navigatie -->
+    <nav class="nav-links absolute top-16 left-0 w-full bg-black p-4 md:static md:flex md:space-x-4 md:p-0">
+      <a href="/index.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Home</a>
+      <a href="/gallery.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Galerij</a>
+      <a href="/afspraken.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Afspraken</a>
+      <a href="/contact.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Contact</a>
+      <a href="/over.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Over</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto p-4">
+    <!-- Foto van Jasper Rosman -->
+    <img src="/images/jasper.jpg" alt="Jasper Rosman" class="w-full h-64 object-cover rounded-lg shadow-lg">
+    <!-- Titel -->
+    <h1 class="text-3xl sm:text-4xl font-bold mt-6 text-center gold-text">Welkom bij Ink To Art Tattoos</h1>
+    <!-- Verhaaltje -->
+    <p class="mt-4 text-lg sm:text-xl text-center">
+      Jasper Rosman, oprichter van Ink To Art Tattoos, combineert passie voor kunst met precisie in tatoeages. Met meer dan 10 jaar ervaring creëert hij unieke designs die jouw verhaal vertellen. Bij Ink To Art Tattoos staat kwaliteit voorop, en we zorgen ervoor dat elke tattoo een meesterwerk wordt.
+    </p>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black p-4 text-center border-t border-gray-600">
+    <p class="text-gray-400 text-sm">© 2025 Ink To Art Tattoos. Alle rechten voorbehouden.</p>
+  </footer>
+
+  <!-- JavaScript voor Hamburger Menu -->
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
