@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO: Title met lokale keywords -->
+  <title>Ink To Art Tattoos - Gallery van Tatoeages in Etten-Leur</title>
+  <!-- SEO: Meta-description -->
+  <meta name="description" content="Bekijk de gallery van Ink To Art Tattoos in Etten-Leur. Ontdek de unieke tatoeages van Jasper Rosman en laat je inspireren!">
+  <!-- SEO: Keywords -->
+  <meta name="keywords" content="tattoo gallery Etten-Leur, Ink To Art Tattoos, Jasper Rosman, tattoo designs Etten-Leur">
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Google Fonts (Montserrat) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Link naar style.css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Structured Data: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ink To Art Tattoos",
+    "description": "Tattoo shop in Etten-Leur gespecialiseerd in unieke tatoeages door Jasper Rosman.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Etten-Leur",
+      "addressRegion": "Noord-Brabant",
+      "addressCountry": "NL"
+    },
+    "url": "https://edro01.github.io/ink-to-art-tattoos/",
+    "openingHours": "Mo-Sa 10:00-18:00",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+31-123-456-789", /* Vervang door echt telefoonnummer */
+      "contactType": "Customer Service"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="sticky top-0 bg-black p-4 flex justify-between items-center z-10">
+    <!-- Logo -->
+    <div class="flex justify-center w-full">
+      <img src="images/logo.png" alt="Ink To Art Tattoos Logo - Tattoo Shop in Etten-Leur" class="h-32 sm:h-40 md:h-48">
+    </div>
+    <!-- Hamburger Menu (Mobiel) -->
+    <button class="hamburger-menu text-white md:hidden absolute right-4 top-1/2 transform -translate-y-1/2" onclick="toggleMenu()">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+      </svg>
+    </button>
+    <!-- Navigatie -->
+    <nav class="nav-links absolute top-16 left-0 w-full bg-black p-4 md:static md:flex md:space-x-4 md:p-0">
+      <a href="index.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Home</a>
+      <a href="gallery.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Galerij</a>
+      <a href="afspraken.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Afspraken</a>
+      <a href="contact.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Contact</a>
+      <a href="over.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Over</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto p-4">
+    <!-- Titel -->
+    <h1 class="text-2xl sm:text-4xl font-bold mt-6 text-center gold-text">
+      <span class="block">Galerij</span>
+      <span class="block">Ink To Art Tattoos</span>
+    </h1>
+    <!-- Slideshow -->
+    <div class="swiper-container mt-6">
+      <div class="swiper-wrapper">
+        <!-- Placeholder-foto's (later vervangen door Instagram-foto's) -->
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1600585154347-990dcedf7d0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Tattoo Design by Jasper Rosman" class="w-full h-96 object-contain">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1512529920731-e8abaea917a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Tattoo Design by Jasper Rosman" class="w-full h-96 object-contain">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1574619642092-7b767a9835ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Tattoo Design by Jasper Rosman" class="w-full h-96 object-contain">
+        </div>
+      </div>
+      <!-- Navigatiepijlen -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- Paginatie (stippen) -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black p-4 text-center border-t border-gray-600">
+    <p class="text-gray-400 text-sm">© 2025 Ink To Art Tattoos. Alle rechten voorbehouden.</p>
+  </footer>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- JavaScript voor Hamburger Menu en Swiper -->
+  <script>
+    // Hamburger Menu
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active');
+    }
+
+    // Swiper Slideshow
+    const swiper = new Swiper('.swiper-container', {
+      loop: true, // Loop door de slides
+      autoplay: {
+        delay: 3000, // 3 seconden per slide
+        disableOnInteraction: false, // Blijf automatisch afspelen na interactie
+      },
+      effect: 'fade', // Infade-effect
+      fadeEffect: {
+        crossFade: true, // Zachte overgang tussen slides
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
