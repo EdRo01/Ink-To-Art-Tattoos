@@ -44,7 +44,7 @@
       <img src="images/logo.png" alt="Ink To Art Tattoos Logo" class="h-32 sm:h-40 md:h-48">
     </div>
     <!-- Hamburger Menu (Mobiel) -->
-    <button class="hamburger-menu text-white md:hidden" onclick="toggleMenu()">
+    <button class="hamburger-menu text-white md:hidden absolute right-4 top-1/2 transform -translate-y-1/2" onclick="toggleMenu()">
       <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
       </svg>
@@ -62,9 +62,12 @@
   <!-- Main Content -->
   <main class="max-w-4xl mx-auto p-4">
     <!-- Foto van Jasper Rosman -->
-    <img src="images/jasper.jpg" alt="Jasper Rosman" class="w-full h-64 object-cover rounded-lg shadow-lg">
+    <img src="images/jasper.jpg" alt="Jasper Rosman" class="w-full h-64 object-cover rounded-lg shadow-lg mx-auto block">
     <!-- Titel -->
-    <h1 class="text-2xl sm:text-4xl font-bold mt-6 text-center gold-text whitespace-nowrap">Welkom bij Ink To Art Tattoos</h1>
+    <h1 class="text-2xl sm:text-4xl font-bold mt-6 text-center gold-text">
+      <span class="block">Welkom bij</span>
+      <span class="block">Ink To Art Tattoos</span>
+    </h1>
     <!-- Verhaaltje -->
     <p class="mt-4 text-lg sm:text-xl text-center">
       Jasper Rosman, oprichter van Ink To Art Tattoos, combineert passie voor kunst met precisie in tatoeages. Met meer dan 10 jaar ervaring creëert hij unieke designs die jouw verhaal vertellen. Bij Ink To Art Tattoos staat kwaliteit voorop, en we zorgen ervoor dat elke tattoo een meesterwerk wordt.
