@@ -84,6 +84,17 @@
       <div class="swiper-button-prev"></div>
       <!-- Paginatie (stippen) -->
       <div class="swiper-pagination"></div>
+      <!-- Pauze/Play-knop -->
+      <div class="swiper-play-pause text-center mt-4">
+        <button id="playPauseButton" class="text-gray-600 hover:text-gray-400 focus:outline-none">
+          <svg id="pauseIcon" class="w-6 h-6 inline-block" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/>
+          </svg>
+          <svg id="playIcon" class="w-6 h-6 inline-block hidden" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+        </button>
+      </div>
     </div>
   </main>
 
@@ -121,6 +132,26 @@
         el: '.swiper-pagination',
         clickable: true,
       },
+    });
+
+    // Pauze/Play-knop functionaliteit
+    const playPauseButton = document.getElementById('playPauseButton');
+    const pauseIcon = document.getElementById('pauseIcon');
+    const playIcon = document.getElementById('playIcon');
+    let isPlaying = true;
+
+    playPauseButton.addEventListener('click', () => {
+      if (isPlaying) {
+        swiper.autoplay.stop(); // Pauzeer de slideshow
+        pauseIcon.classList.add('hidden');
+        playIcon.classList.remove('hidden');
+        isPlaying = false;
+      } else {
+        swiper.autoplay.start(); // Hervat de slideshow
+        pauseIcon.classList.remove('hidden');
+        playIcon.classList.add('hidden');
+        isPlaying = true;
+      }
     });
   </script>
 </body>
