@@ -68,7 +68,17 @@
     <!-- Slideshow -->
     <div class="swiper-container mt-4">
       <div class="swiper-wrapper">
-        <!-- Jasper's foto's (vervangen door jouw links) -->
+        <!-- Bestaande foto's -->
+        <div class="swiper-slide">
+          <img src="[Jasper's eerste foto-link]" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
+        </div>
+        <div class="swiper-slide">
+          <img src="[Jasper's tweede foto-link]" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
+        </div>
+        <div class="swiper-slide">
+          <img src="[Jasper's derde foto-link]" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
+        </div>
+        <!-- Nieuwe foto's -->
         <div class="swiper-slide">
           <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/376747395_620527080207499_7106452382357523009_n.jpg?etag=undefined&sourceContentType=image%2Fjpeg&quality=85" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
         </div>
@@ -99,14 +109,15 @@
 
     <!-- Lightbox Overlay -->
     <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 hidden flex items-center justify-center z-50">
-      <span class="absolute top-4 right-4 text-white text-3xl cursor-pointer" onclick="closeLightbox()">&times;</span>
+      <span class="absolute top-4 right-4 text-white text-3xl cursor-pointer" onclick="closeLightbox()">×</span>
       <img id="lightbox-img" src="" class="max-w-full max-h-full object-contain">
     </div>
   </main>
 
   <!-- Footer -->
   <footer class="bg-black p-4 text-center border-t border-gray-600">
-    <p class="text-gray-400 text-sm">© 2025 Ink To Art Tattoos. Alle rechten voorbehouden.</p>
+    <p class="text-gray-400 text-sm">© 2025 Ink To Art Tattoos</p>
+    <p class="text-gray-400 text-sm">Alle rechten voorbehouden</p>
   </footer>
 
   <!-- Swiper JS -->
