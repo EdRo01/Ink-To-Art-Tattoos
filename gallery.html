@@ -68,15 +68,15 @@
     <!-- Slideshow -->
     <div class="swiper-container mt-4">
       <div class="swiper-wrapper">
-        <!-- Nieuwe placeholder-foto's (mix van landscape en portrait) -->
+        <!-- Jasper's foto's (vervangen door jouw links) -->
         <div class="swiper-slide">
-          <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/475665900_2572934676232921_5088386173660546174_n.jpg?etag=undefined&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1000,1636&quality=85q=80&w=2070&auto=format&fit=crop" alt="Tattoo Design by Jasper Rosman - Portrait" class="w-full h-80 object-contain">
+          <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/376747395_620527080207499_7106452382357523009_n.jpg?etag=undefined&sourceContentType=image%2Fjpeg&quality=85" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
         </div>
         <div class="swiper-slide">
-          <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/448249334_2382551561937901_6603897074110456136_n.jpg?etag=undefined&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1000,1000&quality=85?q=80&w=2070&auto=format&fit=crop" alt="Tattoo Design by Jasper Rosman - Landscape" class="w-full h-80 object-contain">
+          <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/352236520_1557815291292253_8475444147799271079_n.jpg?etag=undefined&sourceContentType=image%2Fjpeg&quality=85" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
         </div>
         <div class="swiper-slide">
-          <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/376747395_620527080207499_7106452382357523009_n.jpg?etag=undefined&sourceContentType=image%2Fjpeg&quality=85?q=80&w=2070&auto=format&fit=crop" alt="Tattoo Design by Jasper Rosman - Portrait" class="w-full h-80 object-contain">
+          <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/480423037_2584537661739289_8119242989877553274_n.jpg?etag=undefined&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1000,1501&quality=85" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
         </div>
       </div>
       <!-- Navigatiepijlen -->
@@ -96,6 +96,12 @@
         </button>
       </div>
     </div>
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 hidden flex items-center justify-center z-50">
+      <span class="absolute top-4 right-4 text-white text-3xl cursor-pointer" onclick="closeLightbox()">&times;</span>
+      <img id="lightbox-img" src="" class="max-w-full max-h-full object-contain">
+    </div>
   </main>
 
   <!-- Footer -->
@@ -105,7 +111,7 @@
 
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <!-- JavaScript voor Hamburger Menu en Swiper -->
+  <!-- JavaScript voor Hamburger Menu, Swiper, en Lightbox -->
   <script>
     // Hamburger Menu
     function toggleMenu() {
@@ -153,6 +159,24 @@
         isPlaying = true;
       }
     });
+
+    // Lightbox functionaliteit
+    function openLightbox(src) {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.src = src;
+      lightbox.classList.remove('hidden');
+      swiper.autoplay.stop(); // Pauzeer de slideshow bij het openen van de lightbox
+      isPlaying = false;
+      pauseIcon.classList.add('hidden');
+      playIcon.classList.remove('hidden');
+    }
+
+    function closeLightbox() {
+      const lightbox = document.getElementById('lightbox');
+      lightbox.classList.add('hidden');
+      // Slideshow blijft gepauzeerd na het sluiten, klant kan handmatig hervatten
+    }
   </script>
 </body>
 </html>
