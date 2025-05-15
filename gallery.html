@@ -3,21 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- SEO: Title met lokale keywords -->
   <title>Ink To Art Tattoos - Gallery van Tatoeages in Etten-Leur</title>
-  <!-- SEO: Meta-description -->
-  <meta name="description" content="Bekijk de gallery van Ink To Art Tattoos in Etten-Leur. Ontdek de unieke tatoeages van Jasper Rosman en laat je inspireren!">
-  <!-- SEO: Keywords -->
-  <meta name="keywords" content="tattoo gallery Etten-Leur, Ink To Art Tattoos, Jasper Rosman, tattoo designs Etten-Leur">
-  <!-- Tailwind CSS CDN -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <!-- Google Fonts (Montserrat) -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <!-- Swiper CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <!-- Link naar style.css -->
   <link rel="stylesheet" href="style.css">
-  <!-- Structured Data: LocalBusiness -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -34,7 +24,7 @@
     "openingHours": "Mo-Sa 10:00-18:00",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+31-123-456-789", /* Vervang door echt telefoonnummer */
+      "telephone": "+31-123-456-789",
       "contactType": "Customer Service"
     }
   }
@@ -43,58 +33,43 @@
 <body>
   <!-- Header -->
   <header class="sticky top-0 bg-black p-4 flex justify-between items-center z-10">
-    <!-- Logo -->
     <div class="flex justify-center w-full">
       <img src="images/logo.png" alt="Ink To Art Tattoos Logo - Tattoo Shop in Etten-Leur" class="h-32 sm:h-40 md:h-48">
     </div>
-    <!-- Hamburger Menu (Mobiel) -->
     <button class="hamburger-menu text-white md:hidden absolute right-4 top-1/2 transform -translate-y-1/2" onclick="toggleMenu()">
       <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
       </svg>
     </button>
-    <!-- Navigatie -->
     <nav class="nav-links absolute top-16 left-0 w-full bg-black p-4 md:static md:flex md:space-x-4 md:p-0">
       <a href="index.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Home</a>
       <a href="gallery.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Galerij</a>
       <a href="afspraken.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Afspraken</a>
       <a href="contact.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Contact</a>
       <a href="over.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Over</a>
+      <a href="upload.html" class="block md:inline text-white hover:gold-text py-2 md:py-0">Upload</a>
     </nav>
   </header>
 
   <!-- Main Content -->
   <main class="max-w-4xl mx-auto p-4">
-    <!-- Slideshow -->
     <div class="swiper-container mt-4">
       <div class="swiper-wrapper">
-        <!-- Bestaande foto's -->
-        <div class="swiper-slide">
-          <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/432120122_2330179140508477_8902036868696085778_n.jpg?etag=null&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1000,1250&quality=85" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/242792792_2013895348774111_9058069142765482145_n.jpg?etag=undefined&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1000,1000&quality=85" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/450567130_2402162956643428_7180476752947811488_n.jpg?etag=undefined&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1000,1035&quality=85" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
-        </div>
-        <!-- Nieuwe foto's -->
-        <div class="swiper-slide">
-          <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/376747395_620527080207499_7106452382357523009_n.jpg?etag=undefined&sourceContentType=image%2Fjpeg&quality=85" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/352236520_1557815291292253_8475444147799271079_n.jpg?etag=undefined&sourceContentType=image%2Fjpeg&quality=85" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
-        </div>
-        <div class="swiper-slide">
-          <img src="https://impro.usercontent.one/appid/hostnetWsb/domain/inktoarttattoos.nl/media/inktoarttattoos.nl/onewebmedia/480423037_2584537661739289_8119242989877553274_n.jpg?etag=undefined&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1000,1501&quality=85" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">
-        </div>
+        <?php
+        $upload_dir = 'uploads/';
+        $files = scandir($upload_dir);
+        foreach ($files as $file) {
+            if ($file !== '.' && $file !== '..' && in_array(pathinfo($file, PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif'])) {
+                echo '<div class="swiper-slide">';
+                echo '<img src="' . $upload_dir . $file . '" alt="Tattoo Design by Jasper Rosman" class="w-full h-80 object-contain cursor-pointer" onclick="openLightbox(this.src)">';
+                echo '</div>';
+            }
+        }
+        ?>
       </div>
-      <!-- Navigatiepijlen -->
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
-      <!-- Paginatie (stippen) -->
       <div class="swiper-pagination"></div>
-      <!-- Pauze/Play-knop -->
       <div class="swiper-play-pause text-center mt-4">
         <button id="playPauseButton" class="text-gray-600 hover:text-gray-400 focus:outline-none">
           <svg id="pauseIcon" class="w-6 h-6 inline-block" fill="currentColor" viewBox="0 0 24 24">
@@ -122,24 +97,21 @@
 
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <!-- JavaScript voor Hamburger Menu, Swiper, en Lightbox -->
   <script>
-    // Hamburger Menu
     function toggleMenu() {
       const navLinks = document.querySelector('.nav-links');
       navLinks.classList.toggle('active');
     }
 
-    // Swiper Slideshow
     const swiper = new Swiper('.swiper-container', {
-      loop: true, // Loop door de slides
+      loop: true,
       autoplay: {
-        delay: 3000, // 3 seconden per slide
-        disableOnInteraction: false, // Blijf automatisch afspelen na interactie
+        delay: 3000,
+        disableOnInteraction: false,
       },
-      effect: 'fade', // Infade-effect
+      effect: 'fade',
       fadeEffect: {
-        crossFade: true, // Zachte overgang tussen slides
+        crossFade: true,
       },
       navigation: {
         nextEl: '.swiper-button-next',
@@ -151,7 +123,6 @@
       },
     });
 
-    // Pauze/Play-knop functionaliteit
     const playPauseButton = document.getElementById('playPauseButton');
     const pauseIcon = document.getElementById('pauseIcon');
     const playIcon = document.getElementById('playIcon');
@@ -159,25 +130,24 @@
 
     playPauseButton.addEventListener('click', () => {
       if (isPlaying) {
-        swiper.autoplay.stop(); // Pauzeer de slideshow
+        swiper.autoplay.stop();
         pauseIcon.classList.add('hidden');
         playIcon.classList.remove('hidden');
         isPlaying = false;
       } else {
-        swiper.autoplay.start(); // Hervat de slideshow
+        swiper.autoplay.start();
         pauseIcon.classList.remove('hidden');
         playIcon.classList.add('hidden');
         isPlaying = true;
       }
     });
 
-    // Lightbox functionaliteit
     function openLightbox(src) {
       const lightbox = document.getElementById('lightbox');
       const lightboxImg = document.getElementById('lightbox-img');
       lightboxImg.src = src;
       lightbox.classList.remove('hidden');
-      swiper.autoplay.stop(); // Pauzeer de slideshow bij het openen van de lightbox
+      swiper.autoplay.stop();
       isPlaying = false;
       pauseIcon.classList.add('hidden');
       playIcon.classList.remove('hidden');
@@ -186,7 +156,6 @@
     function closeLightbox() {
       const lightbox = document.getElementById('lightbox');
       lightbox.classList.add('hidden');
-      // Slideshow blijft gepauzeerd na het sluiten, klant kan handmatig hervatten
     }
   </script>
 </body>
